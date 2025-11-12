@@ -1,5 +1,12 @@
 import { useFilms } from '@/hooks/useFilms';
+import { Film } from '@/types/film';
 import { Badge } from '@/components/ui/badge';
+import { Link } from 'react-router-dom';
+
+const getFilmSlug = (film: Film): string => {
+  const title = film.Film.Title_English || film.Film.Title_Original;
+  return title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+};
 
 export const Catalogue = () => {
   const { allFilms, loading, error } = useFilms();
@@ -7,56 +14,71 @@ export const Catalogue = () => {
   // Show top 6 films for preview on index page
   const topFilms = allFilms.slice(0, 6);
   return (
-    <section id="catalogue" className="py-[90px] bg-[#2B2B2B] text-[#f0f2f5]">
-      <div className="max-w-[1200px] mx-auto px-[2cm]">
-        <h1 className="font-serif text-[#f0f2f5] text-[3em] mb-4">Film Catalogue</h1>
-        <hr className="border-white/20 mb-12" />
+    <section id="catalogue" className="py-16 px-8">
+      <div className="max-w-[1200px] mx-auto">
+        <h2 className="text-4xl font-serif text-center mb-4">Film Catalogue Preview</h2>
+        <div className="w-20 h-1 bg-primary mx-auto mb-12"></div>
         
-        {loading && <p className="text-center text-white">Loading films...</p>}
-        {error && <p className="text-center text-red-500">Error: {error}</p>}
+        {loading && <p className="text-center">Loading films...</p>}
+        {error && <p className="text-center text-destructive">Error: {error}</p>}
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-[30px_25px] justify-center max-w-[1100px] mx-auto mb-10">
-          {topFilms.map((film, index) => (
-            <div 
-              key={index}
-              className="bg-[#2b2b2b] rounded-[15px] overflow-hidden shadow-[0_6px_14px_rgba(0,0,0,0.1)] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_6px_15px_rgba(0,0,0,0.3)] cursor-pointer text-white flex flex-col h-full p-[25px]"
-            >
-              <div className="w-full h-[250px] object-cover block rounded-[5px] mb-3 overflow-hidden group">
-                <img 
-                  src={film.Download_poster || "/placeholder.svg"} 
-                  alt={film.Film.Title_English || film.Film.Title_Original}
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                />
-              </div>
-              <div className="p-2.5 flex-grow flex flex-col">
-                <h3 className="font-serif text-[1.6em] mb-2 text-white text-left">
-                  {film.Film.Title_English || film.Film.Title_Original}
-                </h3>
-                {film.Film.Title_Original !== film.Film.Title_English && (
-                  <p className="text-[.9em] text-gray-400 text-left mb-2 italic">{film.Film.Title_Original}</p>
-                )}
-                <div className="flex flex-wrap gap-2 mb-2">
-                  {film.Film.Genre_List && film.Film.Genre_List.length > 0 && film.Film.Genre_List.map((genre, idx) => (
-                    <Badge key={idx} variant="secondary" className="text-xs">{genre}</Badge>
-                  ))}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {topFilms.map((film, index) => {
+            const f = film.Film;
+            const crew = film.Crew;
+            const title = f.Title_English || f.Title_Original || 'Untitled';
+            const year = f.Date_of_completion?.match(/\b\d{4}\b/)?.[0] || '';
+            const runtime = f.Runtime || '';
+            const director = crew['Director(s)'] || 'Unknown Director';
+            const slug = getFilmSlug(film);
+
+            return (
+              <Link 
+                key={index}
+                to={`/film/${slug}`}
+                className="block group"
+              >
+                <div className="bg-card rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
+                  <div className="aspect-video bg-muted relative overflow-hidden">
+                    <img 
+                      src={film.Download_poster || "/placeholder.svg"} 
+                      alt={title}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                    />
+                  </div>
+                  <div className="p-5">
+                    <h3 className="font-serif text-2xl mb-1 group-hover:text-primary transition-colors">
+                      {title}
+                    </h3>
+                    {f.Title_Original !== title && (
+                      <p className="text-sm text-muted-foreground mb-2 italic">{f.Title_Original}</p>
+                    )}
+                    <div className="flex flex-wrap gap-2 mb-2">
+                      {f.Genre_List && f.Genre_List.length > 0 && f.Genre_List.map((genre, idx) => (
+                        <Badge key={idx} variant="secondary" className="text-xs">{genre}</Badge>
+                      ))}
+                    </div>
+                    <p className="text-sm text-muted-foreground mb-2">
+                      {runtime} • {year}
+                    </p>
+                    <p className="text-sm mb-2">by {director}</p>
+                    <p className="text-sm text-foreground/80 line-clamp-3">
+                      {film.Logline}
+                    </p>
+                  </div>
                 </div>
-                <p className="text-[.9em] text-white text-left mb-2">
-                  {film.Film.Runtime} • {new Date(film.Film.Date_of_completion).getFullYear()}
-                </p>
-                <p className="text-[1em] text-white text-left mb-2">{film.Crew["Director(s)"]}</p>
-                <p className="text-[.95em] text-white leading-[1.5] mt-auto text-justify">{film.Logline}</p>
-              </div>
-            </div>
-          ))}
+              </Link>
+            );
+          })}
         </div>
 
-        <div className="text-center mt-[30px]">
-          <a 
-            href="#" 
-            className="inline-block py-3 px-6 rounded-md transition-all duration-300 mt-6 text-base font-bold border-2 border-white bg-transparent text-white hover:bg-white hover:text-[#2b2b2b]"
+        <div className="text-center mt-8">
+          <Link 
+            to="/catalogue" 
+            className="inline-block px-8 py-3 bg-white text-black font-semibold rounded hover:bg-primary hover:text-primary-foreground transition-colors"
           >
             ALL FILMS
-          </a>
+          </Link>
         </div>
       </div>
     </section>
