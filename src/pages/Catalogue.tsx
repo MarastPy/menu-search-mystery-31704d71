@@ -7,6 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Header } from '@/components/Header';
 import { Link } from 'react-router-dom';
+import { getFilmPosterPath, getPlaceholderImage } from '@/utils/imageHelpers';
 
 const getRoundedRuntime = (runtimeString: string): string | null => {
   if (!runtimeString) return null;
@@ -338,9 +339,12 @@ export default function Catalogue() {
                     <div className="bg-card rounded-lg overflow-hidden transition-transform hover:scale-105">
                       <div className="aspect-video bg-muted relative overflow-hidden">
                         <img 
-                          src="/placeholder.svg" 
+                          src={getFilmPosterPath(film)} 
                           alt={`Still from ${title}`}
                           className="w-full h-full object-cover"
+                          onError={(e) => {
+                            e.currentTarget.src = getPlaceholderImage();
+                          }}
                         />
                       </div>
                       <div className="p-4">

@@ -6,7 +6,7 @@ export const Hero = () => {
       <div className="max-w-4xl mx-auto space-y-10">
         {/* Logo */}
         <img 
-          src="/placeholder.svg" 
+          src="/src/images/logo/Cinefila_logo_white_web.svg" 
           alt="Cinefila Logo" 
           className="max-w-[250px] h-auto mx-auto mb-5 block" 
         />

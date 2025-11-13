@@ -6,6 +6,7 @@ import { Header } from '@/components/Header';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft } from 'lucide-react';
+import { getFilmPosterPath, getPlaceholderImage } from '@/utils/imageHelpers';
 
 const getFilmSlug = (film: Film): string => {
   const title = film.Film.Title_English || film.Film.Title_Original;
@@ -104,9 +105,12 @@ export default function FilmDetail() {
             <div>
               <div className="aspect-[2/3] bg-muted rounded-lg overflow-hidden mb-4">
                 <img 
-                  src="/placeholder.svg" 
+                  src={getFilmPosterPath(film)} 
                   alt={`${title} poster`}
                   className="w-full h-full object-cover"
+                  onError={(e) => {
+                    e.currentTarget.src = getPlaceholderImage();
+                  }}
                 />
               </div>
               {film.Trailer_url && (

@@ -16,7 +16,7 @@ export const Mission = () => {
           </div>
           <div className="flex-1">
             <img 
-              src="/placeholder.svg" 
+              src="/src/images/homepage/BOTY_CANNES_crop.jpg" 
               alt="Illustrative image for Cinefila mission" 
               className="w-full rounded-[10px] shadow-[0_6px_12px_rgba(0,0,0,.08)]"
             />

@@ -2,6 +2,7 @@ import { useFilms } from '@/hooks/useFilms';
 import { Film } from '@/types/film';
 import { Badge } from '@/components/ui/badge';
 import { Link } from 'react-router-dom';
+import { getFilmPosterPath, getPlaceholderImage } from '@/utils/imageHelpers';
 
 const getFilmSlug = (film: Film): string => {
   const title = film.Film.Title_English || film.Film.Title_Original;
@@ -41,9 +42,12 @@ export const Catalogue = () => {
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
                   <div className="aspect-video bg-muted relative overflow-hidden">
                     <img 
-                      src={film.Download_poster || "/placeholder.svg"} 
+                      src={getFilmPosterPath(film)} 
                       alt={title}
                       className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                      onError={(e) => {
+                        e.currentTarget.src = getPlaceholderImage();
+                      }}
                     />
                   </div>
                   <div className="p-5">

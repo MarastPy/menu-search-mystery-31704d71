@@ -3,21 +3,21 @@ const newsItems = [
     title: "Soul Shift",
     date: "14/02/2025",
     excerpt: "Soul Shift, animated science-fiction comedy series, will premiere in the competition at Cartoons on the Bay – International Festival of Animation, Transmedia and Meta-Arts!",
-    image: "/placeholder.svg",
+    image: "/src/images/posters/soul_shift/soul_shift.jpg",
     link: "#"
   },
   {
     title: "Wolfie",
     date: "10/02/2025",
     excerpt: "A brief description of another exciting news article. This will entice readers to click and learn more about the topic.",
-    image: "/placeholder.svg",
+    image: "/src/images/posters/wolfie/wolfie.jpg",
     link: "#"
   },
   {
     title: "Film Premiere Announcement",
     date: "05/02/2025",
     excerpt: "Details about an upcoming film premiere, including dates, venues, and what makes this film a must-see for audiences.",
-    image: "/placeholder.svg",
+    image: "/src/images/homepage/0713b562-3fc9-41cd-b6f6-f9bd30b54d7c.JPG",
     link: "#"
   }
 ];
