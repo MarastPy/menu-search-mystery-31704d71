@@ -47,7 +47,7 @@ export const Hero = () => {
             href="#catalogue"
             className="flex items-center justify-center w-[220px] h-[70px] px-5 py-2.5 border-4 border-white text-white text-[1.2em] font-bold rounded-[5px] hover:bg-white hover:text-[#2b2b2b] transition-all duration-300"
           >
-            Film Catalogue
+            Line Up
           </a>
           <a
             href="#about"

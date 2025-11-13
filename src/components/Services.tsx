@@ -45,7 +45,7 @@ export const Services = () => {
               <p className="mb-4"><strong>Outcomes you can expect:</strong> higher attendance, easier ops, and a line-up that feels fresh yet audience-friendly.</p>
               <p>
                 <a href="#catalogue" className="inline-block py-3 px-6 rounded-md transition-all duration-300 text-base font-bold border-2 border-[#1c1c1c] bg-transparent text-[#1c1c1c] hover:bg-[#1c1c1c] hover:text-white mr-2">
-                  Browse the Film Catalogue
+                  Browse the Line Up
                 </a>
                 <span className="mx-2">|</span>
                 <a href="#about" className="inline-block py-3 px-6 rounded-md transition-all duration-300 text-base font-bold border-2 border-[#1c1c1c] bg-transparent text-[#1c1c1c] hover:bg-[#1c1c1c] hover:text-white ml-2">
