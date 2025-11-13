@@ -6,7 +6,7 @@ export const Services = () => {
           <h1 className="font-serif text-[#222] text-[3em] mb-4">For Independent Filmmakers:<br />Take Your Film to the World</h1>
           <hr className="border-gray-300 mb-12" />
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 text-[#222]">
             <div className="text-justify text-[1.05rem]">
               <p className="mb-4">Are you an independent filmmaker looking to bring your film to the attention of global audiences? At CINEFILA, we specialize in creating personalized festival and distribution strategies to ensure your work receives the recognition it deserves.</p>
               <ul className="list-none space-y-2 ml-0">
@@ -29,7 +29,7 @@ export const Services = () => {
           <h1 className="font-serif text-[#222] text-[3em] mb-4">For Festivals &amp; Cinemas</h1>
           <hr className="border-gray-300 mb-12" />
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 text-[#222]">
             <div className="text-justify text-[1.05rem]">
               <p className="mb-4">Curate stronger line-ups with a catalogue focused on bold voices and award-winning student and independent films. We help you build cohesive strands that engage audiences and fit your programming goals — from family shorts and animation showcases to issue-driven selections and emerging-talent spotlights.</p>
               <ul className="list-none space-y-2 ml-0">
@@ -43,7 +43,6 @@ export const Services = () => {
             <div className="text-justify text-[1.05rem]">
               <p className="mb-4">Whether you're filling a single slot or designing a multi-day focus, we'll align curation, rights, and operations so your programme runs smoothly and lands with impact.</p>
               <p className="mb-4"><strong>Outcomes you can expect:</strong> higher attendance, easier ops, and a line-up that feels fresh yet audience-friendly.</p>
-              <p className="mb-4"><em>Looking for something specific?</em> Tell us your dates, target audience, and technical setup — we'll propose a shortlist within your parameters.</p>
               <p>
                 <a href="#catalogue" className="inline-block py-3 px-6 rounded-md transition-all duration-300 text-base font-bold border-2 border-[#1c1c1c] bg-transparent text-[#1c1c1c] hover:bg-[#1c1c1c] hover:text-white mr-2">
                   Browse the Film Catalogue
@@ -63,7 +62,7 @@ export const Services = () => {
           <h1 className="font-serif text-[#222] text-[3em] mb-4">For Film Schools &amp; Institutions</h1>
           <hr className="border-gray-300 mb-12" />
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 text-[#222]">
             <div className="text-justify text-[1.05rem]">
               <p className="mb-4">CINEFILA supports academic and cultural organisations through workshops and lectures focused on festival distribution and strategy. Learn how to choose the right festivals, prepare materials for promotion, and navigate your film's entire festival lifecycle. Expect insider tips, practical advice, and actionable workflows that maximise a film's potential.</p>
               <p>Building on Alexandra's experience with FAMUfilms.cz, the first European SVOD platform dedicated to film schools, we aim to inspire and educate the next generation of filmmakers and scholars.</p>
