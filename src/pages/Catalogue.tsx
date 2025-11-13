@@ -244,9 +244,9 @@ export default function Catalogue() {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="">All Lengths</SelectItem>
-                  <SelectItem value="short">Short (&lt;40 min)</SelectItem>
+                  <SelectItem value="short">Short (under 40 min)</SelectItem>
                   <SelectItem value="mid-length">Mid-length (40-70 min)</SelectItem>
-                  <SelectItem value="full-length">Full-length (&gt;70 min)</SelectItem>
+                  <SelectItem value="full-length">Full-length (over 70 min)</SelectItem>
                 </SelectContent>
               </Select>
 

@@ -79,7 +79,7 @@ export const Catalogue = () => {
         <div className="text-center mt-8">
           <Link 
             to="/catalogue" 
-            className="inline-block px-8 py-3 bg-white text-black font-semibold rounded hover:bg-primary hover:text-primary-foreground transition-colors"
+            className="inline-block px-8 py-3 bg-transparent border-2 border-[#1c1c1c] text-[#1c1c1c] font-semibold rounded hover:bg-[#1c1c1c] hover:text-white transition-all"
           >
             ALL FILMS
           </Link>
