@@ -24,9 +24,9 @@ const newsItems = [
 
 export const News = () => {
   return (
-    <section id="news" className="py-[90px] bg-white">
-      <div className="max-w-[1200px] mx-auto px-[2cm]">
-        <h1 className="font-serif text-black text-[3em] mb-4">News</h1>
+    <section id="news" className="py-12 sm:py-[90px] bg-white">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
+        <h1 className="font-serif text-black text-[2em] sm:text-[2.5em] lg:text-[3em] mb-4">News</h1>
         <hr className="border-gray-300 mb-12" />
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[30px_25px] justify-center max-w-[1100px] mx-auto mb-10">

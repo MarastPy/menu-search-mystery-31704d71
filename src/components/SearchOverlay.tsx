@@ -79,21 +79,21 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
       />
 
       {/* Panel */}
-      <div className="relative w-[min(1200px,92vw)] h-[min(90vh,920px)] bg-gradient-to-br from-[#1a1a1a] to-[#0a0a0a] rounded-2xl shadow-2xl flex flex-col overflow-hidden animate-scale-in border border-white/10">
+      <div className="relative w-[min(1200px,95vw)] h-[min(90vh,920px)] bg-gradient-to-br from-[#1a1a1a] to-[#0a0a0a] rounded-2xl shadow-2xl flex flex-col overflow-hidden animate-scale-in border border-white/10">
         {/* Search tools */}
-        <div className="grid grid-cols-[1fr_auto] gap-3 p-6 bg-black/40 backdrop-blur-sm border-b border-white/10 sticky top-0 z-10">
+        <div className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-3 p-4 sm:p-6 bg-black/40 backdrop-blur-sm border-b border-white/10 sticky top-0 z-10">
           <Input
             type="search"
             placeholder="Search by title, director, synopsis…"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="bg-[#0f0f0f] border-white/20 text-white placeholder:text-gray-500 focus:border-[#C5262A] transition-all text-lg py-6"
+            className="bg-[#0f0f0f] border-white/20 text-white placeholder:text-gray-500 focus:border-[#C5262A] transition-all text-base sm:text-lg py-4 sm:py-6"
             autoFocus
           />
           <Button 
             onClick={onClose}
             variant="outline"
-            className="bg-[#2a2a2a] border-white/20 text-white hover:bg-[#C5262A] hover:text-white hover:border-[#C5262A] transition-all duration-300 px-6"
+            className="bg-[#2a2a2a] border-white/20 text-white hover:bg-[#C5262A] hover:text-white hover:border-[#C5262A] transition-all duration-300 px-4 sm:px-6 w-full sm:w-auto"
           >
             <X className="mr-2 h-4 w-4" />
             Close
@@ -106,7 +106,7 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
         </div>
 
         {/* Results */}
-        <div className="flex-1 overflow-auto px-6 pb-6 bg-[#0a0a0a]">
+        <div className="flex-1 overflow-auto px-4 sm:px-6 pb-4 sm:pb-6 bg-[#0a0a0a]">
           {filteredFilms.length === 0 ? (
             <div className="flex flex-col items-center justify-center py-20 text-gray-400">
               <div className="text-6xl mb-4">🔍</div>

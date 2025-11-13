@@ -1,9 +1,9 @@
 export const Services = () => {
   return (
     <>
-      <section className="py-[90px] bg-white">
-        <div className="max-w-[1200px] mx-auto px-[2cm]">
-          <h1 className="font-serif text-[#222] text-[3em] mb-4">For Independent Filmmakers:<br />Take Your Film to the World</h1>
+      <section className="py-12 sm:py-[90px] bg-white">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
+          <h1 className="font-serif text-[#222] text-[1.5em] sm:text-[2em] lg:text-[3em] mb-4">For Independent Filmmakers:<br />Take Your Film to the World</h1>
           <hr className="border-gray-300 mb-12" />
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 text-[#222]">
@@ -24,9 +24,9 @@ export const Services = () => {
         </div>
       </section>
 
-      <section className="py-[90px] bg-[#f0f2f5]">
-        <div className="max-w-[1200px] mx-auto px-[2cm]">
-          <h1 className="font-serif text-[#222] text-[3em] mb-4">For Festivals &amp; Cinemas</h1>
+      <section className="py-12 sm:py-[90px] bg-[#f0f2f5]">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
+          <h1 className="font-serif text-[#222] text-[1.5em] sm:text-[2em] lg:text-[3em] mb-4">For Festivals &amp; Cinemas</h1>
           <hr className="border-gray-300 mb-12" />
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 text-[#222]">
@@ -43,12 +43,12 @@ export const Services = () => {
             <div className="text-justify text-[1.05rem]">
               <p className="mb-4">Whether you're filling a single slot or designing a multi-day focus, we'll align curation, rights, and operations so your programme runs smoothly and lands with impact.</p>
               <p className="mb-4"><strong>Outcomes you can expect:</strong> higher attendance, easier ops, and a line-up that feels fresh yet audience-friendly.</p>
-              <p>
-                <a href="#catalogue" className="inline-block py-3 px-6 rounded-md transition-all duration-300 text-base font-bold border-2 border-[#1c1c1c] bg-transparent text-[#1c1c1c] hover:bg-[#1c1c1c] hover:text-white mr-2">
+              <p className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-0">
+                <a href="#catalogue" className="inline-block py-3 px-6 rounded-md transition-all duration-300 text-base font-bold border-2 border-[#1c1c1c] bg-transparent text-[#1c1c1c] hover:bg-[#1c1c1c] hover:text-white sm:mr-2 text-center">
                   Browse the Line Up
                 </a>
-                <span className="mx-2">|</span>
-                <a href="#about" className="inline-block py-3 px-6 rounded-md transition-all duration-300 text-base font-bold border-2 border-[#1c1c1c] bg-transparent text-[#1c1c1c] hover:bg-[#1c1c1c] hover:text-white ml-2">
+                <span className="mx-2 hidden sm:inline">|</span>
+                <a href="#about" className="inline-block py-3 px-6 rounded-md transition-all duration-300 text-base font-bold border-2 border-[#1c1c1c] bg-transparent text-[#1c1c1c] hover:bg-[#1c1c1c] hover:text-white sm:ml-2 text-center">
                   Contact our team
                 </a>
               </p>
@@ -57,9 +57,9 @@ export const Services = () => {
         </div>
       </section>
 
-      <section className="py-[90px] bg-white">
-        <div className="max-w-[1200px] mx-auto px-[2cm]">
-          <h1 className="font-serif text-[#222] text-[3em] mb-4">For Film Schools &amp; Institutions</h1>
+      <section className="py-12 sm:py-[90px] bg-white">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
+          <h1 className="font-serif text-[#222] text-[1.5em] sm:text-[2em] lg:text-[3em] mb-4">For Film Schools &amp; Institutions</h1>
           <hr className="border-gray-300 mb-12" />
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 text-[#222]">

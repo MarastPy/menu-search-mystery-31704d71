@@ -33,22 +33,22 @@ const teamMembers = [
 
 export const About = () => {
   return (
-    <section id="about" className="py-[90px] bg-white">
-      <div className="max-w-[1200px] mx-auto px-[2cm]">
-        <h1 className="font-serif text-[#222] text-[3em] mb-4">About us & contacts</h1>
+    <section id="about" className="py-12 sm:py-[90px] bg-white">
+      <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
+        <h1 className="font-serif text-[#222] text-[2em] sm:text-[2.5em] lg:text-[3em] mb-4">About us & contacts</h1>
         <hr className="border-gray-300 mb-12" />
         
         <div className="space-y-12">
           {teamMembers.map((member, index) => (
             <div 
               key={index}
-              className="flex gap-10 mb-12 pb-8 border-b border-gray-200 last:border-b-0 last:pb-0 last:mb-0 items-start"
+              className="flex flex-col lg:flex-row gap-6 lg:gap-10 mb-12 pb-8 border-b border-gray-200 last:border-b-0 last:pb-0 last:mb-0 items-start"
             >
-              <div className="flex-shrink-0 w-[220px] text-center">
+              <div className="flex-shrink-0 w-full sm:w-[220px] text-center mx-auto lg:mx-0">
                 <img 
                   src={member.image} 
                   alt={member.name}
-                  className="w-full h-auto rounded-md object-cover mb-5"
+                  className="w-full h-auto object-cover mb-5 max-w-[220px] mx-auto"
                 />
                 <h3 className="text-[#1c1c1c] text-[1.2rem] mb-2 font-bold uppercase font-serif">
                   {member.name}
@@ -56,8 +56,8 @@ export const About = () => {
                 <p className="text-[#666] text-[.95rem]">{member.role}</p>
               </div>
               
-              <div className="flex-shrink-0 w-[250px] text-center pt-5">
-                <h3 className="text-[#1c1c1c] my-0 mb-1 font-serif">{member.name}</h3>
+              <div className="flex-shrink-0 w-full lg:w-[250px] text-center lg:pt-5">
+                <h3 className="text-[#1c1c1c] my-0 mb-1 font-serif hidden lg:block">{member.name}</h3>
                 <hr className="border-gray-300 my-4" />
                 <p className="text-[#444] italic text-[.95rem] text-center">Mail: {member.email}</p>
               </div>

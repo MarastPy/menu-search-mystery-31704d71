@@ -56,10 +56,10 @@ export default function News() {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-white pt-[90px]">
-        <section className="py-16 md:py-24">
-          <div className="max-w-[1200px] mx-auto px-[2cm]">
-            <h1 className="font-serif text-black text-4xl md:text-5xl lg:text-6xl mb-6">
+      <main className="min-h-screen bg-white pt-[60px] sm:pt-[90px]">
+        <section className="py-12 sm:py-16 md:py-24">
+          <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
+            <h1 className="font-serif text-black text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-6">
               Latest News
             </h1>
             <hr className="border-gray-300 mb-12" />

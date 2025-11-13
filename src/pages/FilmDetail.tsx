@@ -74,8 +74,8 @@ export default function FilmDetail() {
   return (
     <>
       <Header />
-      <main className="min-h-screen pt-24 pb-16">
-        <div className="max-w-[1200px] mx-auto px-8">
+      <main className="min-h-screen pt-20 sm:pt-24 pb-8 sm:pb-16">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
           <Link to="/catalogue">
             <Button variant="outline" className="mb-6">
               <ArrowLeft className="mr-2 h-4 w-4" />
@@ -85,7 +85,7 @@ export default function FilmDetail() {
 
           {/* Title section */}
           <div className="mb-8">
-            <h1 className="text-5xl font-serif mb-2">{title}</h1>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif mb-2">{title}</h1>
             {f.Title_Original && f.Title_Original !== title && (
               <p className="text-xl italic text-muted-foreground mb-2">{f.Title_Original}</p>
             )}

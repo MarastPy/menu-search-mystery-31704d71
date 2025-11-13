@@ -15,9 +15,9 @@ export const Catalogue = () => {
   // Show top 6 films for preview on index page
   const topFilms = allFilms.slice(0, 6);
   return (
-    <section id="catalogue" className="py-16 px-8">
+    <section id="catalogue" className="py-12 sm:py-16 px-4 sm:px-8">
       <div className="max-w-[1200px] mx-auto">
-        <h2 className="text-4xl font-serif text-center mb-4">Line Up Preview</h2>
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif text-center mb-4">Line Up Preview</h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-12"></div>
         
         {loading && <p className="text-center">Loading films...</p>}

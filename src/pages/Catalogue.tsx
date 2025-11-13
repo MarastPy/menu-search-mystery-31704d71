@@ -191,14 +191,14 @@ export default function Catalogue() {
   return (
     <>
       <Header />
-      <main className="min-h-screen pt-24 pb-16">
-        <div className="max-w-[1200px] mx-auto px-8">
-          <h1 className="text-5xl font-serif mb-12 text-center">Line Up</h1>
+      <main className="min-h-screen pt-20 sm:pt-24 pb-8 sm:pb-16">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif mb-8 sm:mb-12 text-center">Line Up</h1>
           
           {/* Filters */}
-          <div className="mb-12 space-y-4">
+          <div className="mb-8 sm:mb-12 space-y-4">
             {/* Search */}
-            <div className="flex gap-3 max-w-2xl mx-auto">
+            <div className="flex flex-col sm:flex-row gap-3 max-w-2xl mx-auto">
               <Input
                 type="text"
                 placeholder="Search by title, director, synopsis…"
@@ -215,9 +215,9 @@ export default function Catalogue() {
             </div>
 
             {/* Filter dropdowns */}
-            <div className="flex flex-wrap gap-4 justify-center">
+            <div className="flex flex-wrap gap-3 sm:gap-4 justify-center">
               <Select value={genre} onValueChange={setGenre}>
-                <SelectTrigger className="w-[180px] bg-card border-border">
+                <SelectTrigger className="w-full sm:w-[180px] bg-card border-border">
                   <SelectValue placeholder="Genre" />
                 </SelectTrigger>
                 <SelectContent>
@@ -229,7 +229,7 @@ export default function Catalogue() {
               </Select>
 
               <Select value={year} onValueChange={setYear}>
-                <SelectTrigger className="w-[180px] bg-card border-border">
+                <SelectTrigger className="w-full sm:w-[180px] bg-card border-border">
                   <SelectValue placeholder="Year" />
                 </SelectTrigger>
                 <SelectContent>
@@ -241,7 +241,7 @@ export default function Catalogue() {
               </Select>
 
               <Select value={length} onValueChange={setLength}>
-                <SelectTrigger className="w-[180px] bg-card border-border">
+                <SelectTrigger className="w-full sm:w-[180px] bg-card border-border">
                   <SelectValue placeholder="Length" />
                 </SelectTrigger>
                 <SelectContent>
@@ -253,7 +253,7 @@ export default function Catalogue() {
               </Select>
 
               <Select value={audience} onValueChange={setAudience}>
-                <SelectTrigger className="w-[180px] bg-card border-border">
+                <SelectTrigger className="w-full sm:w-[180px] bg-card border-border">
                   <SelectValue placeholder="Audience" />
                 </SelectTrigger>
                 <SelectContent>
@@ -265,7 +265,7 @@ export default function Catalogue() {
               </Select>
 
               <Select value={keywords} onValueChange={setKeywords}>
-                <SelectTrigger className="w-[180px] bg-card border-border">
+                <SelectTrigger className="w-full sm:w-[180px] bg-card border-border">
                   <SelectValue placeholder="Themes" />
                 </SelectTrigger>
                 <SelectContent>
