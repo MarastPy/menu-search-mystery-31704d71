@@ -17,7 +17,7 @@ export const Catalogue = () => {
   return (
     <section id="catalogue" className="py-16 px-8">
       <div className="max-w-[1200px] mx-auto">
-        <h2 className="text-4xl font-serif text-center mb-4">Film Catalogue Preview</h2>
+        <h2 className="text-4xl font-serif text-center mb-4">Line Up Preview</h2>
         <div className="w-20 h-1 bg-primary mx-auto mb-12"></div>
         
         {loading && <p className="text-center">Loading films...</p>}

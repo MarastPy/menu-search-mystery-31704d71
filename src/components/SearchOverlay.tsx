@@ -20,6 +20,7 @@ const getFilmSlug = (film: Film): string => {
 export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
   const { allFilms } = useFilms();
   const [searchQuery, setSearchQuery] = useState('');
+  const [visibleCount, setVisibleCount] = useState(10);
 
   useEffect(() => {
     if (isOpen) {
@@ -29,6 +30,7 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
       document.body.style.overflow = '';
       document.body.style.height = '';
       setSearchQuery('');
+      setVisibleCount(10);
     }
   }, [isOpen]);
 
@@ -113,45 +115,57 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
               </p>
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-4">
-              {filteredFilms.map((film, idx) => {
-                const f = film.Film;
-                const crew = film.Crew;
-                const title = f.Title_English || f.Title_Original || 'Untitled';
-                const year = f.Date_of_completion?.match(/\b\d{4}\b/)?.[0] || '';
-                const director = crew['Director(s)'] || 'Unknown Director';
-                const slug = getFilmSlug(film);
-                const poster = getFilmPosterPath(film);
-                const logline = film.Logline || '';
+            <>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-4">
+                {filteredFilms.slice(0, visibleCount).map((film, idx) => {
+                  const f = film.Film;
+                  const crew = film.Crew;
+                  const title = f.Title_English || f.Title_Original || 'Untitled';
+                  const year = f.Date_of_completion?.match(/\b\d{4}\b/)?.[0] || '';
+                  const director = crew['Director(s)'] || 'Unknown Director';
+                  const slug = getFilmSlug(film);
+                  const poster = getFilmPosterPath(film);
+                  const logline = film.Logline || '';
 
-                return (
-                  <Link 
-                    key={idx}
-                    to={`/film/${slug}`}
-                    onClick={onClose}
-                    className="block bg-gradient-to-br from-[#1a1a1a] to-[#111] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border border-white/10 hover:border-[#C5262A]/50 group"
+                  return (
+                    <Link 
+                      key={idx}
+                      to={`/film/${slug}`}
+                      onClick={onClose}
+                      className="block bg-gradient-to-br from-[#1a1a1a] to-[#111] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border border-white/10 hover:border-[#C5262A]/50 group"
+                    >
+                      <div className="w-full aspect-[2/3] overflow-hidden bg-[#0a0a0a]">
+                        <img 
+                          src={poster} 
+                          alt={`Poster for ${title}`}
+                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        />
+                      </div>
+                      <div className="p-5">
+                        <h3 className="font-serif text-white text-lg mb-2 line-clamp-2 group-hover:text-[#C5262A] transition-colors duration-300">
+                          {title}
+                          {year && <span className="text-gray-400 text-sm"> | {year}</span>}
+                        </h3>
+                        <p className="text-sm text-gray-400 mb-2">by {director}</p>
+                        <p className="text-sm text-gray-500 line-clamp-2 leading-relaxed">
+                          {logline}
+                        </p>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+              {visibleCount < filteredFilms.length && (
+                <div className="flex justify-center mt-8">
+                  <Button
+                    onClick={() => setVisibleCount(prev => prev + 10)}
+                    className="px-8 py-3 bg-[#C5262A] hover:bg-[#A01E22] text-white font-semibold rounded-lg transition-all duration-300"
                   >
-                    <div className="w-full aspect-[2/3] overflow-hidden bg-[#0a0a0a]">
-                      <img 
-                        src={poster} 
-                        alt={`Poster for ${title}`}
-                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                      />
-                    </div>
-                    <div className="p-5">
-                      <h3 className="font-serif text-white text-lg mb-2 line-clamp-2 group-hover:text-[#C5262A] transition-colors duration-300">
-                        {title}
-                        {year && <span className="text-gray-400 text-sm"> | {year}</span>}
-                      </h3>
-                      <p className="text-sm text-gray-400 mb-2">by {director}</p>
-                      <p className="text-sm text-gray-500 line-clamp-2 leading-relaxed">
-                        {logline}
-                      </p>
-                    </div>
-                  </Link>
-                );
-              })}
-            </div>
+                    Show More ({filteredFilms.length - visibleCount} remaining)
+                  </Button>
+                </div>
+              )}
+            </>
           )}
         </div>
       </div>

@@ -73,6 +73,7 @@ export default function Catalogue() {
   const [length, setLength] = useState('all');
   const [audience, setAudience] = useState('all');
   const [keywords, setKeywords] = useState('all');
+  const [visibleCount, setVisibleCount] = useState(10);
 
   // Extract unique filter options
   const filterOptions = useMemo(() => {
@@ -152,6 +153,7 @@ export default function Catalogue() {
     setLength('all');
     setAudience('all');
     setKeywords('all');
+    setVisibleCount(10);
   };
 
   const performSearch = () => {
@@ -191,7 +193,7 @@ export default function Catalogue() {
       <Header />
       <main className="min-h-screen pt-24 pb-16">
         <div className="max-w-[1200px] mx-auto px-8">
-          <h1 className="text-5xl font-serif mb-12 text-center">Film Catalogue</h1>
+          <h1 className="text-5xl font-serif mb-12 text-center">Line Up</h1>
           
           {/* Filters */}
           <div className="mb-12 space-y-4">
@@ -296,58 +298,70 @@ export default function Catalogue() {
           {filteredFilms.length === 0 ? (
             <p className="text-center">No films match your current filter selection.</p>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {filteredFilms.map((film, idx) => {
-                const f = film.Film;
-                const crew = film.Crew;
-                const title = f.Title_English || f.Title_Original || 'Untitled';
-                const filmYear = f.Date_of_completion?.match(/\b\d{4}\b/)?.[0] || '';
-                const exactMinutes = parseRuntimeToMinutes(f.Runtime);
-                const director = crew['Director(s)'] || 'Unknown Director';
-                const slug = getFilmSlug(film);
+            <>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {filteredFilms.slice(0, visibleCount).map((film, idx) => {
+                  const f = film.Film;
+                  const crew = film.Crew;
+                  const title = f.Title_English || f.Title_Original || 'Untitled';
+                  const filmYear = f.Date_of_completion?.match(/\b\d{4}\b/)?.[0] || '';
+                  const exactMinutes = parseRuntimeToMinutes(f.Runtime);
+                  const director = crew['Director(s)'] || 'Unknown Director';
+                  const slug = getFilmSlug(film);
 
-                return (
-                  <Link 
-                    key={idx} 
-                    to={`/film/${slug}`}
-                    className="block group"
+                  return (
+                    <Link 
+                      key={idx} 
+                      to={`/film/${slug}`}
+                      className="block group"
+                    >
+                      <div className="bg-card rounded-lg overflow-hidden transition-transform hover:scale-105">
+                        <div className="aspect-video bg-muted relative overflow-hidden">
+                          <img 
+                            src={getFilmPosterPath(film)} 
+                            alt={`Still from ${title}`}
+                            className="w-full h-full object-cover"
+                            onError={(e) => {
+                              e.currentTarget.src = getPlaceholderImage();
+                            }}
+                          />
+                        </div>
+                        <div className="p-4">
+                          <h3 className="font-serif text-xl mb-1 group-hover:text-primary transition-colors">
+                            {title}
+                            {filmYear && <span className="text-muted-foreground"> | {filmYear}</span>}
+                            {exactMinutes && <span className="text-muted-foreground"> | {exactMinutes} min</span>}
+                          </h3>
+                          <p className="text-sm text-muted-foreground mb-2">by {director}</p>
+                          {f.Genre_List && f.Genre_List.length > 0 && (
+                            <div className="flex flex-wrap gap-1 mb-2">
+                              {f.Genre_List.slice(0, 3).map((g, i) => (
+                                <Badge key={i} variant="secondary" className="text-xs">
+                                  {g}
+                                </Badge>
+                              ))}
+                            </div>
+                          )}
+                          <p className="text-sm text-foreground/80 line-clamp-3">
+                            {film.Logline}
+                          </p>
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+              {visibleCount < filteredFilms.length && (
+                <div className="flex justify-center mt-12">
+                  <Button
+                    onClick={() => setVisibleCount(prev => prev + 10)}
+                    className="px-8 py-3 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold rounded-lg transition-all duration-300"
                   >
-                    <div className="bg-card rounded-lg overflow-hidden transition-transform hover:scale-105">
-                      <div className="aspect-video bg-muted relative overflow-hidden">
-                        <img 
-                          src={getFilmPosterPath(film)} 
-                          alt={`Still from ${title}`}
-                          className="w-full h-full object-cover"
-                          onError={(e) => {
-                            e.currentTarget.src = getPlaceholderImage();
-                          }}
-                        />
-                      </div>
-                      <div className="p-4">
-                        <h3 className="font-serif text-xl mb-1 group-hover:text-primary transition-colors">
-                          {title}
-                          {filmYear && <span className="text-muted-foreground"> | {filmYear}</span>}
-                          {exactMinutes && <span className="text-muted-foreground"> | {exactMinutes} min</span>}
-                        </h3>
-                        <p className="text-sm text-muted-foreground mb-2">by {director}</p>
-                        {f.Genre_List && f.Genre_List.length > 0 && (
-                          <div className="flex flex-wrap gap-1 mb-2">
-                            {f.Genre_List.slice(0, 3).map((g, i) => (
-                              <Badge key={i} variant="secondary" className="text-xs">
-                                {g}
-                              </Badge>
-                            ))}
-                          </div>
-                        )}
-                        <p className="text-sm text-foreground/80 line-clamp-3">
-                          {film.Logline}
-                        </p>
-                      </div>
-                    </div>
-                  </Link>
-                );
-              })}
-            </div>
+                    Show More ({filteredFilms.length - visibleCount} remaining)
+                  </Button>
+                </div>
+              )}
+            </>
           )}
         </div>
       </main>

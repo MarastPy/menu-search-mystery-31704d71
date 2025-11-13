@@ -96,7 +96,7 @@ export const Header = () => {
             style={{ animationDelay: "0.2s" }}
             onClick={() => setMenuOpen(false)}
           >
-            Film Catalogue
+            Line Up
           </Link>
           <Link 
             to="/#whatcanwedo" 
