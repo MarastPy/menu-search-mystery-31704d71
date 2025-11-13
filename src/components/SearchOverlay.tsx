@@ -85,13 +85,13 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
             placeholder="Search by title, director, synopsis…"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="bg-[#0f0f0f] border-white/20 text-white placeholder:text-gray-500 focus:border-[#ffc107] transition-all text-lg py-6"
+            className="bg-[#0f0f0f] border-white/20 text-white placeholder:text-gray-500 focus:border-[#C5262A] transition-all text-lg py-6"
             autoFocus
           />
           <Button 
             onClick={onClose}
             variant="outline"
-            className="bg-[#2a2a2a] border-white/20 text-white hover:bg-[#ffc107] hover:text-black hover:border-[#ffc107] transition-all duration-300 px-6"
+            className="bg-[#2a2a2a] border-white/20 text-white hover:bg-[#C5262A] hover:text-white hover:border-[#C5262A] transition-all duration-300 px-6"
           >
             <X className="mr-2 h-4 w-4" />
             Close
@@ -99,7 +99,7 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
         </div>
 
         {/* Stats */}
-        <div className="px-6 py-3 text-sm text-[#ffc107] font-medium bg-black/20">
+        <div className="px-6 py-3 text-sm text-[#C5262A] font-medium bg-black/20">
           {filteredFilms.length} {filteredFilms.length === 1 ? 'film' : 'films'}
         </div>
 
@@ -129,7 +129,7 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
                     key={idx}
                     to={`/film/${slug}`}
                     onClick={onClose}
-                    className="block bg-gradient-to-br from-[#1a1a1a] to-[#111] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border border-white/10 hover:border-[#ffc107]/50 group"
+                    className="block bg-gradient-to-br from-[#1a1a1a] to-[#111] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border border-white/10 hover:border-[#C5262A]/50 group"
                   >
                     <div className="w-full aspect-[2/3] overflow-hidden bg-[#0a0a0a]">
                       <img 
@@ -139,7 +139,7 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
                       />
                     </div>
                     <div className="p-5">
-                      <h3 className="font-serif text-white text-lg mb-2 line-clamp-2 group-hover:text-[#ffc107] transition-colors duration-300">
+                      <h3 className="font-serif text-white text-lg mb-2 line-clamp-2 group-hover:text-[#C5262A] transition-colors duration-300">
                         {title}
                         {year && <span className="text-gray-400 text-sm"> | {year}</span>}
                       </h3>

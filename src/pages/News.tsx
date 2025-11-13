@@ -81,7 +81,7 @@ export default function News() {
                     </div>
                     
                     <div className="p-6">
-                      <h3 className="font-serif text-2xl text-gray-900 mb-3 group-hover:text-[#ffc107] transition-colors duration-300">
+                      <h3 className="font-serif text-2xl text-gray-900 mb-3 group-hover:text-[#C5262A] transition-colors duration-300">
                         {item.title}
                       </h3>
                       <p className="text-sm font-bold text-gray-500 mb-4">{item.date}</p>

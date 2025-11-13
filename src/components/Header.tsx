@@ -80,7 +80,7 @@ export const Header = () => {
         <nav className="flex flex-col items-center gap-8 w-full">
           <Link 
             to="/news" 
-            className={`font-serif font-semibold text-3xl md:text-4xl text-white py-3 text-center hover:text-[#ffc107] transition-all duration-300 transform hover:scale-110 ${
+            className={`font-serif font-semibold text-3xl md:text-4xl text-white py-3 text-center hover:text-[#C5262A] transition-all duration-300 transform hover:scale-110 ${
               menuOpen ? "animate-fade-in" : ""
             }`}
             style={{ animationDelay: "0.1s" }}
@@ -90,7 +90,7 @@ export const Header = () => {
           </Link>
           <Link 
             to="/catalogue" 
-            className={`font-serif font-semibold text-3xl md:text-4xl text-white py-3 text-center hover:text-[#ffc107] transition-all duration-300 transform hover:scale-110 ${
+            className={`font-serif font-semibold text-3xl md:text-4xl text-white py-3 text-center hover:text-[#C5262A] transition-all duration-300 transform hover:scale-110 ${
               menuOpen ? "animate-fade-in" : ""
             }`}
             style={{ animationDelay: "0.2s" }}
@@ -100,7 +100,7 @@ export const Header = () => {
           </Link>
           <Link 
             to="/#whatcanwedo" 
-            className={`font-serif font-semibold text-3xl md:text-4xl text-white py-3 text-center hover:text-[#ffc107] transition-all duration-300 transform hover:scale-110 ${
+            className={`font-serif font-semibold text-3xl md:text-4xl text-white py-3 text-center hover:text-[#C5262A] transition-all duration-300 transform hover:scale-110 ${
               menuOpen ? "animate-fade-in" : ""
             }`}
             style={{ animationDelay: "0.3s" }}
@@ -110,7 +110,7 @@ export const Header = () => {
           </Link>
           <Link 
             to="/#about" 
-            className={`font-serif font-semibold text-3xl md:text-4xl text-white py-3 text-center hover:text-[#ffc107] transition-all duration-300 transform hover:scale-110 ${
+            className={`font-serif font-semibold text-3xl md:text-4xl text-white py-3 text-center hover:text-[#C5262A] transition-all duration-300 transform hover:scale-110 ${
               menuOpen ? "animate-fade-in" : ""
             }`}
             style={{ animationDelay: "0.4s" }}
