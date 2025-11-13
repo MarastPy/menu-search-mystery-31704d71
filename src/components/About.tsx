@@ -1,9 +1,13 @@
+import alexImage from "@/images/contacts/Alex/Alex.jpg";
+import amiraImage from "@/images/contacts/Amira/Amira_Shehatova.jpg";
+import marekImage from "@/images/contacts/Marek/Marek.jpg";
+
 const teamMembers = [
   {
     name: "ALEXANDRA HRONCOVÁ",
     role: "Founder and director",
     email: "alex@cinefila.cz",
-    image: "/src/images/contacts/Alex/Alex.jpg",
+    image: alexImage,
     bio: [
       "A film distribution manager and festival strategist based in Prague. Thanks to her work, hundreds of short films have reached festivals, including the most prestigious ones such as Cannes, Berlinale, Annecy, Clermont-Ferrand, Sundance, Toronto, Tribeca, Vision du Réel, and the Academy Awards.",
       "For eight years, she has been helping independent filmmakers, young talents, production companies, and students with festival distribution and the global circuit. She curates tailor-made festival strategies, target market research, handles all logistics from submissions to distribution and PR/marketing campaigns, and maximizes the visibility of films at the events."
@@ -13,7 +17,7 @@ const teamMembers = [
     name: "AMIRA SHEHATOVÁ",
     role: "Submissions and sales coordinator",
     email: "amira@cinefila.cz",
-    image: "/src/images/contacts/Amira/Amira_Shehatova.jpg",
+    image: amiraImage,
     bio: [
       "Amira studied Film History and Audiovisual Culture, as well as Personnel Management at Charles University in Prague. She strives to blend those two disciplines and alternates between them in her professional endeavors.",
       "Currently, Amira is part of the CINEFILA festival distribution team, where she is responsible for film submissions and material shipping."
@@ -23,7 +27,7 @@ const teamMembers = [
     name: "MAREK KOUTEŠ",
     role: "Film Curator and Student Film Specialist",
     email: "marek@cinefila.cz",
-    image: "/src/images/contacts/Marek/Marek.jpg",
+    image: marekImage,
     bio: [
       "Marek is a graduate of the Department of Film Studies at Charles University in Prague. As a film critic and reviewer, he has contributed to cultural sections of Czech Television, Aktualne.cz, Moviescreen.cz, and the magazine Film a doba.",
       "At CINEFILA, he is involved in the curatorial selection of films for the catalogue, with a particular focus on student films."

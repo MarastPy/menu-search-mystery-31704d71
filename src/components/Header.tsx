@@ -29,7 +29,7 @@ export const Header = () => {
       <SearchOverlay isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
       
       <header
-        className="fixed top-0 left-0 right-0 z-[1000] bg-white text-black border-b border-gray-200 transition-all duration-300"
+        className="fixed top-0 left-0 right-0 z-[1000] bg-black text-white border-b border-gray-800 transition-all duration-300"
         style={{ height: scrolled ? "60px" : "90px" }}
       >
         <div className="max-w-[1200px] mx-auto h-full px-4 sm:px-8 lg:px-[2cm] grid grid-cols-[auto_1fr_auto] gap-2 sm:gap-4 items-center">
@@ -37,7 +37,7 @@ export const Header = () => {
           <div className="logo-top">
             <Link to="/">
               <img 
-                src="/src/images/logo/Cinefila_logo_black_web.svg" 
+                src="/src/images/logo/Cinefila_logo_white_web.svg" 
                 alt="Cinefila Logo" 
                 className="transition-all duration-300"
                 style={{ height: scrolled ? "35px" : "50px" }}
@@ -53,7 +53,7 @@ export const Header = () => {
             {/* Search Button */}
             <button
               onClick={() => setSearchOpen(true)}
-              className="p-2 rounded-[10px] border border-gray-200 bg-[#f6f6f7] text-black hover:bg-gray-200 transition-colors"
+              className="p-2 border border-gray-700 bg-[#1a1a1a] text-white hover:bg-gray-800 transition-colors"
               aria-label="Open search"
             >
               <Search className="h-5 w-5" />
@@ -62,7 +62,7 @@ export const Header = () => {
             {/* Hamburger */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className="p-2 rounded-[10px] border border-gray-200 bg-[#f6f6f7] text-black hover:bg-gray-200 transition-colors z-[1004]"
+              className="p-2 border border-gray-700 bg-[#1a1a1a] text-white hover:bg-gray-800 transition-colors z-[1004]"
               aria-label="Toggle menu"
             >
               <Menu className="h-5 w-5" />
