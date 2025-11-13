@@ -37,10 +37,10 @@ export const Header = () => {
           <div className="logo-top">
             <Link to="/">
               <img 
-                src="/placeholder.svg" 
+                src="/src/images/logo/Cinefila_logo_black_web.svg" 
                 alt="Cinefila Logo" 
                 className="transition-all duration-300"
-                style={{ height: scrolled ? "40px" : "60px" }}
+                style={{ height: scrolled ? "35px" : "50px" }}
               />
             </Link>
           </div>
@@ -73,35 +73,47 @@ export const Header = () => {
 
       {/* Full-screen Overlay Menu */}
       <div
-        className={`fixed inset-0 w-full h-screen bg-black/95 z-[999] flex flex-col justify-start pt-[90px] transition-transform duration-300 ${
-          menuOpen ? "translate-x-0" : "translate-x-full"
+        className={`fixed inset-0 w-full h-screen bg-gradient-to-br from-black via-gray-900 to-black z-[999] flex flex-col justify-center items-center transition-all duration-500 ${
+          menuOpen ? "opacity-100 visible" : "opacity-0 invisible"
         }`}
       >
-        <nav className="flex flex-col items-center gap-5 w-full py-5">
+        <nav className="flex flex-col items-center gap-8 w-full">
           <Link 
-            to="/#news" 
-            className="font-serif font-semibold text-2xl text-white py-4 w-full text-center hover:text-[#ffc107] transition-colors"
+            to="/news" 
+            className={`font-serif font-semibold text-3xl md:text-4xl text-white py-3 text-center hover:text-[#ffc107] transition-all duration-300 transform hover:scale-110 ${
+              menuOpen ? "animate-fade-in" : ""
+            }`}
+            style={{ animationDelay: "0.1s" }}
             onClick={() => setMenuOpen(false)}
           >
             News
           </Link>
           <Link 
             to="/catalogue" 
-            className="font-serif font-semibold text-2xl text-white py-4 w-full text-center hover:text-[#ffc107] transition-colors"
+            className={`font-serif font-semibold text-3xl md:text-4xl text-white py-3 text-center hover:text-[#ffc107] transition-all duration-300 transform hover:scale-110 ${
+              menuOpen ? "animate-fade-in" : ""
+            }`}
+            style={{ animationDelay: "0.2s" }}
             onClick={() => setMenuOpen(false)}
           >
             Film Catalogue
           </Link>
           <Link 
             to="/#whatcanwedo" 
-            className="font-serif font-semibold text-2xl text-white py-4 w-full text-center hover:text-[#ffc107] transition-colors"
+            className={`font-serif font-semibold text-3xl md:text-4xl text-white py-3 text-center hover:text-[#ffc107] transition-all duration-300 transform hover:scale-110 ${
+              menuOpen ? "animate-fade-in" : ""
+            }`}
+            style={{ animationDelay: "0.3s" }}
             onClick={() => setMenuOpen(false)}
           >
             What can we do for you
           </Link>
           <Link 
             to="/#about" 
-            className="font-serif font-semibold text-2xl text-white py-4 w-full text-center hover:text-[#ffc107] transition-colors"
+            className={`font-serif font-semibold text-3xl md:text-4xl text-white py-3 text-center hover:text-[#ffc107] transition-all duration-300 transform hover:scale-110 ${
+              menuOpen ? "animate-fade-in" : ""
+            }`}
+            style={{ animationDelay: "0.4s" }}
             onClick={() => setMenuOpen(false)}
           >
             About us & contacts
