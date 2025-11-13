@@ -7,10 +7,10 @@ export const Mission = () => {
         
         <div className="flex gap-10 mb-10 items-center">
           <div className="flex-1 text-justify text-[1.05em]">
-            <p className="mb-4">
+            <p className="mb-4 text-[#222]">
               CINEFILA is a dynamic film distribution company based in Prague, founded by Alexandra Hroncová, an experienced festival strategist and distribution manager. Drawing from over eight years of expertise in helping filmmakers, young talents, and film institutions succeed on the global stage, CINEFILA offers a comprehensive suite of services tailored for independent filmmakers, production companies, festivals, cinemas, and film schools.
             </p>
-            <p>
+            <p className="text-[#222]">
               CINEFILA is dedicated to fostering creativity, elevating underrepresented voices, and connecting exceptional films with audiences worldwide. Whether you're a filmmaker, festival, cinema, or an academic institution, we are here to help your stories shine on the global stage.
             </p>
           </div>
