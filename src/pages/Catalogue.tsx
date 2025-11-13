@@ -68,11 +68,11 @@ export default function Catalogue() {
   const { allFilms, loading, error } = useFilms();
   const [searchTerm, setSearchTerm] = useState('');
   const [tempSearchTerm, setTempSearchTerm] = useState('');
-  const [genre, setGenre] = useState('');
-  const [year, setYear] = useState('');
-  const [length, setLength] = useState('');
-  const [audience, setAudience] = useState('');
-  const [keywords, setKeywords] = useState('');
+  const [genre, setGenre] = useState('all');
+  const [year, setYear] = useState('all');
+  const [length, setLength] = useState('all');
+  const [audience, setAudience] = useState('all');
+  const [keywords, setKeywords] = useState('all');
 
   // Extract unique filter options
   const filterOptions = useMemo(() => {
@@ -135,11 +135,11 @@ export default function Catalogue() {
       return (
         (!searchTerm || title.includes(search) || originalTitle.includes(search) || 
          logline.includes(search) || synopsis.includes(search) || director.includes(search)) &&
-        (!genre || genres.includes(genre.toLowerCase())) &&
-        (!year || filmYear === year) &&
-        (!length || runtimeCategory === length) &&
-        (!audience || filmAudience === audience.toLowerCase()) &&
-        (!keywords || filmKeywords.includes(keywords.toLowerCase()))
+        (genre === 'all' || !genre || genres.includes(genre.toLowerCase())) &&
+        (year === 'all' || !year || filmYear === year) &&
+        (length === 'all' || !length || runtimeCategory === length) &&
+        (audience === 'all' || !audience || filmAudience === audience.toLowerCase()) &&
+        (keywords === 'all' || !keywords || filmKeywords.includes(keywords.toLowerCase()))
       );
     });
   }, [allFilms, searchTerm, genre, year, length, audience, keywords]);
@@ -147,11 +147,11 @@ export default function Catalogue() {
   const resetFilters = () => {
     setSearchTerm('');
     setTempSearchTerm('');
-    setGenre('');
-    setYear('');
-    setLength('');
-    setAudience('');
-    setKeywords('');
+    setGenre('all');
+    setYear('all');
+    setLength('all');
+    setAudience('all');
+    setKeywords('all');
   };
 
   const performSearch = () => {
@@ -219,7 +219,7 @@ export default function Catalogue() {
                   <SelectValue placeholder="Genre" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Genres</SelectItem>
+                  <SelectItem value="all">All Genres</SelectItem>
                   {filterOptions.genres.map(g => (
                     <SelectItem key={g} value={g}>{g}</SelectItem>
                   ))}
@@ -231,7 +231,7 @@ export default function Catalogue() {
                   <SelectValue placeholder="Year" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Years</SelectItem>
+                  <SelectItem value="all">All Years</SelectItem>
                   {filterOptions.years.map(y => (
                     <SelectItem key={y} value={y}>{y}</SelectItem>
                   ))}
@@ -243,7 +243,7 @@ export default function Catalogue() {
                   <SelectValue placeholder="Length" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Lengths</SelectItem>
+                  <SelectItem value="all">All Lengths</SelectItem>
                   <SelectItem value="short">Short (under 40 min)</SelectItem>
                   <SelectItem value="mid-length">Mid-length (40-70 min)</SelectItem>
                   <SelectItem value="full-length">Full-length (over 70 min)</SelectItem>
@@ -255,7 +255,7 @@ export default function Catalogue() {
                   <SelectValue placeholder="Audience" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Audiences</SelectItem>
+                  <SelectItem value="all">All Audiences</SelectItem>
                   {filterOptions.audiences.map(a => (
                     <SelectItem key={a} value={a}>{a}</SelectItem>
                   ))}
@@ -267,7 +267,7 @@ export default function Catalogue() {
                   <SelectValue placeholder="Themes" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="">All Themes</SelectItem>
+                  <SelectItem value="all">All Themes</SelectItem>
                   {filterOptions.keywords.map(k => (
                     <SelectItem key={k} value={k}>{k}</SelectItem>
                   ))}
