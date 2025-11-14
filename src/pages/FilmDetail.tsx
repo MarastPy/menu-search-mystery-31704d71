@@ -5,8 +5,9 @@ import { Film } from '@/types/film';
 import { Header } from '@/components/Header';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft } from 'lucide-react';
-import { getFilmPosterPath, getPlaceholderImage } from '@/utils/imageHelpers';
+import { Dialog, DialogContent } from '@/components/ui/dialog';
+import { ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-react';
+import { getFilmPosterPath, getFilmStillPaths, getPlaceholderImage } from '@/utils/imageHelpers';
 
 const getFilmSlug = (film: Film): string => {
   const title = film.Film.Title_English || film.Film.Title_Original;
@@ -17,11 +18,19 @@ export default function FilmDetail() {
   const { slug } = useParams<{ slug: string }>();
   const { allFilms, loading, error } = useFilms();
   const [film, setFilm] = useState<Film | null>(null);
+  const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
+  const [allImages, setAllImages] = useState<string[]>([]);
 
   useEffect(() => {
     if (!loading && allFilms.length > 0 && slug) {
       const foundFilm = allFilms.find(f => getFilmSlug(f) === slug);
       setFilm(foundFilm || null);
+      
+      if (foundFilm) {
+        const poster = getFilmPosterPath(foundFilm);
+        const stills = getFilmStillPaths(foundFilm);
+        setAllImages([poster, ...stills]);
+      }
     }
   }, [slug, allFilms, loading]);
 
@@ -101,9 +110,12 @@ export default function FilmDetail() {
 
           {/* Main content grid */}
           <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-8 mb-8">
-            {/* Left column - Poster */}
+            {/* Left column - Poster and Stills */}
             <div>
-              <div className="aspect-[2/3] bg-muted rounded-lg overflow-hidden mb-4">
+              <div 
+                className="aspect-[2/3] bg-muted rounded-lg overflow-hidden mb-4 cursor-pointer hover:opacity-90 transition-opacity"
+                onClick={() => setSelectedImageIndex(0)}
+              >
                 <img 
                   src={getFilmPosterPath(film)} 
                   alt={`${title} poster`}
@@ -113,8 +125,34 @@ export default function FilmDetail() {
                   }}
                 />
               </div>
+              
+              {/* Stills Gallery */}
+              {getFilmStillPaths(film).length > 0 && (
+                <div>
+                  <h3 className="text-lg font-serif mb-3">Film Stills</h3>
+                  <div className="grid grid-cols-3 gap-2">
+                    {getFilmStillPaths(film).map((stillPath, idx) => (
+                      <div 
+                        key={idx}
+                        className="aspect-video bg-muted rounded overflow-hidden cursor-pointer hover:opacity-75 transition-opacity"
+                        onClick={() => setSelectedImageIndex(idx + 1)}
+                      >
+                        <img 
+                          src={stillPath} 
+                          alt={`${title} still ${idx + 1}`}
+                          className="w-full h-full object-cover"
+                          onError={(e) => {
+                            e.currentTarget.src = getPlaceholderImage();
+                          }}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+              
               {film.Trailer_url && (
-                <Button asChild className="w-full">
+                <Button asChild className="w-full mt-4">
                   <a href={film.Trailer_url} target="_blank" rel="noopener noreferrer">
                     Watch Trailer
                   </a>
@@ -285,6 +323,59 @@ export default function FilmDetail() {
           )}
         </div>
       </main>
+      
+      {/* Image Gallery Dialog */}
+      <Dialog open={selectedImageIndex !== null} onOpenChange={() => setSelectedImageIndex(null)}>
+        <DialogContent className="max-w-[95vw] max-h-[95vh] p-0">
+          <div className="relative w-full h-full flex items-center justify-center bg-black">
+            {selectedImageIndex !== null && allImages[selectedImageIndex] && (
+              <>
+                <img 
+                  src={allImages[selectedImageIndex]} 
+                  alt={`${title} - Image ${selectedImageIndex + 1}`}
+                  className="max-w-full max-h-[90vh] object-contain"
+                />
+                
+                {/* Navigation buttons */}
+                {allImages.length > 1 && (
+                  <>
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setSelectedImageIndex((prev) => 
+                          prev === null ? null : (prev === 0 ? allImages.length - 1 : prev - 1)
+                        );
+                      }}
+                      className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 text-white p-3 rounded-full transition-colors"
+                      aria-label="Previous image"
+                    >
+                      <ChevronLeft className="w-6 h-6" />
+                    </button>
+                    
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setSelectedImageIndex((prev) => 
+                          prev === null ? null : (prev === allImages.length - 1 ? 0 : prev + 1)
+                        );
+                      }}
+                      className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 text-white p-3 rounded-full transition-colors"
+                      aria-label="Next image"
+                    >
+                      <ChevronRight className="w-6 h-6" />
+                    </button>
+                    
+                    {/* Image counter */}
+                    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/50 text-white px-4 py-2 rounded-full text-sm">
+                      {selectedImageIndex + 1} / {allImages.length}
+                    </div>
+                  </>
+                )}
+              </>
+            )}
+          </div>
+        </DialogContent>
+      </Dialog>
     </>
   );
 }
