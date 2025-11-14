@@ -1,11 +1,5 @@
 import { Header } from "@/components/Header";
 import { Link } from "react-router-dom";
-import dontBlowItUpImage from "@/images/stills/dont_blow_it_up/dont_blow_it_up_1.jpg";
-import wolfieImage from "@/images/stills/wolfie/wolfie_1.jpg";
-import wavesImage from "@/images/stills/waves/waves_1.jpg";
-import homeImage from "@/images/stills/home/home_1.jpg";
-import worldImage from "@/images/stills/world_i_live_in/world_i_live_in_1.jpg";
-import writingHomeImage from "@/images/stills/writing_home/writing_home_1.jpg";
 
 const newsItems = [
   {
@@ -13,7 +7,7 @@ const newsItems = [
     title: "Soul Shift",
     date: "14/02/2025",
     excerpt: "Soul Shift, animated science-fiction comedy series, will premiere in the competition at Cartoons on the Bay – International Festival of Animation, Transmedia and Meta-Arts!",
-    image: dontBlowItUpImage,
+    image: "/images/stills/dont_blow_it_up/dont_blow_it_up_1.jpg",
     link: "#"
   },
   {
@@ -21,7 +15,7 @@ const newsItems = [
     title: "Wolfie",
     date: "10/02/2025",
     excerpt: "An exciting new development in our latest production. This project brings together innovative storytelling and compelling characters.",
-    image: wolfieImage,
+    image: "/images/stills/wolfie/wolfie_1.jpg",
     link: "#"
   },
   {
@@ -29,7 +23,7 @@ const newsItems = [
     title: "Waves",
     date: "05/02/2025",
     excerpt: "A new wave of creative energy as our team embarks on this ambitious project, exploring themes of connection and transformation.",
-    image: wavesImage,
+    image: "/images/stills/waves/waves_1.jpg",
     link: "#"
   },
   {
@@ -37,7 +31,7 @@ const newsItems = [
     title: "Home",
     date: "01/02/2025",
     excerpt: "A heartwarming story about finding one's place in the world, featuring stunning cinematography and powerful performances.",
-    image: homeImage,
+    image: "/images/stills/home/home_1.jpg",
     link: "#"
   },
   {
@@ -45,7 +39,7 @@ const newsItems = [
     title: "World I Live In",
     date: "28/01/2025",
     excerpt: "An introspective journey through different perspectives, challenging viewers to reconsider their understanding of reality.",
-    image: worldImage,
+    image: "/images/stills/world_i_live_in/world_i_live_in_1.jpg",
     link: "#"
   },
   {
@@ -53,7 +47,7 @@ const newsItems = [
     title: "Writing Home",
     date: "25/01/2025",
     excerpt: "Letters from distant places weave together a narrative of memory, longing, and the universal search for belonging.",
-    image: writingHomeImage,
+    image: "/images/stills/writing_home/writing_home_1.jpg",
     link: "#"
   }
 ];

@@ -1,5 +1,3 @@
-import missionImage from "@/images/homepage/BOTY_CANNES_crop.jpg";
-
 export const Mission = () => {
   return (
     <section id="whatcanwedo" className="py-12 sm:py-[90px] bg-[#f0f2f5]">
@@ -18,7 +16,7 @@ export const Mission = () => {
           </div>
           <div className="flex-1">
             <img 
-              src={missionImage} 
+              src="/images/homepage/BOTY_CANNES_crop.jpg"
               alt="Illustrative image for Cinefila mission" 
               className="w-full shadow-[0_6px_12px_rgba(0,0,0,.08)]"
             />

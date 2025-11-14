@@ -37,7 +37,7 @@ export const Header = () => {
           <div className="logo-top">
             <Link to="/">
               <img 
-                src="/src/images/logo/Cinefila_logo_white_web.svg" 
+                src="/images/logo/Cinefila_logo_white_web.svg"
                 alt="Cinefila Logo" 
                 className="transition-all duration-300"
                 style={{ height: scrolled ? "35px" : "50px" }}
