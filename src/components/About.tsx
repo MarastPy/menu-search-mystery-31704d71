@@ -33,57 +33,58 @@ const teamMembers = [
 
 export const About = () => {
   return (
-    <section id="about" className="py-20 sm:py-32 bg-white">
-      <div className="max-w-[1300px] mx-auto px-6 sm:px-10 lg:px-16">
+    <section id="about" className="py-24 sm:py-32 bg-white">
+      <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16">
         <div className="mb-20">
-          <h1 className="font-serif text-[#1c1c1c] text-[2.8em] sm:text-[3.5em] lg:text-[4em] mb-6 font-bold leading-tight">
+          <h1 className="font-serif text-[#1c1c1c] text-[2.5em] sm:text-[3.2em] lg:text-[3.8em] mb-3 font-light tracking-tight">
             About us & contacts
           </h1>
-          <div className="w-24 h-0.5 bg-[#1c1c1c]"></div>
+          <div className="w-20 h-px bg-[#1c1c1c] mt-6"></div>
         </div>
         
-        <div className="space-y-20">
+        <div className="space-y-16">
           {teamMembers.map((member, index) => (
             <div 
               key={index}
-              className="group"
+              className="group animate-fade-in"
             >
-              <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 pb-16 border-b border-gray-200 last:border-b-0">
-                <div className="flex-shrink-0 w-full lg:w-[320px]">
-                  <div className="relative overflow-hidden rounded-sm mb-8">
+              <div className="flex flex-col sm:flex-row gap-8 lg:gap-12 pb-16 border-b border-gray-100 last:border-b-0">
+                <div className="flex-shrink-0 w-full sm:w-[180px]">
+                  <div className="relative w-[180px] h-[180px] mx-auto sm:mx-0 overflow-hidden rounded-full mb-6 ring-1 ring-gray-200 transition-all duration-300 group-hover:ring-[#1c1c1c]">
                     <img 
                       src={member.image} 
                       alt={member.name}
-                      className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                       onError={(e) => {
                         console.error(`Failed to load image: ${member.image}`);
                         e.currentTarget.src = '/images/contacts/Alex/Alex.jpg';
                       }}
                     />
                   </div>
-                  <div className="space-y-3">
-                    <h3 className="text-[#1c1c1c] text-[1.5rem] font-bold uppercase font-serif tracking-wider leading-tight">
-                      {member.name}
-                    </h3>
-                    <p className="text-[#666] text-[1.05rem] italic font-light">{member.role}</p>
-                    <div className="pt-2">
-                      <a 
-                        href={`mailto:${member.email}`}
-                        className="inline-flex items-center gap-2 text-[#1c1c1c] hover:text-[#666] transition-colors duration-300 text-[0.95rem] border-b border-transparent hover:border-[#1c1c1c]"
-                      >
-                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                        </svg>
-                        {member.email}
-                      </a>
-                    </div>
-                  </div>
                 </div>
                 
-                <div className="flex-grow lg:pt-2">
-                  <div className="space-y-5">
+                <div className="flex-grow space-y-5 text-center sm:text-left">
+                  <div>
+                    <h3 className="text-[#1c1c1c] text-[1.3rem] sm:text-[1.5rem] font-bold uppercase font-serif tracking-wide mb-2 leading-tight">
+                      {member.name}
+                    </h3>
+                    <p className="text-[#666] text-[0.95rem] sm:text-[1rem] italic mb-4 font-light tracking-wide">{member.role}</p>
+                    <a 
+                      href={`mailto:${member.email}`}
+                      className="inline-flex items-center justify-center sm:justify-start gap-2 text-[#1c1c1c] hover:text-[#666] transition-all duration-300 text-[0.9rem] group/link"
+                    >
+                      <svg className="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+                      <span className="relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-[#1c1c1c] after:transition-all after:duration-300 group-hover/link:after:w-full">
+                        {member.email}
+                      </span>
+                    </a>
+                  </div>
+                  
+                  <div className="space-y-4 pt-4">
                     {member.bio.map((paragraph, pIndex) => (
-                      <p key={pIndex} className="text-[#1c1c1c] text-[1.08rem] leading-[1.8] text-justify font-light">
+                      <p key={pIndex} className="text-[#2c2c2c] text-[1rem] leading-[1.75] text-justify font-light">
                         {paragraph}
                       </p>
                     ))}
