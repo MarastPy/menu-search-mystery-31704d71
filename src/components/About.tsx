@@ -33,13 +33,13 @@ const teamMembers = [
 
 export const About = () => {
   return (
-    <section id="about" className="py-24 sm:py-32 bg-background">
+    <section id="about" className="py-24 sm:py-32 bg-white">
       <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16">
         <div className="mb-20">
-          <h1 className="font-serif text-foreground text-5xl sm:text-6xl lg:text-7xl mb-3 font-light tracking-tight">
+          <h1 className="font-serif text-[#1c1c1c] text-5xl sm:text-6xl lg:text-7xl mb-3 font-light tracking-tight">
             About us & contacts
           </h1>
-          <div className="w-20 h-px bg-border mt-6"></div>
+          <div className="w-20 h-px bg-[#1c1c1c] mt-6"></div>
         </div>
         
         <div className="space-y-16">
@@ -48,9 +48,9 @@ export const About = () => {
               key={index}
               className="group animate-fade-in"
             >
-              <div className="flex flex-col sm:flex-row gap-8 lg:gap-12 pb-16 border-b border-border last:border-b-0">
+              <div className="flex flex-col sm:flex-row gap-8 lg:gap-12 pb-16 border-b border-gray-100 last:border-b-0">
                 <div className="flex-shrink-0 w-full sm:w-[180px]">
-                  <div className="relative w-[180px] h-[180px] mx-auto sm:mx-0 overflow-hidden rounded-full mb-6 ring-1 ring-border transition-all duration-300 group-hover:ring-primary">
+                  <div className="relative w-[180px] h-[180px] mx-auto sm:mx-0 overflow-hidden rounded-full mb-6 ring-1 ring-gray-200 transition-all duration-300 group-hover:ring-[#1c1c1c]">
                     <img 
                       src={member.image} 
                       alt={member.name}
@@ -65,18 +65,18 @@ export const About = () => {
                 
                 <div className="flex-grow space-y-5 text-center sm:text-left">
                   <div>
-                    <h3 className="text-foreground text-xl sm:text-2xl font-bold uppercase font-serif tracking-wide mb-2 leading-tight">
+                    <h3 className="text-[#1c1c1c] text-xl sm:text-2xl font-bold uppercase font-serif tracking-wide mb-2 leading-tight">
                       {member.name}
                     </h3>
-                    <p className="text-muted-foreground text-base sm:text-lg italic mb-4 font-light tracking-wide">{member.role}</p>
+                    <p className="text-[#666] text-base sm:text-lg italic mb-4 font-light tracking-wide">{member.role}</p>
                     <a 
                       href={`mailto:${member.email}`}
-                      className="inline-flex items-center justify-center sm:justify-start gap-2 text-foreground hover:text-primary transition-all duration-300 text-sm group/link"
+                      className="inline-flex items-center justify-center sm:justify-start gap-2 text-[#1c1c1c] hover:text-[#666] transition-all duration-300 text-sm group/link"
                     >
                       <svg className="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                       </svg>
-                      <span className="relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-primary after:transition-all after:duration-300 group-hover/link:after:w-full">
+                      <span className="relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-px after:bg-[#1c1c1c] after:transition-all after:duration-300 group-hover/link:after:w-full">
                         {member.email}
                       </span>
                     </a>
@@ -84,7 +84,7 @@ export const About = () => {
                   
                   <div className="space-y-4 pt-4">
                     {member.bio.map((paragraph, pIndex) => (
-                      <p key={pIndex} className="text-muted-foreground text-base leading-relaxed text-justify font-light">
+                      <p key={pIndex} className="text-[#2c2c2c] text-base leading-relaxed text-justify font-light">
                         {paragraph}
                       </p>
                     ))}
