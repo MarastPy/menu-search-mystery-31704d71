@@ -29,13 +29,13 @@ export const News = () => {
   const [selectedNews, setSelectedNews] = useState<typeof newsItems[0] | null>(null);
 
   return (
-    <section id="news" className="py-16 sm:py-24 bg-background">
+    <section id="news" className="py-16 sm:py-24 bg-white">
       <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16">
         <div className="mb-16">
-          <h1 className="font-serif text-foreground text-5xl sm:text-6xl lg:text-7xl mb-3 font-light tracking-tight">
+          <h1 className="font-serif text-[#1c1c1c] text-5xl sm:text-6xl lg:text-7xl mb-3 font-light tracking-tight">
             News
           </h1>
-          <div className="w-20 h-px bg-border mt-6"></div>
+          <div className="w-20 h-px bg-[#1c1c1c] mt-6"></div>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
@@ -45,18 +45,18 @@ export const News = () => {
               onClick={() => setSelectedNews(item)}
               className="group text-left transition-all duration-300 hover:-translate-y-2"
             >
-              <div className="aspect-[3/4] relative overflow-hidden rounded-sm mb-4 ring-1 ring-border group-hover:ring-primary transition-all">
+              <div className="aspect-[3/4] relative overflow-hidden rounded-sm mb-4 ring-1 ring-gray-200 group-hover:ring-[#1c1c1c] transition-all">
                 <img 
                   src={item.image} 
                   alt={item.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
               </div>
-              <h3 className="text-foreground text-xl font-serif font-bold mb-2 group-hover:text-primary transition-colors">
+              <h3 className="text-[#1c1c1c] text-xl font-serif font-bold mb-2 group-hover:text-[#666] transition-colors">
                 {item.title}
               </h3>
-              <p className="text-sm text-muted-foreground mb-3 font-medium">{item.date}</p>
-              <p className="text-base text-muted-foreground leading-relaxed line-clamp-3">
+              <p className="text-sm text-[#666] mb-3 font-medium">{item.date}</p>
+              <p className="text-base text-[#2c2c2c] leading-relaxed line-clamp-3">
                 {item.excerpt}
               </p>
             </button>
@@ -66,7 +66,7 @@ export const News = () => {
         <div className="text-center">
           <a 
             href="/news" 
-            className="inline-block py-3 px-8 rounded-sm transition-all duration-300 text-base font-medium border border-primary bg-transparent text-foreground hover:bg-primary hover:text-primary-foreground"
+            className="inline-block py-3 px-8 rounded-sm transition-all duration-300 text-base font-medium border border-[#1c1c1c] bg-transparent text-[#1c1c1c] hover:bg-[#1c1c1c] hover:text-white"
           >
             Read More News
           </a>
