@@ -33,41 +33,62 @@ const teamMembers = [
 
 export const About = () => {
   return (
-    <section id="about" className="py-12 sm:py-[90px] bg-white">
-      <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
-        <h1 className="font-serif text-[#222] text-[2em] sm:text-[2.5em] lg:text-[3em] mb-4">About us & contacts</h1>
-        <hr className="border-gray-300 mb-12" />
+    <section id="about" className="py-16 sm:py-24 bg-gradient-to-b from-white to-gray-50">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-16">
+        <div className="text-center mb-16">
+          <h1 className="font-serif text-[#222] text-[2.5em] sm:text-[3em] lg:text-[3.5em] mb-4 font-bold">
+            About us & contacts
+          </h1>
+          <div className="w-32 h-1 bg-gradient-to-r from-transparent via-[#222] to-transparent mx-auto"></div>
+        </div>
         
-        <div className="space-y-12">
+        <div className="space-y-16">
           {teamMembers.map((member, index) => (
             <div 
               key={index}
-              className="flex flex-col lg:flex-row gap-6 lg:gap-10 mb-12 pb-8 border-b border-gray-200 last:border-b-0 last:pb-0 last:mb-0 items-start"
+              className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden"
             >
-              <div className="flex-shrink-0 w-full sm:w-[220px] text-center mx-auto lg:mx-0">
-                <img 
-                  src={member.image} 
-                  alt={member.name}
-                  className="w-full h-auto object-cover mb-5 max-w-[220px] mx-auto"
-                />
-                <h3 className="text-[#1c1c1c] text-[1.2rem] mb-2 font-bold uppercase font-serif">
-                  {member.name}
-                </h3>
-                <p className="text-[#666] text-[.95rem]">{member.role}</p>
-              </div>
-              
-              <div className="flex-shrink-0 w-full lg:w-[250px] text-center lg:pt-5">
-                <h3 className="text-[#1c1c1c] my-0 mb-1 font-serif hidden lg:block">{member.name}</h3>
-                <hr className="border-gray-300 my-4" />
-                <p className="text-[#444] italic text-[.95rem] text-center">Mail: {member.email}</p>
-              </div>
-              
-              <div className="flex-grow text-justify">
-                {member.bio.map((paragraph, pIndex) => (
-                  <p key={pIndex} className="text-[#1c1c1c] mb-5 last:mb-0">
-                    {paragraph}
-                  </p>
-                ))}
+              <div className="flex flex-col lg:flex-row gap-8 p-8 lg:p-12">
+                <div className="flex-shrink-0 w-full lg:w-[280px]">
+                  <div className="relative group">
+                    <img 
+                      src={member.image} 
+                      alt={member.name}
+                      className="w-full h-auto object-cover rounded-lg shadow-md group-hover:shadow-xl transition-shadow duration-300"
+                      onError={(e) => {
+                        console.error(`Failed to load image: ${member.image}`);
+                        e.currentTarget.style.display = 'none';
+                      }}
+                    />
+                  </div>
+                  <div className="mt-6 text-center lg:text-left">
+                    <h3 className="text-[#1c1c1c] text-[1.4rem] mb-2 font-bold uppercase font-serif tracking-wide">
+                      {member.name}
+                    </h3>
+                    <p className="text-[#666] text-[1rem] mb-4 italic">{member.role}</p>
+                    <div className="flex items-center justify-center lg:justify-start gap-2 text-[#444]">
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+                      <a 
+                        href={`mailto:${member.email}`}
+                        className="hover:text-[#222] transition-colors duration-200 text-[.95rem]"
+                      >
+                        {member.email}
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="flex-grow border-l-4 border-gray-200 pl-8">
+                  <div className="space-y-4">
+                    {member.bio.map((paragraph, pIndex) => (
+                      <p key={pIndex} className="text-[#1c1c1c] text-[1.05rem] leading-relaxed text-justify">
+                        {paragraph}
+                      </p>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
           ))}
