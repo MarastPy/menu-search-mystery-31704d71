@@ -1,68 +1,105 @@
+import { useState } from 'react';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+
 const newsItems = [
   {
     title: "Soul Shift",
     date: "14/02/2025",
     excerpt: "Soul Shift, animated science-fiction comedy series, will premiere in the competition at Cartoons on the Bay – International Festival of Animation, Transmedia and Meta-Arts!",
-    image: "/images/posters/soul_shift/soul_shift.jpg",
-    link: "#"
+    fullContent: "Soul Shift, animated science-fiction comedy series, will premiere in the competition at Cartoons on the Bay – International Festival of Animation, Transmedia and Meta-Arts! This is an exciting opportunity for the series to be showcased at one of the most prestigious animation festivals in Europe.",
+    image: "/images/posters/soul_shift/soul_shift.jpg"
   },
   {
     title: "Wolfie",
     date: "10/02/2025",
     excerpt: "A brief description of another exciting news article. This will entice readers to click and learn more about the topic.",
-    image: "/images/posters/wolfie/wolfie.jpg",
-    link: "#"
+    fullContent: "Wolfie continues its festival journey with great success. The film has been well received by audiences and critics alike, garnering attention for its unique storytelling and beautiful animation.",
+    image: "/images/posters/wolfie/wolfie.jpg"
   },
   {
     title: "Film Premiere Announcement",
     date: "05/02/2025",
     excerpt: "Details about an upcoming film premiere, including dates, venues, and what makes this film a must-see for audiences.",
-    image: "/images/homepage/BOTY_CANNES_crop.jpg",
-    link: "#"
+    fullContent: "We are thrilled to announce the premiere of our latest production. This film represents a significant milestone in our catalogue and we look forward to sharing it with audiences worldwide. Stay tuned for more details about screenings and festival selections.",
+    image: "/images/homepage/BOTY_CANNES_crop.jpg"
   }
 ];
 
 export const News = () => {
+  const [selectedNews, setSelectedNews] = useState<typeof newsItems[0] | null>(null);
+
   return (
-    <section id="news" className="py-12 sm:py-[90px] bg-white">
-      <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
-        <h1 className="font-serif text-black text-[2em] sm:text-[2.5em] lg:text-[3em] mb-4">News</h1>
-        <hr className="border-gray-300 mb-12" />
+    <section id="news" className="py-16 sm:py-24 bg-white">
+      <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16">
+        <div className="mb-16">
+          <h1 className="font-serif text-[#1c1c1c] text-[2.5em] sm:text-[3.2em] lg:text-[3.8em] mb-3 font-light tracking-tight">
+            News
+          </h1>
+          <div className="w-20 h-px bg-[#1c1c1c] mt-6"></div>
+        </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-[30px_25px] justify-center max-w-[1100px] mx-auto mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {newsItems.map((item, index) => (
-            <a 
+            <button
               key={index}
-              href={item.link}
-              className="block p-[25px] flex flex-col cursor-pointer transition-all duration-300 hover:-translate-y-2 shadow-[0_6px_14px_rgba(0,0,0,0.1)] rounded-[15px] bg-white"
+              onClick={() => setSelectedNews(item)}
+              className="group text-left transition-all duration-300 hover:-translate-y-2"
             >
-              <h3 className="text-black min-h-[55px] text-[1.3rem] my-[15px] mx-[15px] text-left font-serif">
-                {item.title}
-              </h3>
-              <div className="w-full pt-[56.25%] relative overflow-hidden rounded-[5px] mb-3 group">
+              <div className="aspect-[3/4] relative overflow-hidden rounded-sm mb-4 ring-1 ring-gray-200 group-hover:ring-[#1c1c1c] transition-all">
                 <img 
                   src={item.image} 
                   alt={item.title}
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
               </div>
-              <p className="text-[.9rem] text-[#444] mb-[18px] font-bold text-left">{item.date}</p>
-              <p className="text-[.95rem] text-[#1c1c1c] flex-grow leading-[1.5] px-[15px] pb-[15px]">
+              <h3 className="text-[#1c1c1c] text-[1.3rem] font-serif font-bold mb-2 group-hover:text-[#666] transition-colors">
+                {item.title}
+              </h3>
+              <p className="text-[0.9rem] text-[#666] mb-3 font-medium">{item.date}</p>
+              <p className="text-[0.95rem] text-[#2c2c2c] leading-[1.6] line-clamp-3">
                 {item.excerpt}
               </p>
-            </a>
+            </button>
           ))}
         </div>
 
-        <div className="text-center mt-[30px]">
+        <div className="text-center">
           <a 
-            href="#" 
-            className="inline-block py-3 px-6 rounded-md transition-all duration-300 mt-6 text-base font-bold border-2 border-[#1c1c1c] bg-transparent text-[#1c1c1c] hover:bg-[#1c1c1c] hover:text-white"
+            href="/news" 
+            className="inline-block py-3 px-8 rounded-sm transition-all duration-300 text-base font-medium border border-[#1c1c1c] bg-transparent text-[#1c1c1c] hover:bg-[#1c1c1c] hover:text-white"
           >
             Read More News
           </a>
         </div>
       </div>
+      
+      {/* News Detail Dialog */}
+      <Dialog open={selectedNews !== null} onOpenChange={() => setSelectedNews(null)}>
+        <DialogContent className="max-w-[800px] max-h-[90vh] overflow-y-auto">
+          {selectedNews && (
+            <>
+              <DialogHeader>
+                <DialogTitle className="text-2xl sm:text-3xl font-serif mb-4">
+                  {selectedNews.title}
+                </DialogTitle>
+              </DialogHeader>
+              <div className="space-y-4">
+                <p className="text-sm text-muted-foreground font-medium">{selectedNews.date}</p>
+                <div className="aspect-video relative overflow-hidden rounded-lg">
+                  <img 
+                    src={selectedNews.image} 
+                    alt={selectedNews.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <p className="text-base leading-relaxed text-justify">
+                  {selectedNews.fullContent}
+                </p>
+              </div>
+            </>
+          )}
+        </DialogContent>
+      </Dialog>
     </section>
   );
 };
