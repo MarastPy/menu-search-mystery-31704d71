@@ -1,7 +1,24 @@
 import { Header } from "@/components/Header";
 import { Link } from "react-router-dom";
 
+// TO ADD A NEW NEWS ITEM:
+// 1. Copy the template below and paste it at the TOP of the newsItems array
+// 2. Update the id to be one higher than the last item
+// 3. Add your title, date (format: DD/MM/YYYY), and excerpt/description
+// 4. Add your image path (upload to /public/images/news/ folder)
+// 5. Optionally add a Facebook post URL or external link
+
 const newsItems = [
+  // EXAMPLE: How to add a new item
+  // {
+  //   id: 7,
+  //   title: "Your News Title",
+  //   date: "16/11/2025",
+  //   excerpt: "Your news description or announcement text here. This will be shown on the news card.",
+  //   image: "/images/news/your-image.jpg",
+  //   link: "https://www.facebook.com/your-post-url" // or "#" for no link
+  // },
+  
   {
     id: 1,
     title: "Soul Shift",
