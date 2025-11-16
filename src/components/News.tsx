@@ -3,6 +3,13 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/u
 
 const newsItems = [
   {
+    title: "Wolfie at SCHLINGEL Film Festival",
+    date: "26/09/2025",
+    excerpt: "Hello Internationales Filmfestival SCHLINGEL! 🇩🇪 📽 Vlček / Wolfie will be featured on this fantastic film festival for children and young audience in a German premiere!",
+    fullContent: "Hello Internationales Filmfestival SCHLINGEL! 🇩🇪 📽 Vlček / Wolfie will be featured on this fantastic film festival for children and young audience in a German premiere! Wolfie will screen in the International Animated Short Film Competition of SCHLiNGEL during the programme part \"Neighbourhood\" for kids & families (5+) on 28. 09., 15:30 at CineStar Cinema Chemnitz!",
+    image: "/images/posters/wolfie/wolfie.jpg"
+  },
+  {
     title: "Soul Shift",
     date: "14/02/2025",
     excerpt: "Soul Shift, animated science-fiction comedy series, will premiere in the competition at Cartoons on the Bay – International Festival of Animation, Transmedia and Meta-Arts!",

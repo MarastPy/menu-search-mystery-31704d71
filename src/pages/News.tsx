@@ -9,15 +9,14 @@ import { Link } from "react-router-dom";
 // 5. Optionally add a Facebook post URL or external link
 
 const newsItems = [
-  // EXAMPLE: How to add a new item
-  // {
-  //   id: 7,
-  //   title: "Your News Title",
-  //   date: "16/11/2025",
-  //   excerpt: "Your news description or announcement text here. This will be shown on the news card.",
-  //   image: "/images/news/your-image.jpg",
-  //   link: "https://www.facebook.com/your-post-url" // or "#" for no link
-  // },
+  {
+    id: 7,
+    title: "Wolfie at SCHLINGEL Film Festival",
+    date: "26/09/2025",
+    excerpt: "Hello Internationales Filmfestival SCHLINGEL! 🇩🇪 📽 Vlček / Wolfie will be featured on this fantastic film festival for children and young audience in a German premiere! Wolfie will screen in the International Animated Short Film Competition of SCHLiNGEL during the programme part \"Neighbourhood\" for kids & families (5+) on 28. 09., 15:30 at CineStar Cinema Chemnitz!",
+    image: "/images/posters/wolfie/wolfie.jpg",
+    link: "https://www.facebook.com/photo/?fbid=122144326394736463&set=a.122107909304736463"
+  },
   
   {
     id: 1,
