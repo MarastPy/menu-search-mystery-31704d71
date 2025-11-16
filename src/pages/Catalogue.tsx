@@ -95,7 +95,6 @@ export default function Catalogue() {
         const title = (f.Title_English || f.Title_Original || '').toLowerCase();
         const originalTitle = (f.Title_Original || '').toLowerCase();
         const logline = (film.Logline || '').toLowerCase();
-        const synopsis = (film.Synopsis || '').toLowerCase();
         const director = (crew['Director(s)'] || '').toLowerCase();
         const search = searchTerm.toLowerCase();
 
@@ -107,7 +106,7 @@ export default function Catalogue() {
 
         return (
           (excludeFilterKey === 'searchTerm' || !searchTerm || title.includes(search) || originalTitle.includes(search) || 
-           logline.includes(search) || synopsis.includes(search) || director.includes(search)) &&
+           logline.includes(search) || director.includes(search)) &&
           (excludeFilterKey === 'genre' || genre === 'all' || !genre || genres.includes(genre.toLowerCase())) &&
           (excludeFilterKey === 'year' || year === 'all' || !year || filmYear === year) &&
           (excludeFilterKey === 'length' || length === 'all' || !length || runtimeCategory === length) &&
@@ -175,7 +174,6 @@ export default function Catalogue() {
       const title = (f.Title_English || f.Title_Original || '').toLowerCase();
       const originalTitle = (f.Title_Original || '').toLowerCase();
       const logline = (film.Logline || '').toLowerCase();
-      const synopsis = (film.Synopsis || '').toLowerCase();
       const director = (crew['Director(s)'] || '').toLowerCase();
       const search = searchTerm.toLowerCase();
 
@@ -187,7 +185,7 @@ export default function Catalogue() {
 
       return (
         (!searchTerm || title.includes(search) || originalTitle.includes(search) || 
-         logline.includes(search) || synopsis.includes(search) || director.includes(search)) &&
+         logline.includes(search) || director.includes(search)) &&
         (genre === 'all' || !genre || genres.includes(genre.toLowerCase())) &&
         (year === 'all' || !year || filmYear === year) &&
         (length === 'all' || !length || runtimeCategory === length) &&
