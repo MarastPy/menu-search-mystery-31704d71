@@ -38,6 +38,43 @@ const Workshops = () => {
             </div>
           </div>
           
+          {/* Workshop Images Gallery */}
+          <div className="mt-12">
+            <h2 className="font-serif text-[1.5em] mb-6 text-center">Workshop Gallery</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <img 
+                src="/images/worksphops/IMG_6555.HEIC" 
+                alt="Workshop session 1" 
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+                loading="lazy"
+              />
+              <img 
+                src="/images/worksphops/IMG_6556.HEIC" 
+                alt="Workshop session 2" 
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+                loading="lazy"
+              />
+              <img 
+                src="/images/worksphops/IMG_6558.HEIC" 
+                alt="Workshop session 3" 
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+                loading="lazy"
+              />
+              <img 
+                src="/images/worksphops/IMG_6578.HEIC" 
+                alt="Workshop session 4" 
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+                loading="lazy"
+              />
+              <img 
+                src="/images/worksphops/IMG_6579.HEIC" 
+                alt="Workshop session 5" 
+                className="w-full h-64 object-cover rounded-lg shadow-md"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
           <div className="mt-12 text-center">
             <p className="text-[1.05rem] text-[#222] mb-6">Interested in organizing a workshop for your institution or group?</p>
             <a href="#about" className="inline-block py-3 px-8 rounded-md transition-all duration-300 text-base font-bold border-2 border-[#1c1c1c] bg-[#1c1c1c] text-white hover:bg-transparent hover:text-[#1c1c1c]">

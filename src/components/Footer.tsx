@@ -56,7 +56,26 @@ export const Footer = () => {
             ))}
           </div>
           
-          <div className="pt-8 border-t border-white/10">
+          <div className="pt-8 border-t border-white/10 space-y-6">
+            {/* Company Information */}
+            <div className="text-white/70 text-[0.9rem] leading-relaxed max-w-2xl mx-auto">
+              <p className="font-semibold text-white mb-3">Cinefila s.r.o.</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <p>IČ: 23478357</p>
+                  <p>DIČ/VAT: CZ23478357</p>
+                  <p className="mt-2 text-sm">Registered in the Commercial Register maintained by the Municipal Court in Prague, Section C, Insert 427737.</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-white mb-2">Contact address:</p>
+                  <p>V olšinách 421/37</p>
+                  <p>100 00 Praha 10</p>
+                  <p className="mt-2">Bank account: 2347835778/5500</p>
+                  <p>IBAN: CZ2555000000002347835778</p>
+                </div>
+              </div>
+            </div>
+            
             <p className="text-white/60 text-[0.9rem] font-light">
               &copy; 2025 Cinefila. All rights reserved.
             </p>

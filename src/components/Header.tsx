@@ -73,12 +73,12 @@ export const Header = () => {
 
       {/* Full-screen Overlay Menu */}
       <div
-        className={`fixed inset-0 w-full h-screen bg-black/95 backdrop-blur-xl z-[999] transition-all duration-500 ${
+        className={`fixed inset-0 w-full h-screen bg-black/60 backdrop-blur-md z-[999] transition-all duration-500 ${
           menuOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
         }`}
         onClick={() => setMenuOpen(false)}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-[#1c1c1c]/50 via-transparent to-[#1c1c1c]/30"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-black/20 via-transparent to-black/10"></div>
         
         {/* Close button */}
         <button
