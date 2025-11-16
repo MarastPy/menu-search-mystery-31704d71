@@ -191,7 +191,7 @@ export default function Catalogue() {
   return (
     <>
       <Header />
-      <main className="min-h-screen pt-20 sm:pt-24 pb-8 sm:pb-16">
+      <main className="min-h-screen pt-28 sm:pt-32 pb-8 sm:pb-16">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif mb-8 sm:mb-12 text-center">Line Up</h1>
           

@@ -56,22 +56,28 @@ export const Footer = () => {
             ))}
           </div>
           
-          <div className="pt-8 border-t border-white/10 space-y-6">
+          <div className="pt-8 border-t border-white/10 space-y-8">
             {/* Company Information */}
-            <div className="text-white/70 text-[0.9rem] leading-relaxed max-w-2xl mx-auto">
-              <p className="font-semibold text-white mb-3">Cinefila s.r.o.</p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
+            <div className="text-white/80 text-[0.92rem] leading-relaxed max-w-4xl mx-auto">
+              <h4 className="font-serif text-white text-[1.3rem] mb-5 tracking-wide">Company Information</h4>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="space-y-2">
+                  <p className="font-semibold text-white/90 text-sm uppercase tracking-wider mb-3">Legal Details</p>
+                  <p className="text-white">Cinefila s.r.o.</p>
                   <p>IČ: 23478357</p>
                   <p>DIČ/VAT: CZ23478357</p>
-                  <p className="mt-2 text-sm">Registered in the Commercial Register maintained by the Municipal Court in Prague, Section C, Insert 427737.</p>
+                  <p className="mt-3 text-[0.85rem] text-white/60 leading-relaxed">Registered in the Commercial Register maintained by the Municipal Court in Prague, Section C, Insert 427737.</p>
                 </div>
-                <div>
-                  <p className="font-semibold text-white mb-2">Contact address:</p>
+                <div className="space-y-2">
+                  <p className="font-semibold text-white/90 text-sm uppercase tracking-wider mb-3">Contact Address</p>
                   <p>V olšinách 421/37</p>
                   <p>100 00 Praha 10</p>
-                  <p className="mt-2">Bank account: 2347835778/5500</p>
-                  <p>IBAN: CZ2555000000002347835778</p>
+                  <p>Czech Republic</p>
+                </div>
+                <div className="space-y-2">
+                  <p className="font-semibold text-white/90 text-sm uppercase tracking-wider mb-3">Banking Details</p>
+                  <p>Account: 2347835778/5500</p>
+                  <p className="break-all">IBAN: CZ2555000000002347835778</p>
                 </div>
               </div>
             </div>

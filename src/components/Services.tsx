@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export const Services = () => {
   return (
     <>
@@ -48,7 +50,7 @@ export const Services = () => {
         </div>
       </section>
 
-      <section className="py-12 sm:py-[90px] bg-[#f0f2f5]">
+      <section className="py-12 sm:py-[90px] bg-white">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
           <h1 className="font-serif text-[#222] text-[1.5em] sm:text-[2em] lg:text-[3em] mb-4">For Film Schools &amp; Institutions</h1>
           <hr className="border-gray-300 mb-12" />
@@ -72,9 +74,9 @@ export const Services = () => {
               </div>
               <div className="text-justify text-[1.05rem]">
                 <p className="mb-4">Learn how to select festivals, prepare promotional materials, and maximize your film's festival journey through hands-on sessions tailored to your needs.</p>
-                <a href="/workshops" className="inline-block py-3 px-6 rounded-md transition-all duration-300 text-base font-bold border-2 border-[#1c1c1c] bg-[#1c1c1c] text-white hover:bg-transparent hover:text-[#1c1c1c]">
-                  Learn More
-                </a>
+                <Button asChild variant="dark" size="lg" className="text-base font-bold">
+                  <a href="/workshops">Learn More</a>
+                </Button>
               </div>
             </div>
           </div>

@@ -29,8 +29,7 @@ export const Header = () => {
       <SearchOverlay isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
       
       <header
-        className="fixed top-0 left-0 right-0 z-[1000] bg-black text-white border-b border-gray-800 transition-all duration-300"
-        style={{ height: scrolled ? "60px" : "90px" }}
+        className="fixed top-0 left-0 right-0 z-[1000] bg-black text-white border-b border-gray-800 h-[90px]"
       >
         <div className="max-w-[1200px] mx-auto h-full px-4 sm:px-8 lg:px-[2cm] grid grid-cols-[auto_1fr_auto] gap-2 sm:gap-4 items-center">
           {/* Logo */}
@@ -39,8 +38,7 @@ export const Header = () => {
               <img 
                 src="/images/logo/Cinefila_logo_white_web.svg"
                 alt="Cinefila Logo" 
-                className="transition-all duration-300"
-                style={{ height: scrolled ? "35px" : "50px" }}
+                className="h-[50px]"
               />
             </Link>
           </div>
@@ -73,17 +71,16 @@ export const Header = () => {
 
       {/* Full-screen Overlay Menu */}
       <div
-        className={`fixed inset-0 w-full h-screen bg-black/60 backdrop-blur-md z-[999] transition-all duration-500 ${
+        className={`fixed inset-0 w-full h-screen bg-black/70 backdrop-blur-sm z-[999] transition-all duration-300 ${
           menuOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
         }`}
         onClick={() => setMenuOpen(false)}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-black/20 via-transparent to-black/10"></div>
         
         {/* Close button */}
         <button
           onClick={() => setMenuOpen(false)}
-          className="absolute top-8 right-8 p-3 text-white hover:text-[#C5262A] transition-all duration-300 hover:rotate-90 z-[1001]"
+          className="absolute top-8 right-8 p-3 text-white hover:text-primary transition-colors duration-200 z-[1001]"
           aria-label="Close menu"
         >
           <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -97,7 +94,7 @@ export const Header = () => {
         >
           <Link 
             to="/news" 
-            className={`group relative font-serif text-4xl sm:text-5xl lg:text-6xl text-white py-4 text-center transition-all duration-500 ${
+            className={`font-serif text-4xl sm:text-5xl lg:text-6xl text-white py-4 text-center transition-colors duration-200 hover:text-primary ${
               menuOpen ? "animate-fade-in" : "opacity-0"
             }`}
             style={{ 
@@ -107,13 +104,12 @@ export const Header = () => {
             }}
             onClick={() => setMenuOpen(false)}
           >
-            <span className="relative z-10">News</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 rounded-lg"></div>
+            News
           </Link>
           
           <Link 
             to="/catalogue" 
-            className={`group relative font-serif text-4xl sm:text-5xl lg:text-6xl text-white py-4 text-center transition-all duration-500 ${
+            className={`font-serif text-4xl sm:text-5xl lg:text-6xl text-white py-4 text-center transition-colors duration-200 hover:text-primary ${
               menuOpen ? "animate-fade-in" : "opacity-0"
             }`}
             style={{ 
@@ -123,13 +119,12 @@ export const Header = () => {
             }}
             onClick={() => setMenuOpen(false)}
           >
-            <span className="relative z-10">Line Up</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 rounded-lg"></div>
+            Line Up
           </Link>
           
           <Link 
             to="/#whatcanwedo" 
-            className={`group relative font-serif text-4xl sm:text-5xl lg:text-6xl text-white py-4 text-center transition-all duration-500 ${
+            className={`font-serif text-4xl sm:text-5xl lg:text-6xl text-white py-4 text-center transition-colors duration-200 hover:text-primary ${
               menuOpen ? "animate-fade-in" : "opacity-0"
             }`}
             style={{ 
@@ -139,13 +134,12 @@ export const Header = () => {
             }}
             onClick={() => setMenuOpen(false)}
           >
-            <span className="relative z-10">What can we do for you</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 rounded-lg"></div>
+            What can we do for you
           </Link>
           
           <Link 
             to="/#about" 
-            className={`group relative font-serif text-4xl sm:text-5xl lg:text-6xl text-white py-4 text-center transition-all duration-500 ${
+            className={`font-serif text-4xl sm:text-5xl lg:text-6xl text-white py-4 text-center transition-colors duration-200 hover:text-primary ${
               menuOpen ? "animate-fade-in" : "opacity-0"
             }`}
             style={{ 
@@ -155,13 +149,12 @@ export const Header = () => {
             }}
             onClick={() => setMenuOpen(false)}
           >
-            <span className="relative z-10">About us & contact</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 rounded-lg"></div>
+            About us & contact
           </Link>
           
           {/* Decorative line */}
           <div 
-            className={`w-32 h-px bg-gradient-to-r from-transparent via-white/40 to-transparent mt-8 ${
+            className={`w-32 h-px bg-white/30 mt-8 ${
               menuOpen ? "animate-fade-in" : "opacity-0"
             }`}
             style={{ animationDelay: "0.5s" }}

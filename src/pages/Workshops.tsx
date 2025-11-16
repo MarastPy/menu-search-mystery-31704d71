@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { Button } from "@/components/ui/button";
 
 const Workshops = () => {
   return (
@@ -77,9 +78,9 @@ const Workshops = () => {
 
           <div className="mt-12 text-center">
             <p className="text-[1.05rem] text-[#222] mb-6">Interested in organizing a workshop for your institution or group?</p>
-            <a href="#about" className="inline-block py-3 px-8 rounded-md transition-all duration-300 text-base font-bold border-2 border-[#1c1c1c] bg-[#1c1c1c] text-white hover:bg-transparent hover:text-[#1c1c1c]">
-              Contact Us
-            </a>
+            <Button asChild variant="dark" size="lg" className="text-base font-bold">
+              <a href="/#about">Contact Us</a>
+            </Button>
           </div>
         </div>
       </section>
