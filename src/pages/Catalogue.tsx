@@ -75,45 +75,8 @@ export default function Catalogue() {
   const [keywords, setKeywords] = useState('all');
   const [visibleCount, setVisibleCount] = useState(10);
 
-  // Extract unique filter options
-  const filterOptions = useMemo(() => {
-    const genres = new Set<string>();
-    const years = new Set<string>();
-    const lengths = new Set<string>();
-    const audiences = new Set<string>();
-    const keywordsList = new Set<string>();
-
-    allFilms.forEach(film => {
-      const f = film.Film;
-      f.Genre_List?.forEach(g => genres.add(g.trim()));
-      
-      const yearMatch = f.Date_of_completion?.match(/\b\d{4}\b/);
-      if (yearMatch) years.add(yearMatch[0]);
-      
-      const len = getRoundedRuntime(f.Runtime);
-      if (len) lengths.add(len);
-      
-      if (f.Target_Group?.Audience) audiences.add(f.Target_Group.Audience.trim());
-      
-      if (f.Keywords) {
-        f.Keywords.split(',').forEach(k => {
-          const trimmed = k.trim();
-          if (trimmed) keywordsList.add(trimmed);
-        });
-      }
-    });
-
-    return {
-      genres: Array.from(genres).sort(),
-      years: Array.from(years).sort((a, b) => parseInt(b) - parseInt(a)),
-      lengths: ['short', 'mid-length', 'full-length'].filter(cat => lengths.has(cat)),
-      audiences: Array.from(audiences).sort(),
-      keywords: Array.from(keywordsList).sort()
-    };
-  }, [allFilms]);
-
-  // Filter films
-  const filteredFilms = useMemo(() => {
+  // Helper to filter films with optional exclusions
+  const getFilteredFilms = (excludeFilter?: string) => {
     return allFilms.filter(film => {
       const f = film.Film;
       const crew = film.Crew;
@@ -128,21 +91,74 @@ export default function Catalogue() {
       const genres = f.Genre_List?.map(g => g.toLowerCase()) || [];
       const runtimeCategory = getRoundedRuntime(f.Runtime);
       const filmYear = f.Date_of_completion?.match(/\b\d{4}\b/)?.[0] || '';
-      const filmCountry = f.Country_of_production?.toLowerCase() || '';
-      const filmRating = f.Target_Group?.Rating?.toLowerCase() || '';
       const filmAudience = f.Target_Group?.Audience?.toLowerCase() || '';
       const filmKeywords = f.Keywords ? f.Keywords.split(',').map(k => k.trim().toLowerCase()) : [];
 
       return (
         (!searchTerm || title.includes(search) || originalTitle.includes(search) || 
          logline.includes(search) || synopsis.includes(search) || director.includes(search)) &&
-        (genre === 'all' || !genre || genres.includes(genre.toLowerCase())) &&
-        (year === 'all' || !year || filmYear === year) &&
-        (length === 'all' || !length || runtimeCategory === length) &&
-        (audience === 'all' || !audience || filmAudience === audience.toLowerCase()) &&
-        (keywords === 'all' || !keywords || filmKeywords.includes(keywords.toLowerCase()))
+        (excludeFilter === 'genre' || genre === 'all' || !genre || genres.includes(genre.toLowerCase())) &&
+        (excludeFilter === 'year' || year === 'all' || !year || filmYear === year) &&
+        (excludeFilter === 'length' || length === 'all' || !length || runtimeCategory === length) &&
+        (excludeFilter === 'audience' || audience === 'all' || !audience || filmAudience === audience.toLowerCase()) &&
+        (excludeFilter === 'keywords' || keywords === 'all' || !keywords || filmKeywords.includes(keywords.toLowerCase()))
       );
     });
+  };
+
+  // Extract unique filter options based on currently filtered films (cascading)
+  const filterOptions = useMemo(() => {
+    const genreFilms = getFilteredFilms('genre');
+    const yearFilms = getFilteredFilms('year');
+    const lengthFilms = getFilteredFilms('length');
+    const audienceFilms = getFilteredFilms('audience');
+    const keywordFilms = getFilteredFilms('keywords');
+
+    const genres = new Set<string>();
+    const years = new Set<string>();
+    const lengths = new Set<string>();
+    const audiences = new Set<string>();
+    const keywordsList = new Set<string>();
+
+    genreFilms.forEach(film => {
+      film.Film.Genre_List?.forEach(g => genres.add(g.trim()));
+    });
+
+    yearFilms.forEach(film => {
+      const yearMatch = film.Film.Date_of_completion?.match(/\b\d{4}\b/);
+      if (yearMatch) years.add(yearMatch[0]);
+    });
+
+    lengthFilms.forEach(film => {
+      const len = getRoundedRuntime(film.Film.Runtime);
+      if (len) lengths.add(len);
+    });
+
+    audienceFilms.forEach(film => {
+      if (film.Film.Target_Group?.Audience) audiences.add(film.Film.Target_Group.Audience.trim());
+    });
+
+    keywordFilms.forEach(film => {
+      if (film.Film.Keywords) {
+        film.Film.Keywords.split(',').forEach(k => {
+          const trimmed = k.trim();
+          if (trimmed) keywordsList.add(trimmed);
+        });
+      }
+    });
+
+    return {
+      genres: Array.from(genres).sort(),
+      years: Array.from(years).sort((a, b) => parseInt(b) - parseInt(a)),
+      lengths: ['short', 'mid-length', 'full-length'].filter(cat => lengths.has(cat)),
+      audiences: Array.from(audiences).sort(),
+      keywords: Array.from(keywordsList).sort()
+    };
+  }, [allFilms, searchTerm, genre, year, length, audience, keywords]);
+
+  // Filter films - reuse the helper function without exclusions
+  const filteredFilms = useMemo(() => {
+    return getFilteredFilms();
   }, [allFilms, searchTerm, genre, year, length, audience, keywords]);
 
   const resetFilters = () => {
