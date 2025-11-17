@@ -50,7 +50,7 @@ export const Services = () => {
         </div>
       </section>
 
-      <section className="py-12 sm:py-[90px] bg-white">
+      <section className="py-12 sm:py-[90px] bg-[#f0f2f5]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
           <h1 className="font-serif text-[#222] text-[1.5em] sm:text-[2em] lg:text-[3em] mb-4">For Film Schools &amp; Institutions</h1>
           <div className="w-40 h-1 bg-primary mx-auto mb-12"></div>

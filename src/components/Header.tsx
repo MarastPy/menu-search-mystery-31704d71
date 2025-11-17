@@ -138,12 +138,27 @@ export const Header = () => {
           </Link>
           
           <Link 
-            to="/#about" 
+            to="/workshops" 
             className={`font-serif text-4xl sm:text-5xl lg:text-6xl text-white py-4 text-center transition-colors duration-200 hover:text-primary ${
               menuOpen ? "animate-fade-in" : "opacity-0"
             }`}
             style={{ 
               animationDelay: "0.4s",
+              fontWeight: 300,
+              letterSpacing: "0.02em"
+            }}
+            onClick={() => setMenuOpen(false)}
+          >
+            Workshops
+          </Link>
+          
+          <Link 
+            to="/#about" 
+            className={`font-serif text-4xl sm:text-5xl lg:text-6xl text-white py-4 text-center transition-colors duration-200 hover:text-primary ${
+              menuOpen ? "animate-fade-in" : "opacity-0"
+            }`}
+            style={{ 
+              animationDelay: "0.5s",
               fontWeight: 300,
               letterSpacing: "0.02em"
             }}
@@ -157,7 +172,7 @@ export const Header = () => {
             className={`w-32 h-px bg-white/30 mt-8 ${
               menuOpen ? "animate-fade-in" : "opacity-0"
             }`}
-            style={{ animationDelay: "0.5s" }}
+            style={{ animationDelay: "0.6s" }}
           ></div>
         </nav>
       </div>
