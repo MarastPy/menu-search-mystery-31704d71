@@ -84,7 +84,7 @@ export default function News() {
             <h1 className="font-serif text-black text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 text-left">
               Latest News
             </h1>
-            <div className="w-40 h-1 bg-primary mb-12"></div>
+            <div className="w-40 h-1 bg-border mb-12"></div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               {visibleItems.map((item) => (

@@ -39,7 +39,7 @@ export const About = () => {
           <h1 className="font-serif text-[#1c1c1c] text-5xl sm:text-6xl lg:text-7xl mb-3 font-light tracking-tight text-left">
             About us & contacts
           </h1>
-          <div className="w-40 h-1 bg-primary mb-12"></div>
+          <div className="w-40 h-1 bg-border mb-12"></div>
         </div>
         
         <div className="space-y-16">

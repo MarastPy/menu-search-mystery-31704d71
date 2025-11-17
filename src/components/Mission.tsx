@@ -3,7 +3,7 @@ export const Mission = () => {
     <section id="whatcanwedo" className="py-12 sm:py-[90px] bg-[#f0f2f5]">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
         <h1 className="font-serif text-[#222] text-[2em] sm:text-[2.5em] lg:text-[3em] mb-4 text-left">Our Mission</h1>
-        <div className="w-40 h-1 bg-primary mb-12"></div>
+        <div className="w-40 h-1 bg-border mb-12"></div>
         
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-10 mb-10 items-center">
           <div className="flex-1 text-justify text-[1.05em]">

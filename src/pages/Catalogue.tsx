@@ -244,7 +244,7 @@ export default function Catalogue() {
       <main className="min-h-screen pt-28 sm:pt-32 pb-8 sm:pb-16">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif mb-4 text-left">Line Up</h1>
-          <div className="w-40 h-1 bg-primary mb-12"></div>
+          <div className="w-40 h-1 bg-border mb-12"></div>
           
           {/* Filters */}
           <div className="mb-8 sm:mb-12 space-y-4">
