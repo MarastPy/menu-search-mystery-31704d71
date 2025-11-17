@@ -376,25 +376,44 @@ export default function Catalogue() {
                             }}
                           />
                         </div>
-                        <div className="p-4">
-                          <h3 className="font-serif text-xl mb-1 group-hover:text-primary transition-colors">
+                        <div className="p-5">
+                          <h3 className="font-serif text-2xl mb-1 group-hover:text-primary transition-colors">
                             {title}
-                            {filmYear && <span className="text-muted-foreground"> | {filmYear}</span>}
-                            {exactMinutes && <span className="text-muted-foreground"> | {exactMinutes} min</span>}
                           </h3>
-                          <p className="text-sm text-muted-foreground mb-2">by {director}</p>
-                          {f.Genre_List && f.Genre_List.length > 0 && (
-                            <div className="flex flex-wrap gap-1 mb-2">
-                              {f.Genre_List.slice(0, 3).map((g, i) => (
-                                <Badge key={i} variant="secondary" className="text-xs">
-                                  {g}
-                                </Badge>
-                              ))}
-                            </div>
+                          {f.Title_Original !== title && (
+                            <p className="text-sm text-muted-foreground mb-2 italic">{f.Title_Original}</p>
                           )}
+                          <div className="flex flex-wrap gap-2 mb-2">
+                            {f.Genre_List && f.Genre_List.length > 0 && f.Genre_List.map((genre, idx) => (
+                              <Badge key={idx} variant="secondary" className="text-xs">{genre}</Badge>
+                            ))}
+                          </div>
+                          <p className="text-sm text-muted-foreground mb-2">
+                            {exactMinutes && `${exactMinutes} min`} {exactMinutes && filmYear && '•'} {filmYear}
+                          </p>
+                          <p className="text-sm mb-2">by {director}</p>
                           <p className="text-sm text-foreground/80 line-clamp-3">
                             {film.Logline}
                           </p>
+                          
+                          {/* Festival Information */}
+                          {film.Festivals && film.Festivals.length > 0 && (
+                            <div className="mt-4 pt-4 border-t border-border/50">
+                              <p className="text-xs font-semibold text-primary mb-2 uppercase tracking-wide">Featured at:</p>
+                              <div className="flex flex-wrap gap-1.5">
+                                {film.Festivals.slice(0, 3).map((festival, idx) => (
+                                  <Badge key={idx} variant="outline" className="text-[0.7rem] py-0.5 px-2 bg-primary/5 border-primary/30">
+                                    {festival.Name_of_Festival}
+                                  </Badge>
+                                ))}
+                                {film.Festivals.length > 3 && (
+                                  <Badge variant="outline" className="text-[0.7rem] py-0.5 px-2 bg-muted">
+                                    +{film.Festivals.length - 3} more
+                                  </Badge>
+                                )}
+                              </div>
+                            </div>
+                          )}
                         </div>
                       </div>
                     </Link>
