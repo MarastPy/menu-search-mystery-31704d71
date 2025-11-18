@@ -44,31 +44,31 @@ const Workshops = () => {
             <h2 className="font-serif text-[1.5em] mb-6 text-center">Workshop Gallery</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <img 
-                src="/images/worksphops/IMG_6555.HEIC" 
+                src="/images/worksphops/IMG_6555.jpg" 
                 alt="Workshop session 1" 
                 className="w-full h-64 object-cover rounded-lg shadow-md"
                 loading="lazy"
               />
               <img 
-                src="/images/worksphops/IMG_6556.HEIC" 
+                src="/images/worksphops/IMG_6556.jpg" 
                 alt="Workshop session 2" 
                 className="w-full h-64 object-cover rounded-lg shadow-md"
                 loading="lazy"
               />
               <img 
-                src="/images/worksphops/IMG_6558.HEIC" 
+                src="/images/worksphops/IMG_6558.jpg" 
                 alt="Workshop session 3" 
                 className="w-full h-64 object-cover rounded-lg shadow-md"
                 loading="lazy"
               />
               <img 
-                src="/images/worksphops/IMG_6578.HEIC" 
+                src="/images/worksphops/IMG_6578.jpg" 
                 alt="Workshop session 4" 
                 className="w-full h-64 object-cover rounded-lg shadow-md"
                 loading="lazy"
               />
               <img 
-                src="/images/worksphops/IMG_6579.HEIC" 
+                src="/images/worksphops/IMG_6579.jpg" 
                 alt="Workshop session 5" 
                 className="w-full h-64 object-cover rounded-lg shadow-md"
                 loading="lazy"
