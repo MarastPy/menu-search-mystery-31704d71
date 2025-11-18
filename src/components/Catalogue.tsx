@@ -56,9 +56,7 @@ export const Catalogue = () => {
                       {title}
                     </h3>
                     <div className="min-h-[1.25rem] mb-2">
-                      {f.Title_Original !== title && (
-                        <p className="text-sm text-muted-foreground italic line-clamp-1">{f.Title_Original}</p>
-                      )}
+                      <p className="text-sm text-muted-foreground italic line-clamp-1">{f.Title_Original}</p>
                     </div>
                     <div className="flex flex-wrap gap-2 mb-2 min-h-[1.75rem]">
                       {f.Genre_List && f.Genre_List.length > 0 && f.Genre_List.map((genre, idx) => (
