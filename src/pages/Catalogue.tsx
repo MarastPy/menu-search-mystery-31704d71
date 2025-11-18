@@ -395,7 +395,7 @@ export default function Catalogue() {
                             {exactMinutes && `${exactMinutes} min`} {exactMinutes && filmYear && '•'} {filmYear}
                           </p>
                           <p className="text-sm mb-2">by {director}</p>
-                          <p className="text-sm text-foreground/80 line-clamp-3 mb-2 flex-grow">
+                          <p className="text-sm text-foreground/80 line-clamp-3 mb-2 flex-grow min-h-[3.6rem]">
                             {film.Logline}
                           </p>
                           

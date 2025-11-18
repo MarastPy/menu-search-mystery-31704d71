@@ -69,9 +69,9 @@ export const Catalogue = () => {
                       {runtime} • {year}
                     </p>
                     <p className="text-sm mb-2">by {director}</p>
-                    <p className="text-sm text-foreground/80 line-clamp-3 mb-2 flex-grow">
-                      {film.Logline}
-                    </p>
+                          <p className="text-sm text-foreground/80 line-clamp-3 mb-2 flex-grow min-h-[3.6rem]">
+                            {film.Logline}
+                          </p>
                     
                     {/* Festival Information */}
                     <div className="mt-auto pt-4 border-t border-border/50 min-h-[5rem]">
