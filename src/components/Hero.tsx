@@ -40,7 +40,7 @@ export const Hero = () => {
           </div>
 
           {/* Closing quotation mark */}
-          <div className="absolute -right-6 -bottom-4 text-[7em] text-white/50 font-serif leading-none">”</div>
+          <div className="absolute -right-6 -bottom-1 text-[7em] text-white/50 font-serif leading-none">”</div>
         </div>
 
         <hr className="border-white/20 mt-10" />
