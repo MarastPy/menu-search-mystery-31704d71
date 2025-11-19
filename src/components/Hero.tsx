@@ -20,28 +20,24 @@ export const Hero = () => {
         <hr className="border-white/20 mb-10" />
 
         {/* Definition */}
-        <div className="max-w-[600px] mx-auto text-left space-y-5 relative">
-          {/* Opening quotation mark */}
-          <div className="text-[4em] text-[#666] leading-none absolute -top-4 -left-8 font-serif">"</div>
-          
-          <p className="font-serif text-[1.2em] text-[#999] mb-3 pl-6">
+        <div className="max-w-[650px] mx-auto text-left space-y-3 py-8">
+          <p className="font-serif text-[1.3em] text-white/90 tracking-wide mb-4">
             cinefila / cinefil / cinéphile / cinéfilo / σινεфίл / シネフィル
           </p>
           
-          <p className="text-[1em] text-[#999] mb-4 pl-6">
+          <p className="text-[0.95em] text-white/60 italic mb-6 tracking-wider">
             noun
           </p>
           
-          <p className="text-[1.05em] text-[#999] mb-2 pl-6">
-            1. A person who lives and breathes the cinema
-          </p>
-          
-          <p className="text-[1.05em] text-[#999] mb-2 pl-6">
-            2. A film lover; enthusiastically interested in and knowledgeable about cinema
-          </p>
-          
-          {/* Closing quotation mark */}
-          <div className="text-[4em] text-[#666] leading-none absolute -bottom-8 right-0 font-serif">"</div>
+          <div className="space-y-3 text-white/80 leading-relaxed">
+            <p className="text-[1.05em]">
+              <span className="font-semibold mr-2">1.</span>A person who lives and breathes the cinema
+            </p>
+            
+            <p className="text-[1.05em]">
+              <span className="font-semibold mr-2">2.</span>A film lover; enthusiastically interested in and knowledgeable about cinema
+            </p>
+          </div>
         </div>
 
         <hr className="border-white/20 mt-10" />
