@@ -22,7 +22,7 @@ export const Hero = () => {
         {/* Definition */}
         <div className="relative max-w-[500px] mx-auto text-center space-y-3 py-8">
           {/* Opening quotation mark */}
-          <div className="absolute -left-10 -top-8 text-[7em] text-white/50 font-serif leading-none">"</div>
+          <div className="absolute -left-10 -top-8 text-[7em] text-white/50 font-garamond leading-none">"</div>
           
           <p className="font-serif text-[1.3em] text-white/90 tracking-wide mb-4">
             cinefila / cinefil / cinéphile / cineast / cinéfilo / σινεφίλ / シネフィル /
@@ -43,7 +43,7 @@ export const Hero = () => {
           </div>
           
           {/* Closing quotation mark */}
-          <div className="absolute -right-10 -bottom-8 text-[7em] text-white/50 font-serif leading-none">"</div>
+          <div className="absolute -right-10 -bottom-8 text-[7em] text-white/50 font-garamond leading-none">"</div>
         </div>
 
         <hr className="border-white/20 mt-10" />
