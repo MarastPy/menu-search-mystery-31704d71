@@ -20,7 +20,7 @@ export const Hero = () => {
         <hr className="border-white/20 mb-10" />
 
         {/* Definition */}
-        <div className="relative max-w-[350px] mx-auto text-center space-y-3 py-8">
+        <div className="relative max-w-[500px] mx-auto text-center space-y-3 py-8">
           {/* Opening quotation mark */}
           <div className="absolute -left-6 top-0 text-[3em] text-white/40 font-serif leading-none">"</div>
           
