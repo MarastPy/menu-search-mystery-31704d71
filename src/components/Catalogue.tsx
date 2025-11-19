@@ -5,6 +5,29 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { getFilmPosterPath, getPlaceholderImage } from '@/utils/imageHelpers';
 
+const parseRuntimeToMinutes = (runtimeString: string): number | null => {
+  if (!runtimeString) return null;
+  
+  const cleanStr = runtimeString.trim().toLowerCase().replace(/[^0-9:]/g, '');
+  let totalMinutes = 0;
+  const parts = cleanStr.split(':').map((p) => parseFloat(p));
+
+  if (parts.length === 3) {
+    const [hours, minutes, seconds] = parts;
+    totalMinutes = (hours || 0) * 60 + (minutes || 0) + (seconds || 0) / 60;
+  } else if (parts.length === 2) {
+    const [minutes, seconds] = parts;
+    totalMinutes = (minutes || 0) + (seconds || 0) / 60;
+  } else if (parts.length === 1 && cleanStr !== '') {
+    totalMinutes = parts[0];
+  } else {
+    return null;
+  }
+
+  if (isNaN(totalMinutes)) return null;
+  return Math.round(totalMinutes);
+};
+
 const getFilmSlug = (film: Film): string => {
   const title = film.Film.Title_English || film.Film.Title_Original;
   return title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -30,7 +53,7 @@ export const Catalogue = () => {
             const crew = film.Crew;
             const title = f.Title_English || f.Title_Original || 'Untitled';
             const year = f.Date_of_completion?.match(/\b\d{4}\b/)?.[0] || '';
-            const runtime = f.Runtime || '';
+            const exactMinutes = parseRuntimeToMinutes(f.Runtime);
             const director = crew['Director(s)'] || 'Unknown Director';
             const slug = getFilmSlug(film);
 
@@ -53,10 +76,10 @@ export const Catalogue = () => {
                   </div>
                   <div className="p-5 flex flex-col flex-grow">
                     <h3 className="font-serif text-2xl mb-1 group-hover:text-primary transition-colors line-clamp-2 min-h-[3.5rem]">
-                      {title}
+                      {f.Title_Original || title}
                     </h3>
                     <div className="min-h-[1.25rem] mb-2">
-                      <p className="text-sm text-muted-foreground italic line-clamp-1">{f.Title_Original}</p>
+                      <p className="text-sm text-muted-foreground italic line-clamp-1">{f.Title_English}</p>
                     </div>
                     <div className="flex flex-wrap gap-2 mb-2 min-h-[1.75rem]">
                       {f.Genre_List && f.Genre_List.length > 0 && f.Genre_List.map((genre, idx) => (
@@ -64,7 +87,7 @@ export const Catalogue = () => {
                       ))}
                     </div>
                     <p className="text-sm text-muted-foreground mb-2">
-                      {runtime} • {year}
+                      {exactMinutes && `${exactMinutes} min`} {exactMinutes && year && '|'} {year}
                     </p>
                     <p className="text-sm mb-2">by {director}</p>
                           <p className="text-sm text-foreground/80 line-clamp-3 mb-2 flex-grow min-h-[3.6rem]">
