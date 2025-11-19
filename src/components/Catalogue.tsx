@@ -75,20 +75,14 @@ export const Catalogue = () => {
                     />
                   </div>
                   <div className="p-5 flex flex-col flex-grow">
-                    <h3 className="font-serif text-2xl mb-1 group-hover:text-primary transition-colors line-clamp-2 min-h-[3.5rem]">
-                      {f.Title_Original || title}
+                    <h3 className="font-serif text-2xl mb-3 group-hover:text-primary transition-colors line-clamp-2">
+                      {f.Title_Original || title} {exactMinutes && `| ${exactMinutes}min`} {year && `| ${year}`}
                     </h3>
-                    <div className="min-h-[1.25rem] mb-2">
-                      <p className="text-sm text-muted-foreground italic line-clamp-1">{f.Title_English}</p>
-                    </div>
                     <div className="flex flex-wrap gap-2 mb-2 min-h-[1.75rem]">
                       {f.Genre_List && f.Genre_List.length > 0 && f.Genre_List.map((genre, idx) => (
                         <Badge key={idx} variant="secondary" className="text-xs">{genre}</Badge>
                       ))}
                     </div>
-                    <p className="text-sm text-muted-foreground mb-2">
-                      {exactMinutes && `${exactMinutes} min`} {exactMinutes && year && '|'} {year}
-                    </p>
                     <p className="text-sm mb-2">by {director}</p>
                           <p className="text-sm text-foreground/80 line-clamp-3 mb-2 flex-grow min-h-[3.6rem]">
                             {film.Logline}
