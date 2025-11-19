@@ -50,7 +50,7 @@ export const Hero = () => {
           <Button
             asChild
             variant="dark"
-            size="lg"
+            size="sm"
             className="w-full sm:w-[200px] lg:w-[220px] h-[60px] sm:h-[70px] text-base font-bold"
           >
             <a href="#whatcanwedo">What can we do for you</a>
