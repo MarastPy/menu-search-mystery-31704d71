@@ -203,6 +203,32 @@ export default function FilmDetail() {
                   </a>
                 </Button>
               )}
+
+              {/* Downloads section */}
+              <div className="mt-4 space-y-2">
+                <h3 className="text-lg font-serif mb-2">Downloads</h3>
+                {film.Download_poster && (
+                  <Button asChild variant="outline" className="w-full">
+                    <a href={film.Download_poster} target="_blank" rel="noopener noreferrer">
+                      Poster
+                    </a>
+                  </Button>
+                )}
+                {film.Download_stills && (
+                  <Button asChild variant="outline" className="w-full">
+                    <a href={film.Download_stills} target="_blank" rel="noopener noreferrer">
+                      Stills
+                    </a>
+                  </Button>
+                )}
+                {film.Download_presskit && (
+                  <Button asChild variant="outline" className="w-full">
+                    <a href={film.Download_presskit} target="_blank" rel="noopener noreferrer">
+                      Press Kit
+                    </a>
+                  </Button>
+                )}
+              </div>
             </div>
 
             {/* Right column - Info */}
@@ -253,6 +279,14 @@ export default function FilmDetail() {
                   </div>
                 </div>
               )}
+
+              {/* Story Topics */}
+              {f.Keywords && (
+                <div>
+                  <h3 className="text-xl font-serif mb-2">Story Topics</h3>
+                  <p className="text-foreground/90">{f.Keywords}</p>
+                </div>
+              )}
             </div>
           </div>
 
@@ -262,27 +296,32 @@ export default function FilmDetail() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {crew['Director(s)'] && (
                 <div>
-                  <strong>Director(s):</strong> {crew['Director(s)']}
+                  <strong>Director:</strong> {crew['Director(s)']}
                 </div>
               )}
               {crew['Screenplay_writer(s)'] && (
                 <div>
-                  <strong>Screenplay:</strong> {crew['Screenplay_writer(s)']}
+                  <strong>Writer:</strong> {crew['Screenplay_writer(s)']}
                 </div>
               )}
               {crew['Director(s)_of_Photography'] && (
                 <div>
-                  <strong>Cinematography:</strong> {crew['Director(s)_of_Photography']}
+                  <strong>Cinematographer:</strong> {crew['Director(s)_of_Photography']}
                 </div>
               )}
               {crew['Editor(s)'] && (
                 <div>
-                  <strong>Editor(s):</strong> {crew['Editor(s)']}
+                  <strong>Editor:</strong> {crew['Editor(s)']}
+                </div>
+              )}
+              {crew['Music_composer(s)'] && (
+                <div>
+                  <strong>Music Composer:</strong> {crew['Music_composer(s)']}
                 </div>
               )}
               {crew['Sound_director(s)'] && (
                 <div>
-                  <strong>Sound:</strong> {crew['Sound_director(s)']}
+                  <strong>Sound Director:</strong> {crew['Sound_director(s)']}
                 </div>
               )}
               {crew['Art_director(s)'] && (
@@ -290,9 +329,46 @@ export default function FilmDetail() {
                   <strong>Art Director:</strong> {crew['Art_director(s)']}
                 </div>
               )}
-              {crew['Music_composer(s)'] && (
+              {film.Producer_Representative && (
                 <div>
-                  <strong>Music:</strong> {crew['Music_composer(s)']}
+                  <strong>Producer:</strong> {typeof film.Producer_Representative === 'string' ? film.Producer_Representative : JSON.stringify(film.Producer_Representative)}
+                </div>
+              )}
+              {film.Production_Company && (
+                <div>
+                  <strong>Company:</strong> {typeof film.Production_Company === 'string' ? film.Production_Company : JSON.stringify(film.Production_Company)}
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Technical Specifications */}
+          <div className="mb-8">
+            <h2 className="text-3xl font-serif mb-4">Tech Specs</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {f.Runtime && (
+                <div>
+                  <strong>Runtime:</strong> {formatRuntime(film)}
+                </div>
+              )}
+              {film.Technical_Details?.Sound_mix && (
+                <div>
+                  <strong>Sound Mix:</strong> {film.Technical_Details.Sound_mix}
+                </div>
+              )}
+              {film.Technical_Details?.Aspect_ratio && (
+                <div>
+                  <strong>Aspect Ratio:</strong> {film.Technical_Details.Aspect_ratio}
+                </div>
+              )}
+              {film.Technical_Details?.Color && (
+                <div>
+                  <strong>Color:</strong> {film.Technical_Details.Color}
+                </div>
+              )}
+              {f.Date_of_completion && (
+                <div>
+                  <strong>Date Release:</strong> {f.Date_of_completion}
                 </div>
               )}
             </div>
@@ -366,6 +442,28 @@ export default function FilmDetail() {
               </ul>
             </div>
           )}
+
+          {/* Additional Metadata */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            {film.Festival_Distribution_Only && (
+              <div>
+                <h3 className="text-xl font-serif mb-2">Festival Distribution Only</h3>
+                <p className="text-foreground/90">{film.Festival_Distribution_Only}</p>
+              </div>
+            )}
+            {film.Sales && (
+              <div>
+                <h3 className="text-xl font-serif mb-2">Sales</h3>
+                <p className="text-foreground/90">{film.Sales}</p>
+              </div>
+            )}
+            {film.Status && (
+              <div>
+                <h3 className="text-xl font-serif mb-2">Status</h3>
+                <p className="text-foreground/90">{film.Status}</p>
+              </div>
+            )}
+          </div>
         </div>
       </main>
       
