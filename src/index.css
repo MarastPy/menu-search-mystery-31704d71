@@ -7,7 +7,7 @@
 @layer base {
   :root {
     --background: 0 0% 17%;
-    --foreground: 0 0% 100%;
+    --foreground: 0 0% 85%;
 
     --card: 0 0% 20%;
     --card-foreground: 0 0% 100%;
@@ -30,9 +30,13 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 30%;
+    --border: 0 0% 82%;
     --input: 0 0% 30%;
     --ring: 358 68% 46%;
+    
+    --news-bg: 210 17% 93%;
+    --homepage-bg: 0 0% 17%;
+    --homepage-text: 0 0% 85%;
 
     --radius: 0;
   }
@@ -50,10 +54,13 @@
     font-family: 'Nunito', sans-serif;
     @apply bg-background text-foreground;
     line-height: 1.6;
+    font-size: 13px;
   }
 
   h1, h2, h3 {
     font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    font-size: 45px;
   }
 
   p {

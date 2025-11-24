@@ -23,6 +23,9 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        "news-bg": "hsl(var(--news-bg))",
+        "homepage-bg": "hsl(var(--homepage-bg))",
+        "homepage-text": "hsl(var(--homepage-text))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
