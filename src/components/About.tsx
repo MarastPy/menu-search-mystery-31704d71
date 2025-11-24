@@ -36,10 +36,10 @@ export const About = () => {
     <section id="about" className="py-24 sm:py-32 bg-white">
       <div className="max-w-[1200px] mx-auto px-6 sm:px-10 lg:px-16">
         <div className="mb-20">
-          <h1 className="font-serif text-[#1c1c1c] text-5xl sm:text-6xl lg:text-7xl mb-3 font-light tracking-tight text-left">
+          <h1 className="font-garamond text-[45px] text-[#1c1c1c] mb-3 font-bold tracking-tight text-left">
             About us & contacts
           </h1>
-          <div className="w-40 h-1 bg-border mb-12"></div>
+          <div className="w-40 h-[2px] bg-gray-400 mb-12"></div>
         </div>
         
         <div className="space-y-16">
@@ -84,7 +84,7 @@ export const About = () => {
                   
                   <div className="space-y-4 pt-4">
                     {member.bio.map((paragraph, pIndex) => (
-                      <p key={pIndex} className="text-[#2c2c2c] text-base leading-relaxed text-justify font-light">
+                      <p key={pIndex} className="text-[#2c2c2c] font-nunito text-[13px] leading-relaxed text-justify font-light">
                         {paragraph}
                       </p>
                     ))}

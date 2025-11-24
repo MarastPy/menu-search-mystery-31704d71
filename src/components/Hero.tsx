@@ -11,7 +11,7 @@ export const Hero = () => {
           className="max-w-[250px] h-auto mx-auto mb-5 block"
         />
 
-        <h2 className="font-serif text-[1.5em] sm:text-[2em] lg:text-[2.5em] mb-10 text-white">
+        <h2 className="font-nunito text-[17px] mb-10 text-white font-normal">
           Festival strategy | Sales | Distribution
         </h2>
 
@@ -22,11 +22,11 @@ export const Hero = () => {
           {/* Opening quotation mark */}
           <div className="absolute -left-9 -top-4 text-[7em] text-white/50 font-serif leading-none">“</div>
 
-          <p className="font-serif text-[1.3em] text-white/90 tracking-wide mb-4">
+          <p className="font-garamond text-[13.4px] text-white/90 tracking-wide mb-4">
             cinefila / cinefil / cinéphile / cineast / cinéfilo / σινεφίλ / シネフィル /
           </p>
 
-          <p className="text-[0.95em] text-white/60 italic mb-6 tracking-wider">noun</p>
+          <p className="font-garamond text-[13.4px] text-white/60 italic mb-6 tracking-wider">noun</p>
 
           <div className="space-y-3 text-white/80 leading-relaxed text-left">
             <p className="text-[1.05em] pl-6 -indent-6">

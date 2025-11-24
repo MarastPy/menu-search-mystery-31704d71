@@ -14,6 +14,51 @@ const getFilmSlug = (film: Film): string => {
   return title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 };
 
+const parseRuntimeToMinutes = (runtimeString: string): number | null => {
+  if (!runtimeString) return null;
+
+  const cleanStr = runtimeString
+    .trim()
+    .toLowerCase()
+    .replace(/[^0-9:]/g, '');
+  let totalMinutes = 0;
+  const parts = cleanStr.split(':').map(p => parseFloat(p));
+
+  if (parts.length === 3) {
+    const [hours, minutes, seconds] = parts;
+    totalMinutes = (hours || 0) * 60 + (minutes || 0) + (seconds || 0) / 60;
+  } else if (parts.length === 2) {
+    const [minutes, seconds] = parts;
+    totalMinutes = (minutes || 0) + (seconds || 0) / 60;
+  } else if (parts.length === 1 && cleanStr !== '') {
+    totalMinutes = parts[0];
+  } else {
+    return null;
+  }
+
+  if (isNaN(totalMinutes)) return null;
+  return Math.round(totalMinutes);
+};
+
+const formatRuntime = (film: Film): string => {
+  const f = film.Film;
+  
+  // Check if it's a series
+  const numSeries = parseInt(f.Number_of_series || '0');
+  const numEpisodes = parseInt(f.Number_of_episodes || '0');
+  
+  if (numSeries > 0 && numEpisodes > 0) {
+    const episodeRuntime = parseRuntimeToMinutes(f.Runtime);
+    if (episodeRuntime) {
+      return `${numSeries * numEpisodes} × ${episodeRuntime} min`;
+    }
+  }
+  
+  // Regular film
+  const minutes = parseRuntimeToMinutes(f.Runtime);
+  return minutes ? `${minutes} min` : f.Runtime || '';
+};
+
 export default function FilmDetail() {
   const { slug } = useParams<{ slug: string }>();
   const { allFilms, loading, error } = useFilms();
@@ -100,7 +145,7 @@ export default function FilmDetail() {
             )}
             <div className="flex flex-wrap gap-4 text-sm">
               {year && <span className="font-bold">{year}</span>}
-              {f.Runtime && <span className="font-bold">{f.Runtime}</span>}
+              {f.Runtime && <span className="font-bold">{formatRuntime(film)}</span>}
               {f.Country_of_production && <span>{f.Country_of_production}</span>}
               {f.Language_Original && <span>Language: {f.Language_Original}</span>}
             </div>
@@ -265,25 +310,8 @@ export default function FilmDetail() {
             </div>
           )}
 
-          {/* Festivals & Awards */}
+          {/* Awards & Festivals */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            {film.Festivals && film.Festivals.length > 0 && film.Festivals[0].Name_of_Festival && (
-              <div>
-                <h3 className="text-2xl font-serif mb-3">Festivals</h3>
-                <ul className="space-y-2">
-                  {film.Festivals.map((fest, i) => (
-                    fest.Name_of_Festival && (
-                      <li key={i}>
-                        <strong>{fest.Name_of_Festival}</strong>
-                        {fest.Country && <span> ({fest.Country})</span>}
-                        {fest.Date && <span className="text-muted-foreground"> - {fest.Date}</span>}
-                      </li>
-                    )
-                  ))}
-                </ul>
-              </div>
-            )}
-
             {film.Awards && film.Awards.length > 0 && film.Awards[0].Festival_Section_of_Competition && (
               <div>
                 <h3 className="text-2xl font-serif mb-3">Awards</h3>
@@ -294,6 +322,23 @@ export default function FilmDetail() {
                         <strong>{award.Festival_Section_of_Competition}</strong>
                         {award.Country && <span> ({award.Country})</span>}
                         {award.Date && <span className="text-muted-foreground"> - {award.Date}</span>}
+                      </li>
+                    )
+                  ))}
+                </ul>
+              </div>
+            )}
+            
+            {film.Festivals && film.Festivals.length > 0 && film.Festivals[0].Name_of_Festival && (
+              <div>
+                <h3 className="text-2xl font-serif mb-3">Festivals</h3>
+                <ul className="space-y-2">
+                  {film.Festivals.map((fest, i) => (
+                    fest.Name_of_Festival && (
+                      <li key={i}>
+                        <strong>{fest.Name_of_Festival}</strong>
+                        {fest.Country && <span> ({fest.Country})</span>}
+                        {fest.Date && <span className="text-muted-foreground"> - {fest.Date}</span>}
                       </li>
                     )
                   ))}

@@ -55,15 +55,42 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
       const title = (f.Title_English || '').toLowerCase();
       const originalTitle = (f.Title_Original || '').toLowerCase();
       const director = (crew['Director(s)'] || '').toLowerCase();
-      const logline = (film.Logline || '').toLowerCase();
-      const synopsis = (film.Synopsis || '').toLowerCase();
+      const year = (f.Date_of_completion || '').toLowerCase();
+      const language = (f.Language_Original || '').toLowerCase();
+      const producer = (film.Producer_Representative?.Name || '').toLowerCase();
+      const keywords = (f.Keywords || '').toLowerCase();
+      const genres = (f.Genre_List || []).join(' ').toLowerCase();
+      const country = (f.Country_of_production || '').toLowerCase();
+      const targetGroup = `${f.Target_Group?.Rating || ''} ${f.Target_Group?.Audience || ''}`.toLowerCase();
+      const festivals = (film.Festivals || []).map(fest => fest.Name_of_Festival).join(' ').toLowerCase();
+      const awards = (film.Awards || []).map(award => award.Festival_Section_of_Competition).join(' ').toLowerCase();
+      
+      const screenplay = (crew['Screenplay_writer(s)'] || '').toLowerCase();
+      const dop = (crew['Director(s)_of_Photography'] || '').toLowerCase();
+      const editor = (crew['Editor(s)'] || '').toLowerCase();
+      const sound = (crew['Sound_director(s)'] || '').toLowerCase();
+      const art = (crew['Art_director(s)'] || '').toLowerCase();
+      const music = (crew['Music_composer(s)'] || '').toLowerCase();
 
       return (
         title.includes(query) ||
         originalTitle.includes(query) ||
         director.includes(query) ||
-        logline.includes(query) ||
-        synopsis.includes(query)
+        year.includes(query) ||
+        language.includes(query) ||
+        producer.includes(query) ||
+        keywords.includes(query) ||
+        genres.includes(query) ||
+        country.includes(query) ||
+        targetGroup.includes(query) ||
+        festivals.includes(query) ||
+        awards.includes(query) ||
+        screenplay.includes(query) ||
+        dop.includes(query) ||
+        editor.includes(query) ||
+        sound.includes(query) ||
+        art.includes(query) ||
+        music.includes(query)
       );
     });
   }, [allFilms, searchQuery]);
@@ -84,7 +111,7 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
         <div className="grid grid-cols-1 sm:grid-cols-[1fr_auto] gap-3 p-4 sm:p-6 bg-black/40 backdrop-blur-sm border-b border-white/10 sticky top-0 z-10">
           <Input
             type="search"
-            placeholder="Search by title, director, synopsis…"
+            placeholder="Search by title, director, festivals…"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="bg-[#0f0f0f] border-white/20 text-white placeholder:text-gray-500 focus:border-[#C5262A] transition-all text-base sm:text-lg py-4 sm:py-6"
