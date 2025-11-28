@@ -323,9 +323,15 @@ export default function Catalogue() {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="all">All Lengths</SelectItem>
-                  <SelectItem value="short">Short (under 40 min)</SelectItem>
-                  <SelectItem value="mid-length">Mid-length (40-70 min)</SelectItem>
-                  <SelectItem value="full-length">Full-length (over 70 min)</SelectItem>
+                  {filterOptions.lengths.map((len) => (
+                    <SelectItem key={len} value={len}>
+                      {len === "short"
+                        ? "Short (under 40 min)"
+                        : len === "mid-length"
+                        ? "Mid-length (40-70 min)"
+                        : "Full-length (over 70 min)"}
+                    </SelectItem>
+                  ))}
                 </SelectContent>
               </Select>
 
