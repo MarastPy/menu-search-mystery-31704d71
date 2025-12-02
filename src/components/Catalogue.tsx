@@ -47,10 +47,8 @@ export const Catalogue = () => {
   return (
     <section id="catalogue" className="py-12 sm:py-16 px-4 sm:px-8 scroll-mt-[90px]">
       <div className="max-w-[1200px] mx-auto">
-          <h1 className="font-garamond text-[45px] mb-4 text-left font-bold">
-            Line Up Preview
-          </h1>
-          <div className="w-40 h-[2px] bg-border mb-12"></div>
+        <h1 className="font-garamond text-[45px] mb-4 text-left font-bold">Line Up Preview</h1>
+        <div className="w-40 h-[2px] bg-border mb-12"></div>
 
         {loading && <p className="text-center">Loading films...</p>}
         {error && <p className="text-center text-destructive">Error: {error}</p>}
@@ -122,7 +120,7 @@ export const Catalogue = () => {
 
         <div className="text-center mt-8">
           <Button asChild variant="dark" size="lg" className="text-base font-bold">
-            <Link to="/catalogue">ALL FILMS</Link>
+            <Link to="/catalogue">All Films</Link>
           </Button>
         </div>
       </div>
