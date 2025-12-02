@@ -2,7 +2,7 @@ export const Services = () => {
   return (
     <>
       <section className="py-12 sm:py-[90px] bg-white">
-        <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
           <h1 className="font-garamond text-[45px] text-[#222] mb-4 text-left font-bold">For Independent Filmmakers:<br />Take Your Film to the World</h1>
           <div className="w-40 h-[2px] bg-gray-400 mb-12"></div>
           
@@ -25,7 +25,7 @@ export const Services = () => {
       </section>
 
       <section className="py-12 sm:py-[90px] bg-[#f0f2f5]">
-        <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
           <h1 className="font-garamond text-[45px] text-[#222] mb-4 text-left font-bold">For Festivals &amp; Cinemas</h1>
           <div className="w-40 h-[2px] bg-gray-400 mb-12"></div>
           
@@ -49,7 +49,7 @@ export const Services = () => {
       </section>
 
       <section className="py-12 sm:py-[90px] bg-white">
-        <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
           <h1 className="font-garamond text-[45px] text-[#222] mb-4 text-left font-bold">For Film Schools &amp; Institutions</h1>
           <div className="w-40 h-[2px] bg-gray-400 mb-12"></div>
           
@@ -66,7 +66,7 @@ export const Services = () => {
       </section>
 
       <section className="py-12 sm:py-[90px] bg-[#f0f2f5]">
-        <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
           <h1 className="font-garamond text-[45px] text-[#222] mb-4 text-left font-bold">Workshops</h1>
           <div className="w-40 h-[2px] bg-gray-400 mb-12"></div>
           

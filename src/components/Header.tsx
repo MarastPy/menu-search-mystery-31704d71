@@ -31,7 +31,7 @@ export const Header = () => {
       <header
         className="fixed top-0 left-0 right-0 z-[1000] bg-black text-white border-b border-gray-800 h-[90px]"
       >
-        <div className="max-w-[1200px] mx-auto h-full px-4 sm:px-8 lg:px-[2cm] grid grid-cols-[auto_1fr_auto] gap-2 sm:gap-4 items-center">
+        <div className="max-w-[1200px] mx-auto h-full px-4 sm:px-8 grid grid-cols-[auto_1fr_auto] gap-2 sm:gap-4 items-center">
           {/* Logo */}
           <div className="logo-top">
             <Link to="/">

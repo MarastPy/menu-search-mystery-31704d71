@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
   return (
-    <section className="bg-[#2b2b2b] text-[#D9D9D9] py-10 px-6 sm:px-8 lg:px-[2cm] text-center overflow-hidden mt-[60px] sm:mt-[90px]">
+    <section className="bg-[#2b2b2b] text-[#D9D9D9] py-10 px-4 sm:px-8 text-center overflow-hidden mt-[60px] sm:mt-[90px]">
       <div className="max-w-4xl mx-auto space-y-10">
         {/* Logo */}
         <img
