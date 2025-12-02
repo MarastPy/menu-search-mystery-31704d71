@@ -21,10 +21,9 @@ export const Hero = () => {
         <div className="relative max-w-[500px] mx-auto text-center space-y-3 py-8">
           {/* Opening quotation mark */}
           <div
-            className="absolute -left-9 -top-4 text-[7em] text-[#D9D9D9]/50 leading-none"
-            style={{ fontFamily: "Georgia, serif" }}
+            className="absolute -left-9 -top-4 text-[7em] text-[#D9D9D9]/50 font-garamond leading-none"
           >
-            “
+            "
           </div>
 
           <p className="font-garamond text-[13.4px] text-[#D9D9D9] tracking-wide mb-4">
@@ -46,10 +45,9 @@ export const Hero = () => {
 
           {/* Closing quotation mark */}
           <div
-            className="absolute -right-11 -bottom-12 text-[7em] text-[#D9D9D9]/50 leading-none"
-            style={{ fontFamily: "Georgia, serif" }}
+            className="absolute -right-11 -bottom-12 text-[7em] text-[#D9D9D9]/50 font-garamond leading-none"
           >
-            ”
+            "
           </div>
         </div>
 
