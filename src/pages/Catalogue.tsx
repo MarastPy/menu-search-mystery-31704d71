@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Header } from "@/components/Header";
 import { Link } from "react-router-dom";
-import { getFilmPosterPath, getFilmStillPath, getPlaceholderImage } from "@/utils/imageHelpers";
+import { getFilmPosterPath, getFilmStillPaths, getPlaceholderImage } from "@/utils/imageHelpers";
 
 const getRoundedRuntime = (runtimeString: string): string | null => {
   if (!runtimeString) return null;
