@@ -15,7 +15,7 @@ export const Hero = () => {
           Festival strategy | Sales | Distribution
         </h2>
 
-        <hr className="border-white/20 border-t-2 mb-8" />
+        <hr className="border-white/20 border-t-2 mb-10" />
 
         {/* Definition */}
         <div className="relative max-w-[500px] mx-auto text-center space-y-3 py-8">
