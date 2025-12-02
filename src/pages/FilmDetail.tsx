@@ -199,10 +199,44 @@ export default function FilmDetail() {
                   </div>
                 </div>
               )}
+              {/* Video Preview Thumbnail */}
               {film.Trailer_url && (
-                <Button onClick={() => setIsTrailerOpen(true)} className="w-full mt-4">
-                  Watch Trailer
-                </Button>
+                <div 
+                  className="mt-4 relative cursor-pointer group overflow-hidden rounded-lg"
+                  onClick={() => setIsTrailerOpen(true)}
+                >
+                  <div className="aspect-video bg-muted">
+                    <img
+                      src={(() => {
+                        const url = film.Trailer_url;
+                        // Extract YouTube video ID
+                        const youtubeMatch = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+                        if (youtubeMatch) {
+                          return `https://img.youtube.com/vi/${youtubeMatch[1]}/hqdefault.jpg`;
+                        }
+                        // Extract Vimeo video ID
+                        const vimeoMatch = url.match(/vimeo\.com\/(?:video\/)?(\d+)/);
+                        if (vimeoMatch) {
+                          return `https://vumbnail.com/${vimeoMatch[1]}.jpg`;
+                        }
+                        return getPlaceholderImage();
+                      })()}
+                      alt="Trailer preview"
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      onError={(e) => {
+                        e.currentTarget.src = getPlaceholderImage();
+                      }}
+                    />
+                  </div>
+                  {/* Play button overlay */}
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition-colors">
+                    <div className="w-16 h-16 rounded-full bg-white/90 flex items-center justify-center group-hover:scale-110 transition-transform">
+                      <svg className="w-8 h-8 text-black ml-1" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
               )}
 
               {/* Downloads section */}
