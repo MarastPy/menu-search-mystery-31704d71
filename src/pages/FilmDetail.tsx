@@ -178,7 +178,7 @@ export default function FilmDetail() {
               {/* Stills Gallery */}
               {getFilmStillPaths(film).length > 0 && (
                 <div>
-                  <h3 className="text-lg font-serif mb-3">Film Stills</h3>
+                  {/*<h3 className="text-lg font-serif mb-3">Film Stills</h3>*/}
                   <div className="grid grid-cols-3 gap-2">
                     {getFilmStillPaths(film).map((stillPath, idx) => (
                       <div
@@ -565,7 +565,7 @@ export default function FilmDetail() {
           <DialogContent className="max-w-4xl p-0">
             <div className="aspect-video w-full bg-black">
               <iframe
-                src={film.Trailer_url.replace('vimeo.com/', 'player.vimeo.com/video/')}
+                src={film.Trailer_url.replace("vimeo.com/", "player.vimeo.com/video/")}
                 className="w-full h-full"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
