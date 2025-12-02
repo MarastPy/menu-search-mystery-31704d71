@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Header } from "@/components/Header";
 import { Link } from "react-router-dom";
-import { getFilmPosterPath, getPlaceholderImage } from "@/utils/imageHelpers";
+import { getFilmPosterPath, getFilmStillPath, getPlaceholderImage } from "@/utils/imageHelpers";
 
 const getRoundedRuntime = (runtimeString: string): string | null => {
   if (!runtimeString) return null;
@@ -328,8 +328,8 @@ export default function Catalogue() {
                       {len === "short"
                         ? "Short (under 40 min)"
                         : len === "mid-length"
-                        ? "Mid-length (40-70 min)"
-                        : "Full-length (over 70 min)"}
+                          ? "Mid-length (40-70 min)"
+                          : "Full-length (over 70 min)"}
                     </SelectItem>
                   ))}
                 </SelectContent>
@@ -401,7 +401,7 @@ export default function Catalogue() {
                       <div className="bg-card rounded-lg overflow-hidden transition-transform hover:scale-105 h-full flex flex-col">
                         <div className="aspect-video bg-muted relative overflow-hidden flex-shrink-0">
                           <img
-                            src={getFilmPosterPath(film)}
+                            src={getFilmStillPaths(film, 1)[0]}
                             alt={`Still from ${title}`}
                             className="w-full h-full object-cover"
                             onError={(e) => {
