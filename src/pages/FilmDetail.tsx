@@ -174,34 +174,9 @@ export default function FilmDetail() {
                   }}
                 />
               </div>
-
-              {/* Stills Gallery */}
-              {getFilmStillPaths(film).length > 0 && (
-                <div>
-                  {/*<h3 className="text-lg font-serif mb-3">Film Stills</h3>*/}
-                  <div className="grid grid-cols-3 gap-2">
-                    {getFilmStillPaths(film).map((stillPath, idx) => (
-                      <div
-                        key={idx}
-                        className="aspect-video bg-muted rounded overflow-hidden cursor-pointer hover:opacity-75 transition-opacity"
-                        onClick={() => setSelectedImageIndex(idx + 1)}
-                      >
-                        <img
-                          src={stillPath}
-                          alt={`${title} still ${idx + 1}`}
-                          className="w-full h-full object-cover"
-                          onError={(e) => {
-                            e.currentTarget.src = getPlaceholderImage();
-                          }}
-                        />
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
               {/* Video Preview Thumbnail */}
               {film.Trailer_url && (
-                <div 
+                <div
                   className="mt-4 relative cursor-pointer group overflow-hidden rounded-lg"
                   onClick={() => setIsTrailerOpen(true)}
                 >
@@ -210,7 +185,9 @@ export default function FilmDetail() {
                       src={(() => {
                         const url = film.Trailer_url;
                         // Extract YouTube video ID
-                        const youtubeMatch = url.match(/(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+                        const youtubeMatch = url.match(
+                          /(?:youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/,
+                        );
                         if (youtubeMatch) {
                           return `https://img.youtube.com/vi/${youtubeMatch[1]}/hqdefault.jpg`;
                         }
@@ -235,6 +212,30 @@ export default function FilmDetail() {
                         <path d="M8 5v14l11-7z" />
                       </svg>
                     </div>
+                  </div>
+                </div>
+              )}
+              {/* Stills Gallery */}
+              {getFilmStillPaths(film).length > 0 && (
+                <div>
+                  {/*<h3 className="text-lg font-serif mb-3">Film Stills</h3>*/}
+                  <div className="grid grid-cols-3 gap-2">
+                    {getFilmStillPaths(film).map((stillPath, idx) => (
+                      <div
+                        key={idx}
+                        className="aspect-video bg-muted rounded overflow-hidden cursor-pointer hover:opacity-75 transition-opacity"
+                        onClick={() => setSelectedImageIndex(idx + 1)}
+                      >
+                        <img
+                          src={stillPath}
+                          alt={`${title} still ${idx + 1}`}
+                          className="w-full h-full object-cover"
+                          onError={(e) => {
+                            e.currentTarget.src = getPlaceholderImage();
+                          }}
+                        />
+                      </div>
+                    ))}
                   </div>
                 </div>
               )}
