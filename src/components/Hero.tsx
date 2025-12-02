@@ -8,7 +8,7 @@ export const Hero = () => {
         <img
           src="/images/logo/Cinefila_logo_white_web.svg"
           alt="Cinefila Logo"
-          className="max-w-[300px] h-auto mx-auto mb-5 block"
+          className="max-w-[400px] h-auto mx-auto mb-5 block"
         />
 
         <h2 className="font-nunito text-[30px] mb-10 text-[#D9D9D9] font-normal">
