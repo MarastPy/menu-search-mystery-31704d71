@@ -70,7 +70,7 @@ export const Catalogue = () => {
                     <h3 className="font-nunito text-2xl mb-1 group-hover:text-primary transition-colors line-clamp-2">
                       {f.Title_Original || title} {exactMinutes && `| ${exactMinutes} min`} {year && `| ${year}`}
                     </h3>
-                    <p className="text-sm mb-0">by {director}</p>
+                    <p className="text-sm">by {director}</p>
                   </div>
                   <div className="aspect-video bg-muted relative overflow-hidden flex-shrink-0">
                     <img
