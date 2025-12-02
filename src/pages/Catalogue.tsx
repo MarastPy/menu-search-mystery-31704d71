@@ -400,11 +400,11 @@ export default function Catalogue() {
                     <Link key={idx} to={`/film/${slug}`} className="block group h-full">
                       <div className="bg-card rounded-lg overflow-hidden transition-transform hover:scale-105 h-full flex flex-col">
                         <div className="p-5 flex flex-col flex-grow">
-                          <h3 className="font-nunito text-2xl mb-4 group-hover:text-primary transition-colors line-clamp-2">
+                          <h3 className="font-nunito text-2xl mb-1 group-hover:text-primary transition-colors line-clamp-2">
                             {f.Title_Original || title} {exactMinutes && `| ${exactMinutes} min`}{" "}
                             {filmYear && `| ${filmYear}`}
                           </h3>
-                          <p className="text-sm mb-2">by {director}</p>
+                          <p className="text-sm">by {director}</p>
                         </div>
                         <div className="aspect-video bg-muted relative overflow-hidden flex-shrink-0">
                           <img
