@@ -215,6 +215,7 @@ export default function FilmDetail() {
                   </div>
                 </div>
               )}
+
               {/* Stills Gallery */}
               {getFilmStillPaths(film).length > 0 && (
                 <div>
