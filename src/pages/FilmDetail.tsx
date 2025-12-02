@@ -178,7 +178,7 @@ export default function FilmDetail() {
               {/* Video Preview Thumbnail */}
               {film.Trailer_url && (
                 <div
-                  className="mt-4 mb-8 relative cursor-pointer group overflow-hidden rounded-lg"
+                  className="mt-4 mb-4 relative cursor-pointer group overflow-hidden rounded-lg"
                   onClick={() => setIsTrailerOpen(true)}
                 >
                   <div className="aspect-video bg-muted">
