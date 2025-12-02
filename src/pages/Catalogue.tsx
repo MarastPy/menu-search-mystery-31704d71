@@ -404,6 +404,7 @@ export default function Catalogue() {
                             {f.Title_Original || title} {exactMinutes && `| ${exactMinutes} min`}{" "}
                             {filmYear && `| ${filmYear}`}
                           </h3>
+                          <p className="text-sm mb-2">by {director}</p>
                         </div>
                         <div className="aspect-video bg-muted relative overflow-hidden flex-shrink-0">
                           <img
