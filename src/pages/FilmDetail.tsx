@@ -132,7 +132,7 @@ export default function FilmDetail() {
   return (
     <>
       <Header />
-      <main className="min-h-screen pt-20 sm:pt-24 pb-8 sm:pb-16">
+      <main className="min-h-screen pt-20 sm:pt-24 pb-8 sm:pb-16 font-nunito text-[17px]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
           <Link to="/catalogue">
             <Button variant="outline" className="mb-6">
