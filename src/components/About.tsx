@@ -39,7 +39,7 @@ export const About = () => {
           <h1 className="font-garamond text-[45px] text-[#1c1c1c] mb-3 font-bold tracking-tight text-left">
             About us & contacts
           </h1>
-          <div className="w-40 h-[2px] bg-gray-400 mb-12"></div>
+          <div className="w-full h-[2px] bg-gray-400 mb-12"></div>
         </div>
         
         <div className="space-y-16">

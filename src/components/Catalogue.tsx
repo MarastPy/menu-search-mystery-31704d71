@@ -48,7 +48,7 @@ export const Catalogue = () => {
     <section id="catalogue" className="py-12 sm:py-16 px-4 sm:px-8 scroll-mt-[90px]">
       <div className="max-w-[1200px] mx-auto">
         <h1 className="font-garamond text-[45px] mb-4 text-left font-bold">Line Up Preview</h1>
-        <div className="w-40 h-[2px] bg-border mb-12"></div>
+        <div className="w-full h-[2px] bg-border mb-12"></div>
 
         {loading && <p className="text-center">Loading films...</p>}
         {error && <p className="text-center text-destructive">Error: {error}</p>}

@@ -4,7 +4,7 @@ export const Services = () => {
       <section className="py-12 sm:py-[90px] bg-white">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
           <h1 className="font-garamond text-[45px] text-[#222] mb-4 text-left font-bold">For Independent Filmmakers:<br />Take Your Film to the World</h1>
-          <div className="w-40 h-[2px] bg-gray-400 mb-12"></div>
+          <div className="w-full h-[2px] bg-gray-400 mb-12"></div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 text-[#222]">
             <div className="text-justify font-nunito text-[17px]">
@@ -27,7 +27,7 @@ export const Services = () => {
       <section className="py-12 sm:py-[90px] bg-[#f0f2f5]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
           <h1 className="font-garamond text-[45px] text-[#222] mb-4 text-left font-bold">For Festivals &amp; Cinemas</h1>
-          <div className="w-40 h-[2px] bg-gray-400 mb-12"></div>
+          <div className="w-full h-[2px] bg-gray-400 mb-12"></div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 text-[#222]">
             <div className="text-justify font-nunito text-[17px]">
@@ -51,7 +51,7 @@ export const Services = () => {
       <section className="py-12 sm:py-[90px] bg-white">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
           <h1 className="font-garamond text-[45px] text-[#222] mb-4 text-left font-bold">For Film Schools &amp; Institutions</h1>
-          <div className="w-40 h-[2px] bg-gray-400 mb-12"></div>
+          <div className="w-full h-[2px] bg-gray-400 mb-12"></div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 text-[#222]">
             <div className="text-justify font-nunito text-[17px]">
@@ -68,7 +68,7 @@ export const Services = () => {
       <section className="py-12 sm:py-[90px] bg-[#f0f2f5]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
           <h1 className="font-garamond text-[45px] text-[#222] mb-4 text-left font-bold">Workshops</h1>
-          <div className="w-40 h-[2px] bg-gray-400 mb-12"></div>
+          <div className="w-full h-[2px] bg-gray-400 mb-12"></div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 text-[#222]">
             <div className="text-justify font-nunito text-[17px]">

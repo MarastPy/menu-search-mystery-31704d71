@@ -46,7 +46,7 @@ export const News = () => {
       <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
         <div className="mb-16">
           <h1 className="font-garamond text-[45px] text-[#1c1c1c] mb-3 font-bold tracking-tight text-left">News</h1>
-          <div className="w-40 h-[2px] bg-gray-400 mb-12"></div>
+          <div className="w-full h-[2px] bg-gray-400 mb-12"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
