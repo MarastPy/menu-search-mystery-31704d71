@@ -405,6 +405,9 @@ export default function Catalogue() {
                             {filmYear && `| ${filmYear}`}
                           </h3>
                           <p className="text-sm">by {director}</p>
+                          {f.Country_of_production && (
+                            <p className="text-sm">Country of production: {f.Country_of_production}</p>
+                          )}
                         </div>
                         <div className="aspect-video bg-muted relative overflow-hidden flex-shrink-0">
                           <img
