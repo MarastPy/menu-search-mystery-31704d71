@@ -68,11 +68,8 @@ export const Catalogue = () => {
                 <div className="bg-card rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105 h-full flex flex-col">
                   <div className="p-5 flex flex-col flex-grow">
                     <h3 className="font-nunito text-xl mb-1 group-hover:text-primary transition-colors line-clamp-2 min-h-[3.5rem]">
-                      {title}
+                      {title} {exactMinutes && `| ${exactMinutes} min`} {year && `| ${year}`}
                     </h3>
-                    <p className="text-sm text-foreground/70 mb-1">
-                      {exactMinutes && `${exactMinutes} min`} {exactMinutes && year && `|`} {year}
-                    </p>
                     <p className="text-xs text-foreground/70">by {director}</p>
                     {f.Country_of_production && (
                       <p className="text-xs"><span className="font-bold">Country of production:</span> {f.Country_of_production}</p>
