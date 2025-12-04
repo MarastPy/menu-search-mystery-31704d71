@@ -11,7 +11,7 @@ export const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
       // Calculate progress: 0 at top, 1 when hero logo is fully scrolled past
-      const heroLogoEnd = window.innerHeight * 0.5; // When hero logo leaves viewport
+      const heroLogoEnd = window.innerHeight * 0.4; // When hero logo leaves viewport
       const transitionStart = heroLogoEnd * 0.6;
       const transitionEnd = heroLogoEnd;
 
@@ -43,7 +43,7 @@ export const Header = () => {
               opacity: logoProgress,
               transform: `translateY(${(1 - logoProgress) * 30}px) scale(${0.7 + logoProgress * 0.2})`,
               transition: "transform 0.2s ease-out",
-              pointerEvents: logoProgress > 0.4 ? "auto" : "none",
+              pointerEvents: logoProgress > 0.5 ? "auto" : "none",
             }}
           >
             <Link to="/">
