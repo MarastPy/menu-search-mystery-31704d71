@@ -6,12 +6,17 @@ import { Link } from "react-router-dom";
 export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
-  const [showLogo, setShowLogo] = useState(false);
+  const [logoProgress, setLogoProgress] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
-      // Show logo when scrolled past ~80% of viewport height (hero section)
-      setShowLogo(window.scrollY > window.innerHeight * 0.8);
+      // Calculate progress: 0 at top, 1 when hero logo is fully scrolled past
+      const heroLogoEnd = window.innerHeight * 0.5; // When hero logo leaves viewport
+      const transitionStart = heroLogoEnd * 0.6;
+      const transitionEnd = heroLogoEnd;
+      
+      const progress = Math.min(1, Math.max(0, (window.scrollY - transitionStart) / (transitionEnd - transitionStart)));
+      setLogoProgress(progress);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -33,8 +38,16 @@ export const Header = () => {
         className="fixed top-0 left-0 right-0 z-[1000] bg-black text-white border-b border-gray-800 h-[90px]"
       >
         <div className="max-w-[1200px] mx-auto h-full px-4 sm:px-8 grid grid-cols-[auto_1fr_auto] gap-2 sm:gap-4 items-center">
-          {/* Logo - only visible when scrolled past hero */}
-          <div className={`logo-top transition-opacity duration-300 ${showLogo ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+          {/* Logo - animates in from hero position */}
+          <div 
+            className="logo-top"
+            style={{
+              opacity: logoProgress,
+              transform: `translateY(${(1 - logoProgress) * 30}px) scale(${0.8 + logoProgress * 0.2})`,
+              transition: 'transform 0.1s ease-out',
+              pointerEvents: logoProgress > 0.5 ? 'auto' : 'none'
+            }}
+          >
             <Link to="/">
               <img 
                 src="/images/logo/Cinefila_logo_white_web.svg"
