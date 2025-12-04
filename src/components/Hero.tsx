@@ -1,14 +1,33 @@
 import { Button } from "@/components/ui/button";
+import { useState, useEffect } from "react";
 
 export const Hero = () => {
+  const [logoOpacity, setLogoOpacity] = useState(1);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Fade out hero logo as user scrolls
+      const fadeStart = 50;
+      const fadeEnd = window.innerHeight * 0.4;
+      const opacity = Math.max(0, 1 - (window.scrollY - fadeStart) / (fadeEnd - fadeStart));
+      setLogoOpacity(Math.max(0, Math.min(1, opacity)));
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <section className="bg-[#2b2b2b] text-[#D9D9D9] py-8 sm:py-10 px-4 sm:px-8 text-center overflow-hidden mt-[60px] sm:mt-[90px]">
       <div className="max-w-4xl mx-auto space-y-8 sm:space-y-10">
-        {/* Logo */}
+        {/* Logo - fades out and scales down as user scrolls */}
         <img
           src="/images/logo/Cinefila_logo_white_web.svg"
           alt="Cinefila Logo"
-          className="max-w-[280px] sm:max-w-[350px] lg:max-w-[400px] h-auto mx-auto mb-4 sm:mb-5 block"
+          className="max-w-[280px] sm:max-w-[350px] lg:max-w-[400px] h-auto mx-auto mb-4 sm:mb-5 block transition-transform duration-100"
+          style={{
+            opacity: logoOpacity,
+            transform: `scale(${0.9 + logoOpacity * 0.1}) translateY(${(1 - logoOpacity) * -20}px)`
+          }}
         />
 
         <h2 className="font-nunito text-[22px] sm:text-[26px] lg:text-[30px] mb-8 sm:mb-10 text-[#D9D9D9] font-normal">
