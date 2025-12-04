@@ -2,33 +2,33 @@ import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
   return (
-    <section className="bg-[#2b2b2b] text-[#D9D9D9] py-10 px-4 sm:px-8 text-center overflow-hidden mt-[60px] sm:mt-[90px]">
-      <div className="max-w-4xl mx-auto space-y-10">
+    <section className="bg-[#2b2b2b] text-[#D9D9D9] py-8 sm:py-10 px-4 sm:px-8 text-center overflow-hidden mt-[60px] sm:mt-[90px]">
+      <div className="max-w-4xl mx-auto space-y-8 sm:space-y-10">
         {/* Logo */}
         <img
           src="/images/logo/Cinefila_logo_white_web.svg"
           alt="Cinefila Logo"
-          className="max-w-[400px] h-auto mx-auto mb-5 block"
+          className="max-w-[280px] sm:max-w-[350px] lg:max-w-[400px] h-auto mx-auto mb-4 sm:mb-5 block"
         />
 
-        <h2 className="font-nunito text-[30px] mb-10 text-[#D9D9D9] font-normal">
+        <h2 className="font-nunito text-[22px] sm:text-[26px] lg:text-[30px] mb-8 sm:mb-10 text-[#D9D9D9] font-normal">
           Festival strategy | Sales | Distribution
         </h2>
 
-        <hr className="border-white/20 border-t-2 mb-10" />
+        <hr className="border-white/20 border-t-2 mb-8 sm:mb-10" />
 
         {/* Definition */}
-        <div className="relative max-w-[500px] mx-auto text-center space-y-3 py-8">
+        <div className="relative max-w-[500px] mx-auto text-center space-y-3 py-6 sm:py-8 px-6 sm:px-0">
           {/* Opening quotation mark */}
-          <div className="absolute -left-9 -top-4 text-[7em] text-[#D9D9D9]/50 font-garamond leading-none">“</div>
+          <div className="absolute -left-1 sm:-left-9 -top-2 sm:-top-4 text-[4em] sm:text-[5em] lg:text-[7em] text-[#D9D9D9]/50 font-garamond leading-none">"</div>
 
-          <p className="font-garamond text-[14.0px] text-[#D9D9D9] tracking-wide mb-4">
+          <p className="font-garamond text-[12px] sm:text-[13px] lg:text-[15px] text-[#D9D9D9] tracking-wide mb-4">
             cinefila / cinefil / cinéphile / cineast / cinéfilo / σινεφίλ / シネフィル /
           </p>
 
-          <p className="font-garamond text-[13.4px] text-[#D9D9D9]/60 italic mb-6 tracking-wider">noun</p>
+          <p className="font-garamond text-[11px] sm:text-[12px] lg:text-[14px] text-[#D9D9D9]/60 italic mb-6 tracking-wider">noun</p>
 
-          <div className="space-y-3 text-[#D9D9D9] leading-relaxed text-left font-garamond text-[14.0px]">
+          <div className="space-y-3 text-[#D9D9D9] leading-relaxed text-left font-garamond text-[12px] sm:text-[13px] lg:text-[15px]">
             <p className="pl-6 -indent-6">
               <span className="font-semibold">1.</span> A person who lives and breathes the cinema
             </p>
@@ -40,18 +40,18 @@ export const Hero = () => {
           </div>
 
           {/* Closing quotation mark */}
-          <div className="absolute -right-11 -bottom-12 text-[7em] text-[#D9D9D9]/50 font-garamond leading-none">”</div>
+          <div className="absolute -right-1 sm:-right-11 -bottom-10 sm:-bottom-12 text-[4em] sm:text-[5em] lg:text-[7em] text-[#D9D9D9]/50 font-garamond leading-none">"</div>
         </div>
 
-        <hr className="border-white/20 border-t-2 mt-10" />
+        <hr className="border-white/20 border-t-2 mt-8 sm:mt-10" />
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 lg:gap-8 mt-10 flex-wrap">
+        <div className="grid grid-cols-2 sm:flex sm:flex-row justify-center gap-3 sm:gap-4 lg:gap-6 mt-8 sm:mt-10">
           <Button
             asChild
             variant="dark"
             size="lg"
-            className="w-full sm:w-[180px] lg:w-[200px] h-[60px] sm:h-[70px] text-base font-bold"
+            className="w-full sm:w-[160px] lg:w-[180px] h-[50px] sm:h-[60px] lg:h-[70px] text-[13px] sm:text-[14px] lg:text-base font-bold px-2 sm:px-4"
           >
             <a href="#whatcanwedo">What can we do for you</a>
           </Button>
@@ -59,7 +59,7 @@ export const Hero = () => {
             asChild
             variant="dark"
             size="lg"
-            className="w-full sm:w-[180px] lg:w-[200px] h-[60px] sm:h-[70px] text-base font-bold"
+            className="w-full sm:w-[160px] lg:w-[180px] h-[50px] sm:h-[60px] lg:h-[70px] text-[13px] sm:text-[14px] lg:text-base font-bold px-2 sm:px-4"
           >
             <a href="#catalogue">Line Up</a>
           </Button>
@@ -67,7 +67,7 @@ export const Hero = () => {
             asChild
             variant="dark"
             size="lg"
-            className="w-full sm:w-[180px] lg:w-[200px] h-[60px] sm:h-[70px] text-base font-bold"
+            className="w-full sm:w-[160px] lg:w-[180px] h-[50px] sm:h-[60px] lg:h-[70px] text-[13px] sm:text-[14px] lg:text-base font-bold px-2 sm:px-4"
           >
             <a href="#news">News</a>
           </Button>
@@ -75,7 +75,7 @@ export const Hero = () => {
             asChild
             variant="dark"
             size="lg"
-            className="w-full sm:w-[180px] lg:w-[200px] h-[60px] sm:h-[70px] text-base font-bold"
+            className="w-full sm:w-[160px] lg:w-[180px] h-[50px] sm:h-[60px] lg:h-[70px] text-[13px] sm:text-[14px] lg:text-base font-bold px-2 sm:px-4"
           >
             <a href="/workshops">Workshops</a>
           </Button>
@@ -83,7 +83,7 @@ export const Hero = () => {
             asChild
             variant="dark"
             size="lg"
-            className="w-full sm:w-[180px] lg:w-[200px] h-[60px] sm:h-[70px] text-base font-bold"
+            className="col-span-2 sm:col-span-1 w-full sm:w-[160px] lg:w-[180px] h-[50px] sm:h-[60px] lg:h-[70px] text-[13px] sm:text-[14px] lg:text-base font-bold px-2 sm:px-4"
           >
             <a href="#about">About us & contact</a>
           </Button>
