@@ -6,11 +6,12 @@ import { Link } from "react-router-dom";
 export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  const [showLogo, setShowLogo] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
+      // Show logo when scrolled past ~80% of viewport height (hero section)
+      setShowLogo(window.scrollY > window.innerHeight * 0.8);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -32,8 +33,8 @@ export const Header = () => {
         className="fixed top-0 left-0 right-0 z-[1000] bg-black text-white border-b border-gray-800 h-[90px]"
       >
         <div className="max-w-[1200px] mx-auto h-full px-4 sm:px-8 grid grid-cols-[auto_1fr_auto] gap-2 sm:gap-4 items-center">
-          {/* Logo */}
-          <div className="logo-top">
+          {/* Logo - only visible when scrolled past hero */}
+          <div className={`logo-top transition-opacity duration-300 ${showLogo ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
             <Link to="/">
               <img 
                 src="/images/logo/Cinefila_logo_white_web.svg"
