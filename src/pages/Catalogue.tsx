@@ -429,7 +429,7 @@ export default function Catalogue() {
                           <div className="mt-auto pt-4 border-t border-border/50 min-h-[5rem]">
                             {film.Festivals && film.Festivals.length > 0 && (
                               <>
-                                <p className="text-xs font-semibold text-primary mb-2 uppercase tracking-wide">
+                                <p className="text-xs font-bold text-primary mb-2 tracking-wide">
                                   Festival selections:
                                 </p>
                                 <div className="flex flex-wrap gap-1.5">
