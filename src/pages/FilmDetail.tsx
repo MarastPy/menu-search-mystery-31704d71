@@ -145,7 +145,7 @@ export default function FilmDetail() {
           <div className="mb-8">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-nunito mb-2">{title}</h1>
             {f.Title_Original && f.Title_Original !== title && (
-              <p className="text-xl bold text-muted-foreground mb-2">Original title: {f.Title_Original}</p>
+              <p className="text-xl text-muted-foreground mb-2">Original title: {f.Title_Original}</p>
             )}
             <div className="flex flex-wrap gap-4 text-sm">
               {year && <span className="font-bold">{year}</span>} |
