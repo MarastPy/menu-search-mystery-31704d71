@@ -1,7 +1,6 @@
 import { useState, useEffect, useMemo } from "react";
 import { useFilms } from "@/hooks/useFilms";
 import { Film } from "@/types/film";
-import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -432,22 +431,17 @@ export default function Catalogue() {
                                 <p className="text-xs font-bold text-primary mb-2 tracking-wide">
                                   Festival selections:
                                 </p>
-                                <div className="flex flex-wrap gap-1.5">
+                                <ul className="text-[0.7rem] space-y-0.5">
                                   {film.Festivals.slice(0, 3).map((festival, idx) => (
-                                    <Badge
-                                      key={idx}
-                                      variant="outline"
-                                      className="text-[0.7rem] py-0.5 px-2 bg-primary/5 border-primary/30"
-                                    >
-                                      {festival.Name_of_Festival}
-                                    </Badge>
+                                    <li key={idx} className="flex items-start">
+                                      <span className="mr-1.5">•</span>
+                                      <span>{festival.Name_of_Festival}</span>
+                                    </li>
                                   ))}
                                   {film.Festivals.length > 3 && (
-                                    <Badge variant="outline" className="text-[0.7rem] py-0.5 px-2 bg-muted">
-                                      +{film.Festivals.length - 3} more
-                                    </Badge>
+                                    <li className="text-muted-foreground">+{film.Festivals.length - 3} more</li>
                                   )}
-                                </div>
+                                </ul>
                               </>
                             )}
                           </div>

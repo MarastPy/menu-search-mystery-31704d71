@@ -1,6 +1,5 @@
 import { useFilms } from "@/hooks/useFilms";
 import { Film } from "@/types/film";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { getFilmPosterPath, getPlaceholderImage, getFilmStillPaths } from "@/utils/imageHelpers";
@@ -65,7 +64,7 @@ export const Catalogue = () => {
 
             return (
               <Link key={index} to={`/film/${slug}`} className="block group h-full">
-                <div className="bg-card rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105 h-full flex flex-col">
+                <div className="bg-card rounded-lg overflow-hidden transition-transform hover:scale-105 h-full flex flex-col">
                   <div className="p-5 flex flex-col flex-grow">
                     <h3 className="font-nunito text-xl mb-1 group-hover:text-primary transition-colors line-clamp-2 min-h-[3.5rem]">
                       {title} {exactMinutes && `| ${exactMinutes} min`} {year && `| ${year}`}
@@ -99,22 +98,17 @@ export const Catalogue = () => {
                           <p className="text-xs font-semibold text-primary mb-2 uppercase tracking-wide">
                             Festival selections:
                           </p>
-                          <div className="flex flex-wrap gap-1.5">
+                          <ul className="text-[0.7rem] space-y-0.5">
                             {film.Festivals.slice(0, 3).map((festival, idx) => (
-                              <Badge
-                                key={idx}
-                                variant="outline"
-                                className="text-[0.7rem] py-0.5 px-2 bg-primary/5 border-primary/30"
-                              >
-                                {festival.Name_of_Festival}
-                              </Badge>
+                              <li key={idx} className="flex items-start">
+                                <span className="mr-1.5">•</span>
+                                <span>{festival.Name_of_Festival}</span>
+                              </li>
                             ))}
                             {film.Festivals.length > 3 && (
-                              <Badge variant="outline" className="text-[0.7rem] py-0.5 px-2 bg-muted">
-                                +{film.Festivals.length - 3} more
-                              </Badge>
+                              <li className="text-muted-foreground">+{film.Festivals.length - 3} more</li>
                             )}
-                          </div>
+                          </ul>
                         </>
                       )}
                     </div>
