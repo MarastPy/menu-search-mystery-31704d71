@@ -143,9 +143,9 @@ export default function FilmDetail() {
 
           {/* Title section */}
           <div className="mb-8">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif mb-2">Original title: {title}</h1>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif mb-2">{title}</h1>
             {f.Title_Original && f.Title_Original !== title && (
-              <p className="text-xl italic text-muted-foreground mb-2">{f.Title_Original}</p>
+              <p className="text-xl italic text-muted-foreground mb-2">Original title: {f.Title_Original}</p>
             )}
             <div className="flex flex-wrap gap-4 text-sm">
               {year && <span className="font-bold">{year}</span>} |
