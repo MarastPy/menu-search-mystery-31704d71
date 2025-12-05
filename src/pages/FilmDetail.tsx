@@ -245,13 +245,11 @@ export default function FilmDetail() {
               {/* Downloads section */}
               <div className="mt-4 space-y-2">
                 <h3 className="text-lg font-serif mb-2">Downloads</h3>
-                {film.Download_poster && (
-                  <Button asChild variant="outline" className="w-full">
-                    <a href={film.Download_poster} target="_blank" rel="noopener noreferrer">
-                      Poster
-                    </a>
-                  </Button>
-                )}
+                <Button asChild variant="outline" className="w-full">
+                  <a href={getFilmPosterPath(film)} download={`${title.replace(/[^a-z0-9]/gi, '_')}_poster.jpg`}>
+                    Poster
+                  </a>
+                </Button>
                 {film.Download_stills && (
                   <Button asChild variant="outline" className="w-full">
                     <a href={film.Download_stills} target="_blank" rel="noopener noreferrer">
