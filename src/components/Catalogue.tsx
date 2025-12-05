@@ -97,7 +97,7 @@ export const Catalogue = () => {
                       {film.Festivals && film.Festivals.length > 0 && (
                         <>
                           <p className="text-xs font-semibold text-primary mb-2 uppercase tracking-wide">
-                            Featured at:
+                            Festival selections:
                           </p>
                           <div className="flex flex-wrap gap-1.5">
                             {film.Festivals.slice(0, 3).map((festival, idx) => (
