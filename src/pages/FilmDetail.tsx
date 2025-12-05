@@ -143,7 +143,7 @@ export default function FilmDetail() {
 
           {/* Title section */}
           <div className="mb-8">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif mb-2">{title}</h1>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif mb-2">Original title: {title}</h1>
             {f.Title_Original && f.Title_Original !== title && (
               <p className="text-xl italic text-muted-foreground mb-2">{f.Title_Original}</p>
             )}
@@ -246,7 +246,7 @@ export default function FilmDetail() {
               <div className="mt-4 space-y-2">
                 <h3 className="text-lg font-serif mb-2">Downloads</h3>
                 <Button asChild variant="outline" className="w-full">
-                  <a href={getFilmPosterPath(film)} download={`${title.replace(/[^a-z0-9]/gi, '_')}_poster.jpg`}>
+                  <a href={getFilmPosterPath(film)} download={`${title.replace(/[^a-z0-9]/gi, "_")}_poster.jpg`}>
                     Poster
                   </a>
                 </Button>
