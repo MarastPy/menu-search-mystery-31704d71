@@ -143,7 +143,7 @@ export default function FilmDetail() {
 
           {/* Title section */}
           <div className="mb-8">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif mb-2">{title}</h1>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-nunito mb-2">{title}</h1>
             {f.Title_Original && f.Title_Original !== title && (
               <p className="text-xl italic text-muted-foreground mb-2">Original title: {f.Title_Original}</p>
             )}
@@ -220,7 +220,7 @@ export default function FilmDetail() {
               {/* Stills Gallery */}
               {getFilmStillPaths(film).length > 0 && (
                 <div>
-                  {/*<h3 className="text-lg font-serif mb-3">Film Stills</h3>*/}
+                  {/*<h3 className="text-lg font-nunito mb-3">Film Stills</h3>*/}
                   <div className="grid grid-cols-3 gap-2">
                     {getFilmStillPaths(film).map((stillPath, idx) => (
                       <div
@@ -244,7 +244,7 @@ export default function FilmDetail() {
 
               {/* Downloads section */}
               <div className="mt-4 space-y-2">
-                <h3 className="text-lg font-serif mb-2">Downloads</h3>
+                <h3 className="text-lg font-nunito mb-2">Downloads</h3>
                 <Button asChild variant="outline" className="w-full">
                   <a href={getFilmPosterPath(film)} download={`${title.replace(/[^a-z0-9]/gi, "_")}_poster.jpg`}>
                     Poster
@@ -272,7 +272,7 @@ export default function FilmDetail() {
               {/* Genres */}
               {f.Genre_List && f.Genre_List.length > 0 && (
                 <div>
-                  <h3 className="text-xl font-serif mb-2">Genres</h3>
+                  <h3 className="text-xl font-nunito mb-2">Genres</h3>
                   <div className="flex flex-wrap gap-2">
                     {f.Genre_List.map((g, i) => (
                       <Badge key={i} variant="secondary">
@@ -286,7 +286,7 @@ export default function FilmDetail() {
               {/* Logline */}
               {film.Logline && (
                 <div>
-                  <h3 className="text-xl font-serif mb-2">Logline</h3>
+                  <h3 className="text-xl font-nunito mb-2">Logline</h3>
                   <p className="text-foreground/90">{film.Logline}</p>
                 </div>
               )}
@@ -294,7 +294,7 @@ export default function FilmDetail() {
               {/* Synopsis */}
               {film.Synopsis && (
                 <div>
-                  <h3 className="text-xl font-serif mb-2">Synopsis</h3>
+                  <h3 className="text-xl font-nunito mb-2">Synopsis</h3>
                   <p className="text-foreground/90 text-justify">{film.Synopsis}</p>
                 </div>
               )}
@@ -302,7 +302,7 @@ export default function FilmDetail() {
               {/* Director's Note */}
               {film.Directors_Note && (
                 <div>
-                  <h3 className="text-xl font-serif mb-2">Director's Note</h3>
+                  <h3 className="text-xl font-nunito mb-2">Director's Note</h3>
                   <p className="text-foreground/90 text-justify">{film.Directors_Note}</p>
                 </div>
               )}
@@ -310,7 +310,7 @@ export default function FilmDetail() {
               {/* Target Group */}
               {(f.Target_Group?.Rating || f.Target_Group?.Audience) && (
                 <div>
-                  <h3 className="text-xl font-serif mb-2">Target Group</h3>
+                  <h3 className="text-xl font-nunito mb-2">Target Group</h3>
                   <div className="space-y-1">
                     {f.Target_Group.Rating && (
                       <p>
@@ -329,7 +329,7 @@ export default function FilmDetail() {
               {/* Story Topics */}
               {f.Keywords && (
                 <div>
-                  <h3 className="text-xl font-serif mb-2">Story Topics</h3>
+                  <h3 className="text-xl font-nunito mb-2">Story Topics</h3>
                   <p className="text-foreground/90">{f.Keywords}</p>
                 </div>
               )}
@@ -347,7 +347,7 @@ export default function FilmDetail() {
                 film.Producer_Representative ||
                 film.Production_Company) && (
                 <div>
-                  <h2 className="text-2xl font-serif mb-4">Crew</h2>
+                  <h2 className="text-2xl font-nunito mb-4">Crew</h2>
                   <div className="space-y-2">
                     {crew["Director(s)"] && (
                       <div>
@@ -407,7 +407,7 @@ export default function FilmDetail() {
               {/* Cast */}
               {crew.Cast && crew.Cast.length > 0 && (
                 <div>
-                  <h2 className="text-2xl font-serif mb-4">Cast</h2>
+                  <h2 className="text-2xl font-nunito mb-4">Cast</h2>
                   <ul className="list-disc list-inside space-y-1 text-foreground/90">
                     {crew.Cast.map((actor: any, i: number) => (
                       <li key={i}>{typeof actor === "string" ? actor : JSON.stringify(actor)}</li>
@@ -423,7 +423,7 @@ export default function FilmDetail() {
                 film.Technical_Details?.Color ||
                 f.Date_of_completion) && (
                 <div>
-                  <h2 className="text-2xl font-serif mb-4">Tech Specs</h2>
+                  <h2 className="text-2xl font-nunito mb-4">Tech Specs</h2>
                   <div className="space-y-2">
                     {f.Runtime && (
                       <div>
@@ -457,7 +457,7 @@ export default function FilmDetail() {
               {/* Awards */}
               {film.Awards && film.Awards.length > 0 && film.Awards[0].Festival_Section_of_Competition && (
                 <div>
-                  <h2 className="text-2xl font-serif mb-4">Awards</h2>
+                  <h2 className="text-2xl font-nunito mb-4">Awards</h2>
                   <ul className="space-y-2 text-foreground/90">
                     {film.Awards.map(
                       (award, i) =>
@@ -476,7 +476,7 @@ export default function FilmDetail() {
               {/* Festivals */}
               {film.Festivals && film.Festivals.length > 0 && film.Festivals[0].Name_of_Festival && (
                 <div>
-                  <h2 className="text-2xl font-serif mb-4">Festivals</h2>
+                  <h2 className="text-2xl font-nunito mb-4">Festivals</h2>
                   <ul className="space-y-2 text-foreground/90">
                     {film.Festivals.map(
                       (fest, i) =>
@@ -495,7 +495,7 @@ export default function FilmDetail() {
               {/* Director Bio */}
               {film.Director_Bio?.Bio_Text && (
                 <div>
-                  <h2 className="text-2xl font-serif mb-4">Director Biography</h2>
+                  <h2 className="text-2xl font-nunito mb-4">Director Biography</h2>
                   <p className="text-foreground/90 text-justify">{film.Director_Bio.Bio_Text}</p>
                 </div>
               )}
@@ -503,7 +503,7 @@ export default function FilmDetail() {
               {/* Director Filmography */}
               {film.Director_Filmography && film.Director_Filmography.length > 0 && (
                 <div>
-                  <h2 className="text-2xl font-serif mb-4">Director's Filmography</h2>
+                  <h2 className="text-2xl font-nunito mb-4">Director's Filmography</h2>
                   <ul className="list-disc list-inside space-y-1 text-foreground/90">
                     {film.Director_Filmography.map((filmEntry: any, i: number) => (
                       <li key={i}>{typeof filmEntry === "string" ? filmEntry : JSON.stringify(filmEntry)}</li>
@@ -517,19 +517,19 @@ export default function FilmDetail() {
                 <div className="space-y-4">
                   {film.Festival_Distribution_Only && (
                     <div>
-                      <h3 className="text-lg font-serif mb-2">Festival Distribution Only</h3>
+                      <h3 className="text-lg font-nunito mb-2">Festival Distribution Only</h3>
                       <p className="text-foreground/90">{film.Festival_Distribution_Only}</p>
                     </div>
                   )}
                   {film.Sales && (
                     <div>
-                      <h3 className="text-lg font-serif mb-2">Sales</h3>
+                      <h3 className="text-lg font-nunito mb-2">Sales</h3>
                       <p className="text-foreground/90">{film.Sales}</p>
                     </div>
                   )}
                   {film.Status && (
                     <div>
-                      <h3 className="text-lg font-serif mb-2">Status</h3>
+                      <h3 className="text-lg font-nunito mb-2">Status</h3>
                       <p className="text-foreground/90">{film.Status}</p>
                     </div>
                   )}
