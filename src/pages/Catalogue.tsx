@@ -420,7 +420,7 @@ export default function Catalogue() {
                           />
                         </div>
                         <div className="p-5 flex flex-col flex-grow">
-                          <p className="text-sm text-foreground/80 line-clamp-3 mb-2 flex-grow min-h-[3.6rem]">
+                          <p className="text-sm text-foreground/80 mb-2 flex-grow">
                             {film.Logline}
                           </p>
 
