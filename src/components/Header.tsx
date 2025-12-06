@@ -1,26 +1,36 @@
 import { useState, useEffect } from "react";
 import { Menu, Search } from "lucide-react";
 import { SearchOverlay } from "@/components/SearchOverlay";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [logoProgress, setLogoProgress] = useState(0);
+  const location = useLocation();
+  const isMainPage = location.pathname === "/";
 
   useEffect(() => {
+    // On non-main pages, show logo immediately
+    if (!isMainPage) {
+      setLogoProgress(1);
+      return;
+    }
+
     const handleScroll = () => {
       // Calculate progress: 0 at top, 1 when hero logo is fully scrolled past
-      const heroLogoEnd = window.innerHeight * 0.3; // When hero logo leaves viewport
+      const heroLogoEnd = window.innerHeight * 0.3;
       const transitionStart = heroLogoEnd * 0.6;
       const transitionEnd = heroLogoEnd;
 
       const progress = Math.min(1, Math.max(0, (window.scrollY - transitionStart) / (transitionEnd - transitionStart)));
       setLogoProgress(progress);
     };
+    
+    handleScroll(); // Check initial position
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [isMainPage]);
 
   useEffect(() => {
     if (menuOpen) {
