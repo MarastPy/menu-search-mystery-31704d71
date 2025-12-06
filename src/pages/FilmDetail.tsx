@@ -77,7 +77,8 @@ export default function FilmDetail() {
 
       if (foundFilm) {
         const poster = getFilmPosterPath(foundFilm);
-        const stills = getFilmStillPaths(foundFilm);
+        // Get up to 20 stills for the popup gallery navigation
+        const stills = getFilmStillPaths(foundFilm, 20);
         setAllImages([poster, ...stills]);
       }
     }
