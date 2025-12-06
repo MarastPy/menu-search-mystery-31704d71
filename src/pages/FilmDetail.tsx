@@ -68,6 +68,7 @@ export default function FilmDetail() {
   const [film, setFilm] = useState<Film | null>(null);
   const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
   const [allImages, setAllImages] = useState<string[]>([]);
+  const [validStills, setValidStills] = useState<string[]>([]);
   const [isTrailerOpen, setIsTrailerOpen] = useState(false);
 
   useEffect(() => {
@@ -77,9 +78,31 @@ export default function FilmDetail() {
 
       if (foundFilm) {
         const poster = getFilmPosterPath(foundFilm);
-        // Get up to 20 stills for the popup gallery navigation
-        const stills = getFilmStillPaths(foundFilm, 20);
-        setAllImages([poster, ...stills]);
+        // Check which stills actually exist (up to 20)
+        const potentialStills = getFilmStillPaths(foundFilm, 20);
+        
+        // Validate each still by attempting to load it
+        const checkStills = async () => {
+          const validPaths: string[] = [];
+          for (const stillPath of potentialStills) {
+            const exists = await new Promise<boolean>((resolve) => {
+              const img = new Image();
+              img.onload = () => resolve(true);
+              img.onerror = () => resolve(false);
+              img.src = stillPath;
+            });
+            if (exists) {
+              validPaths.push(stillPath);
+            } else {
+              // Stop checking once we find a missing image
+              break;
+            }
+          }
+          setValidStills(validPaths);
+          setAllImages([poster, ...validPaths]);
+        };
+        
+        checkStills();
       }
     }
   }, [slug, allFilms, loading]);
@@ -219,11 +242,10 @@ export default function FilmDetail() {
               )}
 
               {/* Stills Gallery - Show only first 3, rest available in popup */}
-              {getFilmStillPaths(film).length > 0 && (
+              {validStills.length > 0 && (
                 <div>
-                  {/*<h3 className="text-lg font-nunito mb-3">Film Stills</h3>*/}
                   <div className="grid grid-cols-3 gap-2">
-                    {getFilmStillPaths(film).slice(0, 3).map((stillPath, idx) => (
+                    {validStills.slice(0, 3).map((stillPath, idx) => (
                       <div
                         key={idx}
                         className="aspect-video bg-muted rounded overflow-hidden cursor-pointer hover:opacity-75 transition-opacity"
@@ -233,9 +255,6 @@ export default function FilmDetail() {
                           src={stillPath}
                           alt={`${title} still ${idx + 1}`}
                           className="w-full h-full object-cover"
-                          onError={(e) => {
-                            e.currentTarget.src = getPlaceholderImage();
-                          }}
                         />
                       </div>
                     ))}
