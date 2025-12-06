@@ -403,6 +403,375 @@
   },
   {
     "Film": {
+      "Title_Original": "Il Formaggio",
+      "Title_English": "Cheese",
+      "Title_Other": "",
+      "Language_Original": "italian",
+      "Language_Subtitles": "english",
+      "Country_of_production": "Italian",
+      "Date_of_completion": "O1.01.2022",
+      "Runtime": "00:11:28",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "experimental"
+      ],
+      "Genre_Other": "opera",
+      "Keywords": "cheese, cat, mouse, opera,",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "",
+    "Synopsis": "",
+    "Directors_Note": "",
+    "Crew": {
+      "Director(s)": "",
+      "Screenplay_writer(s)": "",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "",
+      "Sound_director(s)": "",
+      "Art_director(s)": "",
+      "Music_composer(s)": "",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": ""
+    },
+    "Director_Filmography": [],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "2D computer",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": "ProRes, h264"
+      },
+      "Resolution": "HD: 1920X1080",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Stereo (2.0, L+R)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "cheese.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Betonová džungle",
+      "Title_English": "The concrete jungle",
+      "Title_Other": "",
+      "Language_Original": "without dialogue",
+      "Language_Subtitles": "none",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "",
+      "Runtime": "00:07:35",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "adventure",
+        "fairytale"
+      ],
+      "Genre_Other": "",
+      "Keywords": "fantasy, adventure, jungle, road, sounds, housing estate, neighbor",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "The thrilling story of a little boy in a housing estate, where even the world's greatest adventure can take place.",
+    "Synopsis": "Concrete Jungle is a short animated film dealing with children's imagination and its boundlessness. When a neighbor drilling to the wall, who knows what the child is chasing at the sound he does not know and cannot classify.",
+    "Directors_Note": "",
+    "Crew": {
+      "Director(s)": "Marie Urbánková",
+      "Screenplay_writer(s)": "Rudolf Král",
+      "Director(s)_of_Photography": "Jaroslav Fišer",
+      "Editor(s)": "",
+      "Sound_director(s)": "Tomáš Kozelka",
+      "Art_director(s)": "Marie Urbánková",
+      "Music_composer(s)": "Miroslav Chaloupka",
+      "Cast": [
+        "Milda Frýdl: boy",
+        "Zbyšek Puntucek: aborigines"
+      ]
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": "Marie Urbánková, 1995, Prague. First she studied scenography at the SUPŠ. Then, she continued her studies at the Prague UMPRUM, majoring in film and television graphics, where she is currently continuing her master's degree. She illustrates and collaborates with Raketa magazine, illustrated three books, and others are in the process!"
+    },
+    "Director_Filmography": [],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "puppet",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "25",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Stereo (2.0, L+R)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "FAMU - Film and TV School of the Academy of Performing Arts in Prague",
+        "Address": "Smetanovo nábřeží 2",
+        "Postal code, city": "116 65, Prague 1",
+        "Country": "Czech Republic",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "MAUR film",
+        "Address": "Revoluční 1403/28",
+        "Postal code, city": "110 00 Praha 1",
+        "Country": "Czech Republic",
+        "WEB": ""
+      }
+    },
+    "Source_File": "concrete_jungle.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Odpusť",
+      "Title_English": "Don´t blow it up",
+      "Title_Other": "Gonflées",
+      "Language_Original": "without dialogue",
+      "Language_Subtitles": "none",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "14.2.2022",
+      "Runtime": "00:08:18",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation"
+      ],
+      "Genre_Other": "",
+      "Keywords": "animation, for kids, forgivness, education",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "A short film about how hard it can sometimes be forgiving.",
+    "Synopsis": "Two little girls are playing with a ball. But after a petty quarrel, they get angry with each other and take offense. Their umbrage makes them inflate like balloons, they fly all the way up to the clouds. Girls get stuck up there, with no idea how to get down and save their kitten stuck in the tree.",
+    "Directors_Note": "A person learns how to forgive all of his life, even though he encounters this concept early in his childhood. The saying“to forgive is divine”always rings true, even if it is sometimes difficult. And for small children, it is even more complicated, because they are just learning how to deal with their emotions. I am a mother of two little girls and I quickly found out how difficult it is sometimes, to explain basic behavioral patterns. That is why I decided to make this film.",
+    "Crew": {
+      "Director(s)": "Alžbeta Mačáková Mišejková",
+      "Screenplay_writer(s)": "Alžbeta Mačáková Mišejková",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "Alexander Kashcheev, Lucie Hecht",
+      "Sound_director(s)": "Tomáš Kozelka",
+      "Art_director(s)": "Alžbeta Mačáková Mišejková",
+      "Music_composer(s)": "Magdaléna Mišejková",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": "Alžbeta Mačáková Mišejková studied at art high school of Václav Hollar, where she continued with interactive animation studies.  Mačáková Mišejková is a graduate of animation at the FAMU in Prague. Currently, she is on maternity leave with two children."
+    },
+    "Director_Filmography": [],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "drawing on paper",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.85 (\"flat format\")",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Stereo (3.1, LCRS)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "FAMU - Film and TV School of the Academy of Performing Arts in Prague",
+        "Address": "Smetanovo nábřeží 2",
+        "Postal code, city": "116 65, Prague 1",
+        "Country": "Czech Republic",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "MAUR film",
+        "Address": "Revoluční 1403/28",
+        "Postal code, city": "110 00 Praha 1",
+        "Country": "Czech Republic",
+        "WEB": ""
+      }
+    },
+    "Source_File": "don't_blow_it_up.html"
+  },
+  {
+    "Film": {
       "Title_Original": "První hlídka",
       "Title_English": "First Patrol",
       "Title_Other": "",
@@ -1295,6 +1664,251 @@
       }
     },
     "Source_File": "i_died_in_irpin.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Máma má vždycky pravdu",
+      "Title_English": "Mom is always right",
+      "Title_Other": "Maman a toujours raison",
+      "Language_Original": "czech / english, french dubbing",
+      "Language_Subtitles": "english",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "O1.01.2022",
+      "Runtime": "00:07:39",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "comedy",
+        "family"
+      ],
+      "Genre_Other": "",
+      "Keywords": "mom, parent, children, family, love, friendship, care, childhood traumas",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "What would happen if mum was always right?",
+    "Synopsis": "Mirek has a huge belly and nobody knows why. Diets and strenuous exercise don't help. His big belly causes many complications. The simple act of putting on socks turns into a hellish mission. We follow the stories of several heroes, each with unusual troubles. Where do they stem from?",
+    "Directors_Note": "Film based on established parental sayings that are meant to warn children not to do certain things, as this can have far-reaching consequences. These consequences are taken to their extremes in my film through playful exaggeration. At the most general level, I focus on how seriously children can take those parental threats, and how much they carry them with them into adulthood, even though they know that after eating the seeds, watermelon will not grow in their bellies and others..",
+    "Crew": {
+      "Director(s)": "Marie Urbánková",
+      "Screenplay_writer(s)": "Marie Urbánková, David Dvořák",
+      "Director(s)_of_Photography": "Marie Urbánková, Jaroslav Fišer",
+      "Editor(s)": "Juraj Ondruš",
+      "Sound_director(s)": "Martin Večera",
+      "Art_director(s)": "Marie Urbánková",
+      "Music_composer(s)": "Kateřina Koutná KAT",
+      "Cast": [
+        "Milda Frýdl: boy",
+        "Zbyšek Puntucek: aborigines"
+      ]
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": "Marie Urbánková, 1995, Prague. First she studied scenography at the SUPŠ. Then, she continued her studies at the Prague UMPRUM, majoring in film and television graphics, where she is currently continuing her master's degree. She illustrates and collaborates with Raketa magazine, illustrated three books. During her studies she made a short animated film for children, \"The Concrete Jungle\". She graduated with a master's film \"Mom is always right\"."
+    },
+    "Director_Filmography": [],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "stop-motion",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": "h264"
+      },
+      "Resolution": "HD: 1920X1080",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Stereo (2.0, L+R)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "FAMU - Film and TV School of the Academy of Performing Arts in Prague",
+        "Address": "Smetanovo nábřeží 2",
+        "Postal code, city": "116 65, Prague 1",
+        "Country": "Czech Republic",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "MAUR film",
+        "Address": "Revoluční 1403/28",
+        "Postal code, city": "110 00 Praha 1",
+        "Country": "Czech Republic",
+        "WEB": ""
+      }
+    },
+    "Source_File": "mom_is_always_right.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Síla",
+      "Title_English": "Out in force",
+      "Title_Other": "",
+      "Language_Original": "",
+      "Language_Subtitles": "",
+      "Country_of_production": "",
+      "Date_of_completion": "",
+      "Runtime": "",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [],
+      "Genre_Other": "",
+      "Keywords": "",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "",
+    "Synopsis": "",
+    "Directors_Note": "",
+    "Crew": {
+      "Director(s)": "",
+      "Screenplay_writer(s)": "",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "",
+      "Sound_director(s)": "",
+      "Art_director(s)": "",
+      "Music_composer(s)": "",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": ""
+    },
+    "Director_Filmography": [],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "out_in_force.html"
   },
   {
     "Film": {
@@ -2575,8 +3189,8 @@
   },
   {
     "Film": {
-      "Title_Original": "VLČEK",
-      "Title_English": "WOLFIE",
+      "Title_Original": "Vlček",
+      "Title_English": "Wolfie",
       "Title_Other": "",
       "Language_Original": "without dialogue",
       "Language_Subtitles": "",
