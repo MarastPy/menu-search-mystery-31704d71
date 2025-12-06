@@ -217,12 +217,12 @@ export default function FilmDetail() {
                 </div>
               )}
 
-              {/* Stills Gallery */}
+              {/* Stills Gallery - Show only first 3, rest available in popup */}
               {getFilmStillPaths(film).length > 0 && (
                 <div>
                   {/*<h3 className="text-lg font-nunito mb-3">Film Stills</h3>*/}
                   <div className="grid grid-cols-3 gap-2">
-                    {getFilmStillPaths(film).map((stillPath, idx) => (
+                    {getFilmStillPaths(film).slice(0, 3).map((stillPath, idx) => (
                       <div
                         key={idx}
                         className="aspect-video bg-muted rounded overflow-hidden cursor-pointer hover:opacity-75 transition-opacity"
