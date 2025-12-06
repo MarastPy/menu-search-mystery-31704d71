@@ -26,7 +26,7 @@ export const Hero = () => {
           className="max-w-[280px] sm:max-w-[350px] lg:max-w-[400px] h-auto mx-auto mb-4 sm:mb-5 block transition-transform duration-100"
           style={{
             opacity: logoOpacity,
-            transform: `scale(${0.9 + logoOpacity * 0.1}) translateY(${(1 - logoOpacity) * -20}px)`
+            transform: `scale(${0.9 + logoOpacity * 0.1}) translateY(${(1 - logoOpacity) * -20}px)`,
           }}
         />
 
@@ -86,7 +86,7 @@ export const Hero = () => {
             size="lg"
             className="w-full sm:w-[160px] lg:w-[180px] h-[50px] sm:h-[60px] lg:h-[70px] text-[13px] sm:text-[14px] lg:text-base font-bold px-2 sm:px-4"
           >
-            <a href="#catalogue">Line Up</a>
+            <a href="/catalogue">Line Up</a>
           </Button>
           <Button
             asChild
