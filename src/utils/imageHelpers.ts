@@ -8,6 +8,7 @@ export const getFilmFolderName = (film: Film): string => {
   const title = film.Film.Title_English || film.Film.Title_Original || '';
   return title
     .toLowerCase()
+    .replace(/[''´`]/g, '') // Remove apostrophes first
     .replace(/[^a-z0-9]+/g, '_')
     .replace(/^_|_$/g, '');
 };
