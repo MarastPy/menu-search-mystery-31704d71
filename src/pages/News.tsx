@@ -1,4 +1,5 @@
 import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -138,6 +139,7 @@ export default function News() {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 }

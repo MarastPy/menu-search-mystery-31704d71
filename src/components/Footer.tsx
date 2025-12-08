@@ -85,7 +85,7 @@ export const Footer = () => {
               </div>
             </div>
 
-            <p className="text-white/60 text-[0.9rem] font-light">&copy; 2025 Cinefila. All rights reserved.</p>
+            <p className="text-white/60 text-[0.9rem] font-light text-center">&copy; {new Date().getFullYear()} Cinefila. All rights reserved.</p>
           </div>
         </div>
       </div>
