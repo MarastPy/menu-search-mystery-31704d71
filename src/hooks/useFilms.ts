@@ -9,9 +9,11 @@ export const useFilms = () => {
   useEffect(() => {
     const fetchFilms = async () => {
       try {
+        // Cache-busting: append timestamp to ensure fresh data
+        const cacheBuster = `?t=${Date.now()}`;
         const [filmsResponse, additionalResponse] = await Promise.all([
-          fetch('/data/all_html_data.json'),
-          fetch('/data/aditional_info.json')
+          fetch(`/data/all_html_data.json${cacheBuster}`),
+          fetch(`/data/aditional_info.json${cacheBuster}`)
         ]);
 
         if (!filmsResponse.ok || !additionalResponse.ok) {
