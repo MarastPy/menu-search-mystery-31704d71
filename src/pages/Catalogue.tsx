@@ -8,7 +8,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Link } from "react-router-dom";
-import { getFilmStillPaths, getPlaceholderImage } from "@/utils/imageHelpers";
+import { getFilmPosterPath, getPlaceholderImage } from "@/utils/imageHelpers";
 import { ChevronDown, X } from "lucide-react";
 
 const getRoundedRuntime = (runtimeString: string): string | null => {
@@ -563,8 +563,8 @@ export default function Catalogue() {
                         </div>
                         <div className="aspect-video bg-muted relative overflow-hidden flex-shrink-0">
                           <img
-                            src={getFilmStillPaths(film, 1)[0]}
-                            alt={`Still from ${title}`}
+                            src={getFilmPosterPath(film)}
+                            alt={`Poster for ${title}`}
                             className="w-full h-full object-cover"
                             onError={(e) => {
                               e.currentTarget.src = getPlaceholderImage();
