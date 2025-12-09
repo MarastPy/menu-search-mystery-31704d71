@@ -192,7 +192,7 @@ export default function FilmDetail() {
   return (
     <>
       <Header />
-      <main className="min-h-screen pt-20 sm:pt-24 pb-8 sm:pb-16 font-nunito text-[17px] bg-[#1c1c1c] text-white">
+      <main className="min-h-screen pt-20 sm:pt-24 pb-8 sm:pb-16 font-nunito text-[17px] text-white">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
           {/* Title section */}
           <div className="mb-8">
