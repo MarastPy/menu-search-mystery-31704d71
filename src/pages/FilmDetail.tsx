@@ -641,12 +641,6 @@ export default function FilmDetail() {
                 )}
               </div>
 
-              <hr className="border-white/20" />
-
-              {/* Contact Section */}
-              
-                </div>
-              </div>
             </div>
           </div>
         </div>
