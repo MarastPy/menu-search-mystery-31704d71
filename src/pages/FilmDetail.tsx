@@ -195,6 +195,7 @@ export default function FilmDetail() {
                 <span className="text-lg text-white font-bold">{capitalizeFirst(f.Title_Original)}</span>
               </div>
             )}
+            <hr className="border-white/20 my-4" />
             <div className="flex flex-wrap gap-4 text-sm text-white">
               {year && <span className="font-bold">{year}</span>} |
               {f.Runtime && <span className="font-bold">{formatRuntime(film)}</span>} |
@@ -202,8 +203,6 @@ export default function FilmDetail() {
               {f.Language_Original && <span className="font-light">Language: {f.Language_Original}</span>}
             </div>
           </div>
-
-          <hr className="border-white/20 mb-8" />
 
           {/* Main content grid */}
           <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-8 mb-8">
