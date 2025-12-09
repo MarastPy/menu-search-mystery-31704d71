@@ -265,20 +265,13 @@ export default function FilmDetail() {
                 </div>
               )}
 
-              {/* Stills Gallery - Show only first 3, rest available in popup */}
+              {/* Stills Gallery - Show only first still, rest available in popup */}
               {validStills.length > 0 && (
-                <div>
-                  <div className="grid grid-cols-3 gap-2">
-                    {validStills.slice(0, 3).map((stillPath, idx) => (
-                      <div
-                        key={idx}
-                        className="aspect-video bg-muted rounded overflow-hidden cursor-pointer hover:opacity-75 transition-opacity"
-                        onClick={() => setSelectedImageIndex(idx + 1)}
-                      >
-                        <img src={stillPath} alt={`${title} still ${idx + 1}`} className="w-full h-full object-cover" />
-                      </div>
-                    ))}
-                  </div>
+                <div
+                  className="aspect-video bg-muted rounded overflow-hidden cursor-pointer hover:opacity-75 transition-opacity"
+                  onClick={() => setSelectedImageIndex(1)}
+                >
+                  <img src={validStills[0]} alt={`${title} still 1`} className="w-full h-full object-cover" />
                 </div>
               )}
 
