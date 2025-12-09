@@ -265,13 +265,22 @@ export default function FilmDetail() {
                 </div>
               )}
 
-              {/* Stills Gallery - Show only first still, rest available in popup */}
+              {/* Stills Gallery - Show first 3 with decorative arrows */}
               {validStills.length > 0 && (
-                <div
-                  className="aspect-video bg-muted rounded overflow-hidden cursor-pointer hover:opacity-75 transition-opacity"
-                  onClick={() => setSelectedImageIndex(1)}
-                >
-                  <img src={validStills[0]} alt={`${title} still 1`} className="w-full h-full object-cover" />
+                <div className="flex items-center gap-2">
+                  <ChevronLeft className="w-6 h-6 text-muted-foreground flex-shrink-0" />
+                  <div className="grid grid-cols-3 gap-2 flex-1">
+                    {validStills.slice(0, 3).map((stillPath, idx) => (
+                      <div
+                        key={idx}
+                        className="aspect-video bg-muted rounded overflow-hidden cursor-pointer hover:opacity-75 transition-opacity"
+                        onClick={() => setSelectedImageIndex(idx + 1)}
+                      >
+                        <img src={stillPath} alt={`${title} still ${idx + 1}`} className="w-full h-full object-cover" />
+                      </div>
+                    ))}
+                  </div>
+                  <ChevronRight className="w-6 h-6 text-muted-foreground flex-shrink-0" />
                 </div>
               )}
 
