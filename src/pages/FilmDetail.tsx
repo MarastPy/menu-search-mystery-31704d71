@@ -265,11 +265,10 @@ export default function FilmDetail() {
                 </div>
               )}
 
-              {/* Stills Gallery - Show first 3 with decorative arrows */}
+              {/* Stills Gallery - Show first 3 with decorative arrows inside */}
               {validStills.length > 0 && (
-                <div className="flex items-center gap-2">
-                  <ChevronLeft className="w-6 h-6 text-muted-foreground flex-shrink-0" />
-                  <div className="grid grid-cols-3 gap-2 flex-1">
+                <div className="relative">
+                  <div className="grid grid-cols-3 gap-2">
                     {validStills.slice(0, 3).map((stillPath, idx) => (
                       <div
                         key={idx}
@@ -280,7 +279,8 @@ export default function FilmDetail() {
                       </div>
                     ))}
                   </div>
-                  <ChevronRight className="w-6 h-6 text-muted-foreground flex-shrink-0" />
+                  <ChevronLeft className="absolute left-2 top-1/2 -translate-y-1/2 w-6 h-6 text-white/70" />
+                  <ChevronRight className="absolute right-2 top-1/2 -translate-y-1/2 w-6 h-6 text-white/70" />
                 </div>
               )}
 
