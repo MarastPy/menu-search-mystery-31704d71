@@ -532,15 +532,15 @@ export default function FilmDetail() {
               )}
 
               {/* Awards */}
-              {film.Awards && film.Awards.length > 0 && film.Awards[0].Festival_Section_of_Competition && (
+              {film.Awards && film.Awards.length > 0 && film.Awards.some(a => a.Festival_Section_of_Competition || a.Country || a.Date) && (
                 <div>
                   <h2 className="text-2xl font-garamond font-bold mb-4 text-white">Awards</h2>
                   <ul className="space-y-2 text-white/90 font-light">
                     {film.Awards.map(
                       (award, i) =>
-                        award.Festival_Section_of_Competition && (
+                        (award.Festival_Section_of_Competition || award.Country || award.Date) && (
                           <li key={i}>
-                            <span className="font-bold">{award.Festival_Section_of_Competition}</span>
+                            {award.Festival_Section_of_Competition && <span className="font-bold">{award.Festival_Section_of_Competition}</span>}
                             {award.Country && <span> ({award.Country})</span>}
                             {award.Date && <span className="text-white/60"> - {award.Date}</span>}
                           </li>
