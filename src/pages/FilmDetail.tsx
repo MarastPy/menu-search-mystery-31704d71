@@ -320,19 +320,56 @@ export default function FilmDetail() {
 
             {/* Right column - All text content */}
             <div className="space-y-8">
-              {/* Genres */}
-              {f.Genre_List && f.Genre_List.length > 0 && (
-                <div>
-                  <h3 className="text-xl font-garamond font-bold mb-2 text-white">Genres</h3>
-                  <div className="flex flex-wrap gap-2">
-                    {f.Genre_List.map((g, i) => (
-                      <Badge key={i} variant="secondary" className="bg-white/10 text-white border-white/20">
-                        {g}
-                      </Badge>
-                    ))}
+              {/* Status, Distribution & Genres Group */}
+              <div className="space-y-4">
+                {/* Status, Sales, Festival Distribution */}
+                {(film.Status || film.Sales || film.Festival_Distribution_Only === "yes") && (
+                  <div className="flex flex-wrap gap-3 text-white">
+                    {film.Status && (
+                      <div className="flex items-center gap-2">
+                        <span className="text-white/70 text-sm uppercase tracking-wide">Status:</span>
+                        <Badge variant="secondary" className="bg-white/10 text-white border-white/20">
+                          {film.Status}
+                        </Badge>
+                      </div>
+                    )}
+                    {film.Festival_Distribution_Only === "yes" && (
+                      <div className="flex items-center gap-2">
+                        <Badge variant="secondary" className="bg-white/10 text-white border-white/20">
+                          Festival Distribution Only
+                        </Badge>
+                      </div>
+                    )}
+                    {film.Sales && (
+                      <div className="flex items-center gap-2">
+                        <span className="text-white/70 text-sm uppercase tracking-wide">Sales:</span>
+                        <a 
+                          href={film.Sales.startsWith('http') ? film.Sales : `https://${film.Sales}`} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="text-white underline hover:text-white/80 transition-colors"
+                        >
+                          {film.Sales}
+                        </a>
+                      </div>
+                    )}
                   </div>
-                </div>
-              )}
+                )}
+
+                {/* Genres */}
+                {f.Genre_List && f.Genre_List.length > 0 && (
+                  <div>
+                    <h3 className="text-xl font-garamond font-bold mb-2 text-white">Genres</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {f.Genre_List.map((g, i) => (
+                        <Badge key={i} variant="secondary" className="bg-white/10 text-white border-white/20">
+                          {g}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
 
               {/* Logline */}
               {film.Logline && (
