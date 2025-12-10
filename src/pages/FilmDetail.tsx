@@ -189,7 +189,7 @@ export default function FilmDetail() {
           {/* Title section */}
           <div className="mb-8">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-garamond font-bold mb-4 text-white">{title}</h1>
-            {f.Title_Original && f.Title_Original !== title && (
+            {f.Title_Original && (
               <div className="mb-4">
                 <span className="text-lg text-white/70 uppercase tracking-wide font-light">ORIGINAL TITLE: </span>
                 <span className="text-lg text-white font-bold">{capitalizeFirst(f.Title_Original)}</span>
