@@ -278,13 +278,13 @@ export default function FilmDetail() {
                       </div>
                     ))}
                   </div>
-                  <button 
+                  <button
                     onClick={() => setSelectedImageIndex(1)}
                     className="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 bg-white rounded-full flex items-center justify-center hover:bg-white/80 transition-colors"
                   >
                     <ChevronLeft className="w-5 h-5 text-black" />
                   </button>
-                  <button 
+                  <button
                     onClick={() => setSelectedImageIndex(validStills.length)}
                     className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 bg-white rounded-full flex items-center justify-center hover:bg-white/80 transition-colors"
                   >
@@ -572,7 +572,7 @@ export default function FilmDetail() {
               {/* Director Bio with Photo */}
               {film.Director_Bio?.Bio_Text && (
                 <div>
-                  <h2 className="text-2xl font-garamond font-bold mb-4 text-white">Director Biography</h2>
+                  <h2 className="text-2xl font-garamond font-bold mb-4 text-white">Director's Biography</h2>
                   <div className="flex flex-col sm:flex-row gap-6">
                     {directorPhotoExists && directorPhotoPath && (
                       <div className="flex-shrink-0">
