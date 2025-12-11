@@ -1,0 +1,3786 @@
+[
+  {
+    "Film": {
+      "Title_Original": "O krávě",
+      "Title_English": "About a cow",
+      "Title_Other": "",
+      "Language_Original": "Without dialogue",
+      "Language_Subtitles": "None",
+      "Country_of_production": "Czech Republic, Switzerland",
+      "Date_of_completion": "23.05.2023",
+      "Runtime": "00:12:50",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "children"
+      ],
+      "Genre_Other": "",
+      "Keywords": "animals, cow, envrionmental issues, humanity, ecology, humor",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "family",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "08/2023",
+        "Country": "Switzerland",
+        "Name_of_place_of_premiere": "Locarno Film Festival"
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "11/2023",
+        "Country": "Estonia",
+        "Name_of_Festival": "PÖFF Shorts - Black Nights Film Festival"
+      },
+      {
+        "Date": "06/2024",
+        "Country": "China",
+        "Name_of_Festival": "Shanghai International Film Festival"
+      },
+      {
+        "Date": "10/2023",
+        "Country": "Korea",
+        "Name_of_Festival": "Bucheon International Animation Festival"
+      },
+      {
+        "Date": "11/2025",
+        "Country": "Italy",
+        "Name_of_Festival": "Reggio Film Festival"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "09/2024",
+        "Country": "Switzerland",
+        "Festival_Section_of_Competition": "Fantoche International Animation Film Festival - NEW SWISS TALENT award"
+      }
+    ],
+    "Logline": "A mosaic of cow stories from around the world shows them as sensitive, complex creatures, blending humour and poetry to spark empathy and hope.",
+    "Synopsis": "An imaginative and playful collage of images from the life of cows. A mosaic of small stories in which cows experience positive and negative moments, depicts the life of an animal in a global world and its relationship with humans. The visually colourful images portray the cow as a sensitive creature worthy of admiration.",
+    "Directors_Note": "With my film, I aim to offer a positive contribution to the climate debate by encouraging reflection on the life of an animal—here, a cow—and the need to see every creature as a complex being, not just part of an economic system. Though based on facts I gathered over a year and a half, the film isn’t meant as radical or purely documentary. Using animated collage, I tell cow stories from around the world in a playful, distanced way, showing how a cow’s life can mirror the world itself.",
+    "Crew": {
+      "Director(s)": "Pavla Baštanová",
+      "Screenplay_writer(s)": "Eva Prchalová",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "Jan Daňhel",
+      "Sound_director(s)": "Peter Bräker",
+      "Art_director(s)": "",
+      "Music_composer(s)": "Peter Bräker",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": "Pavla Baštanová is a Prague-based animator and illustrator. A graduate of the Academy of Arts, Architecture and Design, she debuted with Mukumů (2017), later published as a children’s book. Her films include Among Trees (2015) and I Can’t Swim (2016). She illustrates books and magazines, works with classical graphic techniques, and creates animated projects such as visuals for IFF Juniorfest. She also animated on The Crossing and The Falling Star. Nature and animals are central to her work."
+    },
+    "Director_Filmography": [
+      "Mezi Stromy (Among Trees), 2015",
+      "Neumím plavat (I Can’t Swim), 2016",
+      "Mukumů, 2017"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "2D computer",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "25",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.85 (\"flat format\")",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Martin Vandas, Alena Vandasová, Mária Moťovská",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "MAUR Film",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "Sereina Gabathuler, Dschoint Ventschr Filmproduktion",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "Switzerland",
+        "WEB": ""
+      }
+    },
+    "Source_File": "about_a_cow.html",
+    "Ranking": "1",
+    "Review": "Milan Marčetić",
+    "Festival_Distribution_Only": "Milan Marčetić",
+    "Sales": "Milan Marčetić",
+    "Status": "Milan Marčetić",
+    "Download_poster": "Milan Marčetić",
+    "Download_stills": "Milan Marčetić",
+    "Download_presskit": "Milan Marčetić",
+    "Sharing": "Milan Marčetić",
+    "Trailer_url": "https://vimeo.com/1031297187?p=0s"
+  },
+  {
+    "Film": {
+      "Title_Original": "Amber Tale",
+      "Title_English": "Amber Tale",
+      "Title_Other": "",
+      "Language_Original": "Without dialogue",
+      "Language_Subtitles": "",
+      "Country_of_production": "Lithuania",
+      "Date_of_completion": "26.01.2026",
+      "Runtime": "00:12:30",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "tales",
+        "poetic"
+      ],
+      "Genre_Other": "",
+      "Keywords": "legend, mythology, love, amber, destiny, goddess, sea, fisherman",
+      "Target_Group": {
+        "Rating": "12+",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "A dramatic Baltic Sea legend rooted in Lithuanian mythology: the forbidden love between a sea goddess and a mortal defies even the gods.",
+    "Synopsis": "When fisherman Kastytis hauls in a fateful catch, he stirs the ire of the gods — yet destiny leads him to Jūratė, the sea goddess who loves him beyond divine law. Their forbidden bond awakens Thunder’s wrath, shattering her amber palace, but not their love - from its tears, Baltic amber is born.",
+    "Directors_Note": "As a creator, I’m drawn to the fragility and power of love. In Amber Tale, the sea goddess’s devotion to a mortal embodies this paradox: her sacrifice, transforming into amber to protect him, is both defeat and transcendence. The film’s visual language reflects amber’s warmth, transparency, and texture, like viewing ancient jewelry under magnification — revealing trapped light, emotion, time, and myth.",
+    "Crew": {
+      "Director(s)": "Ged Sia",
+      "Screenplay_writer(s)": "Rita Domonyi, Ged Sia",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "",
+      "Sound_director(s)": "Julius Grigelionis",
+      "Art_director(s)": "Šarūnas Mikulskis",
+      "Music_composer(s)": "Domas Strupinskas",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "03.05.1979",
+      "Bio_Text": "Ged Sia (Gediminas Šiaulys) is an award-winning Lithuanian director, visual artist, and animator. He is the only creator in Lithuania to have received all three top national creative awards —the Golden Stage Cross, the Silver Crane, and the Golden Arrow. His works and interviews have been published in major international art and design magazines. In 2007, Ged Sia’s animated film Kaukai won key national and international awards,and he was the first Lithuanian artist to win the Young Guns award from the Art Directors Club in New York."
+    },
+    "Director_Filmography": [
+      "Kaukai (Running Lights, 2017)"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": "3D CGI"
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "3D computer",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "Maya",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": ""
+      },
+      "Resolution": "2K",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Laurynas Kublickas, Šarūnas Mikulskis, Dagne Vildžiūnaitė",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "BroProduction, UAB ”Kitchen department”",
+        "Address": "Palangos g.16-2",
+        "Postal code, city": "92281, Klaipėda",
+        "Country": "Lithuania",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "amber_tale.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Plešouni",
+      "Title_English": "Baldies - What About My Hair?",
+      "Title_Other": "",
+      "Language_Original": "Czech / English",
+      "Language_Subtitles": "English",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "20. 01. 2026",
+      "Runtime": "00:09:47",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "children",
+        "comedy",
+        "fairytale"
+      ],
+      "Genre_Other": "",
+      "Keywords": "childhood, illness, medicine, friendship, humour",
+      "Target_Group": {
+        "Rating": "6+",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "Brave kids battling cancer turn hospital days into imaginative adventures, showing that even bald heroes can laugh, play, and stay strong.",
+    "Synopsis": "Baldies – What About My Hair? is an animated short about a fearless group of kids battling cancer who meet in hospital and turn their fight into an adventure. Using imagination, humour, and gentle metaphors, the film shows that a kid with cancer is still a kid—ready to laugh, play, and prove that being bald is cool.",
+    "Directors_Note": "",
+    "Crew": {
+      "Director(s)": "Eliška Soffer Podzimek",
+      "Screenplay_writer(s)": "Steen Agro",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "Georgy Barklaya",
+      "Sound_director(s)": "Jan Rádr, Jakub Johánek, Lukáš Tvrdoň",
+      "Art_director(s)": "Eliška Soffer Podzimek",
+      "Music_composer(s)": "Marek Doubrava, Jakub Johánek",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "27.03.1992",
+      "Bio_Text": "Czech multimedia artist Eliška Soffer Podzimek uses humour, technical skill and distinctive design to build an international career as an animator, illustrator and digital creator. Combining live-action, video and hand-drawn animation, she has made award-winning films, music videos and campaigns for brands like Vogue and Jamie Oliver. Now back in Prague, her experience as a teenage cancer survivor inspired the “Baldies” project supporting sick kids."
+    },
+    "Director_Filmography": [
+      "Babls (Bubbles), 2013"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "3D computer",
+      "Animation_Technique_Other": "2D + 3D animation",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Oldrich Company s.r.o. (Jiří Sádek, Jindřich Trčka)",
+        "Address": "Badeniho 290/1",
+        "Postal code, city": "160 00 Praha 6",
+        "Country": "",
+        "WEB": "oldrich.rocks"
+      },
+      "Production_Company": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "baldies.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Il Formaggio",
+      "Title_English": "Cheese",
+      "Title_Other": "",
+      "Language_Original": "italian",
+      "Language_Subtitles": "english",
+      "Country_of_production": "Italian",
+      "Date_of_completion": "O1.01.2022",
+      "Runtime": "00:11:28",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "experimental"
+      ],
+      "Genre_Other": "opera",
+      "Keywords": "cheese, cat, mouse, opera,",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "",
+    "Synopsis": "",
+    "Directors_Note": "",
+    "Crew": {
+      "Director(s)": "",
+      "Screenplay_writer(s)": "",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "",
+      "Sound_director(s)": "",
+      "Art_director(s)": "",
+      "Music_composer(s)": "",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": ""
+    },
+    "Director_Filmography": [],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "2D computer",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": "ProRes, h264"
+      },
+      "Resolution": "HD: 1920X1080",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Stereo (2.0, L+R)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "cheese.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Betonová džungle",
+      "Title_English": "The concrete jungle",
+      "Title_Other": "",
+      "Language_Original": "without dialogue",
+      "Language_Subtitles": "none",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "",
+      "Runtime": "00:07:35",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "adventure",
+        "fairytale"
+      ],
+      "Genre_Other": "",
+      "Keywords": "fantasy, adventure, jungle, road, sounds, housing estate, neighbor",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "The thrilling story of a little boy in a housing estate, where even the world's greatest adventure can take place.",
+    "Synopsis": "Concrete Jungle is a short animated film dealing with children's imagination and its boundlessness. When a neighbor drilling to the wall, who knows what the child is chasing at the sound he does not know and cannot classify.",
+    "Directors_Note": "",
+    "Crew": {
+      "Director(s)": "Marie Urbánková",
+      "Screenplay_writer(s)": "Rudolf Král",
+      "Director(s)_of_Photography": "Jaroslav Fišer",
+      "Editor(s)": "",
+      "Sound_director(s)": "Tomáš Kozelka",
+      "Art_director(s)": "Marie Urbánková",
+      "Music_composer(s)": "Miroslav Chaloupka",
+      "Cast": [
+        "Milda Frýdl: boy",
+        "Zbyšek Puntucek: aborigines"
+      ]
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": "Marie Urbánková, 1995, Prague. First she studied scenography at the SUPŠ. Then, she continued her studies at the Prague UMPRUM, majoring in film and television graphics, where she is currently continuing her master's degree. She illustrates and collaborates with Raketa magazine, illustrated three books, and others are in the process!"
+    },
+    "Director_Filmography": [],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "puppet",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "25",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Stereo (2.0, L+R)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "FAMU - Film and TV School of the Academy of Performing Arts in Prague",
+        "Address": "Smetanovo nábřeží 2",
+        "Postal code, city": "116 65, Prague 1",
+        "Country": "Czech Republic",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "MAUR film",
+        "Address": "Revoluční 1403/28",
+        "Postal code, city": "110 00 Praha 1",
+        "Country": "Czech Republic",
+        "WEB": ""
+      }
+    },
+    "Source_File": "concrete_jungle.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Odpusť",
+      "Title_English": "Don´t blow it up",
+      "Title_Other": "Gonflées",
+      "Language_Original": "without dialogue",
+      "Language_Subtitles": "none",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "14.2.2022",
+      "Runtime": "00:08:18",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation"
+      ],
+      "Genre_Other": "",
+      "Keywords": "animation, for kids, forgivness, education",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "A short film about how hard it can sometimes be forgiving.",
+    "Synopsis": "Two little girls are playing with a ball. But after a petty quarrel, they get angry with each other and take offense. Their umbrage makes them inflate like balloons, they fly all the way up to the clouds. Girls get stuck up there, with no idea how to get down and save their kitten stuck in the tree.",
+    "Directors_Note": "A person learns how to forgive all of his life, even though he encounters this concept early in his childhood. The saying“to forgive is divine”always rings true, even if it is sometimes difficult. And for small children, it is even more complicated, because they are just learning how to deal with their emotions. I am a mother of two little girls and I quickly found out how difficult it is sometimes, to explain basic behavioral patterns. That is why I decided to make this film.",
+    "Crew": {
+      "Director(s)": "Alžbeta Mačáková Mišejková",
+      "Screenplay_writer(s)": "Alžbeta Mačáková Mišejková",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "Alexander Kashcheev, Lucie Hecht",
+      "Sound_director(s)": "Tomáš Kozelka",
+      "Art_director(s)": "Alžbeta Mačáková Mišejková",
+      "Music_composer(s)": "Magdaléna Mišejková",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": "Alžbeta Mačáková Mišejková studied at art high school of Václav Hollar, where she continued with interactive animation studies.  Mačáková Mišejková is a graduate of animation at the FAMU in Prague. Currently, she is on maternity leave with two children."
+    },
+    "Director_Filmography": [],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "drawing on paper",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.85 (\"flat format\")",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Stereo (3.1, LCRS)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "FAMU - Film and TV School of the Academy of Performing Arts in Prague",
+        "Address": "Smetanovo nábřeží 2",
+        "Postal code, city": "116 65, Prague 1",
+        "Country": "Czech Republic",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "MAUR film",
+        "Address": "Revoluční 1403/28",
+        "Postal code, city": "110 00 Praha 1",
+        "Country": "Czech Republic",
+        "WEB": ""
+      }
+    },
+    "Source_File": "don't_blow_it_up.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "První hlídka",
+      "Title_English": "First Patrol",
+      "Title_Other": "",
+      "Language_Original": "Czech",
+      "Language_Subtitles": "English",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "01.01.2025",
+      "Runtime": "00:18:10",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "drama",
+        "crime",
+        "psychological"
+      ],
+      "Genre_Other": "",
+      "Keywords": "police work, true crime, mass shooting, first responders",
+      "Target_Group": {
+        "Rating": "15+",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "May 2025",
+        "Country": "France",
+        "Name_of_Festival": "Brest European Short Film Festival"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "Two small-town cops are first on the scene of a mass shooting—and must act fast with hostages still inside.",
+    "Synopsis": "A routine day for two small-town policemen, young Pavel and experienced Michal, is turned upside down when they become the first patrol to arrive at the scene of a mass shooting at a restaurant with hostages still inside. Despite being professionals, the two colleagues are afraid, disagree about how to proceed, and make mistakes.",
+    "Directors_Note": "I drew inspiration for First Patrol from the 2015 tragedy in Uherský Brod, the Czech Republic’s first mass shooting. The title reflects both the officers’ arrival as the first patrol and Czech society’s first encounter with such violence. Rather than a reconstruction, the film offers an immersive journey placing us in the patrol car with first responders, who witness the horror yet remain human above all.",
+    "Crew": {
+      "Director(s)": "Vojtěch Konečný",
+      "Screenplay_writer(s)": "Jan Dvořáček, Vojtěch Konečný",
+      "Director(s)_of_Photography": "Filip Hájek",
+      "Editor(s)": "Enis Saraci",
+      "Sound_director(s)": "Jan Strnad",
+      "Art_director(s)": "Anna Machátová",
+      "Music_composer(s)": "Tomáš Borl",
+      "Cast": [
+        "František Beleš",
+        "Pavel Řezníček"
+      ]
+    },
+    "Director_Bio": {
+      "Date_of_birth": "03.07.1995",
+      "Bio_Text": "Vojtěch Konečný is completing the MA film directing course at FAMU. He graduated from University of the Arts London, BA (Hons) Film and TV course. He is one of the founders of the film production company nukleon frame. His short It Can Be Any Day was the finalist for the Magnesia Award for Best Student Film of 2023 at the Czech Lions film awards."
+    },
+    "Director_Filmography": [
+      "Doprovázení [It can be any day] (2023)",
+      "Růžička ve tmě [Rose in the Dark] (2022)"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "Sony Venice",
+      "Anamorphic_Lens": "Yes",
+      "Animation_Technique": "",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": ""
+      },
+      "Resolution": "4k",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "",
+      "Aspect_Ratio_Other": "2:1",
+      "Sound_Mix": "Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "nukleon frame",
+        "Address": "Davídkova 2375/29",
+        "Postal code, city": "180 00 Praha 8",
+        "Country": "Czech Republic",
+        "WEB": "nukleonframe.cz"
+      },
+      "Production_Company": {
+        "Name": "FAMU - Film and TV School of the Academy of Performing Arts in Prague",
+        "Address": "Smetanovo nábřeží 2",
+        "Postal code, city": "116 65 Praha 1",
+        "Country": "Czech Republic",
+        "WEB": "famu.cz"
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "first_patrol.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Křehce",
+      "Title_English": "Gently",
+      "Title_Other": "",
+      "Language_Original": "Without dialogue",
+      "Language_Subtitles": "",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "20.01.2026",
+      "Runtime": "00:08:44",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "ani-doc"
+      ],
+      "Genre_Other": "",
+      "Keywords": "domestic violence, child, rage, run away, alcoholism, charcoal animation",
+      "Target_Group": {
+        "Rating": "12+",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "Charcoal animation reveals the fear of home through the eyes of a little boy who has to be constantly on alert and ready to escape.",
+    "Synopsis": "A seemingly ordinary childhood seen through the eyes of a little boy. Hand-drawn charcoal animation and intense sound design reveal the fear of home that forces the boy to be constantly on alert and ready to flee. The film conveys the child's bodily experience on screen, drawing inspiration from the real childhood memories of four adults.",
+    "Directors_Note": "I feel grateful to have the opportunity to create my own films, I wanted to dedicate the film to people who don’t and whose stories deserve to be heard. I wanted the animation to convey how they felt at home as children. The expressive nature of charcoal helped me emphasize the subjective perspective of the child protagonist. I wanted to capture the fear they encountered every day and their need to escape from a dysfunctional home during difficult moments – whether mentally or physically.",
+    "Crew": {
+      "Director(s)": "Jamaica Kindlová",
+      "Screenplay_writer(s)": "Jamaica Kindlová",
+      "Director(s)_of_Photography": "Filip Kovář",
+      "Editor(s)": "",
+      "Sound_director(s)": "Jan Strnad",
+      "Art_director(s)": "",
+      "Music_composer(s)": "",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": "Jamaica Kindlová is an animator and director, who focuses on documentary themes. Besides film, she is interested in illustration and puppet theater. Touching Darkness, a sand-animation film she created at FAMU, has been selected for many film festivals and won several awards including the Pavel Koutecký Award for best short documentary."
+    },
+    "Director_Filmography": [
+      "Dotknout se tmy/Touching Darkness, 2024",
+      "Uvnitř/Inside, 2022",
+      "Nalov/Hunt, 2022"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "",
+      "Animation_Technique_Other": "Charcoal animation",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": ""
+      },
+      "Resolution": "HD: 1920X1080",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Digital 7.1 (5.1 + Lss, Rss)",
+      "Sound_Mix_Other": "",
+      "Colour": "Black & White",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Tereza Havlová, BATCH Film s.r.o.",
+        "Address": "Pálavská 15",
+        "Postal code, city": "323 00 Pilsen",
+        "Country": "Czech Republic",
+        "WEB": "batchfilm.eu"
+      },
+      "Production_Company": {
+        "Name": "Studio FAMU, Tomáš Šimon",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "gently.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Hatker",
+      "Title_English": "Hatker",
+      "Title_Other": "",
+      "Language_Original": "Without dialogue",
+      "Language_Subtitles": "None",
+      "Country_of_production": "Argentina",
+      "Date_of_completion": "2025",
+      "Runtime": "00:07:33",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "absurd"
+      ],
+      "Genre_Other": "",
+      "Keywords": "hat, power, telephone, office, control, work, Kafka",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "1.4.2025",
+        "Country": "Argentina",
+        "Name_of_place_of_premiere": "BAFICI - Buenos Aires International Festival of Independent Cinema"
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "06/2025",
+        "Country": "France",
+        "Name_of_Festival": "Annecy Festival"
+      },
+      {
+        "Date": "11/2025",
+        "Country": "Germany",
+        "Name_of_Festival": "Braunschweig International Film Festival"
+      },
+      {
+        "Date": "09/2025",
+        "Country": "Ukraine",
+        "Name_of_Festival": "Kyiv International Short Film Festival"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "In a world ruled by a mysterious telephone, power shifts from a distant force to the people themselves—revealing how the oppressed become oppressors.",
+    "Synopsis": "Late at night in a shabby office, workers are stuck to the ceiling by their hats, blindly doing their jobs. Oblivious to the absurdity, they vanish one by one when an old phone rings. Only Hatker dares to face reality — turning their Kafkaesque world upside down.",
+    "Directors_Note": "Hatker explores the theme of power, symbolized by a telephone dictating behavior from afar. As the story unfolds, power proves decentralized—internalized and reproduced by individuals themselves. Inspired by my own experience in a corporate office, the film uses the metaphor of “hats” to represent the roles we adopt until the protagonist chooses to break free by taking his off.",
+    "Crew": {
+      "Director(s)": "Alejandro Ariel Martin",
+      "Screenplay_writer(s)": "Alejandro Ariel Martin, Florencia Pilotti",
+      "Director(s)_of_Photography": "Alejandro Ariel Martin",
+      "Editor(s)": "Alejandro Ariel Martin",
+      "Sound_director(s)": "Santiago Zecca",
+      "Art_director(s)": "Carolina Cairo",
+      "Music_composer(s)": "Hermes Scipioni",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": "Alejandro Ariel Martin is an Argentinian Film Director. He has a degree in Social Communication from the UNR and a postgraduate degree in Creative Communication from the Autonomous University of Barcelona.\nHe is the director and scriptwriter of the short film “Epirenov” (2020) and “Hatker” (2025)."
+    },
+    "Director_Filmography": [
+      "Epirenov, 2020",
+      "Hatker, 2025"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "stop-motion",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": ""
+      },
+      "Resolution": "HD: 1920X1080",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.85 (\"flat format\")",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Alejandro Ariel Martin, Florencia Pilotti",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "Epirenov",
+        "Address": "",
+        "Postal code, city": "Rosario",
+        "Country": "Argentina",
+        "WEB": "epirenov.com"
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "hatker.html",
+    "Ranking": "2",
+    "Review": "Milan Marčetić",
+    "Festival_Distribution_Only": "Milan Marčetić",
+    "Sales": "Milan Marčetić",
+    "Status": "Milan Marčetić",
+    "Download_poster": "Milan Marčetić",
+    "Download_stills": "Milan Marčetić",
+    "Download_presskit": "Milan Marčetić",
+    "Sharing": "Milan Marčetić",
+    "Trailer_url": "https://vimeo.com/1071588543?p=0s"
+  },
+  {
+    "Film": {
+      "Title_Original": "Domov",
+      "Title_English": "Home",
+      "Title_Other": "",
+      "Language_Original": "Russian",
+      "Language_Subtitles": "English, Czech",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "01.03.2025",
+      "Runtime": "00:05:43",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "Yes",
+      "Genre_List": [
+        "animation",
+        "poetic"
+      ],
+      "Genre_Other": "",
+      "Keywords": "home, thoughts, journey, sense of security, feelings, connection, soul, diary, freedom, bird",
+      "Target_Group": {
+        "Rating": "12+",
+        "Audience": "general audience",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "May 2025",
+        "Country": "Germany",
+        "Name_of_place_of_premiere": "Neisse Film Festival"
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "May 2025",
+        "Country": "Czech Republic",
+        "Name_of_Festival": "Anifilm, Liberec"
+      },
+      {
+        "Date": "June 2025",
+        "Country": "Argentina",
+        "Name_of_Festival": "Stop Motion Our Fest"
+      },
+      {
+        "Date": "August 2025",
+        "Country": "Israel",
+        "Name_of_Festival": "ANIMIX - International Animation & Comics Festival"
+      },
+      {
+        "Date": "June 2025",
+        "Country": "Czech Republic",
+        "Name_of_Festival": "International Film Festival for Children and Youth - ZLÍN"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "An auteur short animated documentary exploring the inner feelings of home. What does home mean to each of us?",
+    "Synopsis": "An auteur film on the theme of inner feelings of home. What is home for each of us? Where is this place located? What is it connected to? Is home a specific place, or is home within us? A journey around the world in search of that \"home\" - the place where you feel you belong. Where you are safe and among your own.",
+    "Directors_Note": "I really liked studying and living in the Czech Republic, but throughout my studies I kept thinking about my home, about my family that I left behind in Belarus. Being a foreigner was not as easy as I thought. I had to go through many hardships, but the hardest was homesickness and family. This feeling tormented me, the thoughts didn't want to leave my head and I decided to release these emotions in my work.",
+    "Crew": {
+      "Director(s)": "Anastasiya Skarko",
+      "Screenplay_writer(s)": "Anastasiya Skarko",
+      "Director(s)_of_Photography": "N/A",
+      "Editor(s)": "N/A",
+      "Sound_director(s)": "Miroslav Chaloupka",
+      "Art_director(s)": "N/A",
+      "Music_composer(s)": "Yaraslau Dubashynski",
+      "Cast": [
+        "Kateřina Marečková"
+      ]
+    },
+    "Director_Bio": {
+      "Date_of_birth": "05.09.1998",
+      "Bio_Text": "Anastasiya was born in Minsk, Belarus. Since 2018, she has worked as an art editor at the magazine of satire and humor \"Vozhik\". In 2020-2024 she studied animation at the Ladislav Sutnar Faculty of Design and Art at the University of West Bohemia in Pilsen."
+    },
+    "Director_Filmography": [
+      "Jak vám mohu pomoci? (How can I help you?), 2022 - one episode from the eight-part Czech television animated series"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "-",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "mixed media",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "Adobe After Effects",
+      "Digital_Audio_Workstation": "-",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "HD: 1920X1080",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)",
+      "Sound_Mix_Other": "",
+      "Colour": "Black & White",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Maur Film, Martin Vandas",
+        "Address": "",
+        "Postal code, city": "Prague",
+        "Country": "Czech Republic",
+        "WEB": "maurfilm.com"
+      },
+      "Production_Company": {
+        "Name": "University of Bohemia",
+        "Address": "",
+        "Postal code, city": "Pilsen",
+        "Country": "Czech Republic",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "Anastasiya Skarko",
+        "Address": "99-11 Geologicheskaya Street",
+        "Postal code, city": "Minsk",
+        "Country": "Republic of Belarus",
+        "WEB": "Predlogik57@mail.com"
+      }
+    },
+    "Source_File": "home.html",
+    "Ranking": "4",
+    "Review": "Milan Marčetić",
+    "Festival_Distribution_Only": "Milan Marčetić",
+    "Sales": "Milan Marčetić",
+    "Status": "Milan Marčetić",
+    "Download_poster": "Milan Marčetić",
+    "Download_stills": "Milan Marčetić",
+    "Download_presskit": "Milan Marčetić",
+    "Sharing": "Milan Marčetić",
+    "Trailer_url": "https://vimeo.com/1031297187?p=0s"
+  },
+  {
+    "Film": {
+      "Title_Original": "Jackovo divoké srdce",
+      "Title_English": "Hot Blood",
+      "Title_Other": "",
+      "Language_Original": "",
+      "Language_Subtitles": "",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "01.01.2026",
+      "Runtime": "00:12:00",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "western"
+      ],
+      "Genre_Other": "neo western",
+      "Keywords": "",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "",
+    "Synopsis": "Jackovo divoké srdce (Hot blood) is a short animated neowestern film that explores the theme of broken friendships, often leaving behind a sense of something unspoken, unresolved. In this visually inventive tale, Jack embarks on a quest to find his former friend Hank Craven in hopes of reclaiming the guitar that Hank took from him twenty years.",
+    "Directors_Note": "",
+    "Crew": {
+      "Director(s)": "Jan B. Piskač",
+      "Screenplay_writer(s)": "",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "",
+      "Sound_director(s)": "",
+      "Art_director(s)": "",
+      "Music_composer(s)": "",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": ""
+    },
+    "Director_Filmography": [],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "stop-motion",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "FAMU",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "AZN kru",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "hot_blood.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Humanity",
+      "Title_English": "Humanity",
+      "Title_Other": "",
+      "Language_Original": "without dialogue",
+      "Language_Subtitles": "",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "12.05.2024",
+      "Runtime": "00:07:46",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "comedy"
+      ],
+      "Genre_Other": "",
+      "Keywords": "bad habits, annoyance, laughter, revenge, emotions",
+      "Target_Group": {
+        "Rating": "12+",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "05/2024",
+        "Country": "Czech Republic",
+        "Name_of_place_of_premiere": "Anifilm"
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "06/2024",
+        "Country": "Slovakia",
+        "Name_of_Festival": "Fest Anča"
+      },
+      {
+        "Date": "06/2024",
+        "Country": "Croatia",
+        "Name_of_Festival": "Animafest Zagreb"
+      },
+      {
+        "Date": "10/2024",
+        "Country": "Argentina",
+        "Name_of_Festival": "ANIMA, Córdoba International Animation Festival"
+      },
+      {
+        "Date": "08/2025",
+        "Country": "Israel",
+        "Name_of_Festival": "ANIMIX - International Animation & Comics Festival"
+      },
+      {
+        "Date": "08/2025",
+        "Country": "Canada",
+        "Name_of_Festival": "Anim sur le Lac"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "11/2024",
+        "Country": "USA",
+        "Festival_Section_of_Competition": "Denver Film Festival - 2024 Marilyn Marsh Saint-Veltri Award for Best Student Animation Short"
+      },
+      {
+        "Date": "01/2025",
+        "Country": "France",
+        "Festival_Section_of_Competition": "Premier Plans Film Festival - the Prix du Public"
+      },
+      {
+        "Date": "04/2025",
+        "Country": "Italy",
+        "Festival_Section_of_Competition": "Bref International Short Film Festival - the Special Mention from the Critics' Jury"
+      },
+      {
+        "Date": "05/2025",
+        "Country": "Italy",
+        "Festival_Section_of_Competition": "Stop-eMotion Days in Venice - the Starewicz Prize (award for best student/debut short film)"
+      },
+      {
+        "Date": "11/2025",
+        "Country": "Germany",
+        "Festival_Section_of_Competition": "Wiesbaden International Festival of Animation- „Best of International Animation: New Generations“"
+      },
+      {
+        "Date": "10/2025",
+        "Country": "Poland",
+        "Festival_Section_of_Competition": "Etiuda & Anima International Film Festival - Marcin Podolec’s mention"
+      },
+      {
+        "Date": "05/2025",
+        "Country": "Spain",
+        "Festival_Section_of_Competition": "Bilbao Fantastic Film Festival - the best short film in Fantasy Panorama Section"
+      },
+      {
+        "Date": "09/2025",
+        "Country": "Spain",
+        "Festival_Section_of_Competition": "Galician Freaky Film Festival - the winner of the “Olimpo dos Freaks”"
+      }
+    ],
+    "Logline": "Unleash your darkest desires in a world where annoying habits meet their fatal demise.",
+    "Synopsis": "Dark comedy about something we all do - we hate other people for trivial reasons. Life is hard even without having to tolerate other people's annoying habits. The problem is you can't kill somebody just because they chew too loudly. But in this animated world, you can make all your dark visions of fatal revenge a reality.",
+    "Directors_Note": "The idea for this film crystallized from years of experiences and encounters with the annoying humankind. Right after reminding you of what bothers you about people, it showcases all the things you can't do to them in reality. I see this film as a form of therapy, allowing me to creatively explore these unpleasant emotions and not keep them bottled up inside. Instead of silently hating each other, we can laugh and perhaps reflect on how loudly we are munching our popcorn.",
+    "Crew": {
+      "Director(s)": "Tereza Kovandová",
+      "Screenplay_writer(s)": "Lukáš Hrdý, Tereza Kovandová",
+      "Director(s)_of_Photography": "Ondřej Nedvěd",
+      "Editor(s)": "Lívia Vrabeľ",
+      "Sound_director(s)": "Jakub Trš",
+      "Art_director(s)": "",
+      "Music_composer(s)": "Jakub Trš",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": "An illustrator, animator, storyboard artist, and film director. She finished her master's studies in animation at FAMU Prague with the film Humanity. Her silhouette stop-motion bachelor film Bloody Fairy Tales was screened in more than 20 countries, and selected to festivals such as KVIFF, Milano Film Festival, Interfilm, and Anima Brussels."
+    },
+    "Director_Filmography": [
+      "Zhola nic (Nothing at all), 2017",
+      "Krvavé pohádky (Bloody Fairy Tales), 2018"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": "digital"
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "puppet",
+      "Animation_Technique_Other": "live action",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": ""
+      },
+      "Resolution": "2K",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.85 (\"flat format\")",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Kristína Škodová",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "FAMU",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "humanity.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "I died in Irpin",
+      "Title_English": "I died in Irpin",
+      "Title_Other": "",
+      "Language_Original": "Ukrainian voiceover",
+      "Language_Subtitles": "English",
+      "Country_of_production": "Czech Republic, Slovakia, Ukraine",
+      "Date_of_completion": "2024",
+      "Runtime": "00:11:22",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "autobiographical",
+        "documentary",
+        "drama",
+        "animation"
+      ],
+      "Genre_Other": "",
+      "Keywords": "escape, war, survival",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "06/2024",
+        "Country": "France",
+        "Name_of_place_of_premiere": "Annecy Festival"
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "01/2025",
+        "Country": "France",
+        "Name_of_Festival": "Festival Premiers Plans"
+      },
+      {
+        "Date": "02/2025",
+        "Country": "Francie",
+        "Name_of_Festival": "Festival International du Court Métrage de Clermont-Ferrand"
+      },
+      {
+        "Date": "04/2025",
+        "Country": "Germany",
+        "Name_of_Festival": "International Short Film Festival Oberhausen"
+      },
+      {
+        "Date": "10/2024",
+        "Country": "Korea",
+        "Name_of_Festival": "Bucheon International Animation Festival"
+      },
+      {
+        "Date": "09/2024",
+        "Country": "Canada",
+        "Name_of_Festival": "Ottawa Animation International Film Festival"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "02/2025",
+        "Country": "France",
+        "Festival_Section_of_Competition": "Festival International du Court Métrage de Clermont-Ferrand - Best Animation Award"
+      },
+      {
+        "Date": "01/2025",
+        "Country": "France",
+        "Festival_Section_of_Competition": "Festival Premiers Plans - Grand Jury Prize, European short films"
+      },
+      {
+        "Date": "10/2024",
+        "Country": "Portugal",
+        "Festival_Section_of_Competition": "Cinanima - AWARD FOR BEST ANIMATED DOCUMENTARY"
+      },
+      {
+        "Date": "12/2024",
+        "Country": "Slovenia",
+        "Festival_Section_of_Competition": "Animateka International Animated Film Festival - JURY GRAND PRIX"
+      }
+    ],
+    "Logline": "Survivor of the  Irpin blockade reconstructs her harrowing escape and the haunting feeling of leaving part of herself behind.",
+    "Synopsis": "On February 24th in the morning my boyfriend and I decided to go from Kyiv to Irpin to see his parents. It is hard for me to recall the chronology of those days, my mind blocks and minimizes all the memories, erases them, but the only thing I know for sure is that every day everything rapidly became worse.",
+    "Directors_Note": "As Mstyslav Chernov (20 Days in Mariupol, 2023) said: “I wish I’ve never made this film”. It was incredibly hard in all senses. But reliving the trauma of occupation and abusive relationships made me stronger. With this film I carry a clear message: The culprit must be punished. It’s always the rapist’s fault. Stop the Russian war against Ukraine.",
+    "Crew": {
+      "Director(s)": "Anastasiia Falileieva",
+      "Screenplay_writer(s)": "Anastasiia Falileieva",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "",
+      "Sound_director(s)": "",
+      "Art_director(s)": "Anastasiia Falileieva",
+      "Music_composer(s)": "Petr Marek",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "2000",
+      "Bio_Text": "Anastasiia Falileieva was born in 2000 in Kremenchuk, Ukraine. She studied stop-motion animation and directing at the Kiyv National I.Karpenko-Kary theatre, cinema and television University. Anastasiia is one of a very few stopmotion professionals left in the Ukrainian industry."
+    },
+    "Director_Filmography": [
+      "I Died in Irpin (2024)",
+      "Patron the Dog (2022-2024)",
+      "Papier Mache (2021)",
+      "Tiger Is Strolling Around (2020)",
+      "Until It Turns Black (2018)"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "",
+      "Animation_Technique_Other": "charcoal frame-by-frame animation on paper",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour + Black & White",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Alena Vandasová, Martin Vandas / Juraj Krasnohorský",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "MAUR Film (Czech Republic) / Artichoke (Slovakia)",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "Anastasiia Falileieva, Plastic Bag Studio, Ukraine",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "i_died_in_irpin.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Máma má vždycky pravdu",
+      "Title_English": "Mom is always right",
+      "Title_Other": "Maman a toujours raison",
+      "Language_Original": "czech / english, french dubbing",
+      "Language_Subtitles": "english",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "O1.01.2022",
+      "Runtime": "00:07:39",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "comedy",
+        "family"
+      ],
+      "Genre_Other": "",
+      "Keywords": "mom, parent, children, family, love, friendship, care, childhood traumas",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "What would happen if mum was always right?",
+    "Synopsis": "Mirek has a huge belly and nobody knows why. Diets and strenuous exercise don't help. His big belly causes many complications. The simple act of putting on socks turns into a hellish mission. We follow the stories of several heroes, each with unusual troubles. Where do they stem from?",
+    "Directors_Note": "Film based on established parental sayings that are meant to warn children not to do certain things, as this can have far-reaching consequences. These consequences are taken to their extremes in my film through playful exaggeration. At the most general level, I focus on how seriously children can take those parental threats, and how much they carry them with them into adulthood, even though they know that after eating the seeds, watermelon will not grow in their bellies and others..",
+    "Crew": {
+      "Director(s)": "Marie Urbánková",
+      "Screenplay_writer(s)": "Marie Urbánková, David Dvořák",
+      "Director(s)_of_Photography": "Marie Urbánková, Jaroslav Fišer",
+      "Editor(s)": "Juraj Ondruš",
+      "Sound_director(s)": "Martin Večera",
+      "Art_director(s)": "Marie Urbánková",
+      "Music_composer(s)": "Kateřina Koutná KAT",
+      "Cast": [
+        "Milda Frýdl: boy",
+        "Zbyšek Puntucek: aborigines"
+      ]
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": "Marie Urbánková, 1995, Prague. First she studied scenography at the SUPŠ. Then, she continued her studies at the Prague UMPRUM, majoring in film and television graphics, where she is currently continuing her master's degree. She illustrates and collaborates with Raketa magazine, illustrated three books. During her studies she made a short animated film for children, \"The Concrete Jungle\". She graduated with a master's film \"Mom is always right\"."
+    },
+    "Director_Filmography": [],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "stop-motion",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": "h264"
+      },
+      "Resolution": "HD: 1920X1080",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Stereo (2.0, L+R)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "FAMU - Film and TV School of the Academy of Performing Arts in Prague",
+        "Address": "Smetanovo nábřeží 2",
+        "Postal code, city": "116 65, Prague 1",
+        "Country": "Czech Republic",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "MAUR film",
+        "Address": "Revoluční 1403/28",
+        "Postal code, city": "110 00 Praha 1",
+        "Country": "Czech Republic",
+        "WEB": ""
+      }
+    },
+    "Source_File": "mom_is_always_right.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Síla",
+      "Title_English": "Out in force",
+      "Title_Other": "",
+      "Language_Original": "czech",
+      "Language_Subtitles": "english",
+      "Country_of_production": "Czech republic",
+      "Date_of_completion": "",
+      "Runtime": "01:32:40",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [],
+      "Genre_Other": "",
+      "Keywords": "",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "Czech Republic",
+        "Name_of_Festival": "IDFF Jihlava 2021 Czech Joy"
+      },
+      {
+        "Date": "",
+        "Country": "Poland",
+        "Name_of_Festival": "OFF CINEMA International Documentary Film Festival"
+      },
+      {
+        "Date": "",
+        "Country": "Czech republic / Poland",
+        "Name_of_Festival": "Kino na hranici / Kino na Granicy"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "Czech Republic",
+        "Festival_Section_of_Competition": "IDFF Jihlava 2021 Czech Joy - best editing"
+      },
+      {
+        "Date": "",
+        "Country": "Czech Republic",
+        "Festival_Section_of_Competition": "One World - The Best Film in The Czech Competition"
+      }
+    ],
+    "Logline": "What should the male force look like in the 21st century? A crushingly honest statement about the internal conflict and the midlife crisis.",
+    "Synopsis": "Martin Mareček’s film The Force captures five difficult years in the life of a film publicist, feminist and cultural agent Kamil Fila, during which he faces relationship problems, depression and a rather extreme experiment on his own body. The result is not only an incredibly honest testimony on an internal conflict and the middle age crisis, but a",
+    "Directors_Note": "",
+    "Crew": {
+      "Director(s)": "Martin Mareček",
+      "Screenplay_writer(s)": "Martin Mareček",
+      "Director(s)_of_Photography": "Jiří Málek",
+      "Editor(s)": "Jana Vlčková",
+      "Sound_director(s)": "",
+      "Art_director(s)": "",
+      "Music_composer(s)": "Jan Burian ml.",
+      "Cast": [
+        "Kamil Fila"
+      ]
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": ""
+    },
+    "Director_Filmography": [],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "Apple ProRes",
+        "Other": "h264"
+      },
+      "Resolution": "2K",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "25",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.85 (\"flat format\")",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "out_in_force.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Návrat",
+      "Title_English": "Return",
+      "Title_Other": "",
+      "Language_Original": "Czech",
+      "Language_Subtitles": "English",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "2025",
+      "Runtime": "00:24:48",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "drama",
+        "psychological"
+      ],
+      "Genre_Other": "",
+      "Keywords": "local politician, bad day, woman in distress",
+      "Target_Group": {
+        "Rating": "15+",
+        "Audience": "adults",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "A fallen minister and a naive dreamer are thrown together by chance. One surreal night forces them to face truth, ambition, and their deepest fears.",
+    "Synopsis": "A disgraced justice minister meets an ambitious young woman on a delayed train to Prague. Their unlikely bond deepens over one surreal night filled with hidden lovers, unexpected truths, and a drunken dance of reckoning, as both confront ambition, loneliness, and the need for connection.",
+    "Directors_Note": "Return explores the unraveling of a powerful woman after a political downfall. I'm drawn to layered characters and contradictions—especially women in power and how they’re judged differently than men. The film shifts tone and setting to reflect Patricie’s inner descent, using stylized visuals and dynamic camera work to mirror her instability, loneliness, and vulnerability. At its core, it’s about communication breakdown and the clash of ideals.",
+    "Crew": {
+      "Director(s)": "Lukáš Valíšek",
+      "Screenplay_writer(s)": "Lukáš Valíšek",
+      "Director(s)_of_Photography": "Marcela Mencelová, Vojtěch Adalbert Dvořák",
+      "Editor(s)": "Adéla Kelbichová",
+      "Sound_director(s)": "Jakub Jedlička",
+      "Art_director(s)": "Tereza Thérová, Lucie Pangrácová",
+      "Music_composer(s)": "Václav Chalupský",
+      "Cast": [
+        "Alena Štréblová (Tricia)",
+        "Alžběta Nováková (Laura)",
+        "Jindřiška Dudziaková (Veronika)",
+        "Jakub Jelínek (Marek)",
+        "Mikuláš Čížek (Andrej)"
+      ]
+    },
+    "Director_Bio": {
+      "Date_of_birth": "1995",
+      "Bio_Text": "Lukáš Valíšek is a screenwriting graduate and current directing student at FAMU. He has worked as a writer and script editor on numerous short films and is currently developing several feature-length projects. In his free time, he enjoys drawing and playing video games, and is passionate about experimenting with different forms of storytelling."
+    },
+    "Director_Filmography": [
+      "Příspěvek na bydlení (Housing allowance), 2024 - director",
+      "Muž, který nemohl spát (The man who couldn't sleep), 2023 - screenwriter",
+      "Rozloučení, 2023 - screenwriter",
+      "auto.au.rum (all.about.rum), 2022 - director and screenwriter"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "HDCAM",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "HDCAM",
+        "File": "Apple ProRes",
+        "Other": ""
+      },
+      "Resolution": "4k",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "progressive (DCP, e-cinema, TV)",
+        "FPS": "25",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Barbora Podškubková",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "FAMU",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "Česká televize",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "return.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "SnowBlind",
+      "Title_English": "SnowBlind",
+      "Title_Other": "",
+      "Language_Original": "unintelligible language",
+      "Language_Subtitles": "none",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "06.06.2025",
+      "Runtime": "00:08:53",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "experimental"
+      ],
+      "Genre_Other": "",
+      "Keywords": "time, transformation, unknown, void, existence, Poe, Lovecraft",
+      "Target_Group": {
+        "Rating": "15+",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "10/2025",
+        "Country": "Czech Republic",
+        "Name_of_place_of_premiere": "JI.HLAVA INTERNATIONAL DOCUMENTARY FILM FESTIVAL"
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "“There is knowledge that defies words. And a tongue best left uncomprehended.”",
+    "Synopsis": "Inspired by the abruptly ending novel by E.A. Poe, The Narrative of Arthur Gordon Pym, this short film follows a lone traveler into a realm where time and reality dissolve. In the heart of an ancient, decaying temple, something stirs from the darkness. What awaits in the depths may change everything. A tale of fate and the unknown.",
+    "Directors_Note": "“There is knowledge that defies words. And a tongue best left uncomprehended.” This horror fairy tale, echoing Poe’s Pym, follows a lone traveler into a ruined temple where stone writhes, glyphs refuse meaning, and a white void lowers sensing tendrils. The narration is in an unknown language; we refuse subtitles. The film seeks surrender over survival—an exposure to fate and transformation, where self and time dissolve into blinding whiteness.",
+    "Crew": {
+      "Director(s)": "Tomáš Rampula",
+      "Screenplay_writer(s)": "Tomáš Rampula",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "Tomáš Rampula",
+      "Sound_director(s)": "Alex Strapková, Tomáš Rampula",
+      "Art_director(s)": "",
+      "Music_composer(s)": "",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "1977",
+      "Bio_Text": "Tomas Rampula is an artist exploring the intersection of art, technology, and storytelling. After studying architecture at CVUT, he pursued screen-based art at Bezalel Academy in Jerusalem and later specialized at FAMU in Prague, where he earned his MgA in 2024. His work blends architecture, sound, and cutting-edge tools like game engines and CGI to craft immersive pieces that reinterpret myths through everyday actions and challenge perception."
+    },
+    "Director_Filmography": [
+      "Time Metallurgist (2024)",
+      "Místo [Place, 2020]",
+      "Vyčerpané Slunce [Exhausted sun] (2019)"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": "digital media"
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "Da Vinci Resolve",
+      "Digital_Audio_Workstation": "ProTools",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": ""
+      },
+      "Resolution": "4k",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Stereo (3.1, LCRS)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour + Black & White",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "Ochi&Ushi",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "Czech Republic",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "snowblind.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Soul Shift",
+      "Title_English": "Soul Shift",
+      "Title_Other": "",
+      "Language_Original": "German, English",
+      "Language_Subtitles": "English",
+      "Country_of_production": "Germany",
+      "Date_of_completion": "",
+      "Runtime": "00:10:00",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "sci-fi",
+        "comedy"
+      ],
+      "Genre_Other": "comics",
+      "Keywords": "evolution, universe, cosmic, fantasy",
+      "Target_Group": {
+        "Rating": "15+",
+        "Audience": "general audience",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "13. 6. 2025",
+        "Country": "Germany",
+        "Name_of_place_of_premiere": "die Seriale - International Series Festival Giessen"
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "In a cosmic contest to design life on a new planet, a visionary Evolution Manager and his sidekick face overwhelming odds in a battle of creation.",
+    "Synopsis": "Soul Shift – a visually stunning and delightfully wacky animated series by Christian Franz Schmidt – follows Evolution Managers shaping life across the universe. When Dew Blue and Sunny-Yellow enter a cosmic contest, it spirals into a wild battle that tests not only their strategy, but their friendship too.",
+    "Directors_Note": "",
+    "Crew": {
+      "Director(s)": "Christian Franz Schmidt",
+      "Screenplay_writer(s)": "Christian Franz Schmidt",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "",
+      "Sound_director(s)": "",
+      "Art_director(s)": "Christian Franz Schmidt",
+      "Music_composer(s)": "Thomas Mehlhorn",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": "Christian Franz Schmidt studied animation at HFF Konrad Wolf Potsdam-Babelsberg. He was a pre-selection juror for the Stuttgart International Festival of Animated Film in 2013. From 2012–2019, he headed animation at a major media agency and has been working as a freelancer since 2012."
+    },
+    "Director_Filmography": [
+      "The Zilla family has a picnic (2019)",
+      "A perfect day (2017)",
+      "The most beautiful children's songs (2016) - web series",
+      "Durchfallmann - The rescue parachute (2015)",
+      "Rosi Romance (2015)",
+      "Durchfallmann - The chain carousel is out of control (2014)",
+      "A swan has a plan (2013)",
+      "Santa dares to go nuclear (2013)",
+      "Invageddon (2012) - web series",
+      "The claustro toad (2011)",
+      "Egg Nappers (2011)",
+      "The Christmas tree socialization project (2010)",
+      "Rome (2006)",
+      "The diarrhea man (2005)"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Thomas Schneider-Trumpp, Johann Frank, Wolfgang Heidrich",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "Hessischer Rundfunk",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "soul_shift.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Řepa",
+      "Title_English": "The Beetroot",
+      "Title_Other": "",
+      "Language_Original": "Czech",
+      "Language_Subtitles": "English",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "05.01.2025",
+      "Runtime": "00:12:56",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "fairytale",
+        "absurd"
+      ],
+      "Genre_Other": "",
+      "Keywords": "beetroot, fairytale, kaiju, enviroment",
+      "Target_Group": {
+        "Rating": "12+",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "May 2025",
+        "Country": "Czech Republic",
+        "Name_of_place_of_premiere": "Anifilm (Czech and world premiere)"
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "May 2025",
+        "Country": "Czech Republic",
+        "Name_of_Festival": "Anifilm (Czech and world premiere)"
+      },
+      {
+        "Date": "June 2025",
+        "Country": "Czech Republic",
+        "Name_of_Festival": "Marienbad International Film Festiva"
+      },
+      {
+        "Date": "August 2025",
+        "Country": "Israel",
+        "Name_of_Festival": "ANIMIX"
+      },
+      {
+        "Date": "September 2025",
+        "Country": "Ukraine",
+        "Name_of_Festival": "Kyiv International Short Film Festival"
+      },
+      {
+        "Date": "October 2025",
+        "Country": "Australia",
+        "Name_of_Festival": "Byron Bay International Film Festival"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "A giant beetroot goes on a rampage in this wild Slavic kaiju tale mixing live action, stop-motion, and 2D animation.",
+    "Synopsis": "Inspired by the traditional Slavic folktale “The Enormous Turnip,” a beetroot grows so huge that no one can pull it from the ground. When a local crane operator is hired to do the job, the giant vegetable turns violent and destructive. As chaos unfolds, an army is mobilized to stop it,but maybe there’s another way to appease this monstrous force.",
+    "Directors_Note": "Beetroot is a collaboration between two directors from FAMU and UMPRUM, blending distinct authorial styles. Inspired by the classic Czech tale The Big Beetroot, we reimagine the beet as an uncontrollable force, merging fairy tale with the Japanese Kaiju genre. As the beet grows, so do the problems—nature's power takes monstrous form.",
+    "Crew": {
+      "Director(s)": "Jáchym Štulíř, David Šourek",
+      "Screenplay_writer(s)": "Jáchym Štulíř, David Šourek",
+      "Director(s)_of_Photography": "David Šourek",
+      "Editor(s)": "Ondřej Plecháč",
+      "Sound_director(s)": "Juras Karaka",
+      "Art_director(s)": "Jáchym Štulíř",
+      "Music_composer(s)": "Juras Karaka",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": "Jáchym Štulíř graduated in Animation from UMPRUM in Prague. In 2022 he participated in the series Wunderbaum, where he animated the episode \"Václav\" (E06). His other directing credits include the short films Eternia (2021) and Si ako slniečko (2020).\nDavid Šourek is a student at the Centre for Audiovisual Studies at FAMU. In his practice he is increasingly focusing on analogue video, digital post-production and analogue film. During his studies he has made three short experimental films."
+    },
+    "Director_Filmography": [
+      "Jáchym Štulíř: Eternia, 2021 / Si ako slniečko (You are like a sun), 2020",
+      "David Šourek: Blíže vedle sebe (Closer Led), 2023 / Šedobílý (Greyish White), 2022 / Chandra, 2022"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "2D computer",
+      "Animation_Technique_Other": "mixing live action",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": ""
+      },
+      "Resolution": "2K",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "25",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.33 (4:3)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "FAMU",
+        "Address": "Smetanovo nábřeží 2",
+        "Postal code, city": "116 65 Praha 1",
+        "Country": "Czech Republic",
+        "WEB": "famu.cz"
+      },
+      "Production_Company": {
+        "Name": "UMPRUM - Michaela Režová",
+        "Address": "nám. J. Palacha 80/3",
+        "Postal code, city": "116 93 Prague 1",
+        "Country": "Czech Republic",
+        "WEB": "umprum.cz"
+      },
+      "Co_Producer": {
+        "Name": "Altum Frames - Hynek Spurný",
+        "Address": "Záhořanského 1944/4",
+        "Postal code, city": "120 00 Prague 2",
+        "Country": "Czech Republic",
+        "WEB": "altumframes.com"
+      }
+    },
+    "Source_File": "the_beetroot.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Krajan",
+      "Title_English": "The Compatriot",
+      "Title_Other": "",
+      "Language_Original": "Czech, German",
+      "Language_Subtitles": "English, Czech",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "01.07. 2023",
+      "Runtime": "00:24:34",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "drama",
+        "historical",
+        "war"
+      ],
+      "Genre_Other": "",
+      "Keywords": "war, Sudetenland, nazi, winter",
+      "Target_Group": {
+        "Rating": "15+",
+        "Audience": "youth",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "06/2025",
+        "Country": "Czech Republic",
+        "Name_of_Festival": "International Film Festival for Children and Youth - ZLÍN"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "2024",
+        "Country": "USA",
+        "Festival_Section_of_Competition": "Student Academy Awards - Golden Medal"
+      }
+    ],
+    "Logline": "On New Year's Eve 1944, two Sudeten men—one a widower, the other an SS officer—confront a shared past in a snowbound cottage cut off from the world.",
+    "Synopsis": "On New Year’s Eve 1944, widower Petr Bernat and SS officer Konrad Neumann meet in a remote cottage during a snowstorm. United only by their Sudeten origins, their conversation shifts from trivial topics to painful truths, leading to a fateful night for both men.",
+    "Directors_Note": "",
+    "Crew": {
+      "Director(s)": "Viktor Horák, Pavel Sýkora",
+      "Screenplay_writer(s)": "Petr Pelech, Pavel Sýkora",
+      "Director(s)_of_Photography": "Pavel Sýkora",
+      "Editor(s)": "Lukáš Skalník",
+      "Sound_director(s)": "Yurii Fenynets",
+      "Art_director(s)": "",
+      "Music_composer(s)": "Jakub Zajíc",
+      "Cast": [
+        "Jiří Štěpnička, Pavel Batěk, Martin Hlubocký"
+      ]
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": ""
+    },
+    "Director_Filmography": [],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "FAMO",
+        "Address": "Lipová alej 2068",
+        "Postal code, city": "397 01 Písek",
+        "Country": "Czech Republic",
+        "WEB": "filmovka.cz"
+      },
+      "Production_Company": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "the_compatriot.html",
+    "Ranking": "5",
+    "Review": "Milan Marčetić",
+    "Festival_Distribution_Only": "Milan Marčetić",
+    "Sales": "Milan Marčetić",
+    "Status": "Milan Marčetić",
+    "Download_poster": "Milan Marčetić",
+    "Download_stills": "Milan Marčetić",
+    "Download_presskit": "Milan Marčetić",
+    "Sharing": "Milan Marčetić",
+    "Trailer_url": ""
+  },
+  {
+    "Film": {
+      "Title_Original": "Ježek",
+      "Title_English": "The Hedgehog",
+      "Title_Other": "",
+      "Language_Original": "no dialogue",
+      "Language_Subtitles": "",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "19/03/2023",
+      "Runtime": "00:01:30",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "children",
+        "comedy"
+      ],
+      "Genre_Other": "",
+      "Keywords": "hedgehog, swimming pool, child's imagination",
+      "Target_Group": {
+        "Rating": "3+",
+        "Audience": "family",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "03/2023",
+        "Country": "Ireland",
+        "Name_of_place_of_premiere": "Cinemagic International Film Festival for Young People"
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "10/2023",
+        "Country": "Sweden",
+        "Name_of_Festival": "Uppsala International Short Film Festival"
+      },
+      {
+        "Date": "03/2023",
+        "Country": "Belgium",
+        "Name_of_Festival": "Anima - the Brussels Animation Film Festival"
+      },
+      {
+        "Date": "03/2024",
+        "Country": "Sweden",
+        "Name_of_Festival": "BUFF Malmö Film Festival"
+      },
+      {
+        "Date": "03/2025",
+        "Country": "Canada",
+        "Name_of_Festival": "Montreal International Children’s Film Festival (FIFEM)"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "Can hedgehog swim?",
+    "Synopsis": "Slightly moralising pun, filmed with pleasant exaggeration and a sense of animation shorthand. A child's imagination knows no bounds, and anyone who gets too carried away, whether drawing or just looking at a picture, can end up getting really wet. A hedgehog like that doesn't seem to be a very good swimmer, but he's all the more powerful.",
+    "Directors_Note": "",
+    "Crew": {
+      "Director(s)": "Daniela Hýbnerová",
+      "Screenplay_writer(s)": "Daniela Hýbnerová",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "",
+      "Sound_director(s)": "Ondřej Vomočil",
+      "Art_director(s)": "",
+      "Music_composer(s)": "",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": "Daniela Hýbnerová graduated from the Animation Department at FAMU in Prague. Her short animated film The One About the Shirt won 2nd place in the international round of the Nespresso Talents 2020 competition. Daniela is a fan of Formula 1 racing, film music and the world of Harry Potter."
+    },
+    "Director_Filmography": [
+      "Misophonia Orchestra (2022)",
+      "Kuku [Cuckoo](2020)",
+      "Medvědění [Bearing] (2018)",
+      "Závodní horečka [Racing Fever] (2017)",
+      "Nezbeda (2015)"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "2D computer",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Daniela Hýbnerová",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "the_hedgehog.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Volklore",
+      "Title_English": "Volklore",
+      "Title_Other": "",
+      "Language_Original": "Czech",
+      "Language_Subtitles": "English",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "7.1.2026",
+      "Runtime": "00:15:54",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "experimental",
+        "fiction"
+      ],
+      "Genre_Other": "videoessay, tale",
+      "Keywords": "digital folklor, folklor, traditions, generation Z, digital platforms, YouTube, identity, fashion, community, social media, vlog, self-brand, influencer, seasons",
+      "Target_Group": {
+        "Rating": "12+",
+        "Audience": "youth",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "Volklore weaves Czech folklore traditions with fashion’s milestones, tracing seasons in the rhythm of consumerism.",
+    "Synopsis": "Volklore, an experimental video essay exploring how Czech folklore transforms in the digital age of social networks. Traditions become tools for marketing; you become a brand, your followers a community. YouTuber Vivi guides us through folk customs linking them to key fashion events. But is there authenticity in the age of platform capitalism?",
+    "Directors_Note": "I created Volklore out of a personal need to bring Moravian folklore into its contemporary context. The film treats folklore as a living form of cultural expression rather than a relic. It shows how traditions are reshaped by social values and markets. Through a YouTube vlog, the film explores the digital reality of Generation Z, where advertising becomes a new form of folk storytelling. My goal is not to romanticize, but to reveal an online reality that is becoming increasingly common.",
+    "Crew": {
+      "Director(s)": "Viktorie Štěpánová",
+      "Screenplay_writer(s)": "Hermína Perič & Viktorie Štěpánová",
+      "Director(s)_of_Photography": "Františka Bakošová, Adam Kácha, Eva Gabrižová",
+      "Editor(s)": "Viktorie Štěpánová",
+      "Sound_director(s)": "Jan Licek",
+      "Art_director(s)": "Viktorie Štěpánová",
+      "Music_composer(s)": "Martin Kožucharov, Tomáš Jiřička",
+      "Cast": [
+        "YouTuber Vivi: Monina Nevrlá"
+      ]
+    },
+    "Director_Bio": {
+      "Date_of_birth": "15.06.1999",
+      "Bio_Text": "Viktorie Štěpánová, Master of Arts graduate from FAMU, is a multidisciplinary artist working at the intersection of illustration, animation, graphic design, and fashion. Her work explores themes of identity, pop culture, and digital platforms. She approaches visual storytelling experimentally, pushing the possibilities of media and technique while subversively engaging with consumerist aesthetics. She is known for her films Vevnitř and EO DE ME—the former nominated for a Student BAFTA. More recently, she has focused on fashion films, bringing all her talents together."
+    },
+    "Director_Filmography": [
+      "Michal Hrůza - Mikádo (2024)",
+      "EO DE ME (EO DE ME, 2023)",
+      "Brighter Days - Always fine (2022)",
+      "Lajfr - Antigona (2022)",
+      "Vevnitř (Inside, 2020)"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "HDCAM",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "mixed media",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Stereo (2.0, L+R)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "FAMU",
+        "Address": "Smetanovo nábřeží 2",
+        "Postal code, city": "116 65 Prague",
+        "Country": "Czech Republic",
+        "WEB": "famu.cz"
+      },
+      "Production_Company": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "Viktorie Štěpánová",
+        "Address": "Vranov 278",
+        "Postal code, city": "664 32",
+        "Country": "Czech Republic",
+        "WEB": "@iamviktorie"
+      }
+    },
+    "Source_File": "volklore.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Vlny",
+      "Title_English": "Waves",
+      "Title_Other": "",
+      "Language_Original": "Without dialogue",
+      "Language_Subtitles": "None",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "01.05.2024",
+      "Runtime": "00:08:00",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "ani-doc"
+      ],
+      "Genre_Other": "",
+      "Keywords": "waves, nature, society",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "12/2024",
+        "Country": "Czech Republic",
+        "Name_of_place_of_premiere": "Anifilm, Liberec"
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "10/2024",
+        "Country": "Portugal",
+        "Name_of_Festival": "Cinanima"
+      },
+      {
+        "Date": "12/2024",
+        "Country": "Slovenia",
+        "Name_of_Festival": "Animateka International Animated Film Festival"
+      },
+      {
+        "Date": "07/2025",
+        "Country": "Poland",
+        "Name_of_Festival": "FREEDOM Film Festival"
+      },
+      {
+        "Date": "08/2025",
+        "Country": "Israel",
+        "Name_of_Festival": "ANIMIX - International Animation & Comics Festival"
+      },
+      {
+        "Date": "11/2025",
+        "Country": "Germany",
+        "Name_of_Festival": "Braunschweig International Film Festival"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "The film explores waves in nature and life through dramatic moments, human fragments, and flowing movements in sea, grass, and branches.",
+    "Synopsis": "This short author film is being created using sand animation, and explores the theme of waves in various forms and contexts. A collage of situations from non-specific places around the globe, and the rhythmical motion and sound of waves occuring naturally in the world around us.",
+    "Directors_Note": "This short author film, created with sand animation, explores waves in many forms—natural, emotional, social. From sea waves and wind-shaped grass to shock waves, protests, grief, borders crossed, passion, joy, birth and death. This cyclic motion reveals how waves can soothe with calm rhythm or evoke unease, fear and the sense of an unstoppable force.",
+    "Crew": {
+      "Director(s)": "Michael Carrington",
+      "Screenplay_writer(s)": "Michael Carrington",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "Tomáš Doruška",
+      "Sound_director(s)": "Turgut Mavuk",
+      "Art_director(s)": "",
+      "Music_composer(s)": "Ahmet Kenan Bilgic",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "1973",
+      "Bio_Text": "Michael Carrington, artist and animator, was born in 1973 in London. He studied in Zlín and teaches animation at FAMU in Prague. He worked at Ealing Studios and as lead animator on Jan Balej’s films. He supervised award-winning shorts Daughter and The Kite."
+    },
+    "Director_Filmography": [],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "sand/powder",
+      "Animation_Technique_Other": "monochromatic underlit sand animation",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.85 (\"flat format\")",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Stereo (2.0, L+R)",
+      "Sound_Mix_Other": "",
+      "Colour": "Black & White",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Michal Bureš",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "Automat Svět",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "waves.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Plevel",
+      "Title_English": "Weeds",
+      "Title_Other": "",
+      "Language_Original": "Without dialogue",
+      "Language_Subtitles": "None",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "07.04.2024",
+      "Runtime": "00:13:47",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation"
+      ],
+      "Genre_Other": "",
+      "Keywords": "garden, fear, chaos, flowers",
+      "Target_Group": {
+        "Rating": "6+",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "21/05/2024",
+        "Country": "France",
+        "Name_of_place_of_premiere": "Cinefondation - Festival De Cannes"
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "06/2024",
+        "Country": "France",
+        "Name_of_Festival": "Annecy Festival"
+      },
+      {
+        "Date": "12/2024",
+        "Country": "Spain",
+        "Name_of_Festival": "ANIMAKOM FEST"
+      },
+      {
+        "Date": "09/2024",
+        "Country": "Germany",
+        "Name_of_Festival": "International Film Festival SCHLINGEL"
+      },
+      {
+        "Date": "10/2024",
+        "Country": "Korea",
+        "Name_of_Festival": "Bucheon International Animation Festival"
+      },
+      {
+        "Date": "01/2025",
+        "Country": "France",
+        "Name_of_Festival": "Festival Premiers Plans"
+      },
+      {
+        "Date": "09/2025",
+        "Country": "Iceland",
+        "Name_of_Festival": "Reykjavík International Film Festival"
+      },
+      {
+        "Date": "02/2025",
+        "Country": "USA",
+        "Name_of_Festival": "Santa Barbara International Film Festival"
+      },
+      {
+        "Date": "08/2025",
+        "Country": "Italy",
+        "Name_of_Festival": "Film Festival della Lessinia"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "11/2024",
+        "Country": "Switzerland",
+        "Festival_Section_of_Competition": "Castellinaria Festival del Cinema Giovane - the main prize of the competition Castellincorto, the DANIEL prize"
+      },
+      {
+        "Date": "10/2024",
+        "Country": "Korea",
+        "Festival_Section_of_Competition": "Bucheon International Animation Festival - Jury Prize in Student Competition"
+      },
+      {
+        "Date": "12/2024",
+        "Country": "Slovenia",
+        "Festival_Section_of_Competition": "Animateka International Animated Film Festival - YOUNG TALENT STUDENT JURY AWARD"
+      },
+      {
+        "Date": "11/2024",
+        "Country": "Argentina",
+        "Festival_Section_of_Competition": "BIT BANG Festival - 1st place Award at the International Graduation Film Competition"
+      },
+      {
+        "Date": "10/2025",
+        "Country": "Armenia",
+        "Festival_Section_of_Competition": "ReAnimania Int. Animation Film & Comics Art Festival of Yerevan - Best Animated Graduation Film"
+      },
+      {
+        "Date": "08/2025",
+        "Country": "Canada",
+        "Festival_Section_of_Competition": "Anim sur le Lac - an honorable mention"
+      }
+    ],
+    "Logline": "A Gardener tends a small garden in a field overgrown with weeds. What begins as an innocent encounter turns into a fight for survival.",
+    "Synopsis": "Amid endless weedy fields, a hidden garden is lovingly tended by the Gardener. When a fierce storm floods it with weed seeds, a quiet encounter turns into a life-and-death battle for the garden’s survival.",
+    "Directors_Note": "The Gardener tries to defy nature and create her artificial fenced world. She is determined to protect it and preserve it, but the laws of life are stronger than her. She thus develops from not accepting the thistles through hatred, horror and madness to reach humility in the face of life, and reconciliation.",
+    "Crew": {
+      "Director(s)": "Pola Kazak",
+      "Screenplay_writer(s)": "Pola Kazak",
+      "Director(s)_of_Photography": "Jakub Lojda",
+      "Editor(s)": "Alisa Sheli",
+      "Sound_director(s)": "Mirek Šmilauer",
+      "Art_director(s)": "Pola Kazak",
+      "Music_composer(s)": "Sergej Cheremisinov",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "1986",
+      "Bio_Text": "Since 2004, Pola studied audiovisual production at the Moscow University of Arts and Culture, where she focused on documentary production and photography. In 2010, she moved to the Czech Republic and began studying at the Miroslav Ondříček Film Academy in Písek, first majoring in documentary production, but after the first year she switched to the animation studio. During her studies, she focused on cartoon, 2D and multiplane animation. At the same time, she worked as a graphic artist and draftsman."
+    },
+    "Director_Filmography": [
+      "2022-2023 – Kafka. In Love (dir. Zane Oborenko) / sand on glass / animator",
+      "2018-2019 – The Crossing (dir. Florence Miailhe) / painting on glass / animator",
+      "2015 – Toro! (dir. Pola Kazak) / ink on paper / director, animator"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "painting on glass",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "2K",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.85 (\"flat format\")",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "",
+      "Sound_Mix_Other": "wav 16bit / 48KHz & 5.1mix & EBU R128",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Mária Môťovská, Jiří Pecinovský, Martin Vandas - MAUR FILM",
+        "Address": "Revoluční 1403/28",
+        "Postal code, city": "110 00 Prague 1",
+        "Country": "Czech Republic",
+        "WEB": "maurfilm.com"
+      },
+      "Production_Company": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "weeds.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Vlček",
+      "Title_English": "Wolfie",
+      "Title_Other": "",
+      "Language_Original": "without dialogue",
+      "Language_Subtitles": "",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "7. 1. 2025",
+      "Runtime": "00:13:12",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "children",
+        "family"
+      ],
+      "Genre_Other": "",
+      "Keywords": "play, animals, acceptance, balance, chaos, difference, childhood, motherhood",
+      "Target_Group": {
+        "Rating": "3+",
+        "Audience": "general audience",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "April 2025",
+        "Country": "Argentina",
+        "Name_of_place_of_premiere": "BAFICI - Buenos Aires International Festival of Independent Cinema"
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "May 2025",
+        "Country": "Czech Republic",
+        "Name_of_Festival": "Anifilm"
+      },
+      {
+        "Date": "May 2025",
+        "Country": "Norway",
+        "Name_of_Festival": "Kristiansand International Children’s Film Festival"
+      },
+      {
+        "Date": "July 2025",
+        "Country": "Italy",
+        "Name_of_Festival": "Giffoni Film Festival"
+      },
+      {
+        "Date": "June 2025",
+        "Country": "Czech Republic",
+        "Name_of_Festival": "International Film Festival for Children and Youth - ZLÍN"
+      },
+      {
+        "Date": "August 2025",
+        "Country": "Israel",
+        "Name_of_Festival": "ANIMIX - International Animation & Comics Festival"
+      },
+      {
+        "Date": "June 2025",
+        "Country": "Slovak Republic",
+        "Name_of_Festival": "Fest ANČA"
+      },
+      {
+        "Date": "September 2025",
+        "Country": "Switzerland",
+        "Name_of_Festival": "Fantoche International Animation Film Festival"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "June 2025",
+        "Country": "Czech Republic",
+        "Festival_Section_of_Competition": "Children´s Jury Award for Best Short Animation for Children - at International Film Festival for Children and Youth - ZLÍN"
+      },
+      {
+        "Date": "September 2025",
+        "Country": "Switzerland",
+        "Festival_Section_of_Competition": "Young Audience Award in Kids Film Competition - at Fantoche International Animation Film Festival"
+      }
+    ],
+    "Logline": "A perfectionist ilustrator has to face her own mistakes when she accidentally makes an ink blot and creates Wolfie, a little wolf with an inky nose.",
+    "Synopsis": "Mother spends her days drawing animals that spring to life, each framed picture growing into a forest. But one day she creates Wolfie, a wolf with an inky nose who makes a mess of her perfect world. Can she restore balance, or will Wolfie’s “flaw” turn out to be a surprising gift?",
+    "Directors_Note": "Ink, illustration, cute little animals, those are all things that inspire me and fill me with joy. In this short film I tried using them to tell a story. A story about childlike play, chaos, perfectionism, about the creator’s lot and the acceptance of flaws. Most importantly, it is the story of two characters who find a way to accept each other in spite of their differences, and thanks to this, are able to set themselves free.",
+    "Crew": {
+      "Director(s)": "Philippe Kastner",
+      "Screenplay_writer(s)": "Philippe Kastner",
+      "Director(s)_of_Photography": "N/A",
+      "Editor(s)": "Prokop Prčík",
+      "Sound_director(s)": "Dávid Procházka",
+      "Art_director(s)": "Philippe Kastner",
+      "Music_composer(s)": "Philippe Kastner",
+      "Cast": [
+        "Adéla Majzlíková: Mother",
+        "Patrick Biela: Wolfie"
+      ]
+    },
+    "Director_Bio": {
+      "Date_of_birth": "26. 5. 2001",
+      "Bio_Text": "Philippe Kastner, a graduate of the Department of Animation at FAMU, is best known in the world of student animation for his short film Dede is Dead (Deniska umřela, 2023) that has been screened at Berlinale and many other prestigious film festivals. Apart from that, he has directed multiple other short films such as The Tower (Věž, 2021) as well as a music video for his song Wolfeater (2021)."
+    },
+    "Director_Filmography": [
+      "Deniska umřela (Dede is Dead, 2023)",
+      "ŠMIK! (CUT!, 2023)",
+      "Věž (The Tower, 2021)",
+      "Wolfeater (2021)",
+      "Haraburdí (Jumble, 2021)"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "2D computer",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "Adobe Premiere Pro",
+      "Digital_Audio_Workstation": "Pro Tools",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": ""
+      },
+      "Resolution": "HD: 1920X1080",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Digital 7.1 (5.1 + Lss, Rss)",
+      "Sound_Mix_Other": "5.1 (L, R, C, LFE, Ls, Rs); stereo",
+      "Colour": "Colour + Black & White",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "FAMU",
+        "Address": "Smetanovo nábřeží 2",
+        "Postal code, city": "116 65 Prague",
+        "Country": "Czech Republic",
+        "WEB": "famu.cz"
+      },
+      "Production_Company": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "wolfie.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "Svět, ve kterém žiji",
+      "Title_English": "World I live In",
+      "Title_Other": "",
+      "Language_Original": "without dialogue",
+      "Language_Subtitles": "none",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "14.04.2024",
+      "Runtime": "00:07:16",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "educational",
+        "children"
+      ],
+      "Genre_Other": "",
+      "Keywords": "family, environment, kids, videogame",
+      "Target_Group": {
+        "Rating": "",
+        "Audience": "family",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "06/2024",
+        "Country": "Croatia",
+        "Name_of_place_of_premiere": "Animafest Zagreb"
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "07/2024",
+        "Country": "Italy",
+        "Name_of_Festival": "ShorTS - International Film Festival"
+      },
+      {
+        "Date": "10/2024",
+        "Country": "Hungary",
+        "Name_of_Festival": "Primanima World Festival of First Animations"
+      },
+      {
+        "Date": "11/2024",
+        "Country": "Switzerland",
+        "Name_of_Festival": "Internationale Kurzfilmtage Winterthur"
+      },
+      {
+        "Date": "03/2025",
+        "Country": "Sweden",
+        "Name_of_Festival": "BUFF Malmö Film Festival"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "08/2025",
+        "Country": "Mexico",
+        "Festival_Section_of_Competition": "La Matatena - International Children's Film Festival (…and not so Children) - Special Mention"
+      }
+    ],
+    "Logline": "Alice and her grandpa uncovers their shared interest in butterflies, uniting their distinct perspectives - through a video game and the real world.",
+    "Synopsis": "Alice's summer at her grandpa's takes an unexpected turn. Obsessed with a butterfly-catching video game, she's oblivious to the world around, as well as her entomologist grandpa's interest in protecting endangered butterflies. In a powerful thunderstorm, her wonder for reality awakens, and their bond deepens.",
+    "Directors_Note": "I myself grew up in a time when digital techonology influenced me at a young age. In the film I wanted to project a subjective view of the world of the heroine, who prefers the colourful reality of a video game to the actual world Our film can inspire kids to look up from their screens and encourage them to seek adventure outside of their comfort zone, with their friends.",
+    "Crew": {
+      "Director(s)": "Ester Kasalová",
+      "Screenplay_writer(s)": "Ester Kasalová",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "Lucie Hecht",
+      "Sound_director(s)": "Tomáš Jiřička",
+      "Art_director(s)": "Ester Kasalová, Eliška Kerbachová, Viktorie Ramiková",
+      "Music_composer(s)": "Pavel Duda",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": "Ester Kasalová is a FAMU Master's student specializing in 2D animation and family storytelling. Her work often dvelves into the themes of intergenerational relationships and exploration of reality."
+    },
+    "Director_Filmography": [
+      "Až vyrostu (When I grow up), 2021"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "2D computer",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Hynek Spurný - Altum Frames",
+        "Address": "Zahoranskeho 1944/4",
+        "Postal code, city": "120 00 Prague 2",
+        "Country": "Czech Republic",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "Tomáš Šimon - FAMU - Film and TV School of the Academy of Performing Arts in Prague",
+        "Address": "Smetanovo nábřeží 2",
+        "Postal code, city": "116 65 Prague 1",
+        "Country": "Czech Republic",
+        "WEB": "www.famu.cz"
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "world_i_live_in.html"
+  },
+  {
+    "Film": {
+      "Title_Original": "O lýkožroutce",
+      "Title_English": "Writing Home",
+      "Title_Other": "",
+      "Language_Original": "Without dialogue",
+      "Language_Subtitles": "None",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "19.05.2024",
+      "Runtime": "00:12:04",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "children",
+        "fairytale"
+      ],
+      "Genre_Other": "",
+      "Keywords": "communication, home, forest",
+      "Target_Group": {
+        "Rating": "3+",
+        "Audience": "",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "05/2024",
+        "Country": "Czech Republic",
+        "Name_of_place_of_premiere": "Liberec, Anifilm"
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "07/2024",
+        "Country": "Italy",
+        "Name_of_Festival": "Giffoni"
+      },
+      {
+        "Date": "10/2024",
+        "Country": "Netherlands",
+        "Name_of_Festival": "Cinekid"
+      },
+      {
+        "Date": "03/2025",
+        "Country": "Sweden",
+        "Name_of_Festival": "BUFF Malmö Film Festival"
+      },
+      {
+        "Date": "05/2025",
+        "Country": "Germany",
+        "Name_of_Festival": "Stuttgart International Festival of Animated Film (ITFS)"
+      },
+      {
+        "Date": "10/2025",
+        "Country": "Brazil",
+        "Name_of_Festival": "ANIMAGE - International Animation Festival of Pernambuco"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "06/2024",
+        "Country": "Portugal",
+        "Festival_Section_of_Competition": "FEST - New Directors/New Films Festival; \nWINNER - Best film of FESTinha Sub 10 Comp"
+      },
+      {
+        "Date": "06/2024",
+        "Country": "Czech Republic",
+        "Festival_Section_of_Competition": "International Film Festival for Children and Youth - \nZlín, Hermína Týrlová award winner"
+      }
+    ],
+    "Logline": "Tiny bark beetle lives in the forest. A fire breaks out, she gets separated from her family. Lost and alone, she has to face the world on her own.",
+    "Synopsis": "A small bark beetle girl lives a peaceful life in the forest, until a fire destroys her home. Getting separated from her family, she finds refuge in a human school, discovering a new talent, writing. Reunited with her family, she becomes the first bark beetle teacher.",
+    "Directors_Note": "I found Miss Holasová's book when I first moved to Prague and fell in love with the story and art immediately. Few years later, when I had to come up with an idea for a bachelor's film, my mind travelled back to this simple small book. From the beginning I knew I wanted the film to be silent, with the exception of a few limited written words, since it is a film about writing after all.\nIt is a film about the importance of education and overcoming the hardships of life.",
+    "Crew": {
+      "Director(s)": "Eva Matejovičová",
+      "Screenplay_writer(s)": "Eva Matejovičová",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "Savva Dolomanov, Marguerite G. Farag",
+      "Sound_director(s)": "Juras Karaka",
+      "Art_director(s)": "Eva Matejovičová",
+      "Music_composer(s)": "Juras Karaka",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "",
+      "Bio_Text": "Eva Matejovičová graduated from the Václav Hollar High School and Film and Television Faculty of the Academy of Performing Arts in Prague (FAMU). Now she is in the second year of the Master's program at the Department of Animation at FAMU. Her film Sanctuary (2021) won the Best Short Slovak animated film at the AnčaFest 2021 film festival. While at school, she does animation and art commissions, as well as working with animals in non-profit organizations."
+    },
+    "Director_Filmography": [
+      "2021 - Azyl (Sanctuary) - short animated film"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "2D computer",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": ""
+      },
+      "Resolution": "HD: 1920X1080",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.78 (16:9)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Jiří Sádek, Kristýna Žďárská - Cofilm",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "Tomáš Šimon, Studio FAMU",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "writing_home.html"
+  }
+]
