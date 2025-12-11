@@ -74,7 +74,7 @@ const getDirectorPhotoPath = (directorName: string): string => {
     .replace(/[^a-z0-9\s]/g, "") // Remove special chars
     .trim()
     .replace(/\s+/g, "_"); // Replace spaces with underscores
-  return `/images/authors/${normalized}.jpg`;
+  return `${import.meta.env.BASE_URL}images/authors/${normalized}.jpg`;
 };
 
 // Capitalize first letter only

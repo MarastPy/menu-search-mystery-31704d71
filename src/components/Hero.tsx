@@ -21,7 +21,7 @@ export const Hero = () => {
       <div className="max-w-4xl mx-auto space-y-8 sm:space-y-10">
         {/* Logo - fades out and scales down as user scrolls */}
         <img
-          src="/images/logo/Cinefila_logo_white_web.svg"
+          src={`${import.meta.env.BASE_URL}images/logo/Cinefila_logo_white_web.svg`}
           alt="Cinefila Logo"
           className="max-w-[280px] sm:max-w-[350px] lg:max-w-[400px] h-auto mx-auto mb-4 sm:mb-5 block transition-transform duration-100"
           style={{

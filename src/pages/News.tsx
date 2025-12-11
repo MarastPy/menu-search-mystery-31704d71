@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 // TO ADD A NEW NEWS ITEM:
 // 1. Copy the template below and paste it at the TOP of the newsItems array
 // 2. Update the id to be one higher than the last item
@@ -17,7 +19,7 @@ const newsItems = [
     title: "Wolfie at SCHLINGEL Film Festival",
     date: "26/09/2025",
     excerpt: "Hello Internationales Filmfestival SCHLINGEL! 🇩🇪 📽 Vlček / Wolfie will be featured on this fantastic film festival for children and young audience in a German premiere! Wolfie will screen in the International Animated Short Film Competition of SCHLiNGEL during the programme part \"Neighbourhood\" for kids & families (5+) on 28. 09., 15:30 at CineStar Cinema Chemnitz!",
-    image: "/images/posters/wolfie/wolfie.jpg",
+    image: `${baseUrl}images/posters/wolfie/wolfie.jpg`,
     link: "https://www.facebook.com/photo/?fbid=122144326394736463&set=a.122107909304736463"
   },
   
@@ -26,7 +28,7 @@ const newsItems = [
     title: "Soul Shift",
     date: "14/02/2025",
     excerpt: "Soul Shift, animated science-fiction comedy series, will premiere in the competition at Cartoons on the Bay – International Festival of Animation, Transmedia and Meta-Arts!",
-    image: "/images/stills/dont_blow_it_up/dont_blow_it_up_1.jpg",
+    image: `${baseUrl}images/stills/dont_blow_it_up/dont_blow_it_up_1.jpg`,
     link: "#"
   },
   {
@@ -34,7 +36,7 @@ const newsItems = [
     title: "Wolfie",
     date: "10/02/2025",
     excerpt: "An exciting new development in our latest production. This project brings together innovative storytelling and compelling characters.",
-    image: "/images/stills/wolfie/wolfie_1.jpg",
+    image: `${baseUrl}images/stills/wolfie/wolfie_1.jpg`,
     link: "#"
   },
   {
@@ -42,7 +44,7 @@ const newsItems = [
     title: "Waves",
     date: "05/02/2025",
     excerpt: "A new wave of creative energy as our team embarks on this ambitious project, exploring themes of connection and transformation.",
-    image: "/images/stills/waves/waves_1.jpg",
+    image: `${baseUrl}images/stills/waves/waves_1.jpg`,
     link: "#"
   },
   {
@@ -50,7 +52,7 @@ const newsItems = [
     title: "Home",
     date: "01/02/2025",
     excerpt: "A heartwarming story about finding one's place in the world, featuring stunning cinematography and powerful performances.",
-    image: "/images/stills/home/home_1.jpg",
+    image: `${baseUrl}images/stills/home/home_1.jpg`,
     link: "#"
   },
   {
@@ -58,7 +60,7 @@ const newsItems = [
     title: "World I Live In",
     date: "28/01/2025",
     excerpt: "An introspective journey through different perspectives, challenging viewers to reconsider their understanding of reality.",
-    image: "/images/stills/world_i_live_in/world_i_live_in_1.jpg",
+    image: `${baseUrl}images/stills/world_i_live_in/world_i_live_in_1.jpg`,
     link: "#"
   },
   {
@@ -66,7 +68,7 @@ const newsItems = [
     title: "Writing Home",
     date: "25/01/2025",
     excerpt: "Letters from distant places weave together a narrative of memory, longing, and the universal search for belonging.",
-    image: "/images/stills/writing_home/writing_home_1.jpg",
+    image: `${baseUrl}images/stills/writing_home/writing_home_1.jpg`,
     link: "#"
   }
 ];

@@ -11,9 +11,10 @@ export const useFilms = () => {
       try {
         // Cache-busting: append timestamp to ensure fresh data
         const cacheBuster = `?t=${Date.now()}`;
+        const baseUrl = import.meta.env.BASE_URL;
         const [filmsResponse, additionalResponse] = await Promise.all([
-          fetch(`/data/all_html_data.json${cacheBuster}`),
-          fetch(`/data/aditional_info.json${cacheBuster}`)
+          fetch(`${baseUrl}data/all_html_data.json${cacheBuster}`),
+          fetch(`${baseUrl}data/aditional_info.json${cacheBuster}`)
         ]);
 
         if (!filmsResponse.ok || !additionalResponse.ok) {

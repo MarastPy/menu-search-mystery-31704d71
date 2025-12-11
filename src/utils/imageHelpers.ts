@@ -1,6 +1,13 @@
 import { Film } from '@/types/film';
 
 /**
+ * Gets the base URL for assets (works in both dev and production)
+ */
+export const getBaseUrl = (): string => {
+  return import.meta.env.BASE_URL;
+};
+
+/**
  * Converts a film title to a standardized folder name format
  * e.g., "About a Cow" -> "about_a_cow"
  */
@@ -18,7 +25,7 @@ export const getFilmFolderName = (film: Film): string => {
  */
 export const getFilmPosterPath = (film: Film): string => {
   const folderName = getFilmFolderName(film);
-  return `/images/posters/${folderName}/${folderName}.jpg`;
+  return `${getBaseUrl()}images/posters/${folderName}/${folderName}.jpg`;
 };
 
 /**
@@ -27,7 +34,7 @@ export const getFilmPosterPath = (film: Film): string => {
 export const getFilmStillPaths = (film: Film, count: number = 3): string[] => {
   const folderName = getFilmFolderName(film);
   return Array.from({ length: count }, (_, i) => {
-    return `/images/stills/${folderName}/${folderName}_${i + 1}.jpg`;
+    return `${getBaseUrl()}images/stills/${folderName}/${folderName}_${i + 1}.jpg`;
   });
 };
 
@@ -35,5 +42,5 @@ export const getFilmStillPaths = (film: Film, count: number = 3): string[] => {
  * Gets a fallback placeholder for missing images
  */
 export const getPlaceholderImage = (): string => {
-  return '/placeholder.svg';
+  return `${getBaseUrl()}placeholder.svg`;
 };

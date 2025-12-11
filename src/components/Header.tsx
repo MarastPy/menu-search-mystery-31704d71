@@ -57,7 +57,7 @@ export const Header = () => {
             }}
           >
             <Link to="/">
-              <img src="/images/logo/Cinefila_logo_white_web.svg" alt="Cinefila Logo" className="h-[50px]" />
+              <img src={`${import.meta.env.BASE_URL}images/logo/Cinefila_logo_white_web.svg`} alt="Cinefila Logo" className="h-[50px]" />
             </Link>
           </div>
 

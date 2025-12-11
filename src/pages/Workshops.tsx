@@ -5,12 +5,14 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const workshopImages = [
-  "/images/worksphops/IMG_6555.jpg",
-  "/images/worksphops/IMG_6556.jpg",
-  "/images/worksphops/IMG_6558.jpg",
-  "/images/worksphops/IMG_6578.jpg",
-  "/images/worksphops/IMG_6579.jpg",
+  `${baseUrl}images/worksphops/IMG_6555.jpg`,
+  `${baseUrl}images/worksphops/IMG_6556.jpg`,
+  `${baseUrl}images/worksphops/IMG_6558.jpg`,
+  `${baseUrl}images/worksphops/IMG_6578.jpg`,
+  `${baseUrl}images/worksphops/IMG_6579.jpg`,
 ];
 
 const Workshops = () => {
