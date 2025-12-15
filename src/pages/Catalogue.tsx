@@ -145,17 +145,20 @@ const MultiSelectFilter = ({
       </PopoverTrigger>
       <PopoverContent className="w-[220px] p-0 bg-card border-border z-50" align="start">
         <div className="max-h-[300px] overflow-auto p-2">
-          {selectedValues.length > 0 && (
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={clearAll}
-              className="w-full justify-start text-xs mb-2 text-muted-foreground hover:text-foreground"
-            >
-              <X className="mr-2 h-3 w-3" />
-              Clear selection
-            </Button>
-          )}
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={clearAll}
+            disabled={selectedValues.length === 0}
+            className={`w-full justify-start text-xs mb-2 ${
+              selectedValues.length === 0 
+                ? "text-muted-foreground/50 cursor-not-allowed" 
+                : "text-foreground hover:text-foreground"
+            }`}
+          >
+            <X className="mr-2 h-3 w-3" />
+            Clear selection
+          </Button>
           {options.map((option) => {
             const isAvailable = availableOptions.has(option);
             const isSelected = selectedValues.includes(option);
