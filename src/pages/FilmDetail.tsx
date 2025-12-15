@@ -691,7 +691,7 @@ export default function FilmDetail() {
 
       {/* Image Gallery Dialog */}
       <Dialog open={selectedImageIndex !== null} onOpenChange={() => setSelectedImageIndex(null)}>
-        <DialogContent className="max-w-[95vw] max-h-[95vh] p-0">
+        <DialogContent className="max-w-[95vw] max-h-[95vh] p-0" closeAbove>
           <div className="relative w-full h-full flex items-center justify-center bg-black">
             {selectedImageIndex !== null && allImages[selectedImageIndex] && (
               <>
