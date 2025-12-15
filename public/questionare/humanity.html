@@ -19,10 +19,9 @@
 
 
     label { display: block; margin-top: 10px; font-weight: bold; font-size: 18px}
-    input, textarea, select { width: 100%; padding: 3px; margin-top: 4px; font-size: 14px, height: 25px; box-sizing: border-box;}
+    input, textarea, select { width: 100%; padding: 3px; margin-top: 4px; font-size: 14px, height: 1.5em; box-sizing: border-box;}
     textarea {
       width: 100%;
-      min-height: 25px;
       resize: none;
       overflow: hidden;
       box-sizing: border-box;
@@ -75,7 +74,7 @@
 <body>
   <script>
     function autoResize(textarea) {
-      textarea.style.height = '25px';
+      textarea.style.height = 'auto';
       textarea.style.height = textarea.scrollHeight + 'px' ;
     }
 
@@ -98,14 +97,14 @@
 
   <h2>1. Film</h2>
   <label>Title</label>
-  Original:<textarea oninput="autoResize(this)" style="height: 23px;">Vlny</textarea>
-  English:<textarea oninput="autoResize(this)" style="height: 23px;">Waves</textarea>
+  Original:<textarea oninput="autoResize(this)" style="height: 23px;">Humanity</textarea>
+  English:<textarea oninput="autoResize(this)" style="height: 23px;">Humanity</textarea>
   Other:<textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
 <br>
 <br>
   <label>Language</label>
- Original:<textarea oninput="autoResize(this)" style="height: 23px;">Without dialogue</textarea>
- Subtitles:<textarea oninput="autoResize(this)" style="height: 23px;">None</textarea>
+ Original:<textarea oninput="autoResize(this)" style="height: 23px;">without dialogue</textarea>
+ Subtitles:<textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
 <br>
 <br>
   <label>Country of production</label>
@@ -113,10 +112,10 @@
 <br>
 <br>
   <label>Date of completion</label>
-  <textarea oninput="autoResize(this)" placeholder="DD.MM.YYYY" style="height: 23px;">01.05.2024</textarea>
+  <textarea oninput="autoResize(this)" placeholder="DD.MM.YYYY" style="height: 23px;">12.05.2024</textarea>
 <br>
 <br>
-  <label>Runtime (for the series average value)</label><textarea oninput="autoResize(this)" placeholder="HH:MM:SS" style="height: 23px;">00:08:00</textarea>
+  <label>Runtime (for the series average value)</label><textarea oninput="autoResize(this)" placeholder="HH:MM:SS" style="height: 23px;">00:07:46</textarea>
 <br>
 <br>
 Number of series:<textarea oninput="autoResize(this)" placeholder="Total number" style="height: 23px;"></textarea>
@@ -139,8 +138,8 @@ Titles and runtime of episodes:
 <option>absurd</option>
 <option>action</option>
 <option>adventure</option>
-<option selected="selected">ani-doc</option>
-<option>animation</option>
+<option>ani-doc</option>
+<option selected="selected">animation</option>
 <option>autobiographical</option>
 <option>based on true story</option>
 <option>biographical</option>
@@ -196,7 +195,67 @@ Titles and runtime of episodes:
 <option>western</option>
       </select>
     </div>
-  </div>
+  <div class="genre-row"><select>
+      <option></option>
+<option>absurd</option>
+<option>action</option>
+<option>adventure</option>
+<option>ani-doc</option>
+<option>animation</option>
+<option>autobiographical</option>
+<option>based on true story</option>
+<option>biographical</option>
+<option>children</option>
+<option selected="selected">comedy</option>
+<option>comics</option>
+<option>coming-of-age</option>
+<option>crime</option>
+<option>dance</option>
+<option>disaster</option>
+<option>documentary</option>
+<option>drama</option>
+<option>educational</option>
+<option>erotic</option>
+<option>experimental</option>
+<option>fairytale</option>
+<option>family</option>
+<option>fantasy</option>
+<option>feature</option>
+<option>fiction</option>
+<option>fulldome</option>
+<option>game-show</option>
+<option>historical</option>
+<option>horror</option>
+<option>journalistic</option>
+<option>mockumentary</option>
+<option>music video</option>
+<option>musical</option>
+<option>mystery</option>
+<option>noir</option>
+<option>non-narrative</option>
+<option>parables</option>
+<option>parody</option>
+<option>poetic</option>
+<option>political</option>
+<option>psychological</option>
+<option>puppet</option>
+<option>reality TV</option>
+<option>road movie</option>
+<option>romantic</option>
+<option>sci-fi</option>
+<option>sitcom</option>
+<option>soap opera</option>
+<option>sport</option>
+<option>spy</option>
+<option>student</option>
+<option>tales</option>
+<option>talkshow</option>
+<option>thriller</option>
+<option>tragedy</option>
+<option>travel diary</option>
+<option>war</option>
+<option>western</option>
+    </select></div></div>
 
 
 <!-- Tlačítka pro GENRES -->
@@ -294,7 +353,7 @@ Other:<textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
 
   <label>Keywords (story topics)</label>
 List keywords that describe the theme of the film, such as migration, environmental issues, LGBTQ+, kids, animal etc.:
-<textarea oninput="autoResize(this)" style="height: 23px;">waves, nature, society</textarea>
+<textarea oninput="autoResize(this)" style="height: 23px;">bad habits, annoyance, laughter, revenge, emotions</textarea>
 
 <br>
 <br>
@@ -302,10 +361,10 @@ List keywords that describe the theme of the film, such as migration, environmen
 <label>Target group</label>
 Rating:
 <select>
-<option selected="selected"></option>
+<option></option>
 <option>3+</option>
 <option>6+</option>
-<option>12+</option>
+<option selected="selected">12+</option>
 <option>15+</option>
 <option>18+</option>
 </select>
@@ -329,9 +388,9 @@ Other:<textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
   
     <div id="premiere-container">
     <div class="row">
-      <textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">12/2024</textarea>
+      <textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">05/2024</textarea>
       <textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Czech Republic</textarea>
-      <textarea class="festival" placeholder="Name of place of premiere" oninput="autoResize(this)" style="height: 23px;">Anifilm, Liberec</textarea>
+      <textarea class="festival" placeholder="Name of place of premiere" oninput="autoResize(this)" style="height: 23px;">Anifilm</textarea>
     </div>
   </div>
 
@@ -341,14 +400,13 @@ Other:<textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
   <label>Did the film have a festival screening?</label>
     <div id="festival-container">
     <div class="row">
-      <textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">10/2024</textarea>
-      <textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Portugal</textarea>
-      <textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 23px;">Cinanima</textarea>
+      <textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">06/2024</textarea>
+      <textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Slovakia</textarea>
+      <textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 23px;">Fest Anča</textarea>
     </div>
-    <div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 23px;">12/2024</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Slovenia</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 36px;">Animateka International Animated Film Festival
-</textarea></div><div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 23px;">07/2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Poland</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 23px;">FREEDOM Film Festival</textarea></div><div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 23px;">08/2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Israel</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 36px;">ANIMIX - International Animation &amp; Comics Festival
-</textarea></div><div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 23px;">11/2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Germany</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 36px;">Braunschweig International Film Festival
-</textarea></div></div>
+    <div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 23px;">06/2024</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Croatia</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 23px;">Animafest Zagreb</textarea></div><div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 23px;">10/2024</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Argentina</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 36px;">ANIMA, Córdoba International Animation Festival
+</textarea></div><div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 23px;">08/2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Israel</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 36px;">ANIMIX - International Animation &amp; Comics Festival
+</textarea></div><div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 23px;">08/2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Canada</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 23px;">Anim sur le Lac</textarea></div></div>
 
 
 
@@ -395,11 +453,20 @@ Other:<textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
   <label> Did the film win an award?</label>
   <div id="awards-container">
     <div class="row">
-      <textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;"></textarea>
-      <textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;"></textarea>
-      <textarea class="festival" placeholder="Festival, section of competion" oninput="autoResize(this)" style="height: 23px;"></textarea>
+      <textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">11/2024</textarea>
+      <textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">USA</textarea>
+      <textarea class="festival" placeholder="Festival, section of competion" oninput="autoResize(this)" style="height: 36px;">Denver Film Festival - 2024 Marilyn Marsh Saint-Veltri Award for Best Student Animation Short
+</textarea>
     </div>
-  </div>
+  <div class="row"><textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">01/2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">France</textarea><textarea class="festival" placeholder="Festival, section of competition" oninput="autoResize(this)" style="height: 36px;">Premier Plans Film Festival - the Prix du Public
+ </textarea></div><div class="row"><textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">04/2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Italy</textarea><textarea class="festival" placeholder="Festival, section of competition" oninput="autoResize(this)" style="height: 36px;">Bref International Short Film Festival - the Special Mention from the Critics' Jury
+</textarea></div><div class="row"><textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">05/2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Italy</textarea><textarea class="festival" placeholder="Festival, section of competition" oninput="autoResize(this)" style="height: 36px;">Stop-eMotion Days in Venice - the Starewicz Prize (award for best student/debut short film) 
+</textarea></div><div class="row"><textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">11/2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Germany</textarea><textarea class="festival" placeholder="Festival, section of competition" oninput="autoResize(this)" style="height: 51px;">Wiesbaden International Festival of Animation- „Best of International Animation: New Generations“
+
+</textarea></div><div class="row"><textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">10/2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Poland</textarea><textarea class="festival" placeholder="Festival, section of competition" oninput="autoResize(this)" style="height: 36px;">Etiuda &amp; Anima International Film Festival - Marcin Podolec’s mention
+</textarea></div><div class="row"><textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">05/2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Spain</textarea><textarea class="festival" placeholder="Festival, section of competition" oninput="autoResize(this)" style="height: 36px;">Bilbao Fantastic Film Festival - the best short film in Fantasy Panorama Section
+</textarea></div><div class="row"><textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">09/2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Spain</textarea><textarea class="festival" placeholder="Festival, section of competition" oninput="autoResize(this)" style="height: 36px;">Galician Freaky Film Festival - the winner of the “Olimpo dos Freaks”
+</textarea></div></div>
 
   
  <button class="button add" onclick="addAwardRow()">➕</button>
@@ -436,47 +503,51 @@ Other:<textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
 <br>
 <br>
   <h2>5. Logline (max. 150 characters)</h2>
-    <textarea oninput="autoResize(this)" maxlength="150" style="height: 51px;">The film explores waves in nature and life through dramatic moments, human fragments, and flowing movements in sea, grass, and branches.
-
+    <textarea oninput="autoResize(this)" maxlength="150" style="height: 36px;">Unleash your darkest desires in a world where annoying habits meet their fatal demise.
 </textarea>
 <br>
 <br>
   <h2>6. Synopsis (max. 350 characters)</h2>
-<textarea oninput="autoResize(this)" maxlength="350" style="height: 66px;">This short author film is being created using sand animation, and explores the theme of waves in various forms and contexts. A collage of situations from non-specific places around the globe, and the rhythmical motion and sound of waves occuring naturally in the world around us. 
+<textarea oninput="autoResize(this)" maxlength="350" style="height: 66px;">Dark comedy about something we all do - we hate other people for trivial reasons. Life is hard even without having to tolerate other people's annoying habits. The problem is you can't kill somebody just because they chew too loudly. But in this animated world, you can make all your dark visions of fatal revenge a reality.
 
 </textarea>
 <br>
 <br>
   <h2>7. Director's note (max. 500 characters)</h2>
-  <textarea oninput="autoResize(this)" maxlength="500" style="height: 81px;">This short author film, created with sand animation, explores waves in many forms—natural, emotional, social. From sea waves and wind-shaped grass to shock waves, protests, grief, borders crossed, passion, joy, birth and death. This cyclic motion reveals how waves can soothe with calm rhythm or evoke unease, fear and the sense of an unstoppable force.
+  <textarea oninput="autoResize(this)" maxlength="500" style="height: 126px;">The idea for this film crystallized from years of experiences and encounters with the annoying humankind. Right after reminding you of what bothers you about people, it showcases all the things you can't do to them in reality. I see this film as a form of therapy, allowing me to creatively explore these unpleasant emotions and not keep them bottled up inside. Instead of silently hating each other, we can laugh and perhaps reflect on how loudly we are munching our popcorn.
+
+
 
 
 </textarea>
 <br>
 <br>
   <h2>8. Crew</h2>
-  <label>Director(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Michael Carrington</textarea>
-  <label>Screenplay writer(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Michael Carrington</textarea>
-  <label>Director(s) of Photography:</label><textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
-  <label>Editor(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Tomáš Doruška</textarea>
-  <label>Sound director(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Turgut Mavuk</textarea>
+  <label>Director(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Tereza Kovandová</textarea>
+  <label>Screenplay writer(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Lukáš Hrdý, Tereza Kovandová</textarea>
+  <label>Director(s) of Photography:</label><textarea oninput="autoResize(this)" style="height: 23px;">Ondřej Nedvěd</textarea>
+  <label>Editor(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Lívia Vrabeľ</textarea>
+  <label>Sound director(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Jakub Trš</textarea>
   <label>Art director(s):</label><textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
-  <label>Music composer(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Ahmet Kenan Bilgic</textarea>
+  <label>Music composer(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Jakub Trš</textarea>
   <label>Cast (actor's name: role):</label><textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
 <br>
 <br>
   <h2>9. Director's bio </h2>
 <label>Date of birth:</label>
-  <textarea oninput="autoResize(this)" placeholder="DD.MM.YYYY" style="height: 23px;">1973</textarea>
+  <textarea oninput="autoResize(this)" placeholder="DD.MM.YYYY" style="height: 23px;"></textarea>
 
 <label>Max. 500 characters:</label>
-<textarea oninput="autoResize(this)" style="height: 51px;">Michael Carrington, artist and animator, was born in 1973 in London. He studied in Zlín and teaches animation at FAMU in Prague. He worked at Ealing Studios and as lead animator on Jan Balej’s films. He supervised award-winning shorts Daughter and The Kite.
+<textarea oninput="autoResize(this)" style="height: 66px;">An illustrator, animator, storyboard artist, and film director. She finished her master's studies in animation at FAMU Prague with the film Humanity. Her silhouette stop-motion bachelor film Bloody Fairy Tales was screened in more than 20 countries, and selected to festivals such as KVIFF, Milano Film Festival, Interfilm, and Anima Brussels.
+
 </textarea>
 
 <br>
 <br>
   <h2>10. Director's filmography</h2>
-<textarea oninput="autoResize(this)" placeholder="Title (year)" style="height: 23px;"></textarea>
+<textarea oninput="autoResize(this)" placeholder="Title (year)" style="height: 51px;">Zhola nic (Nothing at all), 2017
+Krvavé pohádky (Bloody Fairy Tales), 2018
+</textarea>
 
 <br>
 <br>
@@ -516,7 +587,7 @@ Video:
 <option>Blackmagic Design</option>
 </select>
 Other:
-<textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
+<textarea oninput="autoResize(this)" style="height: 23px;">digital</textarea>
 <br>
 <br>
 <label>Camera:</label>
@@ -543,14 +614,14 @@ Other:
 <option>paper cut out</option>
 <option>pin screen</option>
 <option>pixilation</option>
-<option>puppet</option>
+<option selected="selected">puppet</option>
 <option>real shooting</option>
 <option>rotoscoping</option>
-<option selected="selected">sand/powder</option>
+<option>sand/powder</option>
 <option>stop-motion</option>
 </select>
 Other:
-<textarea oninput="autoResize(this)" style="height: 23px;">monochromatic underlit sand animation</textarea>
+<textarea oninput="autoResize(this)" style="height: 23px;">live action</textarea>
 <br>
 <br>
 <label>Video editing software</label>
@@ -595,11 +666,11 @@ Tape:
 </select>
 File:
 <select>
-<option selected="selected"></option>
+<option></option>
 <option>Apple ProRes</option>
 <option>AVID DNxHD</option>
 <option>BluRay</option>
-<option>DCP</option>
+<option selected="selected">DCP</option>
 <option>DVD</option>
 <option>HEVC/H.265</option>
 <option>H.264/MPEG-4</option>
@@ -612,13 +683,13 @@ Other:
 <br>
 <label>Resolution</label>
 <select>
-<option selected="selected"></option>
+<option></option>
 <option>SD: NTSC (640x480)</option>
 <option>SD: PAL (720x576)</option>
 <option>HD: 1280X720</option>
 <option>HD: 1440X1080</option>
 <option>HD: 1920X1080</option>
-<option>2K</option>
+<option selected="selected">2K</option>
 <option>4k</option>
 <option>8k</option>
 </select>
@@ -639,9 +710,9 @@ Scan method (for video):
 <p>
 FPS (frame per second):
 <select>
-<option selected="selected"></option>
+<option></option>
 <option>23.976 (USA)</option>
-<option>24</option>
+<option selected="selected">24</option>
 <option>25</option>
 <option>29.97 (USA, JAP)</option>
 <option>30</option>
@@ -684,9 +755,9 @@ Other:
 <select>
 <option></option>
 <option>Mono (1.0)</option>
-<option selected="selected">Stereo (2.0, L+R)</option>
+<option>Stereo (2.0, L+R)</option>
 <option>Dolby Stereo (3.1, LCRS)</option>
-<option>Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)</option>
+<option selected="selected">Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)</option>
 <option>Dolby Digital 7.1 (5.1 + Lss, Rss)</option>
 <option>Dolby Atmos</option>
 <option>DTS (Digital Theater Systems)</option>
@@ -700,8 +771,8 @@ Other:
 <br>
 <label>Colour</label>
   <select>
-    <option>Colour</option>
-    <option selected="selected">Black &amp; White</option>
+    <option selected="selected">Colour</option>
+    <option>Black &amp; White</option>
     <option>Colour + Black &amp; White</option>
   </select>
 <br>
@@ -713,7 +784,7 @@ Other:
 
   </p><h2>12. Production</h2>
   <label>Producers:</label>
-<textarea oninput="autoResize(this)" style="height: 96px;">Name: Michal Bureš
+<textarea oninput="autoResize(this)" style="height: 96px;">Name: Kristína Škodová
 Address:
 Postal code, city:
 Country:
@@ -721,14 +792,14 @@ WEB:
 </textarea>
 
   <label>Production company:</label>
-  <textarea oninput="autoResize(this)" style="height: 96px;">Name: Automat Svět
+  <textarea oninput="autoResize(this)" style="height: 96px;">Name:
 Address:
 Postal code, city:
 Country:
 WEB:
 </textarea>
   <label>Co-producer:</label>
-  <textarea oninput="autoResize(this)" style="height: 96px;">Name:
+  <textarea oninput="autoResize(this)" style="height: 96px;">Name: FAMU
 Address:
 Postal code, city:
 Country:

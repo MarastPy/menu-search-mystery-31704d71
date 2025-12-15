@@ -19,10 +19,9 @@
 
 
     label { display: block; margin-top: 10px; font-weight: bold; font-size: 18px}
-    input, textarea, select { width: 100%; padding: 3px; margin-top: 4px; font-size: 14px, height: 25px; box-sizing: border-box;}
+    input, textarea, select { width: 100%; padding: 3px; margin-top: 4px; font-size: 14px, height: 1.5em; box-sizing: border-box;}
     textarea {
       width: 100%;
-      min-height: 25px;
       resize: none;
       overflow: hidden;
       box-sizing: border-box;
@@ -75,7 +74,7 @@
 <body>
   <script>
     function autoResize(textarea) {
-      textarea.style.height = '25px';
+      textarea.style.height = 'auto';
       textarea.style.height = textarea.scrollHeight + 'px' ;
     }
 
@@ -98,14 +97,14 @@
 
   <h2>1. Film</h2>
   <label>Title</label>
-  Original:<textarea oninput="autoResize(this)" style="height: 23px;">Ježek</textarea>
-  English:<textarea oninput="autoResize(this)" style="height: 23px;">The Hedgehog</textarea>
-  Other:<textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
+  Original:<textarea oninput="autoResize(this)" style="height: 23px;">Máma má vždycky pravdu</textarea>
+  English:<textarea oninput="autoResize(this)" style="height: 23px;">Mom is always right</textarea>
+  Other:<textarea oninput="autoResize(this)" style="height: 23px;">Maman a toujours raison</textarea>
 <br>
 <br>
   <label>Language</label>
- Original:<textarea oninput="autoResize(this)" style="height: 23px;">no dialogue</textarea>
- Subtitles:<textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
+ Original:<textarea oninput="autoResize(this)" style="height: 23px;">czech / english, french dubbing</textarea>
+ Subtitles:<textarea oninput="autoResize(this)" style="height: 23px;">english</textarea>
 <br>
 <br>
   <label>Country of production</label>
@@ -113,10 +112,10 @@
 <br>
 <br>
   <label>Date of completion</label>
-  <textarea oninput="autoResize(this)" placeholder="DD.MM.YYYY" style="height: 23px;">19/03/2023</textarea>
+  <textarea oninput="autoResize(this)" placeholder="DD.MM.YYYY" style="height: 23px;">O1.01.2022</textarea>
 <br>
 <br>
-  <label>Runtime (for the series average value)</label><textarea oninput="autoResize(this)" placeholder="HH:MM:SS" style="height: 23px;">00:01:30</textarea>
+  <label>Runtime (for the series average value)</label><textarea oninput="autoResize(this)" placeholder="HH:MM:SS" style="height: 23px;">00:07:39</textarea>
 <br>
 <br>
 Number of series:<textarea oninput="autoResize(this)" placeholder="Total number" style="height: 23px;"></textarea>
@@ -136,168 +135,186 @@ Titles and runtime of episodes:
     <div class="genre-row">
       <select>
         <option></option>
-        <option>absurd</option>
-        <option>autobiographical</option>
-        <option>action</option>
-        <option selected="selected">animation</option>
-        <option>ani-doc</option>
-        <option>adventure</option>
-        <option>based on true story</option>
-        <option>biographical</option>
-        <option>children</option>
-        <option>comedy</option>
-        <option>crime</option>
-        <option>dance</option>
-        <option>disaster</option>
-        <option>documentary</option>
-        <option>drama</option>
-        <option>educational</option>
-        <option>erotic</option>
-        <option>experimental</option>
-        <option>fairytale</option>
-        <option>family</option>
-        <option>fantasy</option>
-        <option>feature</option>
-        <option>noir</option>
-        <option>fulldome</option>
-        <option>historical</option>
-        <option>horror</option>
-        <option>musical</option>
-        <option>music video</option>
-        <option>non-narrative</option>
-        <option>puppet</option>
-        <option>mystery</option>
-        <option>parables</option>
-        <option>parody</option>
-        <option>poetic</option>
-        <option>tales</option>
-        <option>psychological</option>
-        <option>journalistic</option>
-        <option>reality TV</option>
-        <option>road movie</option>
-        <option>romantic</option>
-        <option>sci-fi</option>
-        <option>sitcom</option>
-        <option>student</option>
-        <option>tragedy</option>
-        <option>travel diary</option>
-        <option>game-show</option>
-        <option>sport</option>
-        <option>talkshow</option>
-        <option>soap opera</option>
-        <option>thriller</option>
-        <option>war</option>
-        <option>western</option>
+<option>absurd</option>
+<option>action</option>
+<option>adventure</option>
+<option>ani-doc</option>
+<option selected="selected">animation</option>
+<option>autobiographical</option>
+<option>based on true story</option>
+<option>biographical</option>
+<option>children</option>
+<option>comedy</option>
+<option>comics</option>
+<option>coming-of-age</option>
+<option>crime</option>
+<option>dance</option>
+<option>disaster</option>
+<option>documentary</option>
+<option>drama</option>
+<option>educational</option>
+<option>erotic</option>
+<option>experimental</option>
+<option>fairytale</option>
+<option>family</option>
+<option>fantasy</option>
+<option>feature</option>
+<option>fiction</option>
+<option>fulldome</option>
+<option>game-show</option>
+<option>historical</option>
+<option>horror</option>
+<option>journalistic</option>
+<option>mockumentary</option>
+<option>music video</option>
+<option>musical</option>
+<option>mystery</option>
+<option>noir</option>
+<option>non-narrative</option>
+<option>parables</option>
+<option>parody</option>
+<option>poetic</option>
+<option>political</option>
+<option>psychological</option>
+<option>puppet</option>
+<option>reality TV</option>
+<option>road movie</option>
+<option>romantic</option>
+<option>sci-fi</option>
+<option>sitcom</option>
+<option>soap opera</option>
+<option>sport</option>
+<option>spy</option>
+<option>student</option>
+<option>tales</option>
+<option>talkshow</option>
+<option>thriller</option>
+<option>tragedy</option>
+<option>travel diary</option>
+<option>war</option>
+<option>western</option>
       </select>
     </div>
   <div class="genre-row"><select>
       <option></option>
-      <option>absurd</option>
-      <option>autobiographical</option>
-      <option>action</option>
-      <option>animation</option>
-      <option>ani-doc</option>
-      <option>adventure</option>
-      <option>based on true story</option>
-      <option>biographical</option>
-      <option selected="selected">children</option>
-      <option>comedy</option>
-      <option>crime</option>
-      <option>dance</option>
-      <option>disaster</option>
-      <option>documentary</option>
-      <option>drama</option>
-      <option>educational</option>
-      <option>erotic</option>
-      <option>experimental</option>
-      <option>fairytale</option>
-      <option>family</option>
-      <option>fantasy</option>
-      <option>feature</option>
-      <option>noir</option>
-      <option>fulldome</option>
-      <option>historical</option>
-      <option>horror</option>
-      <option>musical</option>
-      <option>music video</option>
-      <option>non-narrative</option>
-      <option>puppet</option>
-      <option>mystery</option>
-      <option>parables</option>
-      <option>parody</option>
-      <option>poetic</option>
-      <option>tales</option>
-      <option>psychological</option>
-      <option>journalistic</option>
-      <option>reality TV</option>
-      <option>road movie</option>
-      <option>romantic</option>
-      <option>sci-fi</option>
-      <option>sitcom</option>
-      <option>student</option>
-      <option>tragedy</option>
-      <option>travel diary</option>
-      <option>game-show</option>
-      <option>sport</option>
-      <option>talkshow</option>
-      <option>soap opera</option>
-      <option>thriller</option>
-      <option>war</option>
-      <option>western</option>
+<option>absurd</option>
+<option>action</option>
+<option>adventure</option>
+<option>ani-doc</option>
+<option>animation</option>
+<option>autobiographical</option>
+<option>based on true story</option>
+<option>biographical</option>
+<option>children</option>
+<option selected="selected">comedy</option>
+<option>comics</option>
+<option>coming-of-age</option>
+<option>crime</option>
+<option>dance</option>
+<option>disaster</option>
+<option>documentary</option>
+<option>drama</option>
+<option>educational</option>
+<option>erotic</option>
+<option>experimental</option>
+<option>fairytale</option>
+<option>family</option>
+<option>fantasy</option>
+<option>feature</option>
+<option>fiction</option>
+<option>fulldome</option>
+<option>game-show</option>
+<option>historical</option>
+<option>horror</option>
+<option>journalistic</option>
+<option>mockumentary</option>
+<option>music video</option>
+<option>musical</option>
+<option>mystery</option>
+<option>noir</option>
+<option>non-narrative</option>
+<option>parables</option>
+<option>parody</option>
+<option>poetic</option>
+<option>political</option>
+<option>psychological</option>
+<option>puppet</option>
+<option>reality TV</option>
+<option>road movie</option>
+<option>romantic</option>
+<option>sci-fi</option>
+<option>sitcom</option>
+<option>soap opera</option>
+<option>sport</option>
+<option>spy</option>
+<option>student</option>
+<option>tales</option>
+<option>talkshow</option>
+<option>thriller</option>
+<option>tragedy</option>
+<option>travel diary</option>
+<option>war</option>
+<option>western</option>
     </select></div><div class="genre-row"><select>
       <option></option>
-      <option>absurd</option>
-      <option>autobiographical</option>
-      <option>action</option>
-      <option>animation</option>
-      <option>ani-doc</option>
-      <option>adventure</option>
-      <option>based on true story</option>
-      <option>biographical</option>
-      <option>children</option>
-      <option selected="selected">comedy</option>
-      <option>crime</option>
-      <option>dance</option>
-      <option>disaster</option>
-      <option>documentary</option>
-      <option>drama</option>
-      <option>educational</option>
-      <option>erotic</option>
-      <option>experimental</option>
-      <option>fairytale</option>
-      <option>family</option>
-      <option>fantasy</option>
-      <option>feature</option>
-      <option>noir</option>
-      <option>fulldome</option>
-      <option>historical</option>
-      <option>horror</option>
-      <option>musical</option>
-      <option>music video</option>
-      <option>non-narrative</option>
-      <option>puppet</option>
-      <option>mystery</option>
-      <option>parables</option>
-      <option>parody</option>
-      <option>poetic</option>
-      <option>tales</option>
-      <option>psychological</option>
-      <option>journalistic</option>
-      <option>reality TV</option>
-      <option>road movie</option>
-      <option>romantic</option>
-      <option>sci-fi</option>
-      <option>sitcom</option>
-      <option>student</option>
-      <option>tragedy</option>
-      <option>travel diary</option>
-      <option>game-show</option>
-      <option>sport</option>
-      <option>talkshow</option>
-      <option>soap opera</option>
-      <option>thriller</option>
-      <option>war</option>
-      <option>western</option>
+<option>absurd</option>
+<option>action</option>
+<option>adventure</option>
+<option>ani-doc</option>
+<option>animation</option>
+<option>autobiographical</option>
+<option>based on true story</option>
+<option>biographical</option>
+<option>children</option>
+<option>comedy</option>
+<option>comics</option>
+<option>coming-of-age</option>
+<option>crime</option>
+<option>dance</option>
+<option>disaster</option>
+<option>documentary</option>
+<option>drama</option>
+<option>educational</option>
+<option>erotic</option>
+<option>experimental</option>
+<option>fairytale</option>
+<option selected="selected">family</option>
+<option>fantasy</option>
+<option>feature</option>
+<option>fiction</option>
+<option>fulldome</option>
+<option>game-show</option>
+<option>historical</option>
+<option>horror</option>
+<option>journalistic</option>
+<option>mockumentary</option>
+<option>music video</option>
+<option>musical</option>
+<option>mystery</option>
+<option>noir</option>
+<option>non-narrative</option>
+<option>parables</option>
+<option>parody</option>
+<option>poetic</option>
+<option>political</option>
+<option>psychological</option>
+<option>puppet</option>
+<option>reality TV</option>
+<option>road movie</option>
+<option>romantic</option>
+<option>sci-fi</option>
+<option>sitcom</option>
+<option>soap opera</option>
+<option>sport</option>
+<option>spy</option>
+<option>student</option>
+<option>tales</option>
+<option>talkshow</option>
+<option>thriller</option>
+<option>tragedy</option>
+<option>travel diary</option>
+<option>war</option>
+<option>western</option>
     </select></div></div>
 
 
@@ -315,58 +332,64 @@ Titles and runtime of episodes:
     const select = document.createElement("select");
     select.innerHTML = `
       <option></option>
-      <option>absurd</option>
-      <option>autobiographical</option>
-      <option>action</option>
-      <option>animation</option>
-      <option>ani-doc</option>
-      <option>adventure</option>
-      <option>based on true story</option>
-      <option>biographical</option>
-      <option>children</option>
-      <option>comedy</option>
-      <option>crime</option>
-      <option>dance</option>
-      <option>disaster</option>
-      <option>documentary</option>
-      <option>drama</option>
-      <option>educational</option>
-      <option>erotic</option>
-      <option>experimental</option>
-      <option>fairytale</option>
-      <option>family</option>
-      <option>fantasy</option>
-      <option>feature</option>
-      <option>noir</option>
-      <option>fulldome</option>
-      <option>historical</option>
-      <option>horror</option>
-      <option>musical</option>
-      <option>music video</option>
-      <option>non-narrative</option>
-      <option>puppet</option>
-      <option>mystery</option>
-      <option>parables</option>
-      <option>parody</option>
-      <option>poetic</option>
-      <option>tales</option>
-      <option>psychological</option>
-      <option>journalistic</option>
-      <option>reality TV</option>
-      <option>road movie</option>
-      <option>romantic</option>
-      <option>sci-fi</option>
-      <option>sitcom</option>
-      <option>student</option>
-      <option>tragedy</option>
-      <option>travel diary</option>
-      <option>game-show</option>
-      <option>sport</option>
-      <option>talkshow</option>
-      <option>soap opera</option>
-      <option>thriller</option>
-      <option>war</option>
-      <option>western</option>
+<option>absurd</option>
+<option>action</option>
+<option>adventure</option>
+<option>ani-doc</option>
+<option>animation</option>
+<option>autobiographical</option>
+<option>based on true story</option>
+<option>biographical</option>
+<option>children</option>
+<option>comedy</option>
+<option>comics</option>
+<option>coming-of-age</option>
+<option>crime</option>
+<option>dance</option>
+<option>disaster</option>
+<option>documentary</option>
+<option>drama</option>
+<option>educational</option>
+<option>erotic</option>
+<option>experimental</option>
+<option>fairytale</option>
+<option>family</option>
+<option>fantasy</option>
+<option>feature</option>
+<option>fiction</option>
+<option>fulldome</option>
+<option>game-show</option>
+<option>historical</option>
+<option>horror</option>
+<option>journalistic</option>
+<option>mockumentary</option>
+<option>music video</option>
+<option>musical</option>
+<option>mystery</option>
+<option>noir</option>
+<option>non-narrative</option>
+<option>parables</option>
+<option>parody</option>
+<option>poetic</option>
+<option>political</option>
+<option>psychological</option>
+<option>puppet</option>
+<option>reality TV</option>
+<option>road movie</option>
+<option>romantic</option>
+<option>sci-fi</option>
+<option>sitcom</option>
+<option>soap opera</option>
+<option>sport</option>
+<option>spy</option>
+<option>student</option>
+<option>tales</option>
+<option>talkshow</option>
+<option>thriller</option>
+<option>tragedy</option>
+<option>travel diary</option>
+<option>war</option>
+<option>western</option>
     `;
     newRow.appendChild(select);
     container.appendChild(newRow);
@@ -389,9 +412,8 @@ Other:<textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
 <br>
 
   <label>Keywords (story topics)</label>
-List keywords that describe the theme of the film, such as migration, environmental issues, LGBT, family,
-children, journey, parable, etc.:
-<textarea oninput="autoResize(this)" style="height: 23px;">hedgehog, swimming pool, child's imagination</textarea>
+List keywords that describe the theme of the film, such as migration, environmental issues, LGBTQ+, kids, animal etc.:
+<textarea oninput="autoResize(this)" style="height: 23px;">mom, parent, children, family, love, friendship, care, childhood traumas</textarea>
 
 <br>
 <br>
@@ -399,8 +421,8 @@ children, journey, parable, etc.:
 <label>Target group</label>
 Rating:
 <select>
-<option></option>
-<option selected="selected">3+</option>
+<option selected="selected"></option>
+<option>3+</option>
 <option>6+</option>
 <option>12+</option>
 <option>15+</option>
@@ -409,13 +431,15 @@ Rating:
 
 Audience:
 <select>
-<option></option>
-<option selected="selected">family </option>
+<option selected="selected"></option>
+<option>preschool</option>
+<option>youth</option>
+<option>family</option>
 <option>general audience</option>
 <option>adults</option>
 </select>
 
-Other:<textarea oninput="autoResize(this)" style="height: 23px;">preschool</textarea>
+Other:<textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
 
 <br>
 <br>
@@ -424,10 +448,9 @@ Other:<textarea oninput="autoResize(this)" style="height: 23px;">preschool</text
   
     <div id="premiere-container">
     <div class="row">
-      <textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">03/2023</textarea>
-      <textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Ireland</textarea>
-      <textarea class="festival" placeholder="Name of place of premiere" oninput="autoResize(this)" style="height: 36px;">Cinemagic International Film Festival for Young People
-</textarea>
+      <textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;"></textarea>
+      <textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;"></textarea>
+      <textarea class="festival" placeholder="Name of place of premiere" oninput="autoResize(this)" style="height: 23px;"></textarea>
     </div>
   </div>
 
@@ -437,14 +460,11 @@ Other:<textarea oninput="autoResize(this)" style="height: 23px;">preschool</text
   <label>Did the film have a festival screening?</label>
     <div id="festival-container">
     <div class="row">
-      <textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">10/2023</textarea>
-      <textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Sweden</textarea>
-      <textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 36px;">Uppsala International Short Film Festival
-</textarea>
+      <textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;"></textarea>
+      <textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;"></textarea>
+      <textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 23px;"></textarea>
     </div>
-    <div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 23px;">03/2023</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Belgium</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 36px;">Anima - the Brussels Animation Film Festival
-</textarea></div><div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 23px;">03/2024</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Sweden</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 23px;">BUFF Malmö Film Festival</textarea></div><div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 23px;">03/2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Canada</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 36px;">Montreal International Children’s Film Festival (FIFEM)
-</textarea></div></div>
+    </div>
 
 
 
@@ -532,28 +552,27 @@ Other:<textarea oninput="autoResize(this)" style="height: 23px;">preschool</text
 <br>
 <br>
   <h2>5. Logline (max. 150 characters)</h2>
-    <textarea oninput="autoResize(this)" maxlength="150" style="height: 23px;">Can hedgehog swim?</textarea>
+    <textarea oninput="autoResize(this)" maxlength="150" style="height: 23px;">What would happen if mum was always right?</textarea>
 <br>
 <br>
   <h2>6. Synopsis (max. 350 characters)</h2>
-<textarea oninput="autoResize(this)" maxlength="350" style="height: 66px;">Slightly moralising pun, filmed with pleasant exaggeration and a sense of animation shorthand. A child's imagination knows no bounds, and anyone who gets too carried away, whether drawing or just looking at a picture, can end up getting really wet. A hedgehog like that doesn't seem to be a very good swimmer, but he's all the more powerful.
-
-</textarea>
+<textarea oninput="autoResize(this)" maxlength="350" style="height: 32px;">Mirek has a huge belly and nobody knows why. Diets and strenuous exercise don't help. His big belly causes many complications. The simple act of putting on socks turns into a hellish mission. We follow the stories of several heroes, each with unusual troubles. Where do they stem from?</textarea>
 <br>
 <br>
   <h2>7. Director's note (max. 500 characters)</h2>
-  <textarea oninput="autoResize(this)" maxlength="500" style="height: 23px;"></textarea>
+  <textarea oninput="autoResize(this)" maxlength="500" style="height: 58px;">Film based on established parental sayings that are meant to warn children not to do certain things, as this can have far-reaching consequences. These consequences are taken to their extremes in my film through playful exaggeration. At the most general level, I focus on how seriously children can take those parental threats, and how much they carry them with them into adulthood, even though they know that after eating the seeds, watermelon will not grow in their bellies and others.. </textarea>
 <br>
 <br>
   <h2>8. Crew</h2>
-  <label>Director(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Daniela Hýbnerová</textarea>
-  <label>Screenplay writer(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Daniela Hýbnerová</textarea>
-  <label>Director(s) of Photography:</label><textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
-  <label>Editor(s):</label><textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
-  <label>Sound director(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Ondřej Vomočil</textarea>
-  <label>Art director(s):</label><textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
-  <label>Music composer(s):</label><textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
-  <label>Cast (actor's name: role):</label><textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
+  <label>Director(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Marie Urbánková</textarea>
+  <label>Screenplay writer(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Marie Urbánková, David Dvořák</textarea>
+  <label>Director(s) of Photography:</label><textarea oninput="autoResize(this)" style="height: 23px;">Marie Urbánková, Jaroslav Fišer</textarea>
+  <label>Editor(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Juraj Ondruš</textarea>
+  <label>Sound director(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Martin Večera</textarea>
+  <label>Art director(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Marie Urbánková</textarea>
+  <label>Music composer(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Kateřina Koutná KAT</textarea>
+  <label>Cast (actor's name: role):</label><textarea oninput="autoResize(this)" style="height: 32px;">Milda Frýdl: boy
+Zbyšek Puntucek: aborigines</textarea>
 <br>
 <br>
   <h2>9. Director's bio </h2>
@@ -561,18 +580,12 @@ Other:<textarea oninput="autoResize(this)" style="height: 23px;">preschool</text
   <textarea oninput="autoResize(this)" placeholder="DD.MM.YYYY" style="height: 23px;"></textarea>
 
 <label>Max. 500 characters:</label>
-<textarea oninput="autoResize(this)" style="height: 66px;">Daniela Hýbnerová graduated from the Animation Department at FAMU in Prague. Her short animated film The One About the Shirt won 2nd place in the international round of the Nespresso Talents 2020 competition. Daniela is a fan of Formula 1 racing, film music and the world of Harry Potter.
-
-</textarea>
+<textarea oninput="autoResize(this)" style="height: 45px;">Marie Urbánková, 1995, Prague. First she studied scenography at the SUPŠ. Then, she continued her studies at the Prague UMPRUM, majoring in film and television graphics, where she is currently continuing her master's degree. She illustrates and collaborates with Raketa magazine, illustrated three books. During her studies she made a short animated film for children, "The Concrete Jungle". She graduated with a master's film "Mom is always right".</textarea>
 
 <br>
 <br>
   <h2>10. Director's filmography</h2>
-<textarea oninput="autoResize(this)" placeholder="Title (year)" style="height: 81px;">Misophonia Orchestra (2022)
-Kuku [Cuckoo](2020)
-Medvědění [Bearing] (2018)
-Závodní horečka [Racing Fever] (2017)
-Nezbeda (2015)</textarea>
+<textarea oninput="autoResize(this)" placeholder="Title (year)" style="height: 23px;"></textarea>
 
 <br>
 <br>
@@ -627,7 +640,7 @@ Other:
 <label>Animation technique</label>
 <select>
 <option></option>
-<option selected="selected">2D computer</option>
+<option>2D computer</option>
 <option>3D computer</option>
 <option>cel animation</option>
 <option>clay animation</option>
@@ -643,7 +656,7 @@ Other:
 <option>real shooting</option>
 <option>rotoscoping</option>
 <option>sand/powder</option>
-<option>stop-motion</option>
+<option selected="selected">stop-motion</option>
 </select>
 Other:
 <textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
@@ -691,29 +704,29 @@ Tape:
 </select>
 File:
 <select>
-<option selected="selected"></option>
+<option></option>
 <option>Apple ProRes</option>
 <option>AVID DNxHD</option>
 <option>BluRay</option>
-<option>DCP</option>
+<option selected="selected">DCP</option>
 <option>DVD</option>
 <option>HEVC/H.265</option>
 <option>H.264/MPEG-4</option>
 <option>MPEG-2</option>
 </select>
 Other:
-<textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
+<textarea oninput="autoResize(this)" style="height: 23px;">h264</textarea>
 
 <br>
 <br>
 <label>Resolution</label>
 <select>
-<option selected="selected"></option>
+<option></option>
 <option>SD: NTSC (640x480)</option>
 <option>SD: PAL (720x576)</option>
 <option>HD: 1280X720</option>
 <option>HD: 1440X1080</option>
-<option>HD: 1920X1080</option>
+<option selected="selected">HD: 1920X1080</option>
 <option>2K</option>
 <option>4k</option>
 <option>8k</option>
@@ -735,9 +748,9 @@ Scan method (for video):
 <p>
 FPS (frame per second):
 <select>
-<option selected="selected"></option>
+<option></option>
 <option>23.976 (USA)</option>
-<option>24</option>
+<option selected="selected">24</option>
 <option>25</option>
 <option>29.97 (USA, JAP)</option>
 <option>30</option>
@@ -756,12 +769,12 @@ Other:
 
 <label>Aspect ratio</label>
 <select>
-<option selected="selected"></option>
+<option></option>
 <option>1.33 (4:3)</option>
 <option>1.37</option>
 <option>1.43 (IMAX 70 mm)</option>
 <option>1.66</option>
-<option>1.78 (16:9)</option>
+<option selected="selected">1.78 (16:9)</option>
 <option>1.85 ("flat format")</option>
 <option>1.90 (Netflix, digital IMAX...)</option>
 <option>2.00 (Netflix, Apple TV+, RED, Arri...)</option>
@@ -778,9 +791,9 @@ Other:
 <br>
 <label>Sound mix</label>
 <select>
-<option selected="selected"></option>
+<option></option>
 <option>Mono (1.0)</option>
-<option>Stereo (2.0, L+R)</option>
+<option selected="selected">Stereo (2.0, L+R)</option>
 <option>Dolby Stereo (3.1, LCRS)</option>
 <option>Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)</option>
 <option>Dolby Digital 7.1 (5.1 + Lss, Rss)</option>
@@ -809,7 +822,7 @@ Other:
 
   </p><h2>12. Production</h2>
   <label>Producers:</label>
-<textarea oninput="autoResize(this)" style="height: 96px;">Name: Daniela Hýbnerová
+<textarea oninput="autoResize(this)" style="height: 84px;">Name:
 Address:
 Postal code, city:
 Country:
@@ -817,17 +830,17 @@ WEB:
 </textarea>
 
   <label>Production company:</label>
-  <textarea oninput="autoResize(this)" style="height: 96px;">Name:
-Address:
-Postal code, city:
-Country:
+  <textarea oninput="autoResize(this)" style="height: 84px;">Name: FAMU - Film and TV School of the Academy of Performing Arts in Prague
+Address: Smetanovo nábřeží 2
+Postal code, city: 116 65, Prague 1
+Country: Czech Republic
 WEB:
 </textarea>
   <label>Co-producer:</label>
-  <textarea oninput="autoResize(this)" style="height: 96px;">Name:
-Address:
-Postal code, city:
-Country:
+  <textarea oninput="autoResize(this)" style="height: 84px;">Name: MAUR film
+Address: Revoluční 1403/28
+Postal code, city: 110 00 Praha 1
+Country: Czech Republic
 WEB:
 </textarea>
 <br>

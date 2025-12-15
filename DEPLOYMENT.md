@@ -7,7 +7,7 @@
 
 ```bash
 # Navigate to project
-cd path/to/your/project
+cd c:\Users\maha\PycharmProjects\CineFila
 
 # Install dependencies
 npm install
