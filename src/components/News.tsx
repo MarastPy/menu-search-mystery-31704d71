@@ -8,7 +8,7 @@ const newsItems = [
       " We are speechless! I Died in Irpin, a short animated documentary by Anastasiia Falileieva, is shortlisted for the Animated Short Film category for the 98th Academy Awards®! Big big congratulations to the whole team behind the movie!",
     fullContent:
       " We are speechless! I Died in Irpin, a short animated documentary by Anastasiia Falileieva, is shortlisted for the Animated Short Film category for the 98th Academy Awards®! Big big congratulations to the whole team behind the movie!",
-    image: `${baseUrl}images/posters/i_died_in_irpin/i_died_in_irpin.jpg`,
+    image: `${baseUrl}images/stills/i_died_in_irpin/i_died_in_irpin_1.jpg`,
     link: "https://www.instagram.com/p/DSViKSCipzZ/",
   },
   {
@@ -64,7 +64,7 @@ export const News = () => {
               </div>
               <p className="font-nunito text-[15px] text-[#1c1c1c] font-bold mb-3">{item.date}</p>
               <p className="font-nunito text-[14px] text-[#2c2c2c] leading-relaxed">
-                {item.excerpt.length > 500 ? item.excerpt.slice(0, 500) + '...' : item.excerpt}
+                {item.excerpt.length > 500 ? item.excerpt.slice(0, 500) + "..." : item.excerpt}
               </p>
             </a>
           ))}
