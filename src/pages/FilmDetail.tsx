@@ -299,7 +299,7 @@ export default function FilmDetail() {
 
               {/* Downloads section */}
               <div className="mt-6 space-y-2">
-                <h3 className="text-lg font-garamond font-bold mb-2 text-white">Downloads</h3>
+                <h3 className="text-lg font-nunito font-bold mb-2 text-white">Downloads</h3>
                 <Button asChild variant="dark" className="w-full">
                   <a href={getFilmPosterPath(film)} download={`${title.replace(/[^a-z0-9]/gi, "_")}_poster.jpg`}>
                     Poster
@@ -363,7 +363,7 @@ export default function FilmDetail() {
                 {/* Genres */}
                 {f.Genre_List && f.Genre_List.length > 0 && (
                   <div>
-                    <h3 className="text-xl font-garamond font-bold mb-2 text-white">Genres</h3>
+                    <h3 className="text-xl font-nunito font-bold mb-2 text-white">Genres</h3>
                     <div className="flex flex-wrap gap-2">
                       {f.Genre_List.map((g, i) => (
                         <Badge key={i} variant="secondary" className="bg-white/10 text-white border-white/20">
@@ -378,7 +378,7 @@ export default function FilmDetail() {
               {/* Logline */}
               {film.Logline && (
                 <div>
-                  <h3 className="text-xl font-garamond font-bold mb-2 text-white">Logline</h3>
+                  <h3 className="text-xl font-nunito font-bold mb-2 text-white">Logline</h3>
                   <p className="text-white/90 font-light">{film.Logline}</p>
                 </div>
               )}
@@ -386,7 +386,7 @@ export default function FilmDetail() {
               {/* Synopsis */}
               {film.Synopsis && (
                 <div>
-                  <h3 className="text-xl font-garamond font-bold mb-2 text-white">Synopsis</h3>
+                  <h3 className="text-xl font-nunito font-bold mb-2 text-white">Synopsis</h3>
                   <p className="text-white/90 text-justify font-light">{film.Synopsis}</p>
                 </div>
               )}
@@ -394,7 +394,7 @@ export default function FilmDetail() {
               {/* Review Excerpt */}
               {film.Review && (
                 <div>
-                  <h3 className="text-xl font-garamond font-bold mb-2 text-white">Review</h3>
+                  <h3 className="text-xl font-nunito font-bold mb-2 text-white">Review</h3>
                   <p className="text-white/90 italic font-light">{film.Review}</p>
                 </div>
               )}
@@ -402,7 +402,7 @@ export default function FilmDetail() {
               {/* Director's Note */}
               {film.Directors_Note && (
                 <div>
-                  <h3 className="text-xl font-garamond font-bold mb-2 text-white">Director's Note</h3>
+                  <h3 className="text-xl font-nunito font-bold mb-2 text-white">Director's Note</h3>
                   <p className="text-white/90 text-justify font-light">{film.Directors_Note}</p>
                 </div>
               )}
@@ -410,7 +410,7 @@ export default function FilmDetail() {
               {/* Target Group */}
               {(f.Target_Group?.Rating || f.Target_Group?.Audience) && (
                 <div>
-                  <h3 className="text-xl font-garamond font-bold mb-2 text-white">Target Group</h3>
+                  <h3 className="text-xl font-nunito font-bold mb-2 text-white">Target Group</h3>
                   <div className="space-y-1 text-white">
                     {f.Target_Group.Rating && (
                       <p>
@@ -431,7 +431,7 @@ export default function FilmDetail() {
               {/* Story Topics */}
               {f.Keywords && (
                 <div>
-                  <h3 className="text-xl font-garamond font-bold mb-2 text-white">Story Topics</h3>
+                  <h3 className="text-xl font-nunito font-bold mb-2 text-white">Story Topics</h3>
                   <p className="text-white/90 font-light">{f.Keywords}</p>
                 </div>
               )}
@@ -449,7 +449,7 @@ export default function FilmDetail() {
                 film.Producer_Representative ||
                 film.Production_Company) && (
                 <div>
-                  <h2 className="text-2xl font-garamond font-bold mb-4 text-white">Crew</h2>
+                  <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Crew</h2>
                   <div className="space-y-2 text-white">
                     {crew["Director(s)"] && (
                       <div>
@@ -520,7 +520,7 @@ export default function FilmDetail() {
               {/* Cast */}
               {crew.Cast && crew.Cast.length > 0 && (
                 <div>
-                  <h2 className="text-2xl font-garamond font-bold mb-4 text-white">Cast</h2>
+                  <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Cast</h2>
                   <ul className="list-disc list-inside space-y-1 text-white/90 font-light">
                     {crew.Cast.map((actor: any, i: number) => (
                       <li key={i}>{typeof actor === "string" ? actor : JSON.stringify(actor)}</li>
@@ -536,7 +536,7 @@ export default function FilmDetail() {
                 film.Technical_Details?.Color ||
                 f.Date_of_completion) && (
                 <div>
-                  <h2 className="text-2xl font-garamond font-bold mb-4 text-white">Tech Specs</h2>
+                  <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Tech Specs</h2>
                   <div className="space-y-2 text-white">
                     {f.Runtime && (
                       <div>
@@ -575,7 +575,7 @@ export default function FilmDetail() {
               {/* Awards */}
               {film.Awards && film.Awards.length > 0 && film.Awards.some(a => a.Festival_Section_of_Competition || a.Country || a.Date) && (
                 <div>
-                  <h2 className="text-2xl font-garamond font-bold mb-4 text-white">Awards</h2>
+                  <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Awards</h2>
                   <ul className="space-y-2 text-white/90 font-light">
                     {film.Awards.map(
                       (award, i) =>
@@ -594,7 +594,7 @@ export default function FilmDetail() {
               {/* Festival Selections */}
               {film.Festivals && film.Festivals.length > 0 && film.Festivals[0].Name_of_Festival && (
                 <div>
-                  <h2 className="text-2xl font-garamond font-bold mb-4 text-white">Festival Selections</h2>
+                  <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Festival Selections</h2>
                   <ul className="space-y-2 text-white/90 font-light">
                     {film.Festivals.map(
                       (fest, i) =>
@@ -613,7 +613,7 @@ export default function FilmDetail() {
               {/* Director Bio with Photo */}
               {film.Director_Bio?.Bio_Text && (
                 <div>
-                  <h2 className="text-2xl font-garamond font-bold mb-4 text-white">Director's Biography</h2>
+                  <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Director's Biography</h2>
                   <div className="flex flex-col sm:flex-row gap-6">
                     {directorPhotoExists && directorPhotoPath && (
                       <div className="flex-shrink-0">
@@ -638,7 +638,7 @@ export default function FilmDetail() {
               {/* Director Filmography */}
               {film.Director_Filmography && film.Director_Filmography.length > 0 && (
                 <div>
-                  <h2 className="text-2xl font-garamond font-bold mb-4 text-white">Director's Filmography</h2>
+                  <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Director's Filmography</h2>
                   <ul className="list-disc list-inside space-y-1 text-white/90 font-light">
                     {film.Director_Filmography.map((filmEntry: any, i: number) => (
                       <li key={i}>{typeof filmEntry === "string" ? filmEntry : JSON.stringify(filmEntry)}</li>
@@ -652,7 +652,7 @@ export default function FilmDetail() {
                 {/* Status */}
                 {film.Status && (
                   <div>
-                    <h3 className="text-lg font-garamond font-bold mb-2 text-white">Status</h3>
+                    <h3 className="text-lg font-nunito font-bold mb-2 text-white">Status</h3>
                     <p className="text-white/90 font-light capitalize">{film.Status}</p>
                   </div>
                 )}
@@ -660,7 +660,7 @@ export default function FilmDetail() {
                 {/* Festival Distribution Only - Show only if "Yes" */}
                 {film.Festival_Distribution_Only && film.Festival_Distribution_Only.toLowerCase() === "yes" && (
                   <div>
-                    <h3 className="text-lg font-garamond font-bold mb-2 text-white">Festival Distribution Only</h3>
+                    <h3 className="text-lg font-nunito font-bold mb-2 text-white">Festival Distribution Only</h3>
                     <p className="text-white/90 font-light">Yes</p>
                   </div>
                 )}
@@ -668,7 +668,7 @@ export default function FilmDetail() {
                 {/* Sales - Show as link if filled */}
                 {film.Sales && film.Sales.trim() !== "" && (
                   <div>
-                    <h3 className="text-lg font-garamond font-bold mb-2 text-white">Sales</h3>
+                    <h3 className="text-lg font-nunito font-bold mb-2 text-white">Sales</h3>
                     {film.Sales.startsWith("http") ? (
                       <a
                         href={film.Sales}
