@@ -96,7 +96,7 @@ export const Catalogue = () => {
 
                     {/* Festival Information */}
                     {film.Festivals && film.Festivals.length > 0 && (
-                      <div className="mt-auto pt-4 border-t border-border/50">
+                      <div className="mt-auto pt-4">
                         <p className="text-xs font-bold text-primary mb-2 tracking-wide">
                           Festival selections:
                         </p>
