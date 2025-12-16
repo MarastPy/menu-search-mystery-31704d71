@@ -6,71 +6,45 @@ import { Button } from "@/components/ui/button";
 
 const baseUrl = import.meta.env.BASE_URL;
 
-// TO ADD A NEW NEWS ITEM:
-// 1. Copy the template below and paste it at the TOP of the newsItems array
-// 2. Update the id to be one higher than the last item
-// 3. Add your title, date (format: DD/MM/YYYY), and excerpt/description
-// 4. Add your image path (upload to /public/images/news/ folder)
-// 5. Optionally add a Facebook post URL or external link
-
 const newsItems = [
   {
-    id: 7,
-    title: "Wolfie at SCHLINGEL Film Festival",
-    date: "26/09/2025",
-    excerpt: "Hello Internationales Filmfestival SCHLINGEL! 🇩🇪 📽 Vlček / Wolfie will be featured on this fantastic film festival for children and young audience in a German premiere! Wolfie will screen in the International Animated Short Film Competition of SCHLiNGEL during the programme part \"Neighbourhood\" for kids & families (5+) on 28. 09., 15:30 at CineStar Cinema Chemnitz!",
-    image: `${baseUrl}images/posters/wolfie/wolfie.jpg`,
-    link: "https://www.facebook.com/photo/?fbid=122144326394736463&set=a.122107909304736463"
-  },
-  
-  {
     id: 1,
-    title: "Soul Shift",
-    date: "14/02/2025",
-    excerpt: "Soul Shift, animated science-fiction comedy series, will premiere in the competition at Cartoons on the Bay – International Festival of Animation, Transmedia and Meta-Arts!",
-    image: `${baseUrl}images/stills/dont_blow_it_up/dont_blow_it_up_1.jpg`,
-    link: "#"
+    date: "10/12/2024",
+    excerpt:
+      "We are speechless! I Died in Irpin, a short animated documentary by Anastasiia Falileieva, is shortlisted for the Animated Short Film category for the 98th Academy Awards®! Big big congratulations to the whole team behind the movie!",
+    image: `${baseUrl}images/news/i_died_in_irpin_oscars.jpg`,
+    link: "https://www.instagram.com/p/DSViKSCipzZ/",
+    filmLink: "/film/i-died-in-irpin",
+    filmName: "I Died in Irpin",
   },
   {
     id: 2,
-    title: "Wolfie",
-    date: "10/02/2025",
-    excerpt: "An exciting new development in our latest production. This project brings together innovative storytelling and compelling characters.",
-    image: `${baseUrl}images/stills/wolfie/wolfie_1.jpg`,
-    link: "#"
+    date: "05/12/2024",
+    excerpt:
+      "At this year's Animateka Festival we had an opportunity to offer the Cinefila Festival Distribution Award to one of the projects presented at the Rise & Shine workshop for young talents. 💡 The award covers a two-year festival distribution prize valued at €4,000. The winner among the 11 amazing projects was Stormsurge directed by Anna Tőkés and produced by Balint Gelley of CUB Animation! 🔸 \"On Grace's island the weather is influenced by her mood, which is always cloudy and gray. One day, she gets help from her friends to express her feelings through dance, and together they lure the sun out.\"",
+    image: `${baseUrl}images/news/animateka_2025.jpg`,
+    link: "https://www.instagram.com/p/DSNZ9i6Coa7/?img_index=1",
   },
   {
     id: 3,
-    title: "Waves",
-    date: "05/02/2025",
-    excerpt: "A new wave of creative energy as our team embarks on this ambitious project, exploring themes of connection and transformation.",
-    image: `${baseUrl}images/stills/waves/waves_1.jpg`,
-    link: "#"
+    date: "28/11/2024",
+    excerpt:
+      "Soul Shift, animated science-fiction comedy series, received a Professional Group Animated Series Gold Award at Xiamen International Animation Festival!",
+    image: `${baseUrl}images/news/soul_shift_xiamen.jpg`,
+    link: "https://www.instagram.com/p/DR9wuRQCh8a/",
+    filmLink: "/film/soul-shift",
+    filmName: "Soul Shift",
   },
   {
     id: 4,
-    title: "Home",
-    date: "01/02/2025",
-    excerpt: "A heartwarming story about finding one's place in the world, featuring stunning cinematography and powerful performances.",
-    image: `${baseUrl}images/stills/home/home_1.jpg`,
-    link: "#"
+    date: "20/11/2024",
+    excerpt:
+      "We are so happy to announce that Wolfie has won the European Children's Film Association Short Film Award at Bucharest Kids Film Festival! 🤩 By winning this prestigious award, Wolfie will be nominated for the overall ECFA Short Film Award which will be handed out during Berlinale in 2026. Stay tuned!",
+    image: `${baseUrl}images/news/wolfie_european_film.jpg`,
+    link: "https://www.instagram.com/p/DQ33hn-DTpm/",
+    filmLink: "/film/wolfie",
+    filmName: "Wolfie",
   },
-  {
-    id: 5,
-    title: "World I Live In",
-    date: "28/01/2025",
-    excerpt: "An introspective journey through different perspectives, challenging viewers to reconsider their understanding of reality.",
-    image: `${baseUrl}images/stills/world_i_live_in/world_i_live_in_1.jpg`,
-    link: "#"
-  },
-  {
-    id: 6,
-    title: "Writing Home",
-    date: "25/01/2025",
-    excerpt: "Letters from distant places weave together a narrative of memory, longing, and the universal search for belonging.",
-    image: `${baseUrl}images/stills/writing_home/writing_home_1.jpg`,
-    link: "#"
-  }
 ];
 
 export default function News() {
@@ -95,25 +69,35 @@ export default function News() {
                   key={item.id}
                   className="group bg-white overflow-hidden transition-all duration-300 hover:-translate-y-2"
                 >
-                  <Link to={item.link} className="block">
+                  <a 
+                    href={item.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
                     <div className="relative w-full pt-[66.67%] overflow-hidden bg-gray-100 rounded-sm mb-4">
                       <img 
                         src={item.image} 
-                        alt={item.title}
+                        alt="News"
                         className="absolute inset-0 w-full h-full object-cover"
                       />
                     </div>
                     
                     <div className="pt-2">
-                      <h3 className="font-nunito text-[15px] text-[#1c1c1c] font-bold mb-2 group-hover:text-[#666] transition-colors">
-                        {item.title}
-                      </h3>
-                      <p className="font-nunito text-[10px] text-[#666] mb-3 font-medium">{item.date}</p>
-                      <p className="font-nunito text-[17px] text-[#2c2c2c] leading-relaxed line-clamp-3">
+                      <p className="font-nunito text-[15px] text-[#1c1c1c] font-bold mb-3">{item.date}</p>
+                      <p className="font-nunito text-[14px] text-[#2c2c2c] leading-relaxed">
                         {item.excerpt}
                       </p>
                     </div>
-                  </Link>
+                  </a>
+                  {item.filmLink && (
+                    <Link 
+                      to={item.filmLink} 
+                      className="inline-block mt-2 font-nunito text-[13px] text-[#666] hover:text-[#1c1c1c] underline"
+                    >
+                      View {item.filmName} →
+                    </Link>
+                  )}
                 </article>
               ))}
             </div>
