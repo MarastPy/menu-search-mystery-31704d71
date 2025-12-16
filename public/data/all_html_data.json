@@ -139,7 +139,7 @@
       }
     },
     "Source_File": "about_a_cow.html",
-    "Ranking": "21",
+    "Ranking": "23",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -156,10 +156,10 @@
       "Title_Original": "Amber Tale",
       "Title_English": "Amber Tale",
       "Title_Other": "",
-      "Language_Original": "Without dialogue",
+      "Language_Original": "without dialogue",
       "Language_Subtitles": "",
       "Country_of_production": "Lithuania",
-      "Date_of_completion": "26.01.2026",
+      "Date_of_completion": "26. 01. 2026",
       "Runtime": "00:12:30",
       "Number_of_series": "",
       "Number_of_episodes": "",
@@ -213,11 +213,11 @@
       "Cast": []
     },
     "Director_Bio": {
-      "Date_of_birth": "03.05.1979",
+      "Date_of_birth": "3 May 1979",
       "Bio_Text": "Ged Sia (Gediminas Šiaulys) is an award-winning Lithuanian director, visual artist, and animator. He is the only creator in Lithuania to have received all three top national creative awards —the Golden Stage Cross, the Silver Crane, and the Golden Arrow. His works and interviews have been published in major international art and design magazines. In 2007, Ged Sia’s animated film Kaukai won key national and international awards,and he was the first Lithuanian artist to win the Young Guns award from the Art Directors Club in New York."
     },
     "Director_Filmography": [
-      "Kaukai (Running Lights, 2017)"
+      "Kaukai (Running Lights), 2017"
     ],
     "Technical_Details": {
       "Shooting_Format": {
@@ -286,6 +286,143 @@
     "Extras_name": "Extras",
     "Download_extras": "/downloads/extras/amber_tale_extras.zip",
     "Trailer_url": "https://vimeo.com/1133290021?share=copy&fl=sv&fe=ci"
+  },
+  {
+    "Film": {
+      "Title_Original": "Plešouni",
+      "Title_English": "Baldies - What About My Hair?",
+      "Title_Other": "",
+      "Language_Original": "Czech / English",
+      "Language_Subtitles": "English",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "20. 01. 2026",
+      "Runtime": "00:09:47",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation",
+        "children",
+        "comedy",
+        "fairytale"
+      ],
+      "Genre_Other": "",
+      "Keywords": "childhood, illness, medicine, friendship, humour",
+      "Target_Group": {
+        "Rating": "6+",
+        "Audience": "general audience",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "Brave kids battling cancer turn hospital days into imaginative adventures, showing that even bald heroes can laugh, play, and stay strong.",
+    "Synopsis": "Baldies – What About My Hair? is an animated short about a fearless group of kids battling cancer who meet in hospital and turn their fight into an adventure. Using imagination, humour, and gentle metaphors, the film shows that a kid with cancer is still a kid—ready to laugh, play, and prove that being bald is cool.",
+    "Directors_Note": "",
+    "Crew": {
+      "Director(s)": "Eliška Soffer Podzimek",
+      "Screenplay_writer(s)": "Steen Agro",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "Georgy Barklaya",
+      "Sound_director(s)": "Jan Rádr, Jakub Johánek, Lukáš Tvrdoň",
+      "Art_director(s)": "Eliška Soffer Podzimek",
+      "Music_composer(s)": "Marek Doubrava, Jakub Johánek",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "27 March 1992",
+      "Bio_Text": "Czech multimedia artist Eliška Soffer Podzimek uses humour, technical skill and distinctive design to build an international career as an animator, illustrator and digital creator. Combining live-action, video and hand-drawn animation, she has made award-winning films, music videos and campaigns for brands like Vogue and Jamie Oliver. Now back in Prague, her experience as a teenage cancer survivor inspired the “Baldies” project supporting sick kids."
+    },
+    "Director_Filmography": [
+      "Babls (Bubbles), 2013"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "3D computer",
+      "Animation_Technique_Other": "2D + 3D animation",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Oldrich Company s.r.o. (Jiří Sádek, Jindřich Trčka)",
+        "Address": "Badeniho 290/1",
+        "Postal code, city": "160 00 Praha 6",
+        "Country": "",
+        "WEB": "oldrich.rocks"
+      },
+      "Production_Company": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "baldies.html",
+    "Ranking": "5",
+    "Review": "",
+    "Festival_Distribution_Only": "",
+    "Sales": "",
+    "Status": "",
+    "Download_poster": "/downloads/posters/baldies_what_about_my_hair_poster.zip",
+    "Download_stills": "/downloads/stills/baldies_what_about_my_hair_stills.zip",
+    "Download_presskit": "/downloads/presskits/baldies_what_about_my_hair_presskit.zip",
+    "Extras_name": "Extras",
+    "Download_extras": "/downloads/extras/baldies_what_about_my_hair_extras.zip",
+    "Trailer_url": ""
   },
   {
     "Film": {
@@ -411,8 +548,8 @@
         "WEB": ""
       }
     },
-    "Source_File": "baldies.html",
-    "Ranking": "3",
+    "Source_File": "baldies_what_about_my_hair.html",
+    "Ranking": "5",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -422,6 +559,142 @@
     "Download_presskit": "/downloads/presskits/baldies_what_about_my_hair_presskit.zip",
     "Extras_name": "Extras",
     "Download_extras": "/downloads/extras/baldies_what_about_my_hair_extras.zip",
+    "Trailer_url": ""
+  },
+  {
+    "Film": {
+      "Title_Original": "Cap al cel",
+      "Title_English": "Up in Heaven",
+      "Title_Other": "",
+      "Language_Original": "Catalan",
+      "Language_Subtitles": "English, Spanish",
+      "Country_of_production": "Spain",
+      "Date_of_completion": "15.01.2026",
+      "Runtime": "00:15:00",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation"
+      ],
+      "Genre_Other": "",
+      "Keywords": "childhood, family, kid coping with death, heaven, angel, plane, pilot, clouds",
+      "Target_Group": {
+        "Rating": "3+",
+        "Audience": "general audience",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "A boy who has lost his grandmother learns that all the dead go to heaven, so he decides to become a pilot to go find her and bring her back home.",
+    "Synopsis": "At his grandmother’s funeral, a four-year-old boy is told the dead become angels in heaven. Hoping to retrieve her, he becomes a pilot and searches in a small plane. Finding her on a cloud, he ties her to bring her home, but she refuses and a guardian angel rescues her.",
+    "Directors_Note": "The film explores grief through a child’s eyes, where magical explanations shape early ideas of death. Inspired by my own childhood memories, it follows the pure logic with which children question loss: if the dead are in the sky, why not go find them? Yet even in a wondrous world, the boy learns he must let his grandmother go. As an adult, he looks back with nostalgic clarity at the way he once saw the world.",
+    "Crew": {
+      "Director(s)": "Nicolás Sole",
+      "Screenplay_writer(s)": "Estefania Ortiz",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "Irene Albanell",
+      "Sound_director(s)": "Gisela Maestre",
+      "Art_director(s)": "",
+      "Music_composer(s)": "Beatriz López-Nogales",
+      "Cast": [
+        "Carlos Garriga, Edgar Moreno, Alzira Gómez, Borja Ruiz, Yasmina Qiu, Anna Serra, José María Blanco"
+      ]
+    },
+    "Director_Bio": {
+      "Date_of_birth": "02.11.1991",
+      "Bio_Text": "Nicolás Sole (Santa Fe, 1991) studied Audiovisual Design in Buenos Aires and completed a Master’s in Animation at ECIB. He worked as an animator on Linklater’s Apollo 10½, Trueba & Mariscal’s They Shot the Piano Player, Mariposas Negras, and Hit Monkey. He has finished Cap al cel, now entering distribution, and is developing Rebel·lió a les cases while collaborating on new animation projects."
+    },
+    "Director_Filmography": [
+      "Good Night, Mr. Ted (2020)"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "2D computer",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "Blender",
+      "Digital_Audio_Workstation": "5:1 and stereo",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": "H264 Mp4"
+      },
+      "Resolution": "4k",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "progressive (DCP, e-cinema, TV)",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.33 (4:3)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)",
+      "Sound_Mix_Other": "Stereo 2.0",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Rubén Seca Alberto Regueiro Carles Isern Damián Perea Lezcano",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "Shoji Films",
+        "Address": "Calvet 50, 6º 1ª",
+        "Postal code, city": "08021, Barcelona",
+        "Country": "Spain",
+        "WEB": "www.shojifilms.com"
+      },
+      "Co_Producer": {
+        "Name": "Amigos Cine Kamikaze Producciones Dosmentes Damián Perea Producciones",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "cap_al_cel.html",
+    "Ranking": "2",
+    "Review": "",
+    "Festival_Distribution_Only": "",
+    "Sales": "",
+    "Status": "",
+    "Download_poster": "/downloads/posters/",
+    "Download_stills": "/downloads/stills/",
+    "Download_presskit": "/downloads/presskits/",
+    "Extras_name": "Extras",
+    "Download_extras": "/downloads/extras/",
     "Trailer_url": ""
   },
   {
@@ -545,7 +818,7 @@
       }
     },
     "Source_File": "cheese.html",
-    "Ranking": "22",
+    "Ranking": "24",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -682,7 +955,7 @@
       }
     },
     "Source_File": "concrete_jungle.html",
-    "Ranking": "25",
+    "Ranking": "27",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -814,7 +1087,7 @@
       }
     },
     "Source_File": "don't_blow_it_up.html",
-    "Ranking": "24",
+    "Ranking": "26",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -834,7 +1107,7 @@
       "Language_Original": "Czech",
       "Language_Subtitles": "English",
       "Country_of_production": "Czech Republic",
-      "Date_of_completion": "01.01.2025",
+      "Date_of_completion": "1 January 2025",
       "Runtime": "00:18:10",
       "Number_of_series": "",
       "Number_of_episodes": "",
@@ -891,12 +1164,12 @@
       ]
     },
     "Director_Bio": {
-      "Date_of_birth": "03.07.1995",
+      "Date_of_birth": "3 July 1995",
       "Bio_Text": "Vojtěch Konečný is completing the MA film directing course at FAMU. He graduated from University of the Arts London, BA (Hons) Film and TV course. He is one of the founders of the film production company nukleon frame. His short It Can Be Any Day was the finalist for the Magnesia Award for Best Student Film of 2023 at the Czech Lions film awards."
     },
     "Director_Filmography": [
-      "Doprovázení [It can be any day] (2023)",
-      "Růžička ve tmě [Rose in the Dark] (2022)"
+      "Doprovázení (It can be any day), 2023",
+      "Růžička ve tmě (Rose in the dark), 2022"
     ],
     "Technical_Details": {
       "Shooting_Format": {
@@ -954,7 +1227,7 @@
       }
     },
     "Source_File": "first_patrol.html",
-    "Ranking": "8",
+    "Ranking": "9",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -971,10 +1244,10 @@
       "Title_Original": "Křehce",
       "Title_English": "Gently",
       "Title_Other": "",
-      "Language_Original": "Without dialogue",
+      "Language_Original": "without dialogue",
       "Language_Subtitles": "",
       "Country_of_production": "Czech Republic",
-      "Date_of_completion": "20.01.2026",
+      "Date_of_completion": "20. 01. 2026",
       "Runtime": "00:08:44",
       "Number_of_series": "",
       "Number_of_episodes": "",
@@ -1030,9 +1303,9 @@
       "Bio_Text": "Jamaica Kindlová is an animator and director, who focuses on documentary themes. Besides film, she is interested in illustration and puppet theater. Touching Darkness, a sand-animation film she created at FAMU, has been selected for many film festivals and won several awards including the Pavel Koutecký Award for best short documentary."
     },
     "Director_Filmography": [
-      "Dotknout se tmy/Touching Darkness, 2024",
-      "Uvnitř/Inside, 2022",
-      "Nalov/Hunt, 2022"
+      "Dotknout se tmy (Touching Darkness), 2024",
+      "Uvnitř (Inside), 2022",
+      "Nalov (Hunt), 2022"
     ],
     "Technical_Details": {
       "Shooting_Format": {
@@ -1090,7 +1363,7 @@
       }
     },
     "Source_File": "gently.html",
-    "Ranking": "2",
+    "Ranking": "3",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -1107,10 +1380,10 @@
       "Title_Original": "Hatker",
       "Title_English": "Hatker",
       "Title_Other": "",
-      "Language_Original": "Without dialogue",
+      "Language_Original": "without dialogue",
       "Language_Subtitles": "None",
       "Country_of_production": "Argentina",
-      "Date_of_completion": "2025",
+      "Date_of_completion": "9 March 2025",
       "Runtime": "00:07:33",
       "Number_of_series": "",
       "Number_of_episodes": "",
@@ -1130,33 +1403,73 @@
     },
     "Premiere": [
       {
-        "Date": "1.4.2025",
+        "Date": "1 April 2025",
         "Country": "Argentina",
         "Name_of_place_of_premiere": "BAFICI - Buenos Aires International Festival of Independent Cinema"
       }
     ],
     "Festivals": [
       {
-        "Date": "06/2025",
+        "Date": "June 2025",
         "Country": "France",
         "Name_of_Festival": "Annecy Festival"
       },
       {
-        "Date": "11/2025",
+        "Date": "April 2025",
+        "Country": "Argentina",
+        "Name_of_Festival": "BAFICI - Buenos Aires International Festival of Independent Cinema"
+      },
+      {
+        "Date": "July 2025",
+        "Country": "Kosovo",
+        "Name_of_Festival": "Anibar Animation Festival"
+      },
+      {
+        "Date": "June 2025",
+        "Country": "Argentina",
+        "Name_of_Festival": "Stop Motion Our Fest"
+      },
+      {
+        "Date": "June 2025",
+        "Country": "Argentina",
+        "Name_of_Festival": "Festival de Cine Latinoamericano Rosario"
+      },
+      {
+        "Date": "September 2025",
+        "Country": "France",
+        "Name_of_Festival": "L'Étrange Festival"
+      },
+      {
+        "Date": "September 2025",
+        "Country": "Ukraine",
+        "Name_of_Festival": "Kyiv International Short Film Festival"
+      },
+      {
+        "Date": "October 2025",
+        "Country": "Armenia",
+        "Name_of_Festival": "ReAnimania Int. Animation Film & Comics Art Festival of Yerevan"
+      },
+      {
+        "Date": "November 2025",
         "Country": "Germany",
         "Name_of_Festival": "Braunschweig International Film Festival"
       },
       {
-        "Date": "09/2025",
-        "Country": "Ukraine",
-        "Name_of_Festival": "Kyiv International Short Film Festival"
+        "Date": "November 2025",
+        "Country": "Argentina",
+        "Name_of_Festival": "BIT BANG Festival"
+      },
+      {
+        "Date": "December 2025",
+        "Country": "Cuba",
+        "Name_of_Festival": "Festival Internacional del Nuevo Cine Latinoamericano"
       }
     ],
     "Awards": [
       {
-        "Date": "",
-        "Country": "",
-        "Festival_Section_of_Competition": ""
+        "Date": "June 2025",
+        "Country": "Argentina",
+        "Festival_Section_of_Competition": "una Mención Especial en la Competencia de Cortometrajes - Festival de Cine Latinoamericano Rosario"
       }
     ],
     "Logline": "In a world ruled by a mysterious telephone, power shifts from a distant force to the people themselves—revealing how the oppressed become oppressors.",
@@ -1174,7 +1487,7 @@
     },
     "Director_Bio": {
       "Date_of_birth": "",
-      "Bio_Text": "Alejandro Ariel Martin is an Argentinian Film Director. He has a degree in Social Communication from the UNR and a postgraduate degree in Creative Communication from the Autonomous University of Barcelona.\nHe is the director and scriptwriter of the short film “Epirenov” (2020) and “Hatker” (2025)."
+      "Bio_Text": "Alejandro Ariel Martin is an Argentinian filmmaker. He holds a degree in Social Communication from the National University of Rosario (UNR) and a postgraduate degree in Creative Communication from the Autonomous University of Barcelona. His work as a writer and director includes the short films Epirenov (2020) and Hatker (2025)."
     },
     "Director_Filmography": [
       "Epirenov, 2020",
@@ -1236,7 +1549,7 @@
       }
     },
     "Source_File": "hatker.html",
-    "Ranking": "6",
+    "Ranking": "8",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -1256,7 +1569,7 @@
       "Language_Original": "Russian",
       "Language_Subtitles": "English, Czech",
       "Country_of_production": "Czech Republic",
-      "Date_of_completion": "01.03.2025",
+      "Date_of_completion": "1 March 2025",
       "Runtime": "00:05:43",
       "Number_of_series": "",
       "Number_of_episodes": "",
@@ -1285,7 +1598,7 @@
       {
         "Date": "May 2025",
         "Country": "Czech Republic",
-        "Name_of_Festival": "Anifilm, Liberec"
+        "Name_of_Festival": "Anifilm"
       },
       {
         "Date": "June 2025",
@@ -1301,6 +1614,11 @@
         "Date": "June 2025",
         "Country": "Czech Republic",
         "Name_of_Festival": "International Film Festival for Children and Youth - ZLÍN"
+      },
+      {
+        "Date": "May 2025",
+        "Country": "Germany",
+        "Name_of_Festival": "Neisse Film Festival"
       }
     ],
     "Awards": [
@@ -1326,7 +1644,7 @@
       ]
     },
     "Director_Bio": {
-      "Date_of_birth": "05.09.1998",
+      "Date_of_birth": "5 September 1998",
       "Bio_Text": "Anastasiya was born in Minsk, Belarus. Since 2018, she has worked as an art editor at the magazine of satire and humor \"Vozhik\". In 2020-2024 she studied animation at the Ladislav Sutnar Faculty of Design and Art at the University of West Bohemia in Pilsen."
     },
     "Director_Filmography": [
@@ -1388,7 +1706,7 @@
       }
     },
     "Source_File": "home.html",
-    "Ranking": "5",
+    "Ranking": "14",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -1521,7 +1839,7 @@
       }
     },
     "Source_File": "hot_blood.html",
-    "Ranking": "1",
+    "Ranking": "6",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -1712,7 +2030,7 @@
       }
     },
     "Source_File": "humanity.html",
-    "Ranking": "13",
+    "Ranking": "15",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -1888,7 +2206,7 @@
       }
     },
     "Source_File": "i_died_in_irpin.html",
-    "Ranking": "14",
+    "Ranking": "16",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -2025,7 +2343,7 @@
       }
     },
     "Source_File": "mom_is_always_right.html",
-    "Ranking": "23",
+    "Ranking": "25",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -2172,7 +2490,7 @@
       }
     },
     "Source_File": "out_in_force.html",
-    "Ranking": "26",
+    "Ranking": "28",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -2192,7 +2510,7 @@
       "Language_Original": "Czech",
       "Language_Subtitles": "English",
       "Country_of_production": "Czech Republic",
-      "Date_of_completion": "2025",
+      "Date_of_completion": "2026",
       "Runtime": "00:24:48",
       "Number_of_series": "",
       "Number_of_episodes": "",
@@ -2441,7 +2759,7 @@
       }
     },
     "Source_File": "snowblind.html",
-    "Ranking": "9",
+    "Ranking": "10",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -2590,7 +2908,7 @@
       }
     },
     "Source_File": "soul_shift.html",
-    "Ranking": "10",
+    "Ranking": "12",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -2610,7 +2928,7 @@
       "Language_Original": "Czech",
       "Language_Subtitles": "English",
       "Country_of_production": "Czech Republic",
-      "Date_of_completion": "05.01.2025",
+      "Date_of_completion": "5 January 2025",
       "Runtime": "00:12:56",
       "Number_of_series": "",
       "Number_of_episodes": "",
@@ -2625,7 +2943,7 @@
       "Keywords": "beetroot, fairytale, kaiju, enviroment",
       "Target_Group": {
         "Rating": "12+",
-        "Audience": "",
+        "Audience": "general audience",
         "Other": ""
       }
     },
@@ -2640,12 +2958,12 @@
       {
         "Date": "May 2025",
         "Country": "Czech Republic",
-        "Name_of_Festival": "Anifilm (Czech and world premiere)"
+        "Name_of_Festival": "Anifilm"
       },
       {
         "Date": "June 2025",
         "Country": "Czech Republic",
-        "Name_of_Festival": "Marienbad International Film Festiva"
+        "Name_of_Festival": "Marienbad International Film Festival"
       },
       {
         "Date": "August 2025",
@@ -2661,6 +2979,16 @@
         "Date": "October 2025",
         "Country": "Australia",
         "Name_of_Festival": "Byron Bay International Film Festival"
+      },
+      {
+        "Date": "November 2025",
+        "Country": "Poland",
+        "Name_of_Festival": "International Young Audience Film Festival Ale Kino!"
+      },
+      {
+        "Date": "October 2025",
+        "Country": "Czech Republic",
+        "Name_of_Festival": "Future Gate Sci-fi Film Festival"
       }
     ],
     "Awards": [
@@ -2685,7 +3013,7 @@
     },
     "Director_Bio": {
       "Date_of_birth": "",
-      "Bio_Text": "Jáchym Štulíř graduated in Animation from UMPRUM in Prague. In 2022 he participated in the series Wunderbaum, where he animated the episode \"Václav\" (E06). His other directing credits include the short films Eternia (2021) and Si ako slniečko (2020).\nDavid Šourek is a student at the Centre for Audiovisual Studies at FAMU. In his practice he is increasingly focusing on analogue video, digital post-production and analogue film. During his studies he has made three short experimental films."
+      "Bio_Text": "Jáchym Štulíř graduated in Animation from UMPRUM in Prague. In 2022 he participated in the series Wunderbaum, where he animated the episode \"Václav\" (E06). His other directing credits include the short films Eternia (2021) and Si ako slniečko (2020).\n\nDavid Šourek is a student at the Centre for Audiovisual Studies at FAMU. In his practice he is increasingly focusing on analogue video, digital post-production and analogue film. During his studies he has made three short experimental films."
     },
     "Director_Filmography": [
       "Jáchym Štulíř: Eternia, 2021 / Si ako slniečko (You are like a sun), 2020",
@@ -2872,7 +3200,7 @@
       }
     },
     "Source_File": "the_compatriot.html",
-    "Ranking": "20",
+    "Ranking": "22",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -3027,7 +3355,7 @@
       }
     },
     "Source_File": "the_hedgehog.html",
-    "Ranking": "19",
+    "Ranking": "21",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -3047,7 +3375,7 @@
       "Language_Original": "Czech",
       "Language_Subtitles": "English",
       "Country_of_production": "Czech Republic",
-      "Date_of_completion": "7.1.2026",
+      "Date_of_completion": "7 January 2026",
       "Runtime": "00:15:54",
       "Number_of_series": "",
       "Number_of_episodes": "",
@@ -3102,7 +3430,7 @@
       ]
     },
     "Director_Bio": {
-      "Date_of_birth": "15.06.1999",
+      "Date_of_birth": "15 June 1999",
       "Bio_Text": "Viktorie Štěpánová, Master of Arts graduate from FAMU, is a multidisciplinary artist working at the intersection of illustration, animation, graphic design, and fashion. Her work explores themes of identity, pop culture, and digital platforms. She approaches visual storytelling experimentally, pushing the possibilities of media and technique while subversively engaging with consumerist aesthetics. She is known for her films Vevnitř and EO DE ME—the former nominated for a Student BAFTA. More recently, she has focused on fashion films, bringing all her talents together."
     },
     "Director_Filmography": [
@@ -3185,10 +3513,10 @@
       "Title_Original": "Vlny",
       "Title_English": "Waves",
       "Title_Other": "",
-      "Language_Original": "Without dialogue",
+      "Language_Original": "without dialogue",
       "Language_Subtitles": "None",
       "Country_of_production": "Czech Republic",
-      "Date_of_completion": "01.05.2024",
+      "Date_of_completion": "1 May 2024",
       "Runtime": "00:08:00",
       "Number_of_series": "",
       "Number_of_episodes": "",
@@ -3200,43 +3528,88 @@
       "Genre_Other": "",
       "Keywords": "waves, nature, society",
       "Target_Group": {
-        "Rating": "",
+        "Rating": "12+",
         "Audience": "",
         "Other": ""
       }
     },
     "Premiere": [
       {
-        "Date": "12/2024",
+        "Date": "December 2024",
         "Country": "Czech Republic",
-        "Name_of_place_of_premiere": "Anifilm, Liberec"
+        "Name_of_place_of_premiere": "Anifilm"
       }
     ],
     "Festivals": [
       {
-        "Date": "10/2024",
+        "Date": "October 2024",
         "Country": "Portugal",
         "Name_of_Festival": "Cinanima"
       },
       {
-        "Date": "12/2024",
+        "Date": "December 2024",
+        "Country": "Czech Republic",
+        "Name_of_Festival": "Anifilm"
+      },
+      {
+        "Date": "December 2024",
         "Country": "Slovenia",
         "Name_of_Festival": "Animateka International Animated Film Festival"
       },
       {
-        "Date": "07/2025",
+        "Date": "July 2025",
         "Country": "Poland",
         "Name_of_Festival": "FREEDOM Film Festival"
       },
       {
-        "Date": "08/2025",
+        "Date": "August 2025",
         "Country": "Israel",
         "Name_of_Festival": "ANIMIX - International Animation & Comics Festival"
       },
       {
-        "Date": "11/2025",
+        "Date": "November 2025",
         "Country": "Germany",
         "Name_of_Festival": "Braunschweig International Film Festival"
+      },
+      {
+        "Date": "October 2025",
+        "Country": "Switzerland",
+        "Name_of_Festival": "Festival Animatou Genève"
+      },
+      {
+        "Date": "April 2025",
+        "Country": "Spain",
+        "Name_of_Festival": "Human Rights Film Festival of Donostia, San Sebastian"
+      },
+      {
+        "Date": "October 2025",
+        "Country": "Norway",
+        "Name_of_Festival": "Fredrikstad Animation Festival"
+      },
+      {
+        "Date": "November 2025",
+        "Country": "Germany",
+        "Name_of_Festival": "Wiesbaden International Festival of Animation"
+      },
+      {
+        "Date": "October 2025",
+        "Country": "Armenia",
+        "Name_of_Festival": "ReAnimania Int. Animation Film & Comics Art Festival of Yerevan"
+      },
+      {
+        "Date": "May 2025",
+        "Country": "Italy",
+        "Name_of_Festival": "Stop-eMotion Days in Venice"
+      },
+      {
+        "Date": "November 2025",
+        "Country": "Spain",
+        "Name_of_Festival": "Alcoi international animation festival"
+      },
+      {
+        "Date": "June 2025",
+        "Country": "Argentina",
+        "Name_of_Festival": "Stop Motion Our Fest"
       }
     ],
     "Awards": [
@@ -3320,7 +3693,7 @@
       }
     },
     "Source_File": "waves.html",
-    "Ranking": "18",
+    "Ranking": "19",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -3516,7 +3889,7 @@
       }
     },
     "Source_File": "weeds.html",
-    "Ranking": "16",
+    "Ranking": "18",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -3694,7 +4067,7 @@
       }
     },
     "Source_File": "wolfie.html",
-    "Ranking": "11",
+    "Ranking": "7",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
@@ -3995,7 +4368,7 @@
       }
     },
     "Source_File": "writing_home.html",
-    "Ranking": "15",
+    "Ranking": "17",
     "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
