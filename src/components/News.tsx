@@ -8,28 +8,27 @@ const newsItems = [
       " We are speechless! I Died in Irpin, a short animated documentary by Anastasiia Falileieva, is shortlisted for the Animated Short Film category for the 98th Academy Awards®! Big big congratulations to the whole team behind the movie!",
     fullContent:
       " We are speechless! I Died in Irpin, a short animated documentary by Anastasiia Falileieva, is shortlisted for the Animated Short Film category for the 98th Academy Awards®! Big big congratulations to the whole team behind the movie!",
-    image: `${baseUrl}images/news/i_died_in_irpin_oscars.jpg`,
+    image: `${baseUrl}images/stills/i_died_in_irpin/i_died_in_irpin_1.jpg`,
     link: "https://www.instagram.com/p/DSViKSCipzZ/",
   },
   {
     title: "Wolfie at SCHLINGEL Film Festival",
     date: "26/09/2025",
     excerpt:
-      "Hello Internationales Filmfestival SCHLINGEL! 🇩🇪 📽 Vlček / Wolfie will be featured on this fantastic film festival for children and young audience in a German premiere!",
+      "At this year’s @animateka_festival we had an opportunity to offer the Cinefila Festival Distribution Award to one of the projects presented at the Rise & Shine workshop for young talents. 💡 The award covers a two-year festival distribution prize valued at €4,000. The winner among the 11 amazing projects was 𝑺𝒕𝒐𝒓𝒎𝒔𝒖𝒓𝒈𝒆 directed by Anna Tőkés @tokes_anna_ and produced by Balint Gelley of CUB Animation @cubanimation!",
     fullContent:
       'Hello Internationales Filmfestival SCHLINGEL! 🇩🇪 📽 Vlček / Wolfie will be featured on this fantastic film festival for children and young audience in a German premiere! Wolfie will screen in the International Animated Short Film Competition of SCHLiNGEL during the programme part "Neighbourhood" for kids & families (5+) on 28. 09., 15:30 at CineStar Cinema Chemnitz!',
-    image: `${baseUrl}images/posters/wolfie/wolfie.jpg`,
-    link: "https://www.facebook.com/photo/?fbid=122144326394736463&set=a.122107909304736463",
+    image: `${baseUrl}images/news/animateka_2025.jpg`,
+    link: "https://www.instagram.com/p/DSNZ9i6Coa7/?img_index=1",
   },
   {
     title: "Soul Shift",
     date: "14/02/2025",
     excerpt:
-      "𝐒𝐨𝐮𝐥 𝐒𝐡𝐢𝐟𝐭, animated science-fiction comedy series, received a Professional Group Animated Series Gold Award at Xiamen International Animation Festival! We are over the Moon about this! 🌔",
+      "Soul Shift, animated science-fiction comedy series, will premiere in the competition at Cartoons on the Bay – International Festival of Animation, Transmedia and Meta-Arts!",
     fullContent:
       "Soul Shift, animated science-fiction comedy series, will premiere in the competition at Cartoons on the Bay – International Festival of Animation, Transmedia and Meta-Arts! This is an exciting opportunity for the series to be showcased at one of the most prestigious animation festivals in Europe.",
-    image: `${baseUrl}images/news/soul_shift_xiamen.jpg`,
-    link: "https://www.instagram.com/p/DR9wuRQCh8a/",
+    image: `${baseUrl}images/posters/soul_shift/soul_shift.jpg`,
   },
   {
     title: "Film Premiere Announcement",
