@@ -2,6 +2,16 @@ const baseUrl = import.meta.env.BASE_URL;
 
 const newsItems = [
   {
+    title: "Wolfie",
+    date: "10/02/2025",
+    excerpt:
+      "A brief description of another exciting news article. This will entice readers to click and learn more about the topic.",
+    fullContent:
+      " We are speechless! I Died in Irpin, a short animated documentary by Anastasiia Falileieva, is shortlisted for the Animated Short Film category for the 98th Academy Awards®! Big big congratulations to the whole team behind the movie!",
+    image: `${baseUrl}images/posters/i_died_in_irpin/i_died_in_irpin.jpg`,
+    link: "https://www.instagram.com/p/DSViKSCipzZ/",
+  },
+  {
     title: "Wolfie at SCHLINGEL Film Festival",
     date: "26/09/2025",
     excerpt:
@@ -19,15 +29,6 @@ const newsItems = [
     fullContent:
       "Soul Shift, animated science-fiction comedy series, will premiere in the competition at Cartoons on the Bay – International Festival of Animation, Transmedia and Meta-Arts! This is an exciting opportunity for the series to be showcased at one of the most prestigious animation festivals in Europe.",
     image: `${baseUrl}images/posters/soul_shift/soul_shift.jpg`,
-  },
-  {
-    title: "Wolfie",
-    date: "10/02/2025",
-    excerpt:
-      "A brief description of another exciting news article. This will entice readers to click and learn more about the topic.",
-    fullContent:
-      "Wolfie continues its festival journey with great success. The film has been well received by audiences and critics alike, garnering attention for its unique storytelling and beautiful animation.",
-    image: `${baseUrl}images/posters/wolfie/wolfie.jpg`,
   },
   {
     title: "Film Premiere Announcement",
@@ -59,11 +60,7 @@ export const News = () => {
               className="group text-left transition-all duration-300 hover:-translate-y-2 block"
             >
               <div className="aspect-[3/2] relative overflow-hidden rounded-sm mb-4">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
+                <img src={item.image} alt={item.title} className="absolute inset-0 w-full h-full object-cover" />
               </div>
               <h3 className="font-nunito text-[15px] text-[#1c1c1c] font-bold mb-2 group-hover:text-[#666] transition-colors">
                 {item.title}
