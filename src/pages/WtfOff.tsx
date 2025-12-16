@@ -9,7 +9,7 @@ const WtfOff = () => {
     <div className="min-h-screen">
       <Header />
       
-      <section className="py-12 sm:py-[90px] bg-white">
+      <section className="pt-[120px] sm:pt-[150px] pb-12 sm:pb-[90px] bg-white">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
           {/* Logo Header */}
           <div className="mb-12">
