@@ -62,11 +62,10 @@ export const News = () => {
               <div className="aspect-[3/2] relative overflow-hidden rounded-sm mb-4">
                 <img src={item.image} alt={item.title} className="absolute inset-0 w-full h-full object-cover" />
               </div>
-              <h3 className="font-nunito text-[15px] text-[#1c1c1c] font-bold mb-2 group-hover:text-[#666] transition-colors">
-                {item.title}
-              </h3>
-              <p className="font-nunito text-[10px] text-[#666] mb-3 font-medium">{item.date}</p>
-              <p className="font-nunito text-[17px] text-[#2c2c2c] leading-relaxed line-clamp-3">{item.excerpt}</p>
+              <p className="font-nunito text-[15px] text-[#1c1c1c] font-bold mb-3">{item.date}</p>
+              <p className="font-nunito text-[14px] text-[#2c2c2c] leading-relaxed">
+                {item.excerpt.length > 500 ? item.excerpt.slice(0, 500) + '...' : item.excerpt}
+              </p>
             </a>
           ))}
         </div>
