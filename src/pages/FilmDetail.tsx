@@ -267,7 +267,9 @@ export default function FilmDetail() {
               {/* Stills Gallery - Show first 3 with clickable arrows */}
               {validStills.length > 0 && (
                 <div className="relative">
-                  <div className={`grid gap-2 ${validStills.length === 1 ? 'grid-cols-1 max-w-[200px] mx-auto' : validStills.length === 2 ? 'grid-cols-2' : 'grid-cols-3'}`}>
+                  <div
+                    className={`grid gap-2 ${validStills.length === 1 ? "grid-cols-1 max-w-[200px] mx-auto" : validStills.length === 2 ? "grid-cols-2" : "grid-cols-3"}`}
+                  >
                     {validStills.slice(0, 3).map((stillPath, idx) => (
                       <div
                         key={idx}
@@ -299,7 +301,7 @@ export default function FilmDetail() {
 
               {/* Downloads section */}
               <div className="mt-6 space-y-2">
-                <h3 className="text-lg font-nunito font-bold mb-2 text-white">Downloads</h3>
+                {/*<h3 className="text-lg font-nunito font-bold mb-2 text-white">Downloads</h3> */}
                 <Button asChild variant="dark" className="w-full">
                   <a href={getFilmPosterPath(film)} download={`${title.replace(/[^a-z0-9]/gi, "_")}_poster.jpg`}>
                     Poster
@@ -347,9 +349,9 @@ export default function FilmDetail() {
                     {film.Sales && (
                       <div className="flex items-center gap-2">
                         <span className="text-white/70 text-sm uppercase tracking-wide">Sales:</span>
-                        <a 
-                          href={film.Sales.startsWith('http') ? film.Sales : `https://${film.Sales}`} 
-                          target="_blank" 
+                        <a
+                          href={film.Sales.startsWith("http") ? film.Sales : `https://${film.Sales}`}
+                          target="_blank"
                           rel="noopener noreferrer"
                           className="text-white underline hover:text-white/80 transition-colors"
                         >
@@ -573,23 +575,27 @@ export default function FilmDetail() {
               )}
 
               {/* Awards */}
-              {film.Awards && film.Awards.length > 0 && film.Awards.some(a => a.Festival_Section_of_Competition || a.Country || a.Date) && (
-                <div>
-                  <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Awards</h2>
-                  <ul className="space-y-2 text-white/90 font-light">
-                    {film.Awards.map(
-                      (award, i) =>
-                        (award.Festival_Section_of_Competition || award.Country || award.Date) && (
-                          <li key={i}>
-                            {award.Festival_Section_of_Competition && <span className="font-bold">{award.Festival_Section_of_Competition}</span>}
-                            {award.Country && <span> ({award.Country})</span>}
-                            {award.Date && <span className="text-white/60"> - {award.Date}</span>}
-                          </li>
-                        ),
-                    )}
-                  </ul>
-                </div>
-              )}
+              {film.Awards &&
+                film.Awards.length > 0 &&
+                film.Awards.some((a) => a.Festival_Section_of_Competition || a.Country || a.Date) && (
+                  <div>
+                    <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Awards</h2>
+                    <ul className="space-y-2 text-white/90 font-light">
+                      {film.Awards.map(
+                        (award, i) =>
+                          (award.Festival_Section_of_Competition || award.Country || award.Date) && (
+                            <li key={i}>
+                              {award.Festival_Section_of_Competition && (
+                                <span className="font-bold">{award.Festival_Section_of_Competition}</span>
+                              )}
+                              {award.Country && <span> ({award.Country})</span>}
+                              {award.Date && <span className="text-white/60"> - {award.Date}</span>}
+                            </li>
+                          ),
+                      )}
+                    </ul>
+                  </div>
+                )}
 
               {/* Festival Selections */}
               {film.Festivals && film.Festivals.length > 0 && film.Festivals[0].Name_of_Festival && (
