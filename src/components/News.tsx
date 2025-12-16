@@ -1,43 +1,41 @@
+import { Link } from "react-router-dom";
+
 const baseUrl = import.meta.env.BASE_URL;
 
 const newsItems = [
   {
-    title: "I died in Irpin",
-    date: "10/02/2025",
+    date: "10/12/2024",
     excerpt:
-      " We are speechless! I Died in Irpin, a short animated documentary by Anastasiia Falileieva, is shortlisted for the Animated Short Film category for the 98th Academy Awards®! Big big congratulations to the whole team behind the movie!",
-    fullContent:
-      " We are speechless! I Died in Irpin, a short animated documentary by Anastasiia Falileieva, is shortlisted for the Animated Short Film category for the 98th Academy Awards®! Big big congratulations to the whole team behind the movie!",
+      "We are speechless! I Died in Irpin, a short animated documentary by Anastasiia Falileieva, is shortlisted for the Animated Short Film category for the 98th Academy Awards®! Big big congratulations to the whole team behind the movie!",
     image: `${baseUrl}images/news/i_died_in_irpin_oscars.jpg`,
     link: "https://www.instagram.com/p/DSViKSCipzZ/",
+    filmLink: "/film/i-died-in-irpin",
+    filmName: "I Died in Irpin",
   },
   {
-    title: "Wolfie at SCHLINGEL Film Festival",
-    date: "26/09/2025",
+    date: "05/12/2024",
     excerpt:
-      "Hello Internationales Filmfestival SCHLINGEL! 🇩🇪 📽 Vlček / Wolfie will be featured on this fantastic film festival for children and young audience in a German premiere!",
-    fullContent:
-      'Hello Internationales Filmfestival SCHLINGEL! 🇩🇪 📽 Vlček / Wolfie will be featured on this fantastic film festival for children and young audience in a German premiere! Wolfie will screen in the International Animated Short Film Competition of SCHLiNGEL during the programme part "Neighbourhood" for kids & families (5+) on 28. 09., 15:30 at CineStar Cinema Chemnitz!',
+      "At this year's Animateka Festival we had an opportunity to offer the Cinefila Festival Distribution Award to one of the projects presented at the Rise & Shine workshop for young talents. 💡 The award covers a two-year festival distribution prize valued at €4,000. The winner among the 11 amazing projects was Stormsurge directed by Anna Tőkés and produced by Balint Gelley of CUB Animation! 🔸 \"On Grace's island the weather is influenced by her mood, which is always cloudy and gray. One day, she gets help from her friends to express her feelings through dance, and together they lure the sun out.\"",
     image: `${baseUrl}images/news/animateka_2025.jpg`,
-    link: "https://www.facebook.com/photo/?fbid=122144326394736463&set=a.122107909304736463",
+    link: "https://www.instagram.com/p/DSNZ9i6Coa7/?img_index=1",
   },
   {
-    title: "Soul Shift",
-    date: "14/02/2025",
+    date: "28/11/2024",
     excerpt:
-      "Soul Shift, animated science-fiction comedy series, will premiere in the competition at Cartoons on the Bay – International Festival of Animation, Transmedia and Meta-Arts!",
-    fullContent:
-      "Soul Shift, animated science-fiction comedy series, will premiere in the competition at Cartoons on the Bay – International Festival of Animation, Transmedia and Meta-Arts! This is an exciting opportunity for the series to be showcased at one of the most prestigious animation festivals in Europe.",
+      "Soul Shift, animated science-fiction comedy series, received a Professional Group Animated Series Gold Award at Xiamen International Animation Festival!",
     image: `${baseUrl}images/news/soul_shift_xiamen.jpg`,
+    link: "https://www.instagram.com/p/DR9wuRQCh8a/",
+    filmLink: "/film/soul-shift",
+    filmName: "Soul Shift",
   },
   {
-    title: "Film Premiere Announcement",
-    date: "05/02/2025",
+    date: "20/11/2024",
     excerpt:
-      "Details about an upcoming film premiere, including dates, venues, and what makes this film a must-see for audiences.",
-    fullContent:
-      "We are thrilled to announce the premiere of our latest production. This film represents a significant milestone in our catalogue and we look forward to sharing it with audiences worldwide. Stay tuned for more details about screenings and festival selections.",
-    image: `${baseUrl}images/homepage/BOTY_CANNES_crop.jpg`,
+      "We are so happy to announce that Wolfie has won the European Children's Film Association Short Film Award at Bucharest Kids Film Festival! 🤩 By winning this prestigious award, Wolfie will be nominated for the overall ECFA Short Film Award which will be handed out during Berlinale in 2026. Stay tuned!",
+    image: `${baseUrl}images/news/wolfie_european_film.jpg`,
+    link: "https://www.instagram.com/p/DQ33hn-DTpm/",
+    filmLink: "/film/wolfie",
+    filmName: "Wolfie",
   },
 ];
 
@@ -60,12 +58,21 @@ export const News = () => {
               className="group text-left transition-all duration-300 hover:-translate-y-2 block"
             >
               <div className="aspect-[3/2] relative overflow-hidden rounded-sm mb-4">
-                <img src={item.image} alt={item.title} className="absolute inset-0 w-full h-full object-cover" />
+                <img src={item.image} alt="News" className="absolute inset-0 w-full h-full object-cover" />
               </div>
               <p className="font-nunito text-[15px] text-[#1c1c1c] font-bold mb-3">{item.date}</p>
               <p className="font-nunito text-[14px] text-[#2c2c2c] leading-relaxed">
                 {item.excerpt.length > 500 ? item.excerpt.slice(0, 500) + "..." : item.excerpt}
               </p>
+              {item.filmLink && (
+                <Link 
+                  to={item.filmLink} 
+                  className="inline-block mt-2 font-nunito text-[13px] text-[#666] hover:text-[#1c1c1c] underline"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  View {item.filmName} →
+                </Link>
+              )}
             </a>
           ))}
         </div>
