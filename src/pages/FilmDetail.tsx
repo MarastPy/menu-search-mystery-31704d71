@@ -431,181 +431,190 @@ export default function FilmDetail() {
 
               <hr className="border-white/20" />
 
-              {/* Crew section */}
-              {(crew["Director(s)"] ||
-                crew["Screenplay_writer(s)"] ||
-                crew["Director(s)_of_Photography"] ||
-                crew["Editor(s)"] ||
-                crew["Music_composer(s)"] ||
-                crew["Sound_director(s)"] ||
-                crew["Art_director(s)"] ||
-                film.Producer_Representative ||
-                film.Production_Company) && (
-                <div>
-                  <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Crew</h2>
-                  <div className="space-y-2 text-white">
-                    {crew["Director(s)"] && (
+              {/* Two-column layout for Awards/Festivals and Crew/Cast/Tech */}
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                {/* Left column - Awards & Festival Selections */}
+                <div className="space-y-8">
+                  {/* Awards */}
+                  {film.Awards &&
+                    film.Awards.length > 0 &&
+                    film.Awards.some((a) => a.Festival_Section_of_Competition || a.Country || a.Date) && (
                       <div>
-                        <span className="font-bold">Director:</span>{" "}
-                        <span className="font-light">{crew["Director(s)"]}</span>
+                        <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Awards</h2>
+                        <ul className="space-y-2 text-white/90 font-light">
+                          {film.Awards.map(
+                            (award, i) =>
+                              (award.Festival_Section_of_Competition || award.Country || award.Date) && (
+                                <li key={i}>
+                                  {award.Festival_Section_of_Competition && (
+                                    <span className="font-bold">{award.Festival_Section_of_Competition}</span>
+                                  )}
+                                  {award.Country && <span> ({award.Country})</span>}
+                                  {award.Date && <span className="text-white/60"> - {award.Date}</span>}
+                                </li>
+                              ),
+                          )}
+                        </ul>
                       </div>
                     )}
-                    {crew["Screenplay_writer(s)"] && (
-                      <div>
-                        <span className="font-bold">Writer:</span>{" "}
-                        <span className="font-light">{crew["Screenplay_writer(s)"]}</span>
-                      </div>
-                    )}
-                    {crew["Director(s)_of_Photography"] && (
-                      <div>
-                        <span className="font-bold">Cinematographer:</span>{" "}
-                        <span className="font-light">{crew["Director(s)_of_Photography"]}</span>
-                      </div>
-                    )}
-                    {crew["Editor(s)"] && (
-                      <div>
-                        <span className="font-bold">Editor:</span>{" "}
-                        <span className="font-light">{crew["Editor(s)"]}</span>
-                      </div>
-                    )}
-                    {crew["Music_composer(s)"] && (
-                      <div>
-                        <span className="font-bold">Music Composer:</span>{" "}
-                        <span className="font-light">{crew["Music_composer(s)"]}</span>
-                      </div>
-                    )}
-                    {crew["Sound_director(s)"] && (
-                      <div>
-                        <span className="font-bold">Sound Director:</span>{" "}
-                        <span className="font-light">{crew["Sound_director(s)"]}</span>
-                      </div>
-                    )}
-                    {crew["Art_director(s)"] && (
-                      <div>
-                        <span className="font-bold">Art Director:</span>{" "}
-                        <span className="font-light">{crew["Art_director(s)"]}</span>
-                      </div>
-                    )}
-                    {film.Producer_Representative && (
-                      <div>
-                        <span className="font-bold">Producer:</span>{" "}
-                        <span className="font-light">
-                          {typeof film.Producer_Representative === "string"
-                            ? film.Producer_Representative
-                            : JSON.stringify(film.Producer_Representative)}
-                        </span>
-                      </div>
-                    )}
-                    {film.Production_Company && (
-                      <div>
-                        <span className="font-bold">Company:</span>{" "}
-                        <span className="font-light">
-                          {typeof film.Production_Company === "string"
-                            ? film.Production_Company
-                            : JSON.stringify(film.Production_Company)}
-                        </span>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              )}
 
-              {/* Cast */}
-              {crew.Cast && crew.Cast.length > 0 && (
-                <div>
-                  <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Cast</h2>
-                  <ul className="list-disc list-inside space-y-1 text-white/90 font-light">
-                    {crew.Cast.map((actor: any, i: number) => (
-                      <li key={i}>{typeof actor === "string" ? actor : JSON.stringify(actor)}</li>
-                    ))}
-                  </ul>
+                  {/* Festival Selections */}
+                  {film.Festivals && film.Festivals.length > 0 && film.Festivals[0].Name_of_Festival && (
+                    <div>
+                      <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Festival Selections</h2>
+                      <ul className="space-y-2 text-white/90 font-light">
+                        {film.Festivals.map(
+                          (fest, i) =>
+                            fest.Name_of_Festival && (
+                              <li key={i}>
+                                <span className="font-bold">{fest.Name_of_Festival}</span>
+                                {fest.Country && <span> ({fest.Country})</span>}
+                                {fest.Date && <span className="text-white/60"> - {fest.Date}</span>}
+                              </li>
+                            ),
+                        )}
+                      </ul>
+                    </div>
+                  )}
                 </div>
-              )}
 
-              {/* Tech Specs */}
-              {(f.Runtime ||
-                film.Technical_Details?.Sound_mix ||
-                film.Technical_Details?.Aspect_ratio ||
-                film.Technical_Details?.Color ||
-                f.Date_of_completion) && (
-                <div>
-                  <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Tech Specs</h2>
-                  <div className="space-y-2 text-white">
-                    {f.Runtime && (
-                      <div>
-                        <span className="font-bold">Runtime:</span>{" "}
-                        <span className="font-light">{formatRuntime(film)}</span>
+                {/* Right column - Crew, Cast, Tech Specs */}
+                <div className="space-y-8">
+                  {/* Crew section */}
+                  {(crew["Director(s)"] ||
+                    crew["Screenplay_writer(s)"] ||
+                    crew["Director(s)_of_Photography"] ||
+                    crew["Editor(s)"] ||
+                    crew["Music_composer(s)"] ||
+                    crew["Sound_director(s)"] ||
+                    crew["Art_director(s)"] ||
+                    film.Producer_Representative ||
+                    film.Production_Company) && (
+                    <div>
+                      <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Crew</h2>
+                      <div className="space-y-2 text-white">
+                        {crew["Director(s)"] && (
+                          <div>
+                            <span className="font-bold">Director:</span>{" "}
+                            <span className="font-light">{crew["Director(s)"]}</span>
+                          </div>
+                        )}
+                        {crew["Screenplay_writer(s)"] && (
+                          <div>
+                            <span className="font-bold">Writer:</span>{" "}
+                            <span className="font-light">{crew["Screenplay_writer(s)"]}</span>
+                          </div>
+                        )}
+                        {crew["Director(s)_of_Photography"] && (
+                          <div>
+                            <span className="font-bold">Cinematographer:</span>{" "}
+                            <span className="font-light">{crew["Director(s)_of_Photography"]}</span>
+                          </div>
+                        )}
+                        {crew["Editor(s)"] && (
+                          <div>
+                            <span className="font-bold">Editor:</span>{" "}
+                            <span className="font-light">{crew["Editor(s)"]}</span>
+                          </div>
+                        )}
+                        {crew["Music_composer(s)"] && (
+                          <div>
+                            <span className="font-bold">Music Composer:</span>{" "}
+                            <span className="font-light">{crew["Music_composer(s)"]}</span>
+                          </div>
+                        )}
+                        {crew["Sound_director(s)"] && (
+                          <div>
+                            <span className="font-bold">Sound Director:</span>{" "}
+                            <span className="font-light">{crew["Sound_director(s)"]}</span>
+                          </div>
+                        )}
+                        {crew["Art_director(s)"] && (
+                          <div>
+                            <span className="font-bold">Art Director:</span>{" "}
+                            <span className="font-light">{crew["Art_director(s)"]}</span>
+                          </div>
+                        )}
+                        {film.Producer_Representative && (
+                          <div>
+                            <span className="font-bold">Producer:</span>{" "}
+                            <span className="font-light">
+                              {typeof film.Producer_Representative === "string"
+                                ? film.Producer_Representative
+                                : JSON.stringify(film.Producer_Representative)}
+                            </span>
+                          </div>
+                        )}
+                        {film.Production_Company && (
+                          <div>
+                            <span className="font-bold">Company:</span>{" "}
+                            <span className="font-light">
+                              {typeof film.Production_Company === "string"
+                                ? film.Production_Company
+                                : JSON.stringify(film.Production_Company)}
+                            </span>
+                          </div>
+                        )}
                       </div>
-                    )}
-                    {film.Technical_Details?.Sound_mix && (
-                      <div>
-                        <span className="font-bold">Sound Mix:</span>{" "}
-                        <span className="font-light">{film.Technical_Details.Sound_mix}</span>
+                    </div>
+                  )}
+
+                  {/* Cast */}
+                  {crew.Cast && crew.Cast.length > 0 && (
+                    <div>
+                      <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Cast</h2>
+                      <ul className="list-disc list-inside space-y-1 text-white/90 font-light">
+                        {crew.Cast.map((actor: any, i: number) => (
+                          <li key={i}>{typeof actor === "string" ? actor : JSON.stringify(actor)}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {/* Tech Specs */}
+                  {(f.Runtime ||
+                    film.Technical_Details?.Sound_mix ||
+                    film.Technical_Details?.Aspect_ratio ||
+                    film.Technical_Details?.Color ||
+                    f.Date_of_completion) && (
+                    <div>
+                      <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Tech Specs</h2>
+                      <div className="space-y-2 text-white">
+                        {f.Runtime && (
+                          <div>
+                            <span className="font-bold">Runtime:</span>{" "}
+                            <span className="font-light">{formatRuntime(film)}</span>
+                          </div>
+                        )}
+                        {film.Technical_Details?.Sound_mix && (
+                          <div>
+                            <span className="font-bold">Sound Mix:</span>{" "}
+                            <span className="font-light">{film.Technical_Details.Sound_mix}</span>
+                          </div>
+                        )}
+                        {film.Technical_Details?.Aspect_ratio && (
+                          <div>
+                            <span className="font-bold">Aspect Ratio:</span>{" "}
+                            <span className="font-light">{film.Technical_Details.Aspect_ratio}</span>
+                          </div>
+                        )}
+                        {film.Technical_Details?.Color && (
+                          <div>
+                            <span className="font-bold">Color:</span>{" "}
+                            <span className="font-light">{film.Technical_Details.Color}</span>
+                          </div>
+                        )}
+                        {f.Date_of_completion && (
+                          <div>
+                            <span className="font-bold">Release Date:</span>{" "}
+                            <span className="font-light">{f.Date_of_completion}</span>
+                          </div>
+                        )}
                       </div>
-                    )}
-                    {film.Technical_Details?.Aspect_ratio && (
-                      <div>
-                        <span className="font-bold">Aspect Ratio:</span>{" "}
-                        <span className="font-light">{film.Technical_Details.Aspect_ratio}</span>
-                      </div>
-                    )}
-                    {film.Technical_Details?.Color && (
-                      <div>
-                        <span className="font-bold">Color:</span>{" "}
-                        <span className="font-light">{film.Technical_Details.Color}</span>
-                      </div>
-                    )}
-                    {f.Date_of_completion && (
-                      <div>
-                        <span className="font-bold">Release Date:</span>{" "}
-                        <span className="font-light">{f.Date_of_completion}</span>
-                      </div>
-                    )}
-                  </div>
+                    </div>
+                  )}
                 </div>
-              )}
-
-              {/* Awards */}
-              {film.Awards &&
-                film.Awards.length > 0 &&
-                film.Awards.some((a) => a.Festival_Section_of_Competition || a.Country || a.Date) && (
-                  <div>
-                    <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Awards</h2>
-                    <ul className="space-y-2 text-white/90 font-light">
-                      {film.Awards.map(
-                        (award, i) =>
-                          (award.Festival_Section_of_Competition || award.Country || award.Date) && (
-                            <li key={i}>
-                              {award.Festival_Section_of_Competition && (
-                                <span className="font-bold">{award.Festival_Section_of_Competition}</span>
-                              )}
-                              {award.Country && <span> ({award.Country})</span>}
-                              {award.Date && <span className="text-white/60"> - {award.Date}</span>}
-                            </li>
-                          ),
-                      )}
-                    </ul>
-                  </div>
-                )}
-
-              {/* Festival Selections */}
-              {film.Festivals && film.Festivals.length > 0 && film.Festivals[0].Name_of_Festival && (
-                <div>
-                  <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Festival Selections</h2>
-                  <ul className="space-y-2 text-white/90 font-light">
-                    {film.Festivals.map(
-                      (fest, i) =>
-                        fest.Name_of_Festival && (
-                          <li key={i}>
-                            <span className="font-bold">{fest.Name_of_Festival}</span>
-                            {fest.Country && <span> ({fest.Country})</span>}
-                            {fest.Date && <span className="text-white/60"> - {fest.Date}</span>}
-                          </li>
-                        ),
-                    )}
-                  </ul>
-                </div>
-              )}
+              </div>
 
               {/* Director Bio with Photo */}
               {film.Director_Bio?.Bio_Text && (
