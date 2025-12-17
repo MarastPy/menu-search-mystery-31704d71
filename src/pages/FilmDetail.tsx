@@ -340,7 +340,6 @@ export default function FilmDetail() {
                     )}
                   </div>
                 )}
-              </div>
 
               {/* Info Grid - 3 columns, 2 rows */}
               {(film.Status ||
