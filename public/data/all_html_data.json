@@ -13,10 +13,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "children"
-      ],
+      "Genre_List": ["animation", "children"],
       "Genre_Other": "",
       "Keywords": "animals, cow, envrionmental issues, humanity, ecology, humor",
       "Target_Group": {
@@ -78,11 +75,7 @@
       "Date_of_birth": "",
       "Bio_Text": "Pavla Baštanová is a Prague-based animator and illustrator. A graduate of the Academy of Arts, Architecture and Design, she debuted with Mukumů (2017), later published as a children’s book. Her films include Among Trees (2015) and I Can’t Swim (2016). She illustrates books and magazines, works with classical graphic techniques, and creates animated projects such as visuals for IFF Juniorfest. She also animated on The Crossing and The Falling Star. Nature and animals are central to her work."
     },
-    "Director_Filmography": [
-      "Mezi Stromy (Among Trees), 2015",
-      "Neumím plavat (I Can’t Swim), 2016",
-      "Mukumů, 2017"
-    ],
+    "Director_Filmography": ["Mezi Stromy (Among Trees), 2015", "Neumím plavat (I Can’t Swim), 2016", "Mukumů, 2017"],
     "Technical_Details": {
       "Shooting_Format": {
         "Film": "",
@@ -166,11 +159,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "tales",
-        "poetic"
-      ],
+      "Genre_List": ["animation", "tales", "poetic"],
       "Genre_Other": "",
       "Keywords": "legend, mythology, love, amber, destiny, goddess, sea, fisherman",
       "Target_Group": {
@@ -217,9 +206,7 @@
       "Date_of_birth": "3 May 1979",
       "Bio_Text": "Ged Sia (Gediminas Šiaulys) is an award-winning Lithuanian director, visual artist, and animator. He is the only creator in Lithuania to have received all three top national creative awards —the Golden Stage Cross, the Silver Crane, and the Golden Arrow. His works and interviews have been published in major international art and design magazines. In 2007, Ged Sia’s animated film Kaukai won key national and international awards,and he was the first Lithuanian artist to win the Young Guns award from the Art Directors Club in New York."
     },
-    "Director_Filmography": [
-      "Kaukai (Running Lights), 2017"
-    ],
+    "Director_Filmography": ["Kaukai (Running Lights), 2017"],
     "Technical_Details": {
       "Shooting_Format": {
         "Film": "",
@@ -303,12 +290,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "children",
-        "comedy",
-        "fairytale"
-      ],
+      "Genre_List": ["animation", "children", "comedy", "fairytale"],
       "Genre_Other": "",
       "Keywords": "childhood, illness, medicine, friendship, humour",
       "Target_Group": {
@@ -355,9 +337,7 @@
       "Date_of_birth": "27 March 1992",
       "Bio_Text": "Czech multimedia artist Eliška Soffer Podzimek uses humour, technical skill and distinctive design to build an international career as an animator, illustrator and digital creator. Combining live-action, video and hand-drawn animation, she has made award-winning films, music videos and campaigns for brands like Vogue and Jamie Oliver. Now back in Prague, her experience as a teenage cancer survivor inspired the “Baldies” project supporting sick kids."
     },
-    "Director_Filmography": [
-      "Babls (Bubbles), 2013"
-    ],
+    "Director_Filmography": ["Babls (Bubbles), 2013"],
     "Technical_Details": {
       "Shooting_Format": {
         "Film": "",
@@ -441,10 +421,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "experimental"
-      ],
+      "Genre_List": ["animation", "experimental"],
       "Genre_Other": "opera",
       "Keywords": "cheese, cat, mouse, opera,",
       "Target_Group": {
@@ -575,11 +552,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "adventure",
-        "fairytale"
-      ],
+      "Genre_List": ["animation", "adventure", "fairytale"],
       "Genre_Other": "",
       "Keywords": "fantasy, adventure, jungle, road, sounds, housing estate, neighbor",
       "Target_Group": {
@@ -620,10 +593,7 @@
       "Sound_director(s)": "Tomáš Kozelka",
       "Art_director(s)": "Marie Urbánková",
       "Music_composer(s)": "Miroslav Chaloupka",
-      "Cast": [
-        "Milda Frýdl: boy",
-        "Zbyšek Puntucek: aborigines"
-      ]
+      "Cast": ["Milda Frýdl: boy", "Zbyšek Puntucek: aborigines"]
     },
     "Director_Bio": {
       "Date_of_birth": "",
@@ -713,11 +683,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "drama",
-        "puppet",
-        "animation"
-      ],
+      "Genre_List": ["drama", "puppet", "animation"],
       "Genre_Other": "",
       "Keywords": "childhood, father-daughter relationship, expressing emotions, parental love, guilt",
       "Target_Group": {
@@ -990,9 +956,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation"
-      ],
+      "Genre_List": ["animation"],
       "Genre_Other": "",
       "Keywords": "animation, for kids, forgivness, education",
       "Target_Group": {
@@ -1123,11 +1087,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "drama",
-        "crime",
-        "psychological"
-      ],
+      "Genre_List": ["drama", "crime", "psychological"],
       "Genre_Other": "",
       "Keywords": "police work, true crime, mass shooting, first responders",
       "Target_Group": {
@@ -1168,19 +1128,13 @@
       "Sound_director(s)": "Jan Strnad",
       "Art_director(s)": "Anna Machátová",
       "Music_composer(s)": "Tomáš Borl",
-      "Cast": [
-        "František Beleš",
-        "Pavel Řezníček"
-      ]
+      "Cast": ["František Beleš", "Pavel Řezníček"]
     },
     "Director_Bio": {
       "Date_of_birth": "3 July 1995",
       "Bio_Text": "Vojtěch Konečný is completing the MA film directing course at FAMU. He graduated from University of the Arts London, BA (Hons) Film and TV course. He is one of the founders of the film production company nukleon frame. His short It Can Be Any Day was the finalist for the Magnesia Award for Best Student Film of 2023 at the Czech Lions film awards."
     },
-    "Director_Filmography": [
-      "Doprovázení (It can be any day), 2023",
-      "Růžička ve tmě (Rose in the dark), 2022"
-    ],
+    "Director_Filmography": ["Doprovázení (It can be any day), 2023", "Růžička ve tmě (Rose in the dark), 2022"],
     "Technical_Details": {
       "Shooting_Format": {
         "Film": "",
@@ -1264,9 +1218,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "ani-doc"
-      ],
+      "Genre_List": ["ani-doc"],
       "Genre_Other": "",
       "Keywords": "domestic violence, child, rage, run away, alcoholism, charcoal animation",
       "Target_Group": {
@@ -1401,10 +1353,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "absurd"
-      ],
+      "Genre_List": ["animation", "absurd"],
       "Genre_Other": "",
       "Keywords": "hat, power, telephone, office, control, work, Kafka",
       "Target_Group": {
@@ -1501,10 +1450,7 @@
       "Date_of_birth": "",
       "Bio_Text": "Alejandro Ariel Martin is an Argentinian filmmaker. He holds a degree in Social Communication from the National University of Rosario (UNR) and a postgraduate degree in Creative Communication from the Autonomous University of Barcelona. His work as a writer and director includes the short films Epirenov (2020) and Hatker (2025)."
     },
-    "Director_Filmography": [
-      "Epirenov, 2020",
-      "Hatker, 2025"
-    ],
+    "Director_Filmography": ["Epirenov, 2020", "Hatker, 2025"],
     "Technical_Details": {
       "Shooting_Format": {
         "Film": "",
@@ -1588,10 +1534,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "Yes",
-      "Genre_List": [
-        "animation",
-        "poetic"
-      ],
+      "Genre_List": ["animation", "poetic"],
       "Genre_Other": "",
       "Keywords": "home, thoughts, journey, sense of security, feelings, connection, soul, diary, freedom, bird",
       "Target_Group": {
@@ -1652,9 +1595,7 @@
       "Sound_director(s)": "Miroslav Chaloupka",
       "Art_director(s)": "N/A",
       "Music_composer(s)": "Yaraslau Dubashynski",
-      "Cast": [
-        "Kateřina Marečková"
-      ]
+      "Cast": ["Kateřina Marečková"]
     },
     "Director_Bio": {
       "Date_of_birth": "5 September 1998",
@@ -1746,10 +1687,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "western"
-      ],
+      "Genre_List": ["animation", "western"],
       "Genre_Other": "neo western",
       "Keywords": "",
       "Target_Group": {
@@ -1880,10 +1818,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "comedy"
-      ],
+      "Genre_List": ["animation", "comedy"],
       "Genre_Other": "",
       "Keywords": "bad habits, annoyance, laughter, revenge, emotions",
       "Target_Group": {
@@ -2045,10 +1980,7 @@
       "Date_of_birth": "",
       "Bio_Text": "An illustrator, animator, storyboard artist, and film director. She finished her master's studies in animation at FAMU Prague with the film Humanity. Her silhouette stop-motion bachelor film Bloody Fairy Tales was screened in more than 20 countries, and selected to festivals such as KVIFF, Milano Film Festival, Interfilm, and Anima Brussels."
     },
-    "Director_Filmography": [
-      "Zhola nic (Nothing at all), 2017",
-      "Krvavé pohádky (Bloody Fairy Tales), 2018"
-    ],
+    "Director_Filmography": ["Zhola nic (Nothing at all), 2017", "Krvavé pohádky (Bloody Fairy Tales), 2018"],
     "Technical_Details": {
       "Shooting_Format": {
         "Film": "",
@@ -2132,12 +2064,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "autobiographical",
-        "documentary",
-        "drama",
-        "animation"
-      ],
+      "Genre_List": ["autobiographical", "documentary", "drama", "animation"],
       "Genre_Other": "",
       "Keywords": "escape, war, survival",
       "Target_Group": {
@@ -2309,11 +2236,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "comedy",
-        "family"
-      ],
+      "Genre_List": ["animation", "comedy", "family"],
       "Genre_Other": "",
       "Keywords": "mom, parent, children, family, love, friendship, care, childhood traumas",
       "Target_Group": {
@@ -2354,10 +2277,7 @@
       "Sound_director(s)": "Martin Večera",
       "Art_director(s)": "Marie Urbánková",
       "Music_composer(s)": "Kateřina Koutná KAT",
-      "Cast": [
-        "Milda Frýdl: boy",
-        "Zbyšek Puntucek: aborigines"
-      ]
+      "Cast": ["Milda Frýdl: boy", "Zbyšek Puntucek: aborigines"]
     },
     "Director_Bio": {
       "Date_of_birth": "",
@@ -2503,9 +2423,7 @@
       "Sound_director(s)": "",
       "Art_director(s)": "",
       "Music_composer(s)": "Jan Burian ml.",
-      "Cast": [
-        "Kamil Fila"
-      ]
+      "Cast": ["Kamil Fila"]
     },
     "Director_Bio": {
       "Date_of_birth": "",
@@ -2595,10 +2513,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "drama",
-        "psychological"
-      ],
+      "Genre_List": ["drama", "psychological"],
       "Genre_Other": "",
       "Keywords": "local politician, bad day, woman in distress",
       "Target_Group": {
@@ -2728,9 +2643,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "experimental"
-      ],
+      "Genre_List": ["experimental"],
       "Genre_Other": "",
       "Keywords": "time, transformation, unknown, void, existence, Poe, Lovecraft",
       "Target_Group": {
@@ -2865,12 +2778,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "10 episodes, each approx. 10 minutes",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "sci-fi",
-        "comedy",
-        "adventure"
-      ],
+      "Genre_List": ["animation", "sci-fi", "comedy", "adventure"],
       "Genre_Other": "comics",
       "Keywords": "evolution, universe, cosmic, fantasy",
       "Target_Group": {
@@ -3056,11 +2964,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "fairytale",
-        "absurd"
-      ],
+      "Genre_List": ["animation", "fairytale", "absurd"],
       "Genre_Other": "",
       "Keywords": "beetroot, fairytale, kaiju, enviroment",
       "Target_Group": {
@@ -3212,11 +3116,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "drama",
-        "historical",
-        "war"
-      ],
+      "Genre_List": ["drama", "historical", "war"],
       "Genre_Other": "",
       "Keywords": "war, Sudetenland, nazi, winter",
       "Target_Group": {
@@ -3257,9 +3157,7 @@
       "Sound_director(s)": "Yurii Fenynets",
       "Art_director(s)": "",
       "Music_composer(s)": "Jakub Zajíc",
-      "Cast": [
-        "Jiří Štěpnička, Pavel Batěk, Martin Hlubocký"
-      ]
+      "Cast": ["Jiří Štěpnička, Pavel Batěk, Martin Hlubocký"]
     },
     "Director_Bio": {
       "Date_of_birth": "",
@@ -3349,11 +3247,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "children",
-        "comedy"
-      ],
+      "Genre_List": ["animation", "children", "comedy"],
       "Genre_Other": "",
       "Keywords": "hedgehog, swimming pool, child's imagination",
       "Target_Group": {
@@ -3505,12 +3399,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "children",
-        "fairytale",
-        "adventure"
-      ],
+      "Genre_List": ["animation", "children", "fairytale", "adventure"],
       "Genre_Other": "",
       "Keywords": "childhood, family, kid coping with death, heaven, angel, plane, pilot, clouds",
       "Target_Group": {
@@ -3551,17 +3440,13 @@
       "Sound_director(s)": "Gisela Maestre",
       "Art_director(s)": "",
       "Music_composer(s)": "Beatriz López-Nogales",
-      "Cast": [
-        "Carlos Garriga, Edgar Moreno, Alzira Gómez, Borja Ruiz, Yasmina Qiu, Anna Serra, José María Blanco"
-      ]
+      "Cast": ["Carlos Garriga, Edgar Moreno, Alzira Gómez, Borja Ruiz, Yasmina Qiu, Anna Serra, José María Blanco"]
     },
     "Director_Bio": {
       "Date_of_birth": "02.11.1991",
       "Bio_Text": "Nicolás Sole (Santa Fe, 1991) studied Audiovisual Design in Buenos Aires and completed a Master’s in Animation at ECIB. He worked as an animator on Linklater’s Apollo 10½, Trueba & Mariscal’s They Shot the Piano Player, Mariposas Negras, and Hit Monkey. He has finished Cap al cel, now entering distribution, and is developing Rebel·lió a les cases while collaborating on new animation projects."
     },
-    "Director_Filmography": [
-      "Good Night, Mr. Ted (2020)"
-    ],
+    "Director_Filmography": ["Good Night, Mr. Ted (2020)"],
     "Technical_Details": {
       "Shooting_Format": {
         "Film": "",
@@ -3645,10 +3530,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "experimental",
-        "fiction"
-      ],
+      "Genre_List": ["experimental", "fiction"],
       "Genre_Other": "videoessay, tale",
       "Keywords": "digital folklor, folklor, traditions, generation Z, digital platforms, YouTube, identity, fashion, community, social media, vlog, self-brand, influencer, seasons",
       "Target_Group": {
@@ -3689,9 +3571,7 @@
       "Sound_director(s)": "Jan Licek",
       "Art_director(s)": "Viktorie Štěpánová",
       "Music_composer(s)": "Martin Kožucharov, Tomáš Jiřička",
-      "Cast": [
-        "YouTuber Vivi: Monina Nevrlá"
-      ]
+      "Cast": ["YouTuber Vivi: Monina Nevrlá"]
     },
     "Director_Bio": {
       "Date_of_birth": "15 June 1999",
@@ -3787,9 +3667,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "ani-doc"
-      ],
+      "Genre_List": ["ani-doc"],
       "Genre_Other": "",
       "Keywords": "waves, nature, society",
       "Target_Group": {
@@ -3985,9 +3863,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation"
-      ],
+      "Genre_List": ["animation"],
       "Genre_Other": "",
       "Keywords": "garden, fear, chaos, flowers",
       "Target_Group": {
@@ -4182,11 +4058,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "children",
-        "family"
-      ],
+      "Genre_List": ["animation", "children", "family"],
       "Genre_Other": "",
       "Keywords": "play, animals, acceptance, balance, chaos, difference, childhood, motherhood",
       "Target_Group": {
@@ -4312,10 +4184,7 @@
       "Sound_director(s)": "Dávid Procházka",
       "Art_director(s)": "Philippe Kastner",
       "Music_composer(s)": "Philippe Kastner",
-      "Cast": [
-        "Adéla Majzlíková: Mother",
-        "Patrick Biela: Wolfie"
-      ]
+      "Cast": ["Adéla Majzlíková: Mother", "Patrick Biela: Wolfie"]
     },
     "Director_Bio": {
       "Date_of_birth": "26 May 2001",
@@ -4385,8 +4254,8 @@
     },
     "Source_File": "wolfie.html",
     "Ranking": "7",
-    "Review": "",
-    "Review_name": "",
+    "Review": "Lovely film",
+    "Review_name": "Washington post",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -4411,11 +4280,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "educational",
-        "children"
-      ],
+      "Genre_List": ["animation", "educational", "children"],
       "Genre_Other": "",
       "Keywords": "family, environment, kids, videogame",
       "Target_Group": {
@@ -4477,9 +4342,7 @@
       "Date_of_birth": "",
       "Bio_Text": "Ester Kasalová is a FAMU Master's student specializing in 2D animation and family storytelling. Her work often dvelves into the themes of intergenerational relationships and exploration of reality."
     },
-    "Director_Filmography": [
-      "Až vyrostu (When I grow up), 2021"
-    ],
+    "Director_Filmography": ["Až vyrostu (When I grow up), 2021"],
     "Technical_Details": {
       "Shooting_Format": {
         "Film": "",
@@ -4551,11 +4414,7 @@
       "Number_of_episodes": "",
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "children",
-        "fairytale"
-      ],
+      "Genre_List": ["animation", "children", "fairytale"],
       "Genre_Other": "",
       "Keywords": "communication, home, forest",
       "Target_Group": {
@@ -4627,9 +4486,7 @@
       "Date_of_birth": "",
       "Bio_Text": "Eva Matejovičová graduated from the Václav Hollar High School and Film and Television Faculty of the Academy of Performing Arts in Prague (FAMU). Now she is in the second year of the Master's program at the Department of Animation at FAMU. Her film Sanctuary (2021) won the Best Short Slovak animated film at the AnčaFest 2021 film festival. While at school, she does animation and art commissions, as well as working with animals in non-profit organizations."
     },
-    "Director_Filmography": [
-      "2021 - Azyl (Sanctuary) - short animated film"
-    ],
+    "Director_Filmography": ["2021 - Azyl (Sanctuary) - short animated film"],
     "Technical_Details": {
       "Shooting_Format": {
         "Film": "",
