@@ -326,11 +326,9 @@ export default function FilmDetail() {
 
             {/* Right column - All text content */}
             <div className="space-y-8">
-              {/* Review Quote - Now aligned with Logline/Content */}
+              {/* Review Quote - Centered in the right column */}
               {film.Review && (
-                <div className="mb-10 border-l-4 border-white/20 pl-6">
-                  {" "}
-                  {/* Removed text-center, added a left border for style */}
+                <div className="mb-10 text-center">
                   <p className="text-2xl sm:text-3xl font-garamond italic text-white/90 leading-tight">
                     "{film.Review}"
                   </p>
