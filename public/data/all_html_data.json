@@ -141,6 +141,7 @@
     "Source_File": "about_a_cow.html",
     "Ranking": "23",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -277,6 +278,7 @@
     "Source_File": "amber_tale.html",
     "Ranking": "1",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -411,146 +413,10 @@
         "WEB": ""
       }
     },
-    "Source_File": "baldies.html",
-    "Ranking": "5",
-    "Review": "",
-    "Festival_Distribution_Only": "",
-    "Sales": "",
-    "Status": "",
-    "Download_poster": "/downloads/posters/baldies_what_about_my_hair_poster.zip",
-    "Download_stills": "/downloads/stills/baldies_what_about_my_hair_stills.zip",
-    "Download_presskit": "/downloads/presskits/baldies_what_about_my_hair_presskit.zip",
-    "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/baldies_what_about_my_hair_extras.zip",
-    "Trailer_url": ""
-  },
-  {
-    "Film": {
-      "Title_Original": "Plešouni",
-      "Title_English": "Baldies - What About My Hair?",
-      "Title_Other": "",
-      "Language_Original": "Czech / English",
-      "Language_Subtitles": "English",
-      "Country_of_production": "Czech Republic",
-      "Date_of_completion": "20. 01. 2026",
-      "Runtime": "00:09:47",
-      "Number_of_series": "",
-      "Number_of_episodes": "",
-      "Titles_and_runtime_of_episodes": "",
-      "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "children",
-        "comedy",
-        "fairytale"
-      ],
-      "Genre_Other": "",
-      "Keywords": "childhood, illness, medicine, friendship, humour",
-      "Target_Group": {
-        "Rating": "6+",
-        "Audience": "general audience",
-        "Other": ""
-      }
-    },
-    "Premiere": [
-      {
-        "Date": "",
-        "Country": "",
-        "Name_of_place_of_premiere": ""
-      }
-    ],
-    "Festivals": [
-      {
-        "Date": "",
-        "Country": "",
-        "Name_of_Festival": ""
-      }
-    ],
-    "Awards": [
-      {
-        "Date": "",
-        "Country": "",
-        "Festival_Section_of_Competition": ""
-      }
-    ],
-    "Logline": "Brave kids battling cancer turn hospital days into imaginative adventures, showing that even bald heroes can laugh, play, and stay strong.",
-    "Synopsis": "Baldies – What About My Hair? is an animated short about a fearless group of kids battling cancer who meet in hospital and turn their fight into an adventure. Using imagination, humour, and gentle metaphors, the film shows that a kid with cancer is still a kid—ready to laugh, play, and prove that being bald is cool.",
-    "Directors_Note": "",
-    "Crew": {
-      "Director(s)": "Eliška Soffer Podzimek",
-      "Screenplay_writer(s)": "Steen Agro",
-      "Director(s)_of_Photography": "",
-      "Editor(s)": "Georgy Barklaya",
-      "Sound_director(s)": "Jan Rádr, Jakub Johánek, Lukáš Tvrdoň",
-      "Art_director(s)": "Eliška Soffer Podzimek",
-      "Music_composer(s)": "Marek Doubrava, Jakub Johánek",
-      "Cast": []
-    },
-    "Director_Bio": {
-      "Date_of_birth": "27 March 1992",
-      "Bio_Text": "Czech multimedia artist Eliška Soffer Podzimek uses humour, technical skill and distinctive design to build an international career as an animator, illustrator and digital creator. Combining live-action, video and hand-drawn animation, she has made award-winning films, music videos and campaigns for brands like Vogue and Jamie Oliver. Now back in Prague, her experience as a teenage cancer survivor inspired the “Baldies” project supporting sick kids."
-    },
-    "Director_Filmography": [
-      "Babls (Bubbles), 2013"
-    ],
-    "Technical_Details": {
-      "Shooting_Format": {
-        "Film": "",
-        "Video": "",
-        "Other": ""
-      },
-      "Camera": "",
-      "Anamorphic_Lens": "No",
-      "Animation_Technique": "3D computer",
-      "Animation_Technique_Other": "2D + 3D animation",
-      "Video_Editing_Software": "",
-      "Digital_Audio_Workstation": "",
-      "Screening_Format": {
-        "Film": "",
-        "Tape": "",
-        "File": "",
-        "Other": ""
-      },
-      "Resolution": "",
-      "Resolution_Other": "",
-      "Speed": {
-        "Scan_Method": "",
-        "FPS": "",
-        "FPS_Other": ""
-      },
-      "Aspect_Ratio": "",
-      "Aspect_Ratio_Other": "",
-      "Sound_Mix": "",
-      "Sound_Mix_Other": "",
-      "Colour": "Colour",
-      "Notes": ""
-    },
-    "Production": {
-      "Producers": {
-        "Name": "Oldrich Company s.r.o. (Jiří Sádek, Jindřich Trčka)",
-        "Address": "Badeniho 290/1",
-        "Postal code, city": "160 00 Praha 6",
-        "Country": "",
-        "WEB": "oldrich.rocks"
-      },
-      "Production_Company": {
-        "Name": "",
-        "Address": "",
-        "Postal code, city": "",
-        "Country": "",
-        "WEB": ""
-      },
-      "Co_Producer": {
-        "Name": "",
-        "Address": "",
-        "Postal code, city": "",
-        "Country": "",
-        "WEB": ""
-      }
-    },
     "Source_File": "baldies_what_about_my_hair.html",
     "Ranking": "5",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -684,6 +550,7 @@
     "Source_File": "cheese.html",
     "Ranking": "24",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -821,6 +688,7 @@
     "Source_File": "concrete_jungle.html",
     "Ranking": "27",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -1094,7 +962,19 @@
         "WEB": ""
       }
     },
-    "Source_File": "daughter.html"
+    "Source_File": "daughter.html",
+    "Ranking": "29",
+    "Review": "",
+    "Review_name": "",
+    "Festival_Distribution_Only": "",
+    "Sales": "",
+    "Status": "",
+    "Download_poster": "",
+    "Download_stills": "",
+    "Download_presskit": "",
+    "Extras_name": "Extras",
+    "Download_extras": "",
+    "Trailer_url": "https://vimeo.com/340238110"
   },
   {
     "Film": {
@@ -1218,6 +1098,7 @@
     "Source_File": "don't_blow_it_up.html",
     "Ranking": "26",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -1358,6 +1239,7 @@
     "Source_File": "first_patrol.html",
     "Ranking": "9",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -1494,6 +1376,7 @@
     "Source_File": "gently.html",
     "Ranking": "3",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -1680,6 +1563,7 @@
     "Source_File": "hatker.html",
     "Ranking": "8",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -1837,6 +1721,7 @@
     "Source_File": "home.html",
     "Ranking": "14",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -1970,6 +1855,7 @@
     "Source_File": "hot_blood.html",
     "Ranking": "6",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "in production",
@@ -2221,6 +2107,7 @@
     "Source_File": "humanity.html",
     "Ranking": "15",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -2397,6 +2284,7 @@
     "Source_File": "i_died_in_irpin.html",
     "Ranking": "16",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -2534,6 +2422,7 @@
     "Source_File": "mom_is_always_right.html",
     "Ranking": "25",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -2681,6 +2570,7 @@
     "Source_File": "out_in_force.html",
     "Ranking": "28",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -2950,6 +2840,7 @@
     "Source_File": "snowblind.html",
     "Ranking": "10",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -3140,6 +3031,7 @@
     "Source_File": "soul_shift.html",
     "Ranking": "12",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -3432,6 +3324,7 @@
     "Source_File": "the_compatriot.html",
     "Ranking": "22",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -3587,6 +3480,7 @@
     "Source_File": "the_hedgehog.html",
     "Ranking": "21",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -3612,12 +3506,15 @@
       "Titles_and_runtime_of_episodes": "",
       "First_Film": "No",
       "Genre_List": [
-        "animation"
+        "animation",
+        "children",
+        "fairytale",
+        "adventure"
       ],
       "Genre_Other": "",
       "Keywords": "childhood, family, kid coping with death, heaven, angel, plane, pilot, clouds",
       "Target_Group": {
-        "Rating": "3+",
+        "Rating": "6+",
         "Audience": "general audience",
         "Other": ""
       }
@@ -3723,6 +3620,7 @@
     "Source_File": "up_in_heaven.html",
     "Ranking": "2",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -3864,6 +3762,7 @@
     "Source_File": "volklore.html",
     "Ranking": "4",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -4061,6 +3960,7 @@
     "Source_File": "waves.html",
     "Ranking": "19",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -4257,6 +4157,7 @@
     "Source_File": "weeds.html",
     "Ranking": "18",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -4484,8 +4385,8 @@
     },
     "Source_File": "wolfie.html",
     "Ranking": "7",
-    "Review": "Best film ever",
-    "Review_name": "The New York Times",
+    "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
@@ -4787,6 +4688,7 @@
     "Source_File": "writing_home.html",
     "Ranking": "17",
     "Review": "",
+    "Review_name": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
