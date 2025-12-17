@@ -456,20 +456,22 @@ export default function Catalogue() {
           {/* Filters */}
           <div className="mb-8 sm:mb-12 space-y-4">
             {/* Search */}
-            <div className="flex flex-col sm:flex-row gap-3 max-w-2xl mx-auto">
-              <Input
-                type="text"
-                placeholder="Search by title, director, festivals…"
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="flex-1 bg-card border-border"
-              />
-              <Button
-                onClick={() => setSearchTerm(searchTerm)}
-                className="bg-primary text-primary-foreground hover:bg-primary/90"
-              >
-                Search
-              </Button>
+            <div className="max-w-2xl mx-auto">
+              <div className="relative">
+                <Input
+                  type="text"
+                  placeholder="Search by title, director, festivals…"
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="w-full bg-card border-border pr-24"
+                />
+                <Button
+                  onClick={() => setSearchTerm(searchTerm)}
+                  className="absolute right-1 top-1/2 -translate-y-1/2 h-8 px-4 bg-primary text-primary-foreground hover:bg-primary/90"
+                >
+                  Search
+                </Button>
+              </div>
             </div>
 
             {/* Filter dropdowns */}

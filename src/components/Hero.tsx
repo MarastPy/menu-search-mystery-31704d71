@@ -17,7 +17,7 @@ export const Hero = () => {
   }, []);
 
   return (
-    <section className="bg-[#2b2b2b] text-[#D9D9D9] py-8 sm:py-10 px-4 sm:px-8 text-center overflow-hidden mt-[60px] sm:mt-[90px]">
+    <section className="bg-[#2b2b2b] text-[#D9D9D9] py-8 sm:py-10 px-4 sm:px-8 text-center overflow-hidden mt-[100px] sm:mt-[90px]">
       <div className="max-w-4xl mx-auto space-y-8 sm:space-y-10">
         {/* Logo - fades out and scales down as user scrolls */}
         <img
