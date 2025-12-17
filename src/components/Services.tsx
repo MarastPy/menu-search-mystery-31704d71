@@ -49,9 +49,14 @@ export const Services = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 text-[#222]">
             <div className="text-justify font-nunito text-[17px]">
               <p className="mb-4">CINEFILA supports academic institutions by hosting workshops, and offering lectures on festival distribution and festival strategies. Learn how to craft a festival strategy for your film. Discover how to choose the right festivals, prepare for promotion, and navigate your film's festival lifecycle. Get insider tips, tricks, and practical advice to maximize your film's potential.</p>
-            </div>
-            <div className="text-justify font-nunito text-[17px]">
               <p className="mb-4">Building on Alexandra's success with FAMUfilms.cz, the first European SVOD platform for film schools, we aim to inspire and educate the next generation of filmmakers and scholars.</p>
+            </div>
+            <div className="flex items-start justify-center">
+              <img 
+                src="/images/homepage/alex_berlinale.JPG" 
+                alt="Alexandra at Berlinale" 
+                className="w-full max-w-md rounded-lg shadow-lg object-cover"
+              />
             </div>
           </div>
         </div>
