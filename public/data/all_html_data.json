@@ -391,6 +391,136 @@
         "WEB": ""
       }
     },
+    "Source_File": "baldies.html",
+    "Ranking": "5",
+    "Review": "",
+    "Festival_Distribution_Only": "",
+    "Sales": "",
+    "Status": "",
+    "Download_poster": "/downloads/posters/baldies_what_about_my_hair_poster.zip",
+    "Download_stills": "/downloads/stills/baldies_what_about_my_hair_stills.zip",
+    "Download_presskit": "/downloads/presskits/baldies_what_about_my_hair_presskit.zip",
+    "Extras_name": "Extras",
+    "Download_extras": "/downloads/extras/baldies_what_about_my_hair_extras.zip",
+    "Trailer_url": ""
+  },
+  {
+    "Film": {
+      "Title_Original": "Plešouni",
+      "Title_English": "Baldies - What About My Hair?",
+      "Title_Other": "",
+      "Language_Original": "Czech / English",
+      "Language_Subtitles": "English",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "20. 01. 2026",
+      "Runtime": "00:09:47",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": ["animation", "children", "comedy", "fairytale"],
+      "Genre_Other": "",
+      "Keywords": "childhood, illness, medicine, friendship, humour",
+      "Target_Group": {
+        "Rating": "6+",
+        "Audience": "general audience",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "Brave kids battling cancer turn hospital days into imaginative adventures, showing that even bald heroes can laugh, play, and stay strong.",
+    "Synopsis": "Baldies – What About My Hair? is an animated short about a fearless group of kids battling cancer who meet in hospital and turn their fight into an adventure. Using imagination, humour, and gentle metaphors, the film shows that a kid with cancer is still a kid—ready to laugh, play, and prove that being bald is cool.",
+    "Directors_Note": "",
+    "Crew": {
+      "Director(s)": "Eliška Soffer Podzimek",
+      "Screenplay_writer(s)": "Steen Agro",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "Georgy Barklaya",
+      "Sound_director(s)": "Jan Rádr, Jakub Johánek, Lukáš Tvrdoň",
+      "Art_director(s)": "Eliška Soffer Podzimek",
+      "Music_composer(s)": "Marek Doubrava, Jakub Johánek",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "27 March 1992",
+      "Bio_Text": "Czech multimedia artist Eliška Soffer Podzimek uses humour, technical skill and distinctive design to build an international career as an animator, illustrator and digital creator. Combining live-action, video and hand-drawn animation, she has made award-winning films, music videos and campaigns for brands like Vogue and Jamie Oliver. Now back in Prague, her experience as a teenage cancer survivor inspired the “Baldies” project supporting sick kids."
+    },
+    "Director_Filmography": ["Babls (Bubbles), 2013"],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "3D computer",
+      "Animation_Technique_Other": "2D + 3D animation",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "",
+        "Other": ""
+      },
+      "Resolution": "",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Oldrich Company s.r.o. (Jiří Sádek, Jindřich Trčka)",
+        "Address": "Badeniho 290/1",
+        "Postal code, city": "160 00 Praha 6",
+        "Country": "",
+        "WEB": "oldrich.rocks"
+      },
+      "Production_Company": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
     "Source_File": "baldies_what_about_my_hair.html",
     "Ranking": "5",
     "Review": "",
@@ -402,6 +532,136 @@
     "Download_presskit": "/downloads/presskits/baldies_what_about_my_hair_presskit.zip",
     "Extras_name": "Extras",
     "Download_extras": "/downloads/extras/baldies_what_about_my_hair_extras.zip",
+    "Trailer_url": ""
+  },
+  {
+    "Film": {
+      "Title_Original": "Cap al cel",
+      "Title_English": "Up in Heaven",
+      "Title_Other": "",
+      "Language_Original": "Catalan",
+      "Language_Subtitles": "English, Spanish",
+      "Country_of_production": "Spain",
+      "Date_of_completion": "15.01.2026",
+      "Runtime": "00:15:00",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": ["animation"],
+      "Genre_Other": "",
+      "Keywords": "childhood, family, kid coping with death, heaven, angel, plane, pilot, clouds",
+      "Target_Group": {
+        "Rating": "3+",
+        "Audience": "general audience",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "A boy who has lost his grandmother learns that all the dead go to heaven, so he decides to become a pilot to go find her and bring her back home.",
+    "Synopsis": "At his grandmother’s funeral, a four-year-old boy is told the dead become angels in heaven. Hoping to retrieve her, he becomes a pilot and searches in a small plane. Finding her on a cloud, he ties her to bring her home, but she refuses and a guardian angel rescues her.",
+    "Directors_Note": "The film explores grief through a child’s eyes, where magical explanations shape early ideas of death. Inspired by my own childhood memories, it follows the pure logic with which children question loss: if the dead are in the sky, why not go find them? Yet even in a wondrous world, the boy learns he must let his grandmother go. As an adult, he looks back with nostalgic clarity at the way he once saw the world.",
+    "Crew": {
+      "Director(s)": "Nicolás Sole",
+      "Screenplay_writer(s)": "Estefania Ortiz",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "Irene Albanell",
+      "Sound_director(s)": "Gisela Maestre",
+      "Art_director(s)": "",
+      "Music_composer(s)": "Beatriz López-Nogales",
+      "Cast": ["Carlos Garriga, Edgar Moreno, Alzira Gómez, Borja Ruiz, Yasmina Qiu, Anna Serra, José María Blanco"]
+    },
+    "Director_Bio": {
+      "Date_of_birth": "02.11.1991",
+      "Bio_Text": "Nicolás Sole (Santa Fe, 1991) studied Audiovisual Design in Buenos Aires and completed a Master’s in Animation at ECIB. He worked as an animator on Linklater’s Apollo 10½, Trueba & Mariscal’s They Shot the Piano Player, Mariposas Negras, and Hit Monkey. He has finished Cap al cel, now entering distribution, and is developing Rebel·lió a les cases while collaborating on new animation projects."
+    },
+    "Director_Filmography": ["Good Night, Mr. Ted (2020)"],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "2D computer",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "Blender",
+      "Digital_Audio_Workstation": "5:1 and stereo",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": "H264 Mp4"
+      },
+      "Resolution": "4k",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "progressive (DCP, e-cinema, TV)",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.33 (4:3)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)",
+      "Sound_Mix_Other": "Stereo 2.0",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Rubén Seca Alberto Regueiro Carles Isern Damián Perea Lezcano",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "Shoji Films",
+        "Address": "Calvet 50, 6º 1ª",
+        "Postal code, city": "08021, Barcelona",
+        "Country": "Spain",
+        "WEB": "www.shojifilms.com"
+      },
+      "Co_Producer": {
+        "Name": "Amigos Cine Kamikaze Producciones Dosmentes Damián Perea Producciones",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "cap_al_cel.html",
+    "Ranking": "2",
+    "Review": "",
+    "Festival_Distribution_Only": "",
+    "Sales": "",
+    "Status": "",
+    "Download_poster": "/downloads/posters/",
+    "Download_stills": "/downloads/stills/",
+    "Download_presskit": "/downloads/presskits/",
+    "Extras_name": "Extras",
+    "Download_extras": "/downloads/extras/",
     "Trailer_url": ""
   },
   {
@@ -663,6 +923,267 @@
     "Extras_name": "Extras",
     "Download_extras": "/downloads/extras/the_concrete_jungle_extras.zip",
     "Trailer_url": "https://vimeo.com/579740396?share=copy&fl=sv&fe=ci"
+  },
+  {
+    "Film": {
+      "Title_Original": "Dcera",
+      "Title_English": "Daughter",
+      "Title_Other": "",
+      "Language_Original": "without dialogue",
+      "Language_Subtitles": "none",
+      "Country_of_production": "Czech Republic",
+      "Date_of_completion": "2019",
+      "Runtime": "00:14:44",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": ["drama", "puppet", "animation"],
+      "Genre_Other": "",
+      "Keywords": "childhood, father-daughter relationship, expressing emotions, parental love, guilt",
+      "Target_Group": {
+        "Rating": "12+",
+        "Audience": "general audience",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "10 June 2019",
+        "Country": "France",
+        "Name_of_place_of_premiere": "Annecy International Animated Film Festival"
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "September 2019",
+        "Country": "Bulgaria",
+        "Name_of_Festival": "World Festival of Animated Film Varna, The Best Student Film"
+      },
+      {
+        "Date": "September 2019",
+        "Country": "Albania",
+        "Name_of_Festival": "Tirana International Film Festival, The Best Student Film"
+      },
+      {
+        "Date": "2019",
+        "Country": "Hungary",
+        "Name_of_Festival": "Anilogue International Animation Festival, Best Short Film"
+      },
+      {
+        "Date": "November 2019",
+        "Country": "Cyprus",
+        "Name_of_Festival": "Cyprus International Film Festival, \"Golden Aphrodite\""
+      },
+      {
+        "Date": "December 2019",
+        "Country": "Poland",
+        "Name_of_Festival": "ISFF ZUBROFFKA, Best film in the EASTWARD WINDOW Competition and THE BEST ANIMATION"
+      },
+      {
+        "Date": "2020",
+        "Country": "Spain",
+        "Name_of_Festival": "Mecal Pro, second prize by the Animation Jury"
+      },
+      {
+        "Date": "2020",
+        "Country": "USA",
+        "Name_of_Festival": "Glasgow Short Film Festival, Audience Award for International Short Film"
+      },
+      {
+        "Date": "2020",
+        "Country": "Germany",
+        "Name_of_Festival": "NEISSE FILM FESTIVAL, Best Short Film"
+      },
+      {
+        "Date": "2020",
+        "Country": "Japan",
+        "Name_of_Festival": "Tokyo Anime Award Festival, Grand Prix Award"
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "2019",
+        "Country": "USA",
+        "Festival_Section_of_Competition": "The 46th Student Academy Award (Student OSCAR), the gold medal in International Animation film"
+      },
+      {
+        "Date": "2020",
+        "Country": "USA",
+        "Festival_Section_of_Competition": "The 92nd Academy Awards Nomination in the category The Best Short Animatied Film"
+      },
+      {
+        "Date": "June 2019",
+        "Country": "France",
+        "Festival_Section_of_Competition": "Annecy International Animated Film Festival, Cristal for the Best Student Film, Young Jury award for the best Student film"
+      },
+      {
+        "Date": "August 2019",
+        "Country": "Australia",
+        "Festival_Section_of_Competition": "Melbourne International Film Festival, City Post Award for Best Animation Short Film"
+      },
+      {
+        "Date": "September 2019",
+        "Country": "Switzerland",
+        "Festival_Section_of_Competition": "Fantoche International Animation Film Festival, Best film of Fantoche"
+      },
+      {
+        "Date": "October 2019",
+        "Country": "South Korea",
+        "Festival_Section_of_Competition": "Bucheon International Animation Festival BIAF, AniG‘s Choice and 1st Jury Prize"
+      },
+      {
+        "Date": "November 2019",
+        "Country": "USA",
+        "Festival_Section_of_Competition": "Denver Film Festival, Marilyn Marsh Saint-Veltri Award for Best Student Animated Short Film"
+      },
+      {
+        "Date": "November 2019",
+        "Country": "Portugal",
+        "Festival_Section_of_Competition": "Cinanima, International Student Film Competition Award"
+      },
+      {
+        "Date": "November 2019",
+        "Country": "Estonia",
+        "Festival_Section_of_Competition": "PÖFF Shorts – Black Nights Film Festival, The winner at the New Talent competition"
+      },
+      {
+        "Date": "January 2020",
+        "Country": "USA",
+        "Festival_Section_of_Competition": "Sundance Film Festival, Best Short Film"
+      },
+      {
+        "Date": "Spring 2020",
+        "Country": "USA",
+        "Festival_Section_of_Competition": "New Jersey Film Festival, Best Animation"
+      },
+      {
+        "Date": "2020",
+        "Country": "Germany",
+        "Festival_Section_of_Competition": "Stuttgart Festival of Animated Film, Young talent award"
+      },
+      {
+        "Date": "2020",
+        "Country": "Portugal",
+        "Festival_Section_of_Competition": "Monstra, Best Student film from the Junior Jury, and Special Senior Jury"
+      },
+      {
+        "Date": "2020",
+        "Country": "USA",
+        "Festival_Section_of_Competition": "Palm Springs International Shortfest, The Best Student Animated short"
+      },
+      {
+        "Date": "2020",
+        "Country": "",
+        "Festival_Section_of_Competition": "THE CILECT PRIZE 2020 for the best animated film"
+      },
+      {
+        "Date": "2020",
+        "Country": "Japan",
+        "Festival_Section_of_Competition": "Hiroshima International Animation Festival, Grand Prix"
+      },
+      {
+        "Date": "2020",
+        "Country": "Chile",
+        "Festival_Section_of_Competition": "Chilemonos, First place in the International School Short Film Competition"
+      },
+      {
+        "Date": "2020",
+        "Country": "UK",
+        "Festival_Section_of_Competition": "Cardiff Animation Festival, Audience award"
+      },
+      {
+        "Date": "2020",
+        "Country": "Croatia",
+        "Festival_Section_of_Competition": "Animafest Zagreb, Best film for children"
+      },
+      {
+        "Date": "2020",
+        "Country": "Czech Republic",
+        "Festival_Section_of_Competition": "Anifilm, Best Student film in the International competition, Best Student Czech Film, Best Czech Animated film"
+      }
+    ],
+    "Logline": "A childhood misunderstanding between a father and daughter grows into years of silence, until time offers a fragile chance for closeness.",
+    "Synopsis": "As a child, a girl brings home an injured bird, hoping to share her feelings with her father. Absorbed by his own worries, he fails to notice her longing for understanding. The girl turns inward, and the unspoken hurt shapes their relationship over the years—until time offers a fragile chance for reconnection.",
+    "Directors_Note": "My film explores the father-daughter relationship, deeply personal to me. To immerse viewers in memory, I used a handheld feel, close-ups, low depth of field, and motion for immediacy. I painted the puppets’ eyes directly, giving them life and an intense expression of their emotions.",
+    "Crew": {
+      "Director(s)": "Daria Kashcheeva",
+      "Screenplay_writer(s)": "Daria Kashcheeva",
+      "Director(s)_of_Photography": "Daria Kashcheeva, Bargav Sridhar",
+      "Editor(s)": "Alexander Kashcheev",
+      "Sound_director(s)": "Daria Kashcheeva, Miroslav Chaloupka",
+      "Art_director(s)": "Daria Kashcheeva",
+      "Music_composer(s)": "Petr Vrba",
+      "Cast": []
+    },
+    "Director_Bio": {
+      "Date_of_birth": "1 April 1986",
+      "Bio_Text": "Independent filmmaker Daria Kashcheeva studied animation at FAMU. Her Bachelor’s puppet film Daughter (2019) premiered at Annecy, won a Student Academy Award, and collected prizes at over 100 festivals. Her acclaimed Master’s film Electra (2023) premiered at Cannes. She is now developing her feature debut."
+    },
+    "Director_Filmography": [
+      "Electra, 2023",
+      "Praha očima cizinců (Prague: A foreigners' perspective), 2017",
+      "To Accept, 2017",
+      "Oáza (Oasis), 2017",
+      "V popelnici (In a Dumpster), 2017",
+      "Vítr správným směrem (Before the wind), 2016"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "DSLR/DSLM",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "puppet",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "",
+      "Digital_Audio_Workstation": "",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": ""
+      },
+      "Resolution": "4k",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "2.39 / 2.40 (modern \"scope\")",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)",
+      "Sound_Mix_Other": "",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Zuzana Roháčová",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "FAMU",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Co_Producer": {
+        "Name": "Martin Vandas, Maurfilm",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "daughter.html"
   },
   {
     "Film": {
@@ -1528,7 +2049,7 @@
       "Language_Original": "without dialogue",
       "Language_Subtitles": "",
       "Country_of_production": "Czech Republic",
-      "Date_of_completion": "12.05.2024",
+      "Date_of_completion": "12 May 2024",
       "Runtime": "00:07:46",
       "Number_of_series": "",
       "Number_of_episodes": "",
@@ -1545,78 +2066,138 @@
     },
     "Premiere": [
       {
-        "Date": "05/2024",
+        "Date": "May 2024",
         "Country": "Czech Republic",
         "Name_of_place_of_premiere": "Anifilm"
       }
     ],
     "Festivals": [
       {
-        "Date": "06/2024",
+        "Date": "June 2024",
         "Country": "Slovakia",
         "Name_of_Festival": "Fest Anča"
       },
       {
-        "Date": "06/2024",
+        "Date": "June 2024",
         "Country": "Croatia",
         "Name_of_Festival": "Animafest Zagreb"
       },
       {
-        "Date": "10/2024",
+        "Date": "May 2024",
+        "Country": "Czech Republic",
+        "Name_of_Festival": "International Film Festival for Children and Youth - ZLÍN"
+      },
+      {
+        "Date": "May 2024",
+        "Country": "Czech Republic",
+        "Name_of_Festival": "Anifilm"
+      },
+      {
+        "Date": "July 2024",
+        "Country": "Kosovo",
+        "Name_of_Festival": "Anibar Animation Festival"
+      },
+      {
+        "Date": "October 2024",
+        "Country": "Norway",
+        "Name_of_Festival": "Fredrikstad Animation Festival"
+      },
+      {
+        "Date": "December 2024",
+        "Country": "Slovenia",
+        "Name_of_Festival": "Animateka International Animated Film Festival"
+      },
+      {
+        "Date": "October 2024",
+        "Country": "Hungary",
+        "Name_of_Festival": "Primanima World Festival of First Animations"
+      },
+      {
+        "Date": "May 2025",
+        "Country": "Norway",
+        "Name_of_Festival": "Kristiansand International Children’s Film Festival"
+      },
+      {
+        "Date": "October 2024",
         "Country": "Argentina",
         "Name_of_Festival": "ANIMA, Córdoba International Animation Festival"
       },
       {
-        "Date": "08/2025",
+        "Date": "November 2024",
+        "Country": "UK",
+        "Name_of_Festival": "London International Animation Festival"
+      },
+      {
+        "Date": "January 2025",
+        "Country": "Switzerland",
+        "Name_of_Festival": "BLACK MOVIE, Geneva International Independent Film Festival"
+      },
+      {
+        "Date": "August 2025",
+        "Country": "Canada",
+        "Name_of_Festival": "Anim sur le Lac"
+      },
+      {
+        "Date": "August 2025",
         "Country": "Israel",
         "Name_of_Festival": "ANIMIX - International Animation & Comics Festival"
       },
       {
-        "Date": "08/2025",
-        "Country": "Canada",
-        "Name_of_Festival": "Anim sur le Lac"
+        "Date": "June 2025",
+        "Country": "France",
+        "Name_of_Festival": "Plein la Bobine"
       }
     ],
     "Awards": [
       {
-        "Date": "11/2024",
+        "Date": "November 2024",
         "Country": "USA",
-        "Festival_Section_of_Competition": "Denver Film Festival - 2024 Marilyn Marsh Saint-Veltri Award for Best Student Animation Short"
+        "Festival_Section_of_Competition": "Denver Film Festival, Marilyn Marsh Saint-Veltri Award for Best Student Animation Short"
       },
       {
-        "Date": "01/2025",
+        "Date": "January 2025",
         "Country": "France",
-        "Festival_Section_of_Competition": "Premier Plans Film Festival - the Prix du Public"
+        "Festival_Section_of_Competition": "Premier Plans Film Festival, Prix du Public"
       },
       {
-        "Date": "04/2025",
-        "Country": "Italy",
-        "Festival_Section_of_Competition": "Bref International Short Film Festival - the Special Mention from the Critics' Jury"
-      },
-      {
-        "Date": "05/2025",
-        "Country": "Italy",
-        "Festival_Section_of_Competition": "Stop-eMotion Days in Venice - the Starewicz Prize (award for best student/debut short film)"
-      },
-      {
-        "Date": "11/2025",
+        "Date": "October 2024",
         "Country": "Germany",
-        "Festival_Section_of_Competition": "Wiesbaden International Festival of Animation- „Best of International Animation: New Generations“"
+        "Festival_Section_of_Competition": "International Film Festival SCHLINGEL, Audience award for the short films from the \"The Long Night of Short Films\""
       },
       {
-        "Date": "10/2025",
+        "Date": "November 2025",
+        "Country": "Germany",
+        "Festival_Section_of_Competition": "Wiesbaden International Festival of Animation, „Best of International Animation: New Generations“"
+      },
+      {
+        "Date": "May 2025",
+        "Country": "Spain",
+        "Festival_Section_of_Competition": "Bilbao Fantastic Film Festival, Best short film in Fantasy Panorama Section"
+      },
+      {
+        "Date": "October 2024",
+        "Country": "Poland, Czech Republic",
+        "Festival_Section_of_Competition": "Spektrum Film Festival, Audience Award in The Youth Perspective competitions"
+      },
+      {
+        "Date": "May 2025",
+        "Country": "Italy",
+        "Festival_Section_of_Competition": "Stop-eMotion Days in Venice, Starewicz Prize (award for the best student/debut short film)"
+      },
+      {
+        "Date": "September 2025",
+        "Country": "Spain",
+        "Festival_Section_of_Competition": "Galician Freaky Film Festival, winner of the “Olimpo dos Freaks”"
+      },
+      {
+        "Date": "April 2025",
+        "Country": "Italy",
+        "Festival_Section_of_Competition": "Bref International Short Film Festival, Special Mention from Critics' Jury"
+      },
+      {
+        "Date": "October 2025",
         "Country": "Poland",
-        "Festival_Section_of_Competition": "Etiuda & Anima International Film Festival - Marcin Podolec’s mention"
-      },
-      {
-        "Date": "05/2025",
-        "Country": "Spain",
-        "Festival_Section_of_Competition": "Bilbao Fantastic Film Festival - the best short film in Fantasy Panorama Section"
-      },
-      {
-        "Date": "09/2025",
-        "Country": "Spain",
-        "Festival_Section_of_Competition": "Galician Freaky Film Festival - the winner of the “Olimpo dos Freaks”"
+        "Festival_Section_of_Competition": "Etiuda & Anima International Film Festival, Marcin Podolec’s mention"
       }
     ],
     "Logline": "Unleash your darkest desires in a world where annoying habits meet their fatal demise.",
@@ -2423,40 +3004,80 @@
       "Language_Original": "German, English",
       "Language_Subtitles": "English",
       "Country_of_production": "Germany",
-      "Date_of_completion": "",
-      "Runtime": "00:10:00",
+      "Date_of_completion": "11 May 2025",
+      "Runtime": "00:10:05",
       "Number_of_series": "",
       "Number_of_episodes": "",
-      "Titles_and_runtime_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "10 episodes, each approx. 10 minutes",
       "First_Film": "No",
-      "Genre_List": ["animation", "sci-fi", "comedy"],
+      "Genre_List": ["animation", "sci-fi", "comedy", "adventure"],
       "Genre_Other": "comics",
       "Keywords": "evolution, universe, cosmic, fantasy",
       "Target_Group": {
-        "Rating": "15+",
+        "Rating": "12+",
         "Audience": "general audience",
         "Other": ""
       }
     },
     "Premiere": [
       {
-        "Date": "13. 6. 2025",
-        "Country": "Germany",
-        "Name_of_place_of_premiere": "die Seriale - International Series Festival Giessen"
+        "Date": "May 2025",
+        "Country": "Italy",
+        "Name_of_place_of_premiere": "Cartoons on the Bay, Pescara"
       }
     ],
     "Festivals": [
       {
-        "Date": "",
-        "Country": "",
-        "Name_of_Festival": ""
+        "Date": "May 2025",
+        "Country": "Italy",
+        "Name_of_Festival": "Cartoons on the Bay, Pescara"
+      },
+      {
+        "Date": "June 2025",
+        "Country": "Germany",
+        "Name_of_Festival": "die Seriale - International Series Festival Giessen"
+      },
+      {
+        "Date": "November 2025",
+        "Country": "Spain",
+        "Name_of_Festival": "Serielizados Fest"
+      },
+      {
+        "Date": "November 2025",
+        "Country": "Spain",
+        "Name_of_Festival": "Bilbao Seriesland Web Fest Festival"
+      },
+      {
+        "Date": "November 2025",
+        "Country": "New Zealand",
+        "Name_of_Festival": "NZ Web Fest"
+      },
+      {
+        "Date": "October 2025",
+        "Country": "Armenia",
+        "Name_of_Festival": "ReAnimania International Animation Film & Comics Art Festival of Yerevan"
+      },
+      {
+        "Date": "November 2025",
+        "Country": "China",
+        "Name_of_Festival": "Snow Wolf Cup (Jilian Animation Institute)"
       }
     ],
     "Awards": [
       {
-        "Date": "",
-        "Country": "",
-        "Festival_Section_of_Competition": ""
+        "Date": "June 2025",
+        "Country": "Germany",
+        "Festival_Section_of_Competition": "die Seriale - International Series Festival Giessen, Best Animation Award"
+      },
+      {
+        "Date": "November 2025",
+        "Country": "New Zealand",
+        "Festival_Section_of_Competition": "NZ Web Fest, Best Animation/Puppetry Series"
+      },
+      {
+        "Date": "November 2025",
+        "Country": "China",
+        "Festival_Section_of_Competition": "Snow Wolf Cup (Jilian Animation Institute)"
       }
     ],
     "Logline": "In a cosmic contest to design life on a new planet, a visionary Evolution Manager and his sidekick face overwhelming odds in a battle of creation.",
@@ -2473,24 +3094,24 @@
       "Cast": []
     },
     "Director_Bio": {
-      "Date_of_birth": "",
+      "Date_of_birth": "1984",
       "Bio_Text": "Christian Franz Schmidt studied animation at HFF Konrad Wolf Potsdam-Babelsberg. He was a pre-selection juror for the Stuttgart International Festival of Animated Film in 2013. From 2012–2019, he headed animation at a major media agency and has been working as a freelancer since 2012."
     },
     "Director_Filmography": [
-      "The Zilla family has a picnic (2019)",
-      "A perfect day (2017)",
-      "The most beautiful children's songs (2016) - web series",
-      "Durchfallmann - The rescue parachute (2015)",
-      "Rosi Romance (2015)",
-      "Durchfallmann - The chain carousel is out of control (2014)",
-      "A swan has a plan (2013)",
-      "Santa dares to go nuclear (2013)",
-      "Invageddon (2012) - web series",
-      "The claustro toad (2011)",
-      "Egg Nappers (2011)",
-      "The Christmas tree socialization project (2010)",
-      "Rome (2006)",
-      "The diarrhea man (2005)"
+      "The Zilla family has a picnic, 2019",
+      "A perfect day, 2017",
+      "The most beautiful children's songs - web series, 2016",
+      "Durchfallmann - The rescue parachute, 2015",
+      "Rosi Romance, 2015",
+      "Durchfallmann - The chain carousel is out of control, 2014",
+      "A swan has a plan, 2013",
+      "Santa dares to go nuclear, 2013",
+      "Invageddon - web series, 2012",
+      "The claustro toad, 2011",
+      "Egg Nappers, 2011",
+      "The Christmas tree socialization project, 2010",
+      "Rome, 2006",
+      "The diarrhea man, 2005"
     ],
     "Technical_Details": {
       "Shooting_Format": {
@@ -2500,7 +3121,7 @@
       },
       "Camera": "",
       "Anamorphic_Lens": "No",
-      "Animation_Technique": "",
+      "Animation_Technique": "2D computer",
       "Animation_Technique_Other": "",
       "Video_Editing_Software": "",
       "Digital_Audio_Workstation": "",
@@ -2510,16 +3131,16 @@
         "File": "",
         "Other": ""
       },
-      "Resolution": "",
+      "Resolution": "4k",
       "Resolution_Other": "",
       "Speed": {
         "Scan_Method": "",
-        "FPS": "",
+        "FPS": "25",
         "FPS_Other": ""
       },
-      "Aspect_Ratio": "",
+      "Aspect_Ratio": "1.78 (16:9)",
       "Aspect_Ratio_Other": "",
-      "Sound_Mix": "",
+      "Sound_Mix": "Stereo (2.0, L+R)",
       "Sound_Mix_Other": "",
       "Colour": "Colour",
       "Notes": ""
@@ -2533,7 +3154,7 @@
         "WEB": ""
       },
       "Production_Company": {
-        "Name": "",
+        "Name": "Playlist 4You GmbH",
         "Address": "",
         "Postal code, city": "",
         "Country": "",
@@ -3656,7 +4277,7 @@
       "Language_Original": "without dialogue",
       "Language_Subtitles": "",
       "Country_of_production": "Czech Republic",
-      "Date_of_completion": "7. 1. 2025",
+      "Date_of_completion": "7 January 2025",
       "Runtime": "00:13:12",
       "Number_of_series": "",
       "Number_of_episodes": "",
@@ -3680,14 +4301,14 @@
     ],
     "Festivals": [
       {
-        "Date": "May 2025",
-        "Country": "Czech Republic",
-        "Name_of_Festival": "Anifilm"
+        "Date": "February 2025",
+        "Country": "France",
+        "Name_of_Festival": "Festival International du Court Métrage de Clermont-Ferrand"
       },
       {
-        "Date": "May 2025",
-        "Country": "Norway",
-        "Name_of_Festival": "Kristiansand International Children’s Film Festival"
+        "Date": "April 2025",
+        "Country": "Argentina",
+        "Name_of_Festival": "BAFICI - Buenos Aires International Festival of Independent Cinema"
       },
       {
         "Date": "July 2025",
@@ -3695,14 +4316,14 @@
         "Name_of_Festival": "Giffoni Film Festival"
       },
       {
-        "Date": "June 2025",
-        "Country": "Czech Republic",
-        "Name_of_Festival": "International Film Festival for Children and Youth - ZLÍN"
+        "Date": "October 2025",
+        "Country": "Belgium",
+        "Name_of_Festival": "The International Film Festival for young audiences Filem’On"
       },
       {
-        "Date": "August 2025",
-        "Country": "Israel",
-        "Name_of_Festival": "ANIMIX - International Animation & Comics Festival"
+        "Date": "September 2025",
+        "Country": "Germany",
+        "Name_of_Festival": "International Film Festival SCHLINGEL"
       },
       {
         "Date": "June 2025",
@@ -3710,21 +4331,71 @@
         "Name_of_Festival": "Fest ANČA"
       },
       {
-        "Date": "September 2025",
-        "Country": "Switzerland",
-        "Name_of_Festival": "Fantoche International Animation Film Festival"
+        "Date": "November 2025",
+        "Country": "Poland",
+        "Name_of_Festival": "International Young Audience Film Festival Ale Kino!"
+      },
+      {
+        "Date": "May 2025",
+        "Country": "Czech Republic",
+        "Name_of_Festival": "Anifilm"
+      },
+      {
+        "Date": "December 2025",
+        "Country": "Belgium",
+        "Name_of_Festival": "International Kortfilmfestival Leuven"
+      },
+      {
+        "Date": "May 2025",
+        "Country": "Norway",
+        "Name_of_Festival": "Kristiansand International Children’s Film Festival"
+      },
+      {
+        "Date": "August 2025",
+        "Country": "Israel",
+        "Name_of_Festival": "ANIMIX - International Animation & Comics Festival"
+      },
+      {
+        "Date": "August 2025",
+        "Country": "Canada",
+        "Name_of_Festival": "Anim sur le Lac"
+      },
+      {
+        "Date": "November 2025",
+        "Country": "Italy",
+        "Name_of_Festival": "Reggio Film Festival"
       }
     ],
     "Awards": [
       {
-        "Date": "June 2025",
-        "Country": "Czech Republic",
-        "Festival_Section_of_Competition": "Children´s Jury Award for Best Short Animation for Children - at International Film Festival for Children and Youth - ZLÍN"
+        "Date": "2025",
+        "Country": "USA",
+        "Festival_Section_of_Competition": "The 52nd Student Academy Award (Student OSCAR), Finalist"
       },
       {
         "Date": "September 2025",
         "Country": "Switzerland",
-        "Festival_Section_of_Competition": "Young Audience Award in Kids Film Competition - at Fantoche International Animation Film Festival"
+        "Festival_Section_of_Competition": "Fantoche International Animation Film Festival, Young Audience Award in Kids Film Competition"
+      },
+      {
+        "Date": "2025",
+        "Country": "",
+        "Festival_Section_of_Competition": "ECFA, Finalist for Best European Children’s Short Film"
+      },
+      {
+        "Date": "June 2025",
+        "Country": "Czech Republic",
+        "Festival_Section_of_Competition": "International Film Festival for Children and Youth, ZLÍN, Children’s Jury Award for Best Short Animation for Children"
+      },
+      {
+        "Date": "November 2025",
+        "Country": "France",
+        "Festival_Section_of_Competition": "Brest European Short Film Festival, SCHOOL PRICE in category 4-7 years old"
+      },
+      {
+        "Date": "October 2025",
+        "Country": "France",
+        "Festival_Section_of_Competition": "Cineopen Festival, Young Audience Prize at the competition"
       }
     ],
     "Logline": "A perfectionist ilustrator has to face her own mistakes when she accidentally makes an ink blot and creates Wolfie, a little wolf with an inky nose.",
@@ -3741,15 +4412,15 @@
       "Cast": ["Adéla Majzlíková: Mother", "Patrick Biela: Wolfie"]
     },
     "Director_Bio": {
-      "Date_of_birth": "26. 5. 2001",
+      "Date_of_birth": "26 May 2001",
       "Bio_Text": "Philippe Kastner, a graduate of the Department of Animation at FAMU, is best known in the world of student animation for his short film Dede is Dead (Deniska umřela, 2023) that has been screened at Berlinale and many other prestigious film festivals. Apart from that, he has directed multiple other short films such as The Tower (Věž, 2021) as well as a music video for his song Wolfeater (2021)."
     },
     "Director_Filmography": [
-      "Deniska umřela (Dede is Dead, 2023)",
-      "ŠMIK! (CUT!, 2023)",
-      "Věž (The Tower, 2021)",
-      "Wolfeater (2021)",
-      "Haraburdí (Jumble, 2021)"
+      "Deniska umřela (Dede is Dead), 2023",
+      "ŠMIK! (CUT!), 2023",
+      "Věž (The Tower), 2021",
+      "Wolfeater, 2021",
+      "Haraburdí (Jumble), 2021"
     ],
     "Technical_Details": {
       "Shooting_Format": {
@@ -3808,7 +4479,7 @@
     },
     "Source_File": "wolfie.html",
     "Ranking": "7",
-    "Review": "Best film ever",
+    "Review": "",
     "Festival_Distribution_Only": "",
     "Sales": "",
     "Status": "",
