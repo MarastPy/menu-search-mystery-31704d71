@@ -39,8 +39,8 @@ export const getFilmStillPaths = (film: Film, count: number = 3): string[] => {
 };
 
 /**
- * Gets a fallback placeholder for missing images
+ * Gets a fallback placeholder for missing images (universal poster)
  */
 export const getPlaceholderImage = (): string => {
-  return `${getBaseUrl()}placeholder.svg`;
+  return `${getBaseUrl()}images/posters/_poster/_poster.jpg`;
 };
