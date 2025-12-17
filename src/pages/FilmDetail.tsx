@@ -326,56 +326,84 @@ export default function FilmDetail() {
 
             {/* Right column - All text content */}
             <div className="space-y-8">
-              {/* Status, Distribution & Genres Group */}
-              <div className="space-y-4">
-                {/* Status, Sales, Festival Distribution */}
-                {(film.Status || film.Sales || film.Festival_Distribution_Only === "yes") && (
-                  <div className="flex flex-wrap gap-3 text-white">
-                    {film.Status && (
-                      <div className="flex items-center gap-2">
-                        <span className="text-white/70 text-sm uppercase tracking-wide">Status:</span>
-                        <Badge variant="secondary" className="bg-white/10 text-white border-white/20">
-                          {film.Status}
-                        </Badge>
-                      </div>
-                    )}
-                    {film.Festival_Distribution_Only === "yes" && (
-                      <div className="flex items-center gap-2">
-                        <Badge variant="secondary" className="bg-white/10 text-white border-white/20">
-                          Festival Distribution Only
-                        </Badge>
-                      </div>
-                    )}
-                    {film.Sales && (
-                      <div className="flex items-center gap-2">
-                        <span className="text-white/70 text-sm uppercase tracking-wide">Sales:</span>
-                        <a
-                          href={film.Sales.startsWith("http") ? film.Sales : `https://${film.Sales}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-white underline hover:text-white/80 transition-colors"
-                        >
-                          {film.Sales}
-                        </a>
-                      </div>
-                    )}
-                  </div>
-                )}
+              {/* Review Quote - styled like reference */}
+              {film.Review && (
+                <div className="text-center mb-6">
+                  <p className="text-2xl font-garamond italic text-white/90">"{film.Review}"</p>
+                </div>
+              )}
 
-                {/* Genres */}
-                {f.Genre_List && f.Genre_List.length > 0 && (
-                  <div>
-                    <h3 className="text-xl font-nunito font-bold mb-2 text-white">Genres</h3>
-                    <div className="flex flex-wrap gap-2">
-                      {f.Genre_List.map((g, i) => (
-                        <Badge key={i} variant="secondary" className="bg-white/10 text-white border-white/20">
-                          {g}
-                        </Badge>
-                      ))}
+              {/* Info Grid - 3 columns, 2 rows */}
+              {(film.Status || (f.Target_Group?.Rating || f.Target_Group?.Audience) || f.Keywords || film.Sales || film.Festival_Distribution_Only === "yes") && (
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-6">
+                  {/* Row 1 */}
+                  {film.Status && (
+                    <div>
+                      <h3 className="text-lg font-nunito font-bold mb-2 text-white">Status</h3>
+                      <ul className="list-disc list-inside text-white/90 font-light">
+                        <li>{film.Status}</li>
+                      </ul>
                     </div>
+                  )}
+                  
+                  {(f.Target_Group?.Rating || f.Target_Group?.Audience) && (
+                    <div>
+                      <h3 className="text-lg font-nunito font-bold mb-2 text-white">Target group</h3>
+                      <p className="text-white/90 font-light">
+                        {f.Target_Group.Rating && <span>{f.Target_Group.Rating}</span>}
+                        {f.Target_Group.Rating && f.Target_Group.Audience && <br />}
+                        {f.Target_Group.Audience && <span>{f.Target_Group.Audience}</span>}
+                      </p>
+                    </div>
+                  )}
+                  
+                  {f.Keywords && (
+                    <div>
+                      <h3 className="text-lg font-nunito font-bold mb-2 text-white">Story topics</h3>
+                      <p className="text-white/90 font-light">{f.Keywords}</p>
+                    </div>
+                  )}
+
+                  {/* Row 2 */}
+                  {film.Sales && (
+                    <div>
+                      <h3 className="text-lg font-nunito font-bold mb-2 text-white">Sales</h3>
+                      <ul className="list-disc list-inside text-white/90 font-light">
+                        <li>
+                          <a
+                            href={film.Sales.startsWith("http") ? film.Sales : `https://${film.Sales}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline hover:text-white/80 transition-colors"
+                          >
+                            {film.Sales}
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  )}
+                  
+                  {film.Festival_Distribution_Only === "yes" && (
+                    <div>
+                      <h3 className="text-lg font-nunito font-bold mb-2 text-white">Festival distribution only</h3>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Genres */}
+              {f.Genre_List && f.Genre_List.length > 0 && (
+                <div>
+                  <h3 className="text-xl font-nunito font-bold mb-2 text-white">Genres</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {f.Genre_List.map((g, i) => (
+                      <Badge key={i} variant="secondary" className="bg-white/10 text-white border-white/20">
+                        {g}
+                      </Badge>
+                    ))}
                   </div>
-                )}
-              </div>
+                </div>
+              )}
 
               {/* Logline */}
               {film.Logline && (
@@ -393,48 +421,11 @@ export default function FilmDetail() {
                 </div>
               )}
 
-              {/* Review Excerpt */}
-              {film.Review && (
-                <div>
-                  <h3 className="text-xl font-nunito font-bold mb-2 text-white">Review</h3>
-                  <p className="text-white/90 italic font-light">{film.Review}</p>
-                </div>
-              )}
-
               {/* Director's Note */}
               {film.Directors_Note && (
                 <div>
-                  <h3 className="text-xl font-nunito font-bold mb-2 text-white">Director's Note</h3>
+                  <h3 className="text-xl font-nunito font-bold mb-2 text-white">Note</h3>
                   <p className="text-white/90 text-justify font-light">{film.Directors_Note}</p>
-                </div>
-              )}
-
-              {/* Target Group */}
-              {(f.Target_Group?.Rating || f.Target_Group?.Audience) && (
-                <div>
-                  <h3 className="text-xl font-nunito font-bold mb-2 text-white">Target Group</h3>
-                  <div className="space-y-1 text-white">
-                    {f.Target_Group.Rating && (
-                      <p>
-                        <span className="font-bold">Rating:</span>{" "}
-                        <span className="font-light">{f.Target_Group.Rating}</span>
-                      </p>
-                    )}
-                    {f.Target_Group.Audience && (
-                      <p>
-                        <span className="font-bold">Audience:</span>{" "}
-                        <span className="font-light">{f.Target_Group.Audience}</span>
-                      </p>
-                    )}
-                  </div>
-                </div>
-              )}
-
-              {/* Story Topics */}
-              {f.Keywords && (
-                <div>
-                  <h3 className="text-xl font-nunito font-bold mb-2 text-white">Story Topics</h3>
-                  <p className="text-white/90 font-light">{f.Keywords}</p>
                 </div>
               )}
 
