@@ -32,18 +32,10 @@ export const Services = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 text-[#222]">
             <div className="text-justify font-nunito text-[17px]">
-              <p className="mb-4">Curate stronger line-ups with a catalogue focused on bold voices and award-winning student and independent films. We help you build cohesive strands that engage audiences and fit your programming goals — from family shorts and animation showcases to issue-driven selections and emerging-talent spotlights.</p>
-              <ul className="list-none space-y-2 ml-0">
-                <li className="mb-2"><strong>Curated Selections:</strong> Ready-to-program packs (60–100 min) or bespoke strands by theme, age group, or format.</li>
-                <li className="mb-2"><strong>Premiere Positioning:</strong> Advice on regional/international premieres and timeline planning.</li>
-                <li className="mb-2"><strong>Logistics &amp; Delivery:</strong> DCP/ProRes delivery, KDM coordination, subtitles, metadata &amp; tech sheets.</li>
-                <li className="mb-2"><strong>Guests &amp; Q&amp;A:</strong> Talent coordination, intros, post-screening discussions.</li>
-                <li className="mb-2"><strong>Marketing Toolkits:</strong> Stills, trailers, synopses, press notes, social copy, and assets localized on request.</li>
-              </ul>
+              <p className="mb-4">CINEFILA offers a carefully curated catalog of films, featuring exceptional works by emerging talents with innovative storytelling approaches and unforgettable narratives. Our selection includes films that leave a lasting impression, perfect for elevating festival programs.</p>
             </div>
             <div className="text-justify font-nunito text-[17px]">
-              <p className="mb-4">Whether you're filling a single slot or designing a multi-day focus, we'll align curation, rights, and operations so your programme runs smoothly and lands with impact.</p>
-              <p className="mb-4"><strong>Outcomes you can expect:</strong> higher attendance, easier ops, and a line-up that feels fresh yet audience-friendly.</p>
+              <p className="mb-4">We collaborate with festivals to provide tailor-made curated selections, customized to suit various age groups and thematic focuses. Whether you're seeking thought-provoking shorts, groundbreaking animations, or films that resonate with younger audiences, CINEFILA is your trusted partner in discovering cinematic gems that will captivate your audience and enrich your festival lineup.</p>
             </div>
           </div>
         </div>
@@ -56,11 +48,10 @@ export const Services = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 text-[#222]">
             <div className="text-justify font-nunito text-[17px]">
-              <p className="mb-4">Building on Alexandra's experience with FAMUfilms.cz, the first European SVOD platform dedicated to film schools, we aim to inspire and educate the next generation of filmmakers and scholars.</p>
+              <p className="mb-4">CINEFILA supports academic institutions by hosting workshops, and offering lectures on festival distribution and festival strategies. Learn how to craft a festival strategy for your film. Discover how to choose the right festivals, prepare for promotion, and navigate your film's festival lifecycle. Get insider tips, tricks, and practical advice to maximize your film's potential.</p>
             </div>
             <div className="text-justify font-nunito text-[17px]">
-              <p className="mb-4">For film institutions, we provide comprehensive festival distribution services so your films reach the right audiences and receive the recognition they deserve. We tailor strategies to institutional needs, including curation, positioning, and long-term planning.</p>
-              <p>Our expertise in logistics, marketing, and communications ensures your films are presented in the best possible light—connecting them with festivals, markets, and viewers worldwide.</p>
+              <p className="mb-4">Building on Alexandra's success with FAMUfilms.cz, the first European SVOD platform for film schools, we aim to inspire and educate the next generation of filmmakers and scholars.</p>
             </div>
           </div>
         </div>
