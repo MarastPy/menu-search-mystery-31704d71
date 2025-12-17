@@ -326,13 +326,16 @@ export default function FilmDetail() {
 
             {/* Right column - All text content */}
             <div className="space-y-8">
-              {/* Review - styled like Logline */}
+              {/* Review - Aligned to the right with a defined edge buffer */}
               {film.Review && (
-                <div className="max-w-2xl ml-auto text-right py-6 mb-10">
-                  <p className="text-3xl lg:text-4xl font-garamond italic text-white leading-tight">“{film.Review}”</p>
-
+                <div className="max-w-2xl ml-auto mr-4 md:mr-10 lg:mr-20 text-right py-6 mb-10">
+                  <p className="text-3xl lg:text-4xl font-garamond italic text-white leading-tight">
+                    "{film.Review}"
+                  </p>
                   {film.Review_name && (
-                    <p className="text-lg font-nunito text-white/60 mt-4 italic">- {film.Review_name}</p>
+                    <p className="text-lg font-nunito text-white/60 mt-4 italic">
+                      - {film.Review_name}
+                    </p>
                   )}
                 </div>
               )}
