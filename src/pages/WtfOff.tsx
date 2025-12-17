@@ -63,7 +63,7 @@ const WtfOff = () => {
               </p>
               <p className="mb-4">If your film doesn’t belong anywhere else, it belongs here.</p>
               <p className="mb-4">
-                <b>Submissions for 2026 are now open.</b>
+                <b>SUBMISSIONS FOR 2026 ARE NOW OPEN.</b>
               </p>
             </div>
           </div>
