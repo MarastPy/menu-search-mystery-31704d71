@@ -464,6 +464,18 @@ export default function FilmDetail() {
                 </div>
               )}
 
+              {/* Director's Filmography - Dynamic from data */}
+              {film.Director_Filmography && film.Director_Filmography.length > 0 && (
+                <div className="mt-6">
+                  <h2 className="text-xl font-nunito font-bold mb-4 text-white">Director's Filmography</h2>
+                  <ul className="list-disc list-inside space-y-1 text-white/90 font-light">
+                    {film.Director_Filmography.map((filmEntry: any, i: number) => (
+                      <li key={i}>{typeof filmEntry === "string" ? filmEntry : JSON.stringify(filmEntry)}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
               <hr className="border-white/20" />
 
               {/* Two-column layout for Awards/Festivals and Crew/Cast/Tech */}
@@ -651,17 +663,6 @@ export default function FilmDetail() {
                 </div>
               </div>
 
-              {/* Director Filmography */}
-              {film.Director_Filmography && film.Director_Filmography.length > 0 && (
-                <div>
-                  <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Director's Filmography</h2>
-                  <ul className="list-disc list-inside space-y-1 text-white/90 font-light">
-                    {film.Director_Filmography.map((filmEntry: any, i: number) => (
-                      <li key={i}>{typeof filmEntry === "string" ? filmEntry : JSON.stringify(filmEntry)}</li>
-                    ))}
-                  </ul>
-                </div>
-              )}
 
               {/* Festival Distribution, Sales - Conditional Display */}
               <div className="space-y-4">
