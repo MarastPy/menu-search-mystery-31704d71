@@ -53,7 +53,7 @@ export const About = () => {
                     <img
                       src={member.image}
                       alt={member.name}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                      className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 grayscale"
                       onError={(e) => {
                         console.error(`Failed to load image: ${member.image}`);
                         e.currentTarget.src = `${baseUrl}images/contacts/Alex/Alex.jpg`;
