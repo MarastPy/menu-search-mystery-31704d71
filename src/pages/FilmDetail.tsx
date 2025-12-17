@@ -488,7 +488,7 @@ export default function FilmDetail() {
                     film.Awards.some((a) => a.Festival_Section_of_Competition || a.Country || a.Date) && (
                       <div>
                         <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Awards</h2>
-                        <ul className="space-y-2 text-white/90 font-light">
+                        <ul className="list-disc list-inside space-y-2 text-white/90 font-light">
                           {film.Awards.map(
                             (award, i) =>
                               (award.Festival_Section_of_Competition || award.Country || award.Date) && (
@@ -509,7 +509,7 @@ export default function FilmDetail() {
                   {film.Festivals && film.Festivals.length > 0 && film.Festivals[0].Name_of_Festival && (
                     <div>
                       <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Festival Selections</h2>
-                      <ul className="space-y-2 text-white/90 font-light">
+                      <ul className="list-disc list-inside space-y-2 text-white/90 font-light">
                         {film.Festivals.map(
                           (fest, i) =>
                             fest.Name_of_Festival && (
