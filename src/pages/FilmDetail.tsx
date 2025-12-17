@@ -328,7 +328,7 @@ export default function FilmDetail() {
             <div className="space-y-8">
               {/* Review - styled like Logline */}
               {film.Review && (
-                <div className="max-w-2xl ml-auto text-right py-12 mb-10">
+                <div className="max-w-2xl ml-auto text-right py-6 mb-20">
                   <p className="text-3xl lg:text-4xl font-garamond italic text-white leading-tight">“{film.Review}”</p>
 
                   {film.Review_name && (
