@@ -36,7 +36,7 @@ const Workshops = () => {
     <div className="min-h-screen">
       <Header />
       
-      <section className="py-12 sm:py-[90px] bg-white">
+      <section className="pt-[120px] sm:pt-[90px] pb-12 sm:pb-[90px] bg-white">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
           <h1 className="font-garamond text-[45px] text-[#222] mb-4 font-bold">Workshops</h1>
           <div className="w-full h-[2px] bg-gray-400 mb-12"></div>
