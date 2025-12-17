@@ -9,6 +9,7 @@ export const Services = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-10 text-[#222]">
             <div className="text-justify font-nunito text-[17px]">
               <p className="mb-4">Are you an independent filmmaker looking to bring your film to the attention of global audiences? At CINEFILA, we specialize in creating personalized festival and distribution strategies to ensure your work receives the recognition it deserves.</p>
+              <p className="mb-4">Drawing on years of experience and a proven track record, we offer:</p>
               <ul className="list-disc space-y-2 ml-5">
                 <li className="mb-2"><strong>Tailored Festival Strategies:</strong> From identifying the most suitable festivals to planning your film's journey through the global circuit, we help you maximize exposure.</li>
                 <li className="mb-2"><strong>Marketing and Communication Support:</strong> We craft compelling marketing materials to highlight your film's unique strengths, ensuring it resonates with audiences and industry professionals alike.</li>
