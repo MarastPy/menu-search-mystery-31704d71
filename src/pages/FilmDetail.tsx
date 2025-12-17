@@ -204,16 +204,6 @@ export default function FilmDetail() {
             </div>
           </div>
 
-          {/* Review Quote - Full width, centered above the two-column content */}
-          {film.Review && (
-            <div className="text-center mb-8 py-4">
-              <p className="text-2xl font-garamond italic text-white/90">"{film.Review}"</p>
-              {film.Review_name && (
-                <p className="text-sm font-nunito text-white/70 mt-2">— {film.Review_name}</p>
-              )}
-            </div>
-          )}
-
           {/* Main content grid */}
           <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-8 mb-8">
             {/* Left column - Poster and Stills */}
@@ -336,6 +326,16 @@ export default function FilmDetail() {
 
             {/* Right column - All text content */}
             <div className="space-y-8">
+              {/* Review Quote - centered in right column, above Info Grid */}
+              {film.Review && (
+                <div className="text-center mb-6">
+                  <p className="text-2xl font-garamond italic text-white/90">"{film.Review}"</p>
+                  {film.Review_name && (
+                    <p className="text-sm font-nunito text-white/70 mt-2">— {film.Review_name}</p>
+                  )}
+                </div>
+              )}
+
               {/* Info Grid - 3 columns, 2 rows */}
               {(film.Status || (f.Target_Group?.Rating || f.Target_Group?.Audience) || f.Keywords || film.Sales || film.Festival_Distribution_Only === "yes") && (
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-6">
