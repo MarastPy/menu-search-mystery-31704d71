@@ -328,13 +328,19 @@ export default function FilmDetail() {
             <div className="space-y-8">
               {/* Review - styled like Logline */}
               {film.Review && (
-                <div className="w-full text-center py-6 mb-10">
-                  <p className="text-3xl lg:text-4xl font-garamond italic text-white leading-tight">“{film.Review}”</p>
-                  {film.Review_name && (
-                    <p className="text-lg font-nunito text-white/60 mt-4 italic">- {film.Review_name}</p>
-                  )}
-                </div>
-              )}
+                  <div className="max-w-2xl ml-auto text-right py-6 mb-10">
+                    <p className="text-3xl lg:text-4xl font-garamond italic text-white leading-tight">
+                      “{film.Review}”
+                    </p>
+                    
+                    {film.Review_name && (
+                      <p className="text-lg font-nunito text-white/60 mt-4 italic">
+                        - {film.Review_name}
+                      </p>
+                    )}
+                  </div>
+                )}
+              </div>
 
               {/* Info Grid - 3 columns, 2 rows */}
               {(film.Status ||
