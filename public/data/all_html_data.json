@@ -411,143 +411,6 @@
         "WEB": ""
       }
     },
-    "Source_File": "baldies.html",
-    "Ranking": "5",
-    "Review": "",
-    "Festival_Distribution_Only": "",
-    "Sales": "",
-    "Status": "",
-    "Download_poster": "/downloads/posters/baldies_what_about_my_hair_poster.zip",
-    "Download_stills": "/downloads/stills/baldies_what_about_my_hair_stills.zip",
-    "Download_presskit": "/downloads/presskits/baldies_what_about_my_hair_presskit.zip",
-    "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/baldies_what_about_my_hair_extras.zip",
-    "Trailer_url": ""
-  },
-  {
-    "Film": {
-      "Title_Original": "Plešouni",
-      "Title_English": "Baldies - What About My Hair?",
-      "Title_Other": "",
-      "Language_Original": "Czech / English",
-      "Language_Subtitles": "English",
-      "Country_of_production": "Czech Republic",
-      "Date_of_completion": "20. 01. 2026",
-      "Runtime": "00:09:47",
-      "Number_of_series": "",
-      "Number_of_episodes": "",
-      "Titles_and_runtime_of_episodes": "",
-      "First_Film": "No",
-      "Genre_List": [
-        "animation",
-        "children",
-        "comedy",
-        "fairytale"
-      ],
-      "Genre_Other": "",
-      "Keywords": "childhood, illness, medicine, friendship, humour",
-      "Target_Group": {
-        "Rating": "6+",
-        "Audience": "general audience",
-        "Other": ""
-      }
-    },
-    "Premiere": [
-      {
-        "Date": "",
-        "Country": "",
-        "Name_of_place_of_premiere": ""
-      }
-    ],
-    "Festivals": [
-      {
-        "Date": "",
-        "Country": "",
-        "Name_of_Festival": ""
-      }
-    ],
-    "Awards": [
-      {
-        "Date": "",
-        "Country": "",
-        "Festival_Section_of_Competition": ""
-      }
-    ],
-    "Logline": "Brave kids battling cancer turn hospital days into imaginative adventures, showing that even bald heroes can laugh, play, and stay strong.",
-    "Synopsis": "Baldies – What About My Hair? is an animated short about a fearless group of kids battling cancer who meet in hospital and turn their fight into an adventure. Using imagination, humour, and gentle metaphors, the film shows that a kid with cancer is still a kid—ready to laugh, play, and prove that being bald is cool.",
-    "Directors_Note": "",
-    "Crew": {
-      "Director(s)": "Eliška Soffer Podzimek",
-      "Screenplay_writer(s)": "Steen Agro",
-      "Director(s)_of_Photography": "",
-      "Editor(s)": "Georgy Barklaya",
-      "Sound_director(s)": "Jan Rádr, Jakub Johánek, Lukáš Tvrdoň",
-      "Art_director(s)": "Eliška Soffer Podzimek",
-      "Music_composer(s)": "Marek Doubrava, Jakub Johánek",
-      "Cast": []
-    },
-    "Director_Bio": {
-      "Date_of_birth": "27 March 1992",
-      "Bio_Text": "Czech multimedia artist Eliška Soffer Podzimek uses humour, technical skill and distinctive design to build an international career as an animator, illustrator and digital creator. Combining live-action, video and hand-drawn animation, she has made award-winning films, music videos and campaigns for brands like Vogue and Jamie Oliver. Now back in Prague, her experience as a teenage cancer survivor inspired the “Baldies” project supporting sick kids."
-    },
-    "Director_Filmography": [
-      "Babls (Bubbles), 2013"
-    ],
-    "Technical_Details": {
-      "Shooting_Format": {
-        "Film": "",
-        "Video": "",
-        "Other": ""
-      },
-      "Camera": "",
-      "Anamorphic_Lens": "No",
-      "Animation_Technique": "3D computer",
-      "Animation_Technique_Other": "2D + 3D animation",
-      "Video_Editing_Software": "",
-      "Digital_Audio_Workstation": "",
-      "Screening_Format": {
-        "Film": "",
-        "Tape": "",
-        "File": "",
-        "Other": ""
-      },
-      "Resolution": "",
-      "Resolution_Other": "",
-      "Speed": {
-        "Scan_Method": "",
-        "FPS": "",
-        "FPS_Other": ""
-      },
-      "Aspect_Ratio": "",
-      "Aspect_Ratio_Other": "",
-      "Sound_Mix": "",
-      "Sound_Mix_Other": "",
-      "Colour": "Colour",
-      "Notes": ""
-    },
-    "Production": {
-      "Producers": {
-        "Name": "Oldrich Company s.r.o. (Jiří Sádek, Jindřich Trčka)",
-        "Address": "Badeniho 290/1",
-        "Postal code, city": "160 00 Praha 6",
-        "Country": "",
-        "WEB": "oldrich.rocks"
-      },
-      "Production_Company": {
-        "Name": "",
-        "Address": "",
-        "Postal code, city": "",
-        "Country": "",
-        "WEB": ""
-      },
-      "Co_Producer": {
-        "Name": "",
-        "Address": "",
-        "Postal code, city": "",
-        "Country": "",
-        "WEB": ""
-      }
-    },
     "Source_File": "baldies_what_about_my_hair.html",
     "Ranking": "5",
     "Review": "",
@@ -3595,6 +3458,142 @@
     "Download_presskit": "/downloads/presskits/the_hedgehog_presskit.zip",
     "Extras_name": "Extras",
     "Download_extras": "/downloads/extras/the_hedgehog_extras.zip",
+    "Trailer_url": ""
+  },
+  {
+    "Film": {
+      "Title_Original": "Cap al cel",
+      "Title_English": "Up in Heaven",
+      "Title_Other": "",
+      "Language_Original": "Catalan",
+      "Language_Subtitles": "English, Spanish",
+      "Country_of_production": "Spain",
+      "Date_of_completion": "15.01.2026",
+      "Runtime": "00:15:00",
+      "Number_of_series": "",
+      "Number_of_episodes": "",
+      "Titles_and_runtime_of_episodes": "",
+      "First_Film": "No",
+      "Genre_List": [
+        "animation"
+      ],
+      "Genre_Other": "",
+      "Keywords": "childhood, family, kid coping with death, heaven, angel, plane, pilot, clouds",
+      "Target_Group": {
+        "Rating": "3+",
+        "Audience": "general audience",
+        "Other": ""
+      }
+    },
+    "Premiere": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_place_of_premiere": ""
+      }
+    ],
+    "Festivals": [
+      {
+        "Date": "",
+        "Country": "",
+        "Name_of_Festival": ""
+      }
+    ],
+    "Awards": [
+      {
+        "Date": "",
+        "Country": "",
+        "Festival_Section_of_Competition": ""
+      }
+    ],
+    "Logline": "A boy who has lost his grandmother learns that all the dead go to heaven, so he decides to become a pilot to go find her and bring her back home.",
+    "Synopsis": "At his grandmother’s funeral, a four-year-old boy is told the dead become angels in heaven. Hoping to retrieve her, he becomes a pilot and searches in a small plane. Finding her on a cloud, he ties her to bring her home, but she refuses and a guardian angel rescues her.",
+    "Directors_Note": "The film explores grief through a child’s eyes, where magical explanations shape early ideas of death. Inspired by my own childhood memories, it follows the pure logic with which children question loss: if the dead are in the sky, why not go find them? Yet even in a wondrous world, the boy learns he must let his grandmother go. As an adult, he looks back with nostalgic clarity at the way he once saw the world.",
+    "Crew": {
+      "Director(s)": "Nicolás Sole",
+      "Screenplay_writer(s)": "Estefania Ortiz",
+      "Director(s)_of_Photography": "",
+      "Editor(s)": "Irene Albanell",
+      "Sound_director(s)": "Gisela Maestre",
+      "Art_director(s)": "",
+      "Music_composer(s)": "Beatriz López-Nogales",
+      "Cast": [
+        "Carlos Garriga, Edgar Moreno, Alzira Gómez, Borja Ruiz, Yasmina Qiu, Anna Serra, José María Blanco"
+      ]
+    },
+    "Director_Bio": {
+      "Date_of_birth": "02.11.1991",
+      "Bio_Text": "Nicolás Sole (Santa Fe, 1991) studied Audiovisual Design in Buenos Aires and completed a Master’s in Animation at ECIB. He worked as an animator on Linklater’s Apollo 10½, Trueba & Mariscal’s They Shot the Piano Player, Mariposas Negras, and Hit Monkey. He has finished Cap al cel, now entering distribution, and is developing Rebel·lió a les cases while collaborating on new animation projects."
+    },
+    "Director_Filmography": [
+      "Good Night, Mr. Ted (2020)"
+    ],
+    "Technical_Details": {
+      "Shooting_Format": {
+        "Film": "",
+        "Video": "",
+        "Other": ""
+      },
+      "Camera": "",
+      "Anamorphic_Lens": "No",
+      "Animation_Technique": "2D computer",
+      "Animation_Technique_Other": "",
+      "Video_Editing_Software": "Blender",
+      "Digital_Audio_Workstation": "5:1 and stereo",
+      "Screening_Format": {
+        "Film": "",
+        "Tape": "",
+        "File": "DCP",
+        "Other": "H264 Mp4"
+      },
+      "Resolution": "4k",
+      "Resolution_Other": "",
+      "Speed": {
+        "Scan_Method": "progressive (DCP, e-cinema, TV)",
+        "FPS": "24",
+        "FPS_Other": ""
+      },
+      "Aspect_Ratio": "1.33 (4:3)",
+      "Aspect_Ratio_Other": "",
+      "Sound_Mix": "Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)",
+      "Sound_Mix_Other": "Stereo 2.0",
+      "Colour": "Colour",
+      "Notes": ""
+    },
+    "Production": {
+      "Producers": {
+        "Name": "Rubén Seca Alberto Regueiro Carles Isern Damián Perea Lezcano",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      },
+      "Production_Company": {
+        "Name": "Shoji Films",
+        "Address": "Calvet 50, 6º 1ª",
+        "Postal code, city": "08021, Barcelona",
+        "Country": "Spain",
+        "WEB": "www.shojifilms.com"
+      },
+      "Co_Producer": {
+        "Name": "Amigos Cine Kamikaze Producciones Dosmentes Damián Perea Producciones",
+        "Address": "",
+        "Postal code, city": "",
+        "Country": "",
+        "WEB": ""
+      }
+    },
+    "Source_File": "up_in_heaven.html",
+    "Ranking": "2",
+    "Review": "",
+    "Festival_Distribution_Only": "",
+    "Sales": "",
+    "Status": "",
+    "Download_poster": "/downloads/posters/",
+    "Download_stills": "/downloads/stills/",
+    "Download_presskit": "/downloads/presskits/",
+    "Extras_name": "Extras",
+    "Download_extras": "/downloads/extras/",
     "Trailer_url": ""
   },
   {
