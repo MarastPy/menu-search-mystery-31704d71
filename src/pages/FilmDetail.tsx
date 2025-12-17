@@ -334,18 +334,9 @@ export default function FilmDetail() {
               )}
 
               {/* Info Grid - 3 columns, 2 rows */}
-              {(film.Status || (f.Target_Group?.Rating || f.Target_Group?.Audience) || f.Keywords || film.Sales || film.Festival_Distribution_Only === "yes") && (
+              {((f.Target_Group?.Rating || f.Target_Group?.Audience) || f.Keywords || film.Sales || film.Festival_Distribution_Only === "yes") && (
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-6">
                   {/* Row 1 */}
-                  {film.Status && (
-                    <div>
-                      <h3 className="text-lg font-nunito font-bold mb-2 text-white">Status</h3>
-                      <ul className="list-disc list-inside text-white/90 font-light">
-                        <li>{film.Status}</li>
-                      </ul>
-                    </div>
-                  )}
-                  
                   {(f.Target_Group?.Rating || f.Target_Group?.Audience) && (
                     <div>
                       <h3 className="text-lg font-nunito font-bold mb-2 text-white">Target group</h3>
@@ -613,6 +604,14 @@ export default function FilmDetail() {
                       </div>
                     </div>
                   )}
+
+                  {/* Status - below Tech Specs */}
+                  {film.Status && (
+                    <div>
+                      <h2 className="text-2xl font-nunito font-bold mb-4 text-white">Status</h2>
+                      <p className="text-white/90 font-light capitalize">{film.Status}</p>
+                    </div>
+                  )}
                 </div>
               </div>
 
@@ -653,16 +652,8 @@ export default function FilmDetail() {
                 </div>
               )}
 
-              {/* Status, Festival Distribution, Sales - Conditional Display */}
+              {/* Festival Distribution, Sales - Conditional Display */}
               <div className="space-y-4">
-                {/* Status */}
-                {film.Status && (
-                  <div>
-                    <h3 className="text-lg font-nunito font-bold mb-2 text-white">Status</h3>
-                    <p className="text-white/90 font-light capitalize">{film.Status}</p>
-                  </div>
-                )}
-
                 {/* Festival Distribution Only - Show only if "Yes" */}
                 {film.Festival_Distribution_Only && film.Festival_Distribution_Only.toLowerCase() === "yes" && (
                   <div>
