@@ -86,7 +86,11 @@ export const Hero = () => {
             size="lg"
             className="w-full sm:w-[160px] lg:w-[180px] h-[50px] sm:h-[60px] lg:h-[70px] text-[13px] sm:text-[14px] lg:text-base font-bold px-2 sm:px-4"
           >
-            <a href="#whatcanwedo" className="text-center">What can we do<br />for you</a>
+            <a href="#whatcanwedo" className="text-center">
+              What can we do
+              <br />
+              for you
+            </a>
           </Button>
           <Button
             asChild
@@ -102,7 +106,11 @@ export const Hero = () => {
             size="lg"
             className="w-full sm:w-[160px] lg:w-[180px] h-[50px] sm:h-[60px] lg:h-[70px] text-[13px] sm:text-[14px] lg:text-base font-bold px-2 sm:px-4"
           >
-            <a href="/wtf-off" className="text-center">WTF OFF<br />Collections 2026</a>
+            <a href="/wtf-off" className="text-center">
+              WTF OFF
+              <br />
+              Collection 2026
+            </a>
           </Button>
           {/* Workshops button temporarily hidden
           <Button
