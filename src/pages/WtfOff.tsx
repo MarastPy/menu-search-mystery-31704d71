@@ -73,7 +73,7 @@ const WtfOff = () => {
             <Button
               asChild
               size="lg"
-              className="bg-white text-black border-2 border-black font-bold hover:bg-black hover:text-white transition-colors duration-300"
+              className="bg-[rgb(224,9,40)] text-white border-2 border-[rgb(224,9,40)] font-bold hover:bg-[rgb(224,9,40)] hover:text-white transition-colors duration-300"
             >
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdd2sWLmZfCUMKowI-uw_fu6TYOw5S9Rho_Ki7YaNQ7GfKz-A/viewform?usp=header" target="_blank" rel="noopener noreferrer">Submission Form</a>
             </Button>
