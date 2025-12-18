@@ -68,6 +68,17 @@ const WtfOff = () => {
             </div>
           </div>
 
+          {/* Submission Form Button */}
+          <div className="mt-12 text-center">
+            <Button
+              asChild
+              size="lg"
+              className="bg-white text-black border-2 border-black font-bold hover:bg-black hover:text-white transition-colors duration-300"
+            >
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdd2sWLmZfCUMKowI-uw_fu6TYOw5S9Rho_Ki7YaNQ7GfKz-A/viewform?usp=header" target="_blank" rel="noopener noreferrer">Submission Form</a>
+            </Button>
+          </div>
+
           {/* About Sébastien Sperer */}
           <div className="mt-16">
             <h2 className="font-garamond text-[35px] text-[#222] mb-4 font-bold">About Sébastien Sperer</h2>
