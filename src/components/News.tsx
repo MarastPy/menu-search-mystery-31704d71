@@ -57,41 +57,55 @@ export const News = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          {newsItems.slice(0, 3).map((item, index) => (
-            <a
-              key={index}
-              href={item.link || "#"}
-              target={item.link?.startsWith("http") ? "_blank" : "_self"}
-              rel={item.link?.startsWith("http") ? "noopener noreferrer" : undefined}
-              className="group text-left transition-all duration-300 hover:-translate-y-2 block"
-            >
-              <div className="aspect-[3/2] relative overflow-hidden rounded-sm mb-4">
-                <img src={item.image} alt="News" className="absolute inset-0 w-full h-full object-cover" />
-              </div>
-              <p className="font-nunito text-[15px] text-[#1c1c1c] font-bold mb-3">{item.date}</p>
-              <p className="font-nunito text-[14px] text-[#2c2c2c] leading-relaxed">
-                {item.excerpt.length > 500 ? item.excerpt.slice(0, 500) + "..." : item.excerpt}
-              </p>
-              {item.filmLink && (
-                <Link
-                  to={item.filmLink}
-                  className="inline-block mt-2 font-nunito text-[13px] text-[#666] hover:text-[#1c1c1c] underline"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  View {item.filmName} →
-                </Link>
-              )}
-            </a>
-          ))}
+          {newsItems.slice(0, 3).map((item, index) => {
+            const content = (
+              <>
+                <div className="aspect-[3/2] relative overflow-hidden rounded-sm mb-4">
+                  <img src={item.image} alt="News" className="absolute inset-0 w-full h-full object-cover" />
+                </div>
+                <p className="font-nunito text-[15px] text-[#1c1c1c] font-bold mb-3">{item.date}</p>
+                <p className="font-nunito text-[14px] text-[#2c2c2c] leading-relaxed">
+                  {item.excerpt.length > 500 ? item.excerpt.slice(0, 500) + "..." : item.excerpt}
+                </p>
+                {item.filmLink && (
+                  <Link
+                    to={item.filmLink}
+                    className="inline-block mt-2 font-nunito text-[13px] text-[#666] hover:text-[#1c1c1c] underline"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    View {item.filmName} →
+                  </Link>
+                )}
+              </>
+            );
+
+            const className = "group text-left transition-all duration-300 hover:-translate-y-2 block";
+
+            return item.isInternal ? (
+              <Link key={index} to={item.link} className={className}>
+                {content}
+              </Link>
+            ) : (
+              <a
+                key={index}
+                href={item.link || "#"}
+                target={item.link?.startsWith("http") ? "_blank" : "_self"}
+                rel={item.link?.startsWith("http") ? "noopener noreferrer" : undefined}
+                className={className}
+              >
+                {content}
+              </a>
+            );
+          })}
         </div>
 
         <div className="text-center">
-          <a
-            href="/news"
+          <Link
+            to="/news"
             className="inline-block py-3 px-8 rounded-sm transition-all duration-300 font-nunito text-[17px] font-medium border border-[#1c1c1c] bg-transparent text-[#1c1c1c] hover:bg-[#1c1c1c] hover:text-white"
           >
             Read More News
-          </a>
+          </Link>
         </div>
       </div>
     </section>

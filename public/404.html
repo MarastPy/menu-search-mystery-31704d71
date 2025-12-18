@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cinefila</title>
+    <meta name="robots" content="noindex" />
+    <script type="text/javascript">
+      // GitHub Pages SPA fallback (rafgraph/spa-github-pages)
+      // Redirects /repo/anything to /repo/?/anything so the SPA router can handle it.
+      (function (l) {
+        var segmentCount = 1;
+        var path = l.pathname.split("/").slice(0, 1 + segmentCount).join("/") + "/";
+        l.replace(
+          path +
+            "?" +
+            "/" +
+            l.pathname.split("/").slice(1 + segmentCount).join("/") +
+            (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+            l.hash
+        );
+      })(window.location);
+    </script>
+  </head>
+  <body></body>
+</html>

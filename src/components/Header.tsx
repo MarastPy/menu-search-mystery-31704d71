@@ -209,7 +209,7 @@ export const Header = () => {
               </Link>
 
               <Link
-                to="/WTFOff"
+                to="/wtf-off"
                 className={`block py-3 text-white/90 hover:text-white hover:pl-2 transition-all duration-200 font-garamond text-2xl border-b border-white/5 ${
                   menuOpen ? "animate-fade-in" : "opacity-0"
                 }`}

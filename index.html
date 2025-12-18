@@ -4,17 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cinefila - Film Sales & Distribution | Czech & International Cinema</title>
-    <meta name="description" content="Cinefila specializes in film sales and distribution, connecting Czech and international cinema with audiences worldwide. Explore our curated film catalogue." />
+    <meta
+      name="description"
+      content="Cinefila specializes in film sales and distribution, connecting Czech and international cinema with audiences worldwide. Explore our curated film catalogue."
+    />
     <meta name="author" content="Cinefila" />
 
     <meta property="og:title" content="Cinefila - Film Sales & Distribution" />
-    <meta property="og:description" content="Discover exceptional films from Czech Republic and around the world. Professional film sales and distribution services." />
+    <meta
+      property="og:description"
+      content="Discover exceptional films from Czech Republic and around the world. Professional film sales and distribution services."
+    />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@lovable_dev" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <!-- GitHub Pages SPA fallback: converts /repo/route to /repo/?/route -->
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
   </head>
 
   <body>

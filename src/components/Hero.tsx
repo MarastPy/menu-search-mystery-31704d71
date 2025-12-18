@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
   const [logoOpacity, setLogoOpacity] = useState(1);
@@ -78,7 +79,7 @@ export const Hero = () => {
             size="lg"
             className="w-full sm:w-[160px] lg:w-[180px] h-[50px] sm:h-[60px] lg:h-[70px] text-[13px] sm:text-[14px] lg:text-base font-bold px-2 sm:px-4"
           >
-            <a href="/news">News</a>
+            <Link to="/news">News</Link>
           </Button>
           <Button
             asChild
@@ -98,7 +99,7 @@ export const Hero = () => {
             size="lg"
             className="w-full sm:w-[160px] lg:w-[180px] h-[50px] sm:h-[60px] lg:h-[70px] text-[13px] sm:text-[14px] lg:text-base font-bold px-2 sm:px-4"
           >
-            <a href="/catalogue">Line Up</a>
+            <Link to="/catalogue">Line Up</Link>
           </Button>
           <Button
             asChild
@@ -106,11 +107,11 @@ export const Hero = () => {
             size="lg"
             className="w-full sm:w-[160px] lg:w-[180px] h-[50px] sm:h-[60px] lg:h-[70px] text-[13px] sm:text-[14px] lg:text-base font-bold px-2 sm:px-4"
           >
-            <a href="/wtf-off" className="text-center">
+            <Link to="/wtf-off" className="text-center">
               WTF OFF
               <br />
               Collection 2026
-            </a>
+            </Link>
           </Button>
           {/* Workshops button temporarily hidden
           <Button
