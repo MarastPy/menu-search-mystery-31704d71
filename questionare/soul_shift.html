@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <title>CINEFILA - info sheet</title>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&amp;family=Nunito:wght@400;600&amp;display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&amp;family=Nunito:wght@400;600&amp;display=swap" rel="stylesheet">
     <style>
         body {
                 font-family: 'Nunito', sans-serif;
@@ -116,11 +114,10 @@ Subtitles:<textarea oninput="autoResize(this)" style="height: 23px;">English</te
 <br>
 <br>
 <label>Date of completion</label>
-<textarea oninput="autoResize(this)" placeholder="DD.MM.YYYY" style="height: 23px;"></textarea>
+<textarea oninput="autoResize(this)" placeholder="DD.MM.YYYY" style="height: 23px;">11 May 2025</textarea>
 <br>
 <br>
-<label>Runtime (for the series average value)</label><textarea oninput="autoResize(this)" placeholder="HH:MM:SS"
-                                                               style="height: 23px;">00:10:00</textarea>
+<label>Runtime (for the series average value)</label><textarea oninput="autoResize(this)" placeholder="HH:MM:SS" style="height: 23px;">00:10:05</textarea>
 <br>
 <br>
 Number of series:<textarea oninput="autoResize(this)" placeholder="Total number" style="height: 23px;">1</textarea>
@@ -128,8 +125,7 @@ Number of series:<textarea oninput="autoResize(this)" placeholder="Total number"
 Number of episodes:<textarea oninput="autoResize(this)" placeholder="Total number" style="height: 23px;">10</textarea>
 <br>
 Titles and runtime of episodes:
-<textarea oninput="autoResize(this)" placeholder="S1E1: Name of episode (running time)"
-          style="height: 23px;"></textarea>
+<textarea oninput="autoResize(this)" placeholder="S1E1: Name of episode (running time)" style="height: 23px;">10 episodes, each approx. 10 minutes</textarea>
 <br>
 <br>
 <label>First film?</label>
@@ -308,7 +304,61 @@ Titles and runtime of episodes:
         <option>war</option>
         <option>western</option>
     </select></div>
-</div>
+<div class="genre-row"><select>
+        <option></option>
+        <option>absurd</option>
+        <option>autobiographical</option>
+        <option>action</option>
+        <option>animation</option>
+        <option>ani-doc</option>
+        <option selected="selected">adventure</option>
+        <option>based on true story</option>
+        <option>biographical</option>
+        <option>children</option>
+        <option>comedy</option>
+        <option>crime</option>
+        <option>dance</option>
+        <option>disaster</option>
+        <option>documentary</option>
+        <option>drama</option>
+        <option>educational</option>
+        <option>erotic</option>
+        <option>experimental</option>
+        <option>fairytale</option>
+        <option>family</option>
+        <option>fantasy</option>
+        <option>feature</option>
+        <option>noir</option>
+        <option>fulldome</option>
+        <option>historical</option>
+        <option>horror</option>
+        <option>musical</option>
+        <option>music video</option>
+        <option>non-narrative</option>
+        <option>puppet</option>
+        <option>mystery</option>
+        <option>parables</option>
+        <option>parody</option>
+        <option>poetic</option>
+        <option>tales</option>
+        <option>psychological</option>
+        <option>journalistic</option>
+        <option>reality TV</option>
+        <option>road movie</option>
+        <option>romantic</option>
+        <option>sci-fi</option>
+        <option>sitcom</option>
+        <option>student</option>
+        <option>tragedy</option>
+        <option>travel diary</option>
+        <option>game-show</option>
+        <option>sport</option>
+        <option>talkshow</option>
+        <option>soap opera</option>
+        <option>thriller</option>
+        <option>war</option>
+        <option>western</option>
+      </select></div></div>
 
 
 <!-- Tlačítka pro GENRES -->
@@ -412,8 +462,8 @@ Rating:
     <option></option>
     <option>3+</option>
     <option>6+</option>
-    <option>12+</option>
-    <option selected="selected">15+</option>
+    <option selected="selected">12+</option>
+    <option>15+</option>
     <option>18+</option>
 </select>
 
@@ -434,12 +484,9 @@ Other:<textarea oninput="autoResize(this)" style="height: 23px;">youth</textarea
 
 <div id="premiere-container">
     <div class="row">
-        <textarea class="date" placeholder="date" oninput="autoResize(this)"
-                  style="height: 23px;">13. 6. 2025</textarea>
-        <textarea class="country" placeholder="Country" oninput="autoResize(this)"
-                  style="height: 23px;">Germany</textarea>
-        <textarea class="festival" placeholder="Name of place of premiere" oninput="autoResize(this)"
-                  style="height: 23px;">die Seriale - International Series Festival Giessen</textarea>
+        <textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">May 2025</textarea>
+        <textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Italy</textarea>
+        <textarea class="festival" placeholder="Name of place of premiere" oninput="autoResize(this)" style="height: 23px;">Cartoons on the Bay, Pescara</textarea>
     </div>
 </div>
 
@@ -449,12 +496,17 @@ Other:<textarea oninput="autoResize(this)" style="height: 23px;">youth</textarea
 <label>Did the film have a festival screening?</label>
 <div id="festival-container">
     <div class="row">
-        <textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;"></textarea>
-        <textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;"></textarea>
-        <textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)"
-                  style="height: 23px;"></textarea>
+        <textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">May 2025</textarea>
+        <textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Italy</textarea>
+        <textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 36px;">Cartoons on the Bay, Pescara
+</textarea>
     </div>
-</div>
+<div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 23px;">June 2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Germany</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 36px;">die Seriale - International Series Festival Giessen
+</textarea></div><div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 36px;">November 2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Spain</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 23px;">Serielizados Fest</textarea></div><div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 36px;">November 2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Spain</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 36px;">Bilbao Seriesland Web Fest Festival
+</textarea></div><div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 36px;">November 2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">New Zealand</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 23px;">NZ Web Fest</textarea></div><div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 23px;">October 2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Armenia</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 51px;">ReAnimania International Animation Film &amp; Comics Art Festival of Yerevan
+
+</textarea></div><div class="row"><textarea class="date" placeholder="dd.mm.yyyy" oninput="autoResize(this)" style="height: 36px;">November 2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">China</textarea><textarea class="festival" placeholder="Name of Festival" oninput="autoResize(this)" style="height: 36px;">Snow Wolf Cup (Jilian Animation Institute)
+</textarea></div></div>
 
 
 <button class="button add" onclick="addFestivalRow()">➕</button>
@@ -500,12 +552,15 @@ Other:<textarea oninput="autoResize(this)" style="height: 23px;">youth</textarea
 <label> Did the film win an award?</label>
 <div id="awards-container">
     <div class="row">
-        <textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;"></textarea>
-        <textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;"></textarea>
-        <textarea class="festival" placeholder="Festival, section of competion" oninput="autoResize(this)"
-                  style="height: 23px;"></textarea>
+        <textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 23px;">June 2025</textarea>
+        <textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">Germany</textarea>
+        <textarea class="festival" placeholder="Festival, section of competion" oninput="autoResize(this)" style="height: 51px;">die Seriale - International Series Festival Giessen, Best Animation Award
+
+</textarea>
     </div>
-</div>
+<div class="row"><textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 36px;">November 2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">New Zealand</textarea><textarea class="festival" placeholder="Festival, section of competition" oninput="autoResize(this)" style="height: 36px;">NZ Web Fest, Best Animation/Puppetry Series
+</textarea></div><div class="row"><textarea class="date" placeholder="date" oninput="autoResize(this)" style="height: 36px;">November 2025</textarea><textarea class="country" placeholder="Country" oninput="autoResize(this)" style="height: 23px;">China</textarea><textarea class="festival" placeholder="Festival, section of competition" oninput="autoResize(this)" style="height: 36px;">Snow Wolf Cup (Jilian Animation Institute)
+</textarea></div></div>
 
 
 <button class="button add" onclick="addAwardRow()">➕</button>
@@ -542,11 +597,14 @@ Other:<textarea oninput="autoResize(this)" style="height: 23px;">youth</textarea
 <br>
 <br>
 <h2>5. Logline (max. 150 characters)</h2>
-<textarea oninput="autoResize(this)" maxlength="150" style="height: 23px;">In a cosmic contest to design life on a new planet, a visionary Evolution Manager and his sidekick face overwhelming odds in a battle of creation. </textarea>
+<textarea oninput="autoResize(this)" maxlength="150" style="height: 36px;">In a cosmic contest to design life on a new planet, a visionary Evolution Manager and his sidekick face overwhelming odds in a battle of creation. 
+</textarea>
 <br>
 <br>
 <h2>6. Synopsis (max. 350 characters)</h2>
-<textarea oninput="autoResize(this)" maxlength="350" style="height: 32px;">Soul Shift – a visually stunning and delightfully wacky animated series by Christian Franz Schmidt – follows Evolution Managers shaping life across the universe. When Dew Blue and Sunny-Yellow enter a cosmic contest, it spirals into a wild battle that tests not only their strategy, but their friendship too.</textarea>
+<textarea oninput="autoResize(this)" maxlength="350" style="height: 66px;">Soul Shift – a visually stunning and delightfully wacky animated series by Christian Franz Schmidt – follows Evolution Managers shaping life across the universe. When Dew Blue and Sunny-Yellow enter a cosmic contest, it spirals into a wild battle that tests not only their strategy, but their friendship too.
+
+</textarea>
 <br>
 <br>
 <h2>7. Director's note (max. 500 characters)</h2>
@@ -555,41 +613,43 @@ Other:<textarea oninput="autoResize(this)" style="height: 23px;">youth</textarea
 <br>
 <h2>8. Crew</h2>
 <label>Director(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Christian Franz Schmidt</textarea>
-<label>Screenplay writer(s):</label><textarea oninput="autoResize(this)"
-                                              style="height: 23px;">Christian Franz Schmidt</textarea>
+<label>Screenplay writer(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Christian Franz Schmidt</textarea>
 <label>Director(s) of Photography:</label><textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
 <label>Editor(s):</label><textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
 <label>Sound director(s):</label><textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
-<label>Art director(s):</label><textarea oninput="autoResize(this)"
-                                         style="height: 23px;">Christian Franz Schmidt</textarea>
+<label>Art director(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Christian Franz Schmidt</textarea>
 <label>Music composer(s):</label><textarea oninput="autoResize(this)" style="height: 23px;">Thomas Mehlhorn</textarea>
 <label>Cast (actor's name: role):</label><textarea oninput="autoResize(this)" style="height: 23px;"></textarea>
 <br>
 <br>
 <h2>9. Director's bio </h2>
 <label>Date of birth:</label>
-<textarea oninput="autoResize(this)" placeholder="DD.MM.YYYY" style="height: 23px;"></textarea>
+<textarea oninput="autoResize(this)" placeholder="DD.MM.YYYY" style="height: 23px;">1984</textarea>
 
 <label>Max. 500 characters:</label>
-<textarea oninput="autoResize(this)" style="height: 32px;">Christian Franz Schmidt studied animation at HFF Konrad Wolf Potsdam-Babelsberg. He was a pre-selection juror for the Stuttgart International Festival of Animated Film in 2013. From 2012–2019, he headed animation at a major media agency and has been working as a freelancer since 2012.</textarea>
+<textarea oninput="autoResize(this)" style="height: 51px;">Christian Franz Schmidt studied animation at HFF Konrad Wolf Potsdam-Babelsberg. He was a pre-selection juror for the Stuttgart International Festival of Animated Film in 2013. From 2012–2019, he headed animation at a major media agency and has been working as a freelancer since 2012.
+</textarea>
 
 <br>
 <br>
 <h2>10. Director's filmography</h2>
-<textarea oninput="autoResize(this)" placeholder="Title (year)" style="height: 188px;">The Zilla family has a picnic (2019)
-A perfect day (2017)
-The most beautiful children's songs (2016) - web series
-Durchfallmann - The rescue parachute (2015)
-Rosi Romance (2015)
-Durchfallmann - The chain carousel is out of control (2014)
-A swan has a plan (2013)
-Santa dares to go nuclear (2013)
-Invageddon (2012) - web series
-The claustro toad (2011)
-Egg Nappers (2011)
-The Christmas tree socialization project (2010)
-Rome (2006)
-The diarrhea man (2005)</textarea>
+<textarea oninput="autoResize(this)" placeholder="Title (year)" style="height: 261px;">The Zilla family has a picnic, 2019
+A perfect day, 2017
+The most beautiful children's songs - web series, 2016
+Durchfallmann - The rescue parachute, 2015
+Rosi Romance, 2015
+Durchfallmann - The chain carousel is out of control, 2014
+A swan has a plan, 2013
+Santa dares to go nuclear, 2013
+Invageddon - web series, 2012
+The claustro toad, 2011
+Egg Nappers, 2011
+The Christmas tree socialization project, 2010
+Rome, 2006
+The diarrhea man, 2005
+
+
+</textarea>
 
 <br>
 <br>
@@ -644,8 +704,8 @@ Other:
 <br>
 <label>Animation technique</label>
 <select>
-    <option selected="selected"></option>
-    <option>2D computer</option>
+    <option></option>
+    <option selected="selected">2D computer</option>
     <option>3D computer</option>
     <option>cel animation</option>
     <option>clay animation</option>
@@ -726,14 +786,14 @@ Other:
 <br>
 <label>Resolution</label>
 <select>
-    <option selected="selected"></option>
+    <option></option>
     <option>SD: NTSC (640x480)</option>
     <option>SD: PAL (720x576)</option>
     <option>HD: 1280X720</option>
     <option>HD: 1440X1080</option>
     <option>HD: 1920X1080</option>
     <option>2K</option>
-    <option>4k</option>
+    <option selected="selected">4k</option>
     <option>8k</option>
 </select>
 Other:
@@ -753,10 +813,10 @@ Scan method (for video):
 <p>
     FPS (frame per second):
     <select>
-        <option selected="selected"></option>
+        <option></option>
         <option>23.976 (USA)</option>
         <option>24</option>
-        <option>25</option>
+        <option selected="selected">25</option>
         <option>29.97 (USA, JAP)</option>
         <option>30</option>
         <option>48</option>
@@ -774,12 +834,12 @@ Scan method (for video):
 
     <label>Aspect ratio</label>
     <select>
-        <option selected="selected"></option>
+        <option></option>
         <option>1.33 (4:3)</option>
         <option>1.37</option>
         <option>1.43 (IMAX 70 mm)</option>
         <option>1.66</option>
-        <option>1.78 (16:9)</option>
+        <option selected="selected">1.78 (16:9)</option>
         <option>1.85 ("flat format")</option>
         <option>1.90 (Netflix, digital IMAX...)</option>
         <option>2.00 (Netflix, Apple TV+, RED, Arri...)</option>
@@ -796,9 +856,9 @@ Scan method (for video):
     <br>
     <label>Sound mix</label>
     <select>
-        <option selected="selected"></option>
+        <option></option>
         <option>Mono (1.0)</option>
-        <option>Stereo (2.0, L+R)</option>
+        <option selected="selected">Stereo (2.0, L+R)</option>
         <option>Dolby Stereo (3.1, LCRS)</option>
         <option>Dolby Digital 5.1 (L, C, R, Ls, Rs, LFE)</option>
         <option>Dolby Digital 7.1 (5.1 + Lss, Rss)</option>
@@ -828,7 +888,7 @@ Scan method (for video):
 </p>
 <h2>12. Production</h2>
 <label>Producers:</label>
-<textarea oninput="autoResize(this)" style="height: 84px;">Name: Thomas Schneider-Trumpp, Johann Frank, Wolfgang Heidrich
+<textarea oninput="autoResize(this)" style="height: 96px;">Name: Thomas Schneider-Trumpp, Johann Frank, Wolfgang Heidrich
 Address:
 Postal code, city:
 Country:
@@ -836,14 +896,14 @@ WEB:
 </textarea>
 
 <label>Production company:</label>
-<textarea oninput="autoResize(this)" style="height: 84px;">Name:
+<textarea oninput="autoResize(this)" style="height: 96px;">Name: Playlist 4You GmbH
 Address:
 Postal code, city:
 Country:
 WEB:
 </textarea>
 <label>Co-producer:</label>
-<textarea oninput="autoResize(this)" style="height: 84px;">Name: Hessischer Rundfunk
+<textarea oninput="autoResize(this)" style="height: 96px;">Name: Hessischer Rundfunk
 Address:
 Postal code, city:
 Country:
@@ -904,5 +964,5 @@ WEB:
 <br>
 
 
-</body>
-</html>
+
+</body></html>
