@@ -1,6 +1,6 @@
 export const Mission = () => {
   return (
-    <section id="whatcanwedo" className="py-12 sm:py-[90px] bg-[#f0f2f5] scroll-mt-[90px]">
+    <section id="mission" className="py-12 sm:py-[90px] bg-[#f0f2f5] scroll-mt-[90px]">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-8">
         <h1 className="font-garamond text-[45px] text-[#222] mb-4 text-left font-bold">Our Mission</h1>
         <div className="w-full h-[2px] bg-gray-400 mb-12"></div>

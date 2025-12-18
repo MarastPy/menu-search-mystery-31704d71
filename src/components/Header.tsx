@@ -114,10 +114,7 @@ export const Header = () => {
 
           {/* Navigation Content */}
           <nav className="h-full overflow-y-auto pt-24 pb-12 px-8">
-            {/* Main Navigation */}
             <div className="space-y-1">
-              <p className="text-white/40 text-xs uppercase tracking-widest mb-4 font-nunito">Navigation</p>
-              
               <Link
                 to="/"
                 className={`block py-3 text-white/90 hover:text-white hover:pl-2 transition-all duration-200 font-garamond text-2xl border-b border-white/5 ${
@@ -150,66 +147,88 @@ export const Header = () => {
               >
                 Line Up
               </Link>
-            </div>
 
-            {/* Services Section */}
-            <div className="mt-10 space-y-1">
-              <p className="text-white/40 text-xs uppercase tracking-widest mb-4 font-nunito">Services</p>
-              
               <Link
-                to="/#whatcanwedo"
+                to="/#mission"
                 className={`block py-3 text-white/90 hover:text-white hover:pl-2 transition-all duration-200 font-garamond text-2xl border-b border-white/5 ${
                   menuOpen ? "animate-fade-in" : "opacity-0"
                 }`}
                 style={{ animationDelay: "0.2s" }}
                 onClick={() => setMenuOpen(false)}
               >
-                What can we do for you
+                Our Mission
               </Link>
 
-              {/* Workshops link temporarily hidden
               <Link
-                to="/workshops"
+                to="/#whatcanwedo"
                 className={`block py-3 text-white/90 hover:text-white hover:pl-2 transition-all duration-200 font-garamond text-2xl border-b border-white/5 ${
                   menuOpen ? "animate-fade-in" : "opacity-0"
                 }`}
                 style={{ animationDelay: "0.25s" }}
                 onClick={() => setMenuOpen(false)}
               >
-                Workshops
+                For Independent Filmmakers
               </Link>
-              */}
 
               <Link
-                to="/wtf-off"
+                to="/#festivals-cinemas"
                 className={`block py-3 text-white/90 hover:text-white hover:pl-2 transition-all duration-200 font-garamond text-2xl border-b border-white/5 ${
                   menuOpen ? "animate-fade-in" : "opacity-0"
                 }`}
                 style={{ animationDelay: "0.3s" }}
                 onClick={() => setMenuOpen(false)}
               >
-                WTF OFF
+                For Festivals & Cinemas
               </Link>
-            </div>
 
-            {/* About Section */}
-            <div className="mt-10 space-y-1">
-              <p className="text-white/40 text-xs uppercase tracking-widest mb-4 font-nunito">Company</p>
-              
               <Link
-                to="/#about"
+                to="/#film-schools"
                 className={`block py-3 text-white/90 hover:text-white hover:pl-2 transition-all duration-200 font-garamond text-2xl border-b border-white/5 ${
                   menuOpen ? "animate-fade-in" : "opacity-0"
                 }`}
                 style={{ animationDelay: "0.35s" }}
                 onClick={() => setMenuOpen(false)}
               >
-                About us & contact
+                For Film Schools & Institutions
+              </Link>
+
+              <Link
+                to="/workshops"
+                className={`block py-3 text-white/90 hover:text-white hover:pl-2 transition-all duration-200 font-garamond text-2xl border-b border-white/5 ${
+                  menuOpen ? "animate-fade-in" : "opacity-0"
+                }`}
+                style={{ animationDelay: "0.4s" }}
+                onClick={() => setMenuOpen(false)}
+              >
+                Workshops
+                <span className="ml-2 text-sm text-white/50 font-nunito">– coming soon</span>
+              </Link>
+
+              <Link
+                to="/wtf-off"
+                className={`block py-3 text-white/90 hover:text-white hover:pl-2 transition-all duration-200 font-garamond text-2xl border-b border-white/5 ${
+                  menuOpen ? "animate-fade-in" : "opacity-0"
+                }`}
+                style={{ animationDelay: "0.45s" }}
+                onClick={() => setMenuOpen(false)}
+              >
+                WTF OFF Collection 2026
+              </Link>
+
+              <Link
+                to="/#about"
+                className={`block py-3 text-white/90 hover:text-white hover:pl-2 transition-all duration-200 font-garamond text-2xl border-b border-white/5 ${
+                  menuOpen ? "animate-fade-in" : "opacity-0"
+                }`}
+                style={{ animationDelay: "0.5s" }}
+                onClick={() => setMenuOpen(false)}
+              >
+                About us & Contacts
               </Link>
             </div>
 
             {/* Footer */}
-            <div className={`mt-16 pt-6 border-t border-white/10 ${menuOpen ? "animate-fade-in" : "opacity-0"}`} style={{ animationDelay: "0.4s" }}>
+            <div className={`mt-16 pt-6 border-t border-white/10 ${menuOpen ? "animate-fade-in" : "opacity-0"}`} style={{ animationDelay: "0.55s" }}>
               <p className="text-white/30 text-sm font-nunito">© {new Date().getFullYear()} Cinefila s.r.o.</p>
             </div>
           </nav>
