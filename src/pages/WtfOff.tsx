@@ -110,14 +110,16 @@ const WtfOff = () => {
                 <p className="font-nunito text-[17px] text-[#222] mb-6">
                   Interested in learning more or partnering with us?
                 </p>
-                <Button
-                  asChild
-                  size="lg"
-                  className="bg-white text-black border-2 border-black font-bold hover:bg-black hover:text-white transition-colors duration-300"
-                >
-                  <a href="/#about">Contact Us</a>
-                </Button>
               </div>
+            </div>
+            <div className="mt-8 text-center">
+              <Button
+                asChild
+                size="lg"
+                className="bg-white text-black border-2 border-black font-bold hover:bg-black hover:text-white transition-colors duration-300"
+              >
+                <a href="/#about">Contact Us</a>
+              </Button>
             </div>
           </div>
         </div>

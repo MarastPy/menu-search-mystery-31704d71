@@ -115,7 +115,7 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="bg-[#0f0f0f] border-white/20 text-white placeholder:text-gray-500 focus:border-white/40 transition-all text-base sm:text-lg py-4 sm:py-6"
-            autoFocus
+            autoFocus={false}
           />
           <Button 
             onClick={onClose}
