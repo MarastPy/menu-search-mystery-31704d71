@@ -6,7 +6,7 @@ export const ScrollToTop = () => {
 
   useEffect(() => {
     if (hash) {
-      // Ensure we don't keep a previous scroll position, then scroll to the anchor.
+      // Jump directly to the anchor (no "scrolling through" other sections).
       window.scrollTo({ top: 0, left: 0 });
 
       const id = hash.slice(1);
@@ -15,14 +15,24 @@ export const ScrollToTop = () => {
       const tryScroll = () => {
         const el = document.getElementById(id);
         if (el) {
-          el.scrollIntoView({ behavior: "smooth", block: "start" });
-          return;
+          el.scrollIntoView({ behavior: "auto", block: "start" });
+          return true;
         }
-        if (tries++ < 10) window.setTimeout(tryScroll, 50);
+        return false;
       };
 
-      tryScroll();
-      return;
+      const interval = window.setInterval(() => {
+        if (tryScroll() || tries++ > 40) window.clearInterval(interval);
+      }, 100);
+
+      // One extra attempt after all assets are loaded (prevents layout-shift landing above the target).
+      const onLoad = () => tryScroll();
+      window.addEventListener("load", onLoad, { once: true });
+
+      return () => {
+        window.clearInterval(interval);
+        window.removeEventListener("load", onLoad);
+      };
     }
 
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
