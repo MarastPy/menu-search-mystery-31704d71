@@ -6,11 +6,22 @@ export const ScrollToTop = () => {
 
   useEffect(() => {
     if (hash) {
+      // Ensure we don't keep a previous scroll position, then scroll to the anchor.
+      window.scrollTo({ top: 0, left: 0 });
+
       const id = hash.slice(1);
-      requestAnimationFrame(() => {
+      let tries = 0;
+
+      const tryScroll = () => {
         const el = document.getElementById(id);
-        if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-      });
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth", block: "start" });
+          return;
+        }
+        if (tries++ < 10) window.setTimeout(tryScroll, 50);
+      };
+
+      tryScroll();
       return;
     }
 
