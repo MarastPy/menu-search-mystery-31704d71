@@ -12,7 +12,7 @@ const newsItems = [
     isInternal: true,
   },
   {
-    date: "16/12/2024",
+    date: "10/12/2024",
     excerpt:
       "We are speechless! I Died in Irpin, a short animated documentary by Anastasiia Falileieva, is shortlisted for the Animated Short Film category for the 98th Academy Awards®! Big big congratulations to the whole team behind the movie!",
     image: `${baseUrl}images/news/i_died_in_irpin_oscars.jpg`,
@@ -21,14 +21,14 @@ const newsItems = [
     filmName: "I Died in Irpin",
   },
   {
-    date: "13/12/2024",
+    date: "05/12/2024",
     excerpt:
       "At this year's Animateka Festival we had an opportunity to offer the Cinefila Festival Distribution Award to one of the projects presented at the Rise & Shine workshop for young talents. 💡 The award covers a two-year festival distribution prize valued at €4,000. The winner among the 11 amazing projects was Stormsurge directed by Anna Tőkés and produced by Balint Gelley of CUB Animation! 🔸 \"On Grace's island the weather is influenced by her mood, which is always cloudy and gray. One day, she gets help from her friends to express her feelings through dance, and together they lure the sun out.\"",
     image: `${baseUrl}images/news/animateka_2025.jpg`,
     link: "https://www.instagram.com/p/DSNZ9i6Coa7/?img_index=1",
   },
   {
-    date: "7/12/2024",
+    date: "28/11/2024",
     excerpt:
       "Soul Shift, animated science-fiction comedy series, received a Professional Group Animated Series Gold Award at Xiamen International Animation Festival!",
     image: `${baseUrl}images/news/soul_shift_xiamen.jpg`,
@@ -37,7 +37,7 @@ const newsItems = [
     filmName: "Soul Shift",
   },
   {
-    date: "1/12/2024",
+    date: "20/11/2024",
     excerpt:
       "We are so happy to announce that Wolfie has won the European Children's Film Association Short Film Award at Bucharest Kids Film Festival! 🤩 By winning this prestigious award, Wolfie will be nominated for the overall ECFA Short Film Award which will be handed out during Berlinale in 2026. Stay tuned!",
     image: `${baseUrl}images/news/wolfie_european_film.jpg`,
