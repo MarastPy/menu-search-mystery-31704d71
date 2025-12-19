@@ -78,7 +78,7 @@ export default function News() {
                 >
                   <a href={item.link} target="_blank" rel="noopener noreferrer" className="block">
                     <div className="relative w-full pt-[66.67%] overflow-hidden bg-gray-100 rounded-sm mb-4">
-                      <img src={item.image} alt="News" className="absolute inset-0 w-full h-full object-cover" />
+                      <img src={item.image} alt="News" className="absolute inset-0 w-full h-full object-cover hover:opacity-75 transition-opacity" />
                     </div>
 
                     <div className="pt-2">
@@ -106,14 +106,6 @@ export default function News() {
               </div>
             )}
 
-            <div className="text-center mt-12">
-              <Link
-                to="/#news"
-                className="inline-block py-4 px-8 rounded-lg transition-all duration-300 text-base font-bold border-2 border-[#1c1c1c] bg-transparent text-[#1c1c1c] hover:bg-[#1c1c1c] hover:text-white transform hover:scale-105 shadow-md hover:shadow-xl"
-              >
-                Back to Home
-              </Link>
-            </div>
           </div>
         </section>
       </main>
