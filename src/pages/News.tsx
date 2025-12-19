@@ -81,7 +81,7 @@ export default function News() {
                       <img
                         src={item.image}
                         alt="News"
-                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        className="absolute inset-0 w-full h-full object-cover"
                       />
                     </div>
 
