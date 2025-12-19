@@ -1,9 +1,6 @@
 [
   {
-    "Film": {
-      "Title_Original": "Jackovo divoké srdce",
-      "Title_English": "Hot Blood"
-    },
+    "Film": { "Title_Original": "Jackovo divoké srdce", "Title_English": "Hot Blood" },
     "Ranking": "6",
     "Review": "",
     "Review_name": "",
@@ -11,17 +8,14 @@
     "Sales": "",
     "Status": "in production",
     "Download_poster": "/downloads/posters/hot_blood_poster.zip",
-    "Download_stills": "/downloads/stills/hot_blood_stills.zip",
-    "Download_presskit": "/downloads/presskits/hot_blood_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/hot_blood_extras.zip",
+    "Download_extras": "",
     "Trailer_url": ""
   },
   {
-    "Film": {
-      "Title_Original": "Cap al cel",
-      "Title_English": "Up in Heaven"
-    },
+    "Film": { "Title_Original": "Cap al cel", "Title_English": "Up in Heaven" },
     "Ranking": "2",
     "Review": "",
     "Review_name": "",
@@ -29,17 +23,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/",
-    "Download_stills": "/downloads/stills/",
-    "Download_presskit": "/downloads/presskits/",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/",
+    "Download_extras": "",
     "Trailer_url": ""
   },
   {
-    "Film": {
-      "Title_Original": "Amber Tale",
-      "Title_English": "Amber Tale"
-    },
+    "Film": { "Title_Original": "Amber Tale", "Title_English": "Amber Tale" },
     "Ranking": "1",
     "Review": "",
     "Review_name": "",
@@ -47,17 +38,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/amber_tale_poster.zip",
-    "Download_stills": "/downloads/stills/amber_tale_stills.zip",
-    "Download_presskit": "/downloads/presskits/amber_tale_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/amber_tale_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/1133290021?share=copy&fl=sv&fe=ci"
   },
   {
-    "Film": {
-      "Title_Original": "Křehce",
-      "Title_English": "Gently"
-    },
+    "Film": { "Title_Original": "Křehce", "Title_English": "Gently" },
     "Ranking": "3",
     "Review": "",
     "Review_name": "",
@@ -65,17 +53,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/gently_poster.zip",
-    "Download_stills": "/downloads/stills/gently_stills.zip",
-    "Download_presskit": "/downloads/presskits/gently_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/gently_extras.zip",
+    "Download_extras": "",
     "Trailer_url": ""
   },
   {
-    "Film": {
-      "Title_Original": "Plešouni",
-      "Title_English": "Baldies - What About My Hair?"
-    },
+    "Film": { "Title_Original": "Plešouni", "Title_English": "Baldies - What About My Hair?" },
     "Ranking": "5",
     "Review": "",
     "Review_name": "",
@@ -83,17 +68,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/baldies_what_about_my_hair_poster.zip",
-    "Download_stills": "/downloads/stills/baldies_what_about_my_hair_stills.zip",
-    "Download_presskit": "/downloads/presskits/baldies_what_about_my_hair_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/baldies_what_about_my_hair_extras.zip",
+    "Download_extras": "",
     "Trailer_url": ""
   },
   {
-    "Film": {
-      "Title_Original": "Volklore",
-      "Title_English": "Volklore"
-    },
+    "Film": { "Title_Original": "Volklore", "Title_English": "Volklore" },
     "Ranking": "4",
     "Review": "",
     "Review_name": "",
@@ -101,17 +83,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/volklore_poster.zip",
-    "Download_stills": "/downloads/stills/volklore_stills.zip",
-    "Download_presskit": "/downloads/presskits/volklore_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/volklore_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/1137852240?share=copy&fl=sv&fe=ci"
   },
   {
-    "Film": {
-      "Title_Original": "Domov",
-      "Title_English": "Home"
-    },
+    "Film": { "Title_Original": "Domov", "Title_English": "Home" },
     "Ranking": "14",
     "Review": "",
     "Review_name": "",
@@ -119,17 +98,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/home_poster.zip",
-    "Download_stills": "/downloads/stills/home_stills.zip",
-    "Download_presskit": "/downloads/presskits/home_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/home_extras.zip",
+    "Download_extras": "",
     "Trailer_url": ""
   },
   {
-    "Film": {
-      "Title_Original": "Hatker",
-      "Title_English": "Hatker"
-    },
+    "Film": { "Title_Original": "Hatker", "Title_English": "Hatker" },
     "Ranking": "8",
     "Review": "",
     "Review_name": "",
@@ -137,17 +113,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/hatker_poster.zip",
-    "Download_stills": "/downloads/stills/hatker_stills.zip",
-    "Download_presskit": "/downloads/presskits/hatker_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/hatker_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/1071588543?p=0s"
   },
   {
-    "Film": {
-      "Title_Original": "Návrat",
-      "Title_English": "The Return"
-    },
+    "Film": { "Title_Original": "Návrat", "Title_English": "The Return" },
     "Ranking": "11",
     "Review": "",
     "Review_name": "",
@@ -155,17 +128,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/the_return_poster.zip",
-    "Download_stills": "/downloads/stills/the_return_stills.zip",
-    "Download_presskit": "/downloads/presskits/the_return_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/the_return_extras.zip",
+    "Download_extras": "",
     "Trailer_url": ""
   },
   {
-    "Film": {
-      "Title_Original": "První hlídka",
-      "Title_English": "First Patrol"
-    },
+    "Film": { "Title_Original": "První hlídka", "Title_English": "First Patrol" },
     "Ranking": "9",
     "Review": "",
     "Review_name": "",
@@ -173,17 +143,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/first_patrol_poster.zip",
-    "Download_stills": "/downloads/stills/first_patrol_stills.zip",
-    "Download_presskit": "/downloads/presskits/first_patrol_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/first_patrol_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/1129328478?share=copy&fl=sv&fe=ci"
   },
   {
-    "Film": {
-      "Title_Original": "SnowBlind",
-      "Title_English": "SnowBlind"
-    },
+    "Film": { "Title_Original": "SnowBlind", "Title_English": "SnowBlind" },
     "Ranking": "10",
     "Review": "",
     "Review_name": "",
@@ -191,17 +158,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/snowblind_poster.zip",
-    "Download_stills": "/downloads/stills/snowblind_stills.zip",
-    "Download_presskit": "/downloads/presskits/snowblind_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/snowblind_extras.zip",
+    "Download_extras": "",
     "Trailer_url": ""
   },
   {
-    "Film": {
-      "Title_Original": "Soul Shift",
-      "Title_English": "Soul Shift"
-    },
+    "Film": { "Title_Original": "Soul Shift", "Title_English": "Soul Shift" },
     "Ranking": "12",
     "Review": "",
     "Review_name": "",
@@ -209,17 +173,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/soul_shift_poster.zip",
-    "Download_stills": "/downloads/stills/soul_shift_stills.zip",
-    "Download_presskit": "/downloads/presskits/soul_shift_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/soul_shift_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/1067459541?share=copy&fl=sv&fe=ci"
   },
   {
-    "Film": {
-      "Title_Original": "Vlček",
-      "Title_English": "Wolfie"
-    },
+    "Film": { "Title_Original": "Vlček", "Title_English": "Wolfie" },
     "Ranking": "7",
     "Review": "",
     "Review_name": "",
@@ -227,17 +188,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/wolfie_poster.zip",
-    "Download_stills": "/downloads/stills/wolfie_stills.zip",
-    "Download_presskit": "/downloads/presskits/wolfie_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/wolfie_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/1059881911?share=copy&fl=sv&fe=ci"
   },
   {
-    "Film": {
-      "Title_Original": "Řepa",
-      "Title_English": "Beetroot"
-    },
+    "Film": { "Title_Original": "Řepa", "Title_English": "Beetroot" },
     "Ranking": "13",
     "Review": "",
     "Review_name": "",
@@ -245,17 +203,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/beetroot_poster.zip",
-    "Download_stills": "/downloads/stills/beetroot_stills.zip",
-    "Download_presskit": "/downloads/presskits/beetroot_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/beetroot_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/1082799941?share=copy&fl=sv&fe=ci"
   },
   {
-    "Film": {
-      "Title_Original": "Humanity",
-      "Title_English": "Humanity"
-    },
+    "Film": { "Title_Original": "Humanity", "Title_English": "Humanity" },
     "Ranking": "15",
     "Review": "",
     "Review_name": "",
@@ -263,17 +218,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/humanity_poster.zip",
-    "Download_stills": "/downloads/stills/humanity_stills.zip",
-    "Download_presskit": "/downloads/presskits/humanity_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/humanity_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/1024651252?share=copy&fl=sv&fe=ci"
   },
   {
-    "Film": {
-      "Title_Original": "I died in Irpin",
-      "Title_English": "I died in Irpin"
-    },
+    "Film": { "Title_Original": "I died in Irpin", "Title_English": "I died in Irpin" },
     "Ranking": "16",
     "Review": "",
     "Review_name": "",
@@ -281,17 +233,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/i_died_in_irpin_poster.zip",
-    "Download_stills": "/downloads/stills/i_died_in_irpin_stills.zip",
-    "Download_presskit": "/downloads/presskits/i_died_in_irpin_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/i_died_in_irpin_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/1010184733?share=copy&fl=sv&fe=ci"
   },
   {
-    "Film": {
-      "Title_Original": "O lýkožroutce",
-      "Title_English": "Writing Home"
-    },
+    "Film": { "Title_Original": "O lýkožroutce", "Title_English": "Writing Home" },
     "Ranking": "17",
     "Review": "",
     "Review_name": "",
@@ -299,35 +248,29 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/writing_home_poster.zip",
-    "Download_stills": "/downloads/stills/writing_home_stills.zip",
-    "Download_presskit": "/downloads/presskits/writing_home_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/writing_home_extras.zip",
+    "Download_extras": "",
     "Trailer_url": ""
   },
   {
-    "Film": {
-      "Title_Original": "Plevel",
-      "Title_English": "Weeds"
-    },
+    "Film": { "Title_Original": "Plevel", "Title_English": "Weeds" },
     "Ranking": "18",
     "Review": "",
     "Review_name": "",
-    "Festival_Distribution_Only": "",
+    "Festival_Distribution_Only": "Festival_Distribution_Only",
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/weeds_poster.zip",
-    "Download_stills": "/downloads/stills/weeds_stills.zip",
-    "Download_presskit": "/downloads/presskits/weeds_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/weeds_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/1024520135?share=copy&fl=sv&fe=ci"
   },
   {
-    "Film": {
-      "Title_Original": "Svět, ve kterém žiji",
-      "Title_English": "World I Live In"
-    },
+    "Film": { "Title_Original": "Svět, ve kterém žiji", "Title_English": "World I Live In" },
     "Ranking": "20",
     "Review": "",
     "Review_name": "",
@@ -335,17 +278,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/world_i_live_in_poster.zip",
-    "Download_stills": "/downloads/stills/world_i_live_in_stills.zip",
-    "Download_presskit": "/downloads/presskits/world_i_live_in_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/world_i_live_in_extras.zip",
+    "Download_extras": "",
     "Trailer_url": ""
   },
   {
-    "Film": {
-      "Title_Original": "Vlny",
-      "Title_English": "Waves"
-    },
+    "Film": { "Title_Original": "Vlny", "Title_English": "Waves" },
     "Ranking": "19",
     "Review": "",
     "Review_name": "",
@@ -353,17 +293,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/waves_poster.zip",
-    "Download_stills": "/downloads/stills/waves_stills.zip",
-    "Download_presskit": "/downloads/presskits/waves_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/waves_extras.zip",
+    "Download_extras": "",
     "Trailer_url": ""
   },
   {
-    "Film": {
-      "Title_Original": "Ježek",
-      "Title_English": "The Hedgehog"
-    },
+    "Film": { "Title_Original": "Ježek", "Title_English": "The Hedgehog" },
     "Ranking": "21",
     "Review": "",
     "Review_name": "",
@@ -371,17 +308,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/the_hedgehog_poster.zip",
-    "Download_stills": "/downloads/stills/the_hedgehog_stills.zip",
-    "Download_presskit": "/downloads/presskits/the_hedgehog_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/the_hedgehog_extras.zip",
+    "Download_extras": "",
     "Trailer_url": ""
   },
   {
-    "Film": {
-      "Title_Original": "Krajan",
-      "Title_English": "The Compatriot"
-    },
+    "Film": { "Title_Original": "Krajan", "Title_English": "The Compatriot" },
     "Ranking": "22",
     "Review": "",
     "Review_name": "",
@@ -389,17 +323,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/the_compatriot_poster.zip",
-    "Download_stills": "/downloads/stills/the_compatriot_stills.zip",
-    "Download_presskit": "/downloads/presskits/the_compatriot_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/the_compatriot_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/1049618664?share=copy&fl=sv&fe=ci"
   },
   {
-    "Film": {
-      "Title_Original": "O krávě",
-      "Title_English": "About a cow"
-    },
+    "Film": { "Title_Original": "O krávě", "Title_English": "About a cow" },
     "Ranking": "23",
     "Review": "",
     "Review_name": "",
@@ -407,17 +338,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/about_a_cow_poster.zip",
-    "Download_stills": "/downloads/stills/about_a_cow_stills.zip",
-    "Download_presskit": "/downloads/presskits/about_a_cow_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/about_a_cow_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/1031297187?p=0s"
   },
   {
-    "Film": {
-      "Title_Original": "Il Formaggio",
-      "Title_English": "Cheese"
-    },
+    "Film": { "Title_Original": "Il Formaggio", "Title_English": "Cheese" },
     "Ranking": "24",
     "Review": "",
     "Review_name": "",
@@ -425,17 +353,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/cheese_poster.zip",
-    "Download_stills": "/downloads/stills/cheese_stills.zip",
-    "Download_presskit": "/downloads/presskits/cheese_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/cheese_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/745142085?share=copy&fl=sv&fe=ci"
   },
   {
-    "Film": {
-      "Title_Original": "Máma má vždycky pravdu",
-      "Title_English": "Mom is always right"
-    },
+    "Film": { "Title_Original": "Máma má vždycky pravdu", "Title_English": "Mom is always right" },
     "Ranking": "25",
     "Review": "",
     "Review_name": "",
@@ -443,17 +368,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/mom_is_always_right_poster.zip",
-    "Download_stills": "/downloads/stills/mom_is_always_right_stills.zip",
-    "Download_presskit": "/downloads/presskits/mom_is_always_right_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/mom_is_always_right_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/694854309?share=copy&fl=sv&fe=ci"
   },
   {
-    "Film": {
-      "Title_Original": "Odpusť",
-      "Title_English": "Don´t blow it up"
-    },
+    "Film": { "Title_Original": "Odpusť", "Title_English": "Don´t blow it up" },
     "Ranking": "26",
     "Review": "",
     "Review_name": "",
@@ -461,17 +383,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/don_t_blow_it_up_poster.zip",
-    "Download_stills": "/downloads/stills/don_t_blow_it_up_stills.zip",
-    "Download_presskit": "/downloads/presskits/don_t_blow_it_up_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/don_t_blow_it_up_extras.zip",
+    "Download_extras": "",
     "Trailer_url": ""
   },
   {
-    "Film": {
-      "Title_Original": "Betonová džungle",
-      "Title_English": "The concrete jungle"
-    },
+    "Film": { "Title_Original": "Betonová džungle", "Title_English": "The concrete jungle" },
     "Ranking": "27",
     "Review": "",
     "Review_name": "",
@@ -479,17 +398,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/the_concrete_jungle_poster.zip",
-    "Download_stills": "/downloads/stills/the_concrete_jungle_stills.zip",
-    "Download_presskit": "/downloads/presskits/the_concrete_jungle_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/the_concrete_jungle_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/579740396?share=copy&fl=sv&fe=ci"
   },
   {
-    "Film": {
-      "Title_Original": "Síla",
-      "Title_English": "Out in force"
-    },
+    "Film": { "Title_Original": "Síla", "Title_English": "Out in force" },
     "Ranking": "28",
     "Review": "",
     "Review_name": "",
@@ -497,17 +413,14 @@
     "Sales": "",
     "Status": "",
     "Download_poster": "/downloads/posters/out_in_force_poster.zip",
-    "Download_stills": "/downloads/stills/out_in_force_stills.zip",
-    "Download_presskit": "/downloads/presskits/out_in_force_presskit.zip",
+    "Download_stills": "",
+    "Download_presskit": "",
     "Extras_name": "Extras",
-    "Download_extras": "/downloads/extras/out_in_force_extras.zip",
+    "Download_extras": "",
     "Trailer_url": "https://vimeo.com/711764759?share=copy&fl=sv&fe=ci"
   },
   {
-    "Film": {
-      "Title_Original": "Dcera",
-      "Title_English": "Daughter"
-    },
+    "Film": { "Title_Original": "Dcera", "Title_English": "Daughter" },
     "Ranking": "29",
     "Review": "",
     "Review_name": "",
