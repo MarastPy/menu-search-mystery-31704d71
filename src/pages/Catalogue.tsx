@@ -572,7 +572,7 @@ export default function Catalogue() {
                           <img
                             src={getFilmStillPaths(film, 1)[0]}
                             alt={`Still from ${title}`}
-                            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                            className="w-full h-full object-cover"
                             onError={(e) => {
                               e.currentTarget.src = getPlaceholderImage();
                             }}
