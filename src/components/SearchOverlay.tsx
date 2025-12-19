@@ -120,7 +120,7 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
           <Button 
             onClick={onClose}
             variant="ghost"
-            className="text-white hover:bg-white/10 hover:text-white transition-all duration-300 px-4 sm:px-6 w-full sm:w-auto"
+            className="text-white hover:bg-transparent hover:text-white px-4 sm:px-6 w-full sm:w-auto"
           >
             <X className="mr-2 h-4 w-4" />
             Close
@@ -167,6 +167,9 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
                           src={poster} 
                           alt={`Poster for ${title}`}
                           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                          onError={(e) => {
+                            e.currentTarget.src = '/images/posters/_poster/_poster.jpg';
+                          }}
                         />
                       </div>
                       <div className="p-5">
