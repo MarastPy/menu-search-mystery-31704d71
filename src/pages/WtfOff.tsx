@@ -73,7 +73,7 @@ const WtfOff = () => {
             <Button
               asChild
               size="lg"
-              className="bg-[rgb(224,9,40)] text-white border-2 border-[rgb(224,9,40)] font-bold hover:bg-[rgb(224,9,40)] hover:text-white transition-colors duration-300"
+              className="bg-[rgb(224,9,40)] text-white border-2 border-[rgb(224,9,40)] font-bold hover:bg-black hover:border-black hover:text-white transition-colors duration-300"
             >
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdd2sWLmZfCUMKowI-uw_fu6TYOw5S9Rho_Ki7YaNQ7GfKz-A/viewform?usp=header" target="_blank" rel="noopener noreferrer">Submission Form</a>
             </Button>
@@ -106,22 +106,19 @@ const WtfOff = () => {
                   His motivation is to showcase animation in all its diversity and to highlight the fact that animation
                   as a medium can do anything — without filters or limitations.
                 </p>
-                <p>Under his curatorship, WTF has become a space for the boldest voices in contemporary animation.</p>
+                <p className="mb-6">Under his curatorship, WTF has become a space for the boldest voices in contemporary animation.</p>
+                <p className="font-nunito text-[17px] text-[#222] mb-6">
+                  Interested in learning more or partnering with us?
+                </p>
+                <Button
+                  asChild
+                  size="lg"
+                  className="bg-white text-black border-2 border-black font-bold hover:bg-black hover:text-white transition-colors duration-300"
+                >
+                  <a href="/#about">Contact Us</a>
+                </Button>
               </div>
             </div>
-          </div>
-
-          <div className="mt-12 text-center">
-            <p className="font-nunito text-[17px] text-[#222] mb-6">
-              Interested in learning more or partnering with us?
-            </p>
-            <Button
-              asChild
-              size="lg"
-              className="bg-white text-black border-2 border-black font-bold hover:bg-black hover:text-white transition-colors duration-300"
-            >
-              <a href="/#about">Contact Us</a>
-            </Button>
           </div>
         </div>
       </section>
