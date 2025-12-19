@@ -173,7 +173,7 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
                         />
                       </div>
                       <div className="p-5">
-                        <h3 className="font-serif text-white text-lg mb-2 line-clamp-2 group-hover:text-[#C5262A] transition-colors duration-300">
+                        <h3 className="font-serif text-white text-lg mb-2 line-clamp-2">
                           {title}
                           {year && <span className="text-gray-400 text-sm"> | {year}</span>}
                         </h3>
