@@ -554,7 +554,7 @@ export default function Catalogue() {
 
                   return (
                     <Link key={idx} to={`/film/${slug}`} className="block group h-full">
-                      <div className="bg-card rounded-lg overflow-hidden transition-transform hover:scale-105 h-full flex flex-col">
+                      <div className="bg-card rounded-lg overflow-hidden h-full flex flex-col">
                         {/* Fixed header section - title, director, country */}
                         <div className="p-5 h-[140px] flex flex-col justify-start flex-shrink-0">
                           <h3 className="font-nunito text-xl mb-1 group-hover:text-primary transition-colors line-clamp-2">
@@ -572,7 +572,7 @@ export default function Catalogue() {
                           <img
                             src={getFilmStillPaths(film, 1)[0]}
                             alt={`Still from ${title}`}
-                            className="w-full h-full object-cover"
+                            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                             onError={(e) => {
                               e.currentTarget.src = getPlaceholderImage();
                             }}
