@@ -63,7 +63,7 @@ export const Catalogue = () => {
             const slug = getFilmSlug(film);
 
             return (
-              <Link key={index} to={`/film/${slug}`} className="block group h-full">
+              <Link key={index} to={`/film/${slug}`} className="block group h-full transition-all duration-300 hover:-translate-y-2">
                 <div className="bg-card rounded-lg overflow-hidden h-full flex flex-col">
                   {/* Fixed header section - title, director, country */}
                   <div className="p-5 h-[140px] flex flex-col justify-start flex-shrink-0">
