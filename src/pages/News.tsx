@@ -67,41 +67,28 @@ export default function News() {
       <main className="min-h-screen bg-white pt-[60px] sm:pt-[90px]">
         <section className="py-12 sm:py-16 md:py-24">
           <div className="max-w-[1200px] mx-auto px-4 sm:px-8 lg:px-[2cm]">
-            <h1 className="font-garamond text-[45px] text-[#1c1c1c] mb-3 font-bold tracking-tight text-left">
-              Latest News
-            </h1>
+            <h1 className="font-garamond text-[45px] text-[#1c1c1c] mb-3 font-bold tracking-tight text-left">News</h1>
             <div className="w-full h-[2px] bg-gray-400 mb-12"></div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               {visibleItems.map((item) => (
-                <article 
+                <article
                   key={item.id}
                   className="group bg-white overflow-hidden transition-all duration-300 hover:-translate-y-2"
                 >
-                  <a 
-                    href={item.link} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="block"
-                  >
+                  <a href={item.link} target="_blank" rel="noopener noreferrer" className="block">
                     <div className="relative w-full pt-[66.67%] overflow-hidden bg-gray-100 rounded-sm mb-4">
-                      <img 
-                        src={item.image} 
-                        alt="News"
-                        className="absolute inset-0 w-full h-full object-cover"
-                      />
+                      <img src={item.image} alt="News" className="absolute inset-0 w-full h-full object-cover" />
                     </div>
-                    
+
                     <div className="pt-2">
                       <p className="font-nunito text-[15px] text-[#1c1c1c] font-bold mb-3">{item.date}</p>
-                      <p className="font-nunito text-[14px] text-[#2c2c2c] leading-relaxed">
-                        {item.excerpt}
-                      </p>
+                      <p className="font-nunito text-[14px] text-[#2c2c2c] leading-relaxed">{item.excerpt}</p>
                     </div>
                   </a>
                   {item.filmLink && (
-                    <Link 
-                      to={item.filmLink} 
+                    <Link
+                      to={item.filmLink}
                       className="inline-block mt-2 font-nunito text-[13px] text-[#666] hover:text-[#1c1c1c] underline"
                     >
                       View {item.filmName} →
@@ -113,19 +100,15 @@ export default function News() {
 
             {hasMore && (
               <div className="text-center mb-8">
-                <Button 
-                  variant="dark"
-                  onClick={() => setVisibleCount(prev => prev + 9)}
-                  className="text-base"
-                >
+                <Button variant="dark" onClick={() => setVisibleCount((prev) => prev + 9)} className="text-base">
                   Load More
                 </Button>
               </div>
             )}
 
             <div className="text-center mt-12">
-              <Link 
-                to="/#news" 
+              <Link
+                to="/#news"
                 className="inline-block py-4 px-8 rounded-lg transition-all duration-300 text-base font-bold border-2 border-[#1c1c1c] bg-transparent text-[#1c1c1c] hover:bg-[#1c1c1c] hover:text-white transform hover:scale-105 shadow-md hover:shadow-xl"
               >
                 Back to Home
