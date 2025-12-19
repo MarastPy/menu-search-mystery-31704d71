@@ -126,7 +126,7 @@ const WtfOff = () => {
                 size="lg"
                 className="bg-white text-black border-2 border-black font-bold hover:bg-black hover:text-white transition-colors duration-300"
               >
-                <a href="/#about">Contact Us</a>
+                <a href={`${baseUrl}#about`}>Contact Us</a>
               </Button>
             </div>
           </div>
