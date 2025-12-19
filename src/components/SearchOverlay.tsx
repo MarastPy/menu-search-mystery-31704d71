@@ -160,7 +160,7 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
                       key={idx}
                       to={`/film/${slug}`}
                       onClick={onClose}
-                      className="block bg-gradient-to-br from-[#1a1a1a] to-[#111] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border border-white/10 hover:border-[#C5262A]/50 group"
+                      className="block bg-gradient-to-br from-[#1a1a1a] to-[#111] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border border-white/10 group"
                     >
                       <div className="w-full aspect-[2/3] overflow-hidden bg-[#0a0a0a]">
                         <img 
