@@ -299,29 +299,32 @@ export default function FilmDetail() {
                 </div>
               )}
 
-              {/* Downloads section */}
-              <div className="mt-6 space-y-2">
-                {/*<h3 className="text-lg font-nunito font-bold mb-2 text-white">Downloads</h3> */}
-                <Button asChild variant="dark" className="w-full">
-                  <a href={getFilmPosterPath(film)} download={`${title.replace(/[^a-z0-9]/gi, "_")}_poster.jpg`}>
-                    Poster
-                  </a>
-                </Button>
-                {film.Download_stills && (
-                  <Button asChild variant="dark" className="w-full">
-                    <a href={film.Download_stills} target="_blank" rel="noopener noreferrer">
-                      Stills
-                    </a>
-                  </Button>
-                )}
-                {film.Download_presskit && (
-                  <Button asChild variant="dark" className="w-full">
-                    <a href={film.Download_presskit} target="_blank" rel="noopener noreferrer">
-                      Press Kit
-                    </a>
-                  </Button>
-                )}
-              </div>
+              {/* Downloads section - only show if any download exists */}
+              {(allImages.length > 0 || film.Download_stills || film.Download_presskit) && (
+                <div className="mt-6 space-y-2">
+                  {allImages.length > 0 && (
+                    <Button asChild variant="dark" className="w-full">
+                      <a href={getFilmPosterPath(film)} download={`${title.replace(/[^a-z0-9]/gi, "_")}_poster.jpg`}>
+                        Poster
+                      </a>
+                    </Button>
+                  )}
+                  {film.Download_stills && (
+                    <Button asChild variant="dark" className="w-full">
+                      <a href={film.Download_stills} target="_blank" rel="noopener noreferrer">
+                        Stills
+                      </a>
+                    </Button>
+                  )}
+                  {film.Download_presskit && (
+                    <Button asChild variant="dark" className="w-full">
+                      <a href={film.Download_presskit} target="_blank" rel="noopener noreferrer">
+                        Press Kit
+                      </a>
+                    </Button>
+                  )}
+                </div>
+              )}
             </div>
 
             {/* Right column - All text content */}

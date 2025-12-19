@@ -61,7 +61,7 @@ export const News = () => {
             const content = (
               <>
                 <div className="aspect-[3/2] relative overflow-hidden rounded-sm mb-4">
-                  <img src={item.image} alt="News" className="absolute inset-0 w-full h-full object-cover" />
+                  <img src={item.image} alt="News" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                 </div>
                 <p className="font-nunito text-[15px] text-[#1c1c1c] font-bold mb-3">{item.date}</p>
                 <p className="font-nunito text-[14px] text-[#2c2c2c] leading-relaxed">

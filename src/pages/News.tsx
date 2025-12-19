@@ -78,7 +78,7 @@ export default function News() {
                 >
                   <a href={item.link} target="_blank" rel="noopener noreferrer" className="block">
                     <div className="relative w-full pt-[66.67%] overflow-hidden bg-gray-100 rounded-sm mb-4">
-                      <img src={item.image} alt="News" className="absolute inset-0 w-full h-full object-cover hover:opacity-75 transition-opacity" />
+                      <img src={item.image} alt="News" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                     </div>
 
                     <div className="pt-2">

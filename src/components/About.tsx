@@ -49,7 +49,7 @@ export const About = () => {
             <div key={index} className="group animate-fade-in">
               <div className="flex flex-col sm:flex-row gap-8 lg:gap-12 pb-16 border-b border-gray-100 last:border-b-0">
                 <div className="flex-shrink-0 w-full sm:w-[180px]">
-                  <div className="relative w-[180px] h-[180px] mx-auto sm:mx-0 overflow-hidden rounded-full mb-6 ring-1 ring-gray-200 transition-all duration-300 group-hover:ring-[#1c1c1c]">
+                  <div className="relative w-[180px] h-[180px] mx-auto sm:mx-0 overflow-hidden mb-6 ring-1 ring-gray-200 transition-all duration-300 group-hover:ring-[#1c1c1c]">
                     <img
                       src={member.image}
                       alt={member.name}
