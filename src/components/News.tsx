@@ -83,7 +83,7 @@ export const News = () => {
               </>
             );
 
-            const className = "group text-left transition-all duration-300 hover:-translate-y-2 block";
+            const className = "group text-left transition-all duration-300 hover:scale-[1.03] block";
 
             return item.isInternal ? (
               <Link key={index} to={item.link} className={className}>

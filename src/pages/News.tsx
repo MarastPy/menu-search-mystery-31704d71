@@ -74,7 +74,7 @@ export default function News() {
               {visibleItems.map((item) => (
                 <article
                   key={item.id}
-                  className="group bg-white overflow-hidden transition-all duration-300 hover:-translate-y-2"
+                  className="group bg-white overflow-hidden transition-all duration-300 hover:scale-[1.03]"
                 >
                   <a href={item.link} target="_blank" rel="noopener noreferrer" className="block">
                     <div className="relative w-full pt-[66.67%] overflow-hidden bg-gray-100 rounded-sm mb-4">
