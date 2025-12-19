@@ -20,7 +20,7 @@ const getFilmSlug = (film: Film): string => {
 export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
   const { allFilms } = useFilms();
   const [searchQuery, setSearchQuery] = useState('');
-  const [visibleCount, setVisibleCount] = useState(10);
+  const [visibleCount, setVisibleCount] = useState(12);
 
   useEffect(() => {
     if (isOpen) {
@@ -30,7 +30,7 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
       document.body.style.overflow = '';
       document.body.style.height = '';
       setSearchQuery('');
-      setVisibleCount(10);
+      setVisibleCount(12);
     }
   }, [isOpen]);
 
@@ -114,7 +114,7 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
             placeholder="Search by title, director, festivals…"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="bg-[#0f0f0f] border-white/20 text-white placeholder:text-gray-500 focus:border-[#C5262A] transition-all text-base sm:text-lg py-4 sm:py-6"
+            className="bg-[#0f0f0f] border-white/20 text-white placeholder:text-gray-500 focus:border-white/40 transition-all text-base sm:text-lg py-4 sm:py-6"
             autoFocus
           />
           <Button 
@@ -128,7 +128,7 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
         </div>
 
         {/* Stats */}
-        <div className="px-6 py-3 text-sm text-[#C5262A] font-medium bg-black/20">
+        <div className="px-6 py-3 text-sm text-white font-medium bg-black/20">
           {filteredFilms.length} {filteredFilms.length === 1 ? 'film' : 'films'}
         </div>
 
@@ -185,7 +185,7 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
               {visibleCount < filteredFilms.length && (
                 <div className="flex justify-center mt-8">
                   <Button
-                    onClick={() => setVisibleCount(prev => prev + 10)}
+                    onClick={() => setVisibleCount(prev => prev + 12)}
                     className="px-8 py-3 bg-[#C5262A] hover:bg-[#A01E22] text-white font-semibold rounded-lg transition-all duration-300"
                   >
                     Show More ({filteredFilms.length - visibleCount} remaining)
