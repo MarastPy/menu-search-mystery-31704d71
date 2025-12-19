@@ -119,8 +119,8 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
           />
           <Button 
             onClick={onClose}
-            variant="outline"
-            className="bg-[#2a2a2a] border-white/20 text-white hover:bg-[#C5262A] hover:text-white hover:border-[#C5262A] transition-all duration-300 px-4 sm:px-6 w-full sm:w-auto"
+            variant="ghost"
+            className="text-white hover:bg-white/10 hover:text-white transition-all duration-300 px-4 sm:px-6 w-full sm:w-auto"
           >
             <X className="mr-2 h-4 w-4" />
             Close
@@ -151,7 +151,8 @@ export const SearchOverlay = ({ isOpen, onClose }: SearchOverlayProps) => {
                   const year = f.Date_of_completion?.match(/\b\d{4}\b/)?.[0] || '';
                   const director = crew['Director(s)'] || 'Unknown Director';
                   const slug = getFilmSlug(film);
-                  const poster = getFilmPosterPath(film);
+                  const posterPath = getFilmPosterPath(film);
+                  const poster = posterPath || '/images/posters/_poster/_poster.jpg';
                   const logline = film.Logline || '';
 
                   return (
