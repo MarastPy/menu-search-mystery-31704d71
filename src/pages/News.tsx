@@ -11,7 +11,7 @@ const newsItems = [
     id: 0,
     date: "16/12/2024",
     excerpt:
-      "Cinefila Distribution brings WTF OFF — the acclaimed curated programme of bold, experimental animation by Sébastien Sperer — to SVOD platforms and theatrical distribution. Stay tuned for the 2026 premiere!",
+      "Does your film refuse to fit into any box? Cinefila Distribution brings WTF OFF – the acclaimed curated programme of bold, experimental animation by Sébastien Sperer – to SVOD platforms and theatrical distribution.",
     image: `${baseUrl}images/wtf_off/wtf_off_logo.jpg`,
     link: "/wtf-off",
     isInternal: true,
@@ -78,7 +78,11 @@ export default function News() {
                 >
                   <a href={item.link} target="_blank" rel="noopener noreferrer" className="block">
                     <div className="relative w-full pt-[66.67%] overflow-hidden bg-gray-100 rounded-sm mb-4">
-                      <img src={item.image} alt="News" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                      <img
+                        src={item.image}
+                        alt="News"
+                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                      />
                     </div>
 
                     <div className="pt-2">
@@ -105,7 +109,6 @@ export default function News() {
                 </Button>
               </div>
             )}
-
           </div>
         </section>
       </main>
