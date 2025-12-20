@@ -53,8 +53,35 @@ export const useFilms = () => {
           };
         });
 
-        // Sort by ranking
-        mergedFilms.sort((a, b) => (a.ParsedRanking || Infinity) - (b.ParsedRanking || Infinity));
+        // Sort by ranking first, then by premiere date (newest first) for films without ranking
+        mergedFilms.sort((a, b) => {
+          const aHasRanking = a.ParsedRanking !== undefined && a.ParsedRanking !== Infinity;
+          const bHasRanking = b.ParsedRanking !== undefined && b.ParsedRanking !== Infinity;
+          
+          // Films with ranking come first, sorted by ranking
+          if (aHasRanking && bHasRanking) {
+            return a.ParsedRanking! - b.ParsedRanking!;
+          }
+          if (aHasRanking && !bHasRanking) return -1;
+          if (!aHasRanking && bHasRanking) return 1;
+          
+          // Both without ranking: sort by premiere date (newest first)
+          const getPremiereDate = (film: Film): Date | null => {
+            if (film.Premiere && film.Premiere.length > 0 && film.Premiere[0].Date) {
+              const parsed = new Date(film.Premiere[0].Date);
+              return isNaN(parsed.getTime()) ? null : parsed;
+            }
+            return null;
+          };
+          
+          const aDate = getPremiereDate(a);
+          const bDate = getPremiereDate(b);
+          
+          if (aDate && bDate) return bDate.getTime() - aDate.getTime(); // newest first
+          if (aDate && !bDate) return -1;
+          if (!aDate && bDate) return 1;
+          return 0;
+        });
 
         setAllFilms(mergedFilms);
         setLoading(false);
