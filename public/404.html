@@ -7,9 +7,10 @@
     <meta name="robots" content="noindex" />
     <script type="text/javascript">
       // GitHub Pages SPA fallback (rafgraph/spa-github-pages)
-      // Redirects /repo/anything to /repo/?/anything so the SPA router can handle it.
+      // For custom domains, segmentCount should be 0.
+      // Redirects /anything to /?/anything so the SPA router can handle it.
       (function (l) {
-        var segmentCount = 1;
+        var segmentCount = 0;
         var path = l.pathname.split("/").slice(0, 1 + segmentCount).join("/") + "/";
         l.replace(
           path +
